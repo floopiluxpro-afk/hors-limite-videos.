@@ -1,828 +1,918 @@
 {
   "voiceId": "JBFqnCBsd6RMkjVDRZzb",
-  "duration": 52.219,
+  "duration": 57.6,
   "words": [
     {
-      "text": "En",
+      "text": "Ce",
       "line": 0,
       "start": 0,
-      "end": 0.151
+      "end": 0.163
     },
     {
-      "text": "1993,",
+      "text": "petit",
       "line": 0,
-      "start": 0.197,
-      "end": 1.834
+      "start": 0.209,
+      "end": 0.43
     },
     {
-      "text": "le",
+      "text": "Brésilien",
       "line": 0,
-      "start": 1.997,
-      "end": 2.09
+      "start": 0.464,
+      "end": 0.952
     },
     {
-      "text": "combattant",
+      "text": "en",
       "line": 0,
-      "start": 2.136,
-      "end": 2.566
+      "start": 0.998,
+      "end": 1.08
     },
     {
-      "text": "le",
+      "text": "pyjama",
       "line": 0,
-      "start": 2.601,
-      "end": 2.659
-    },
-    {
-      "text": "plus",
-      "line": 0,
-      "start": 2.705,
-      "end": 2.879
-    },
-    {
-      "text": "léger",
-      "line": 0,
-      "start": 2.902,
-      "end": 3.146
-    },
-    {
-      "text": "du",
-      "line": 0,
-      "start": 3.181,
-      "end": 3.262
-    },
-    {
-      "text": "tournoi",
-      "line": 0,
-      "start": 3.309,
-      "end": 3.715
+      "start": 1.126,
+      "end": 1.625
     },
     {
       "text": "a",
       "line": 0,
-      "start": 3.773,
-      "end": 3.831
+      "start": 1.788,
+      "end": 1.892
     },
     {
-      "text": "battu",
+      "text": "humilié",
       "line": 0,
-      "start": 3.901,
-      "end": 4.168
-    },
-    {
-      "text": "tous",
-      "line": 0,
-      "start": 4.226,
-      "end": 4.365
+      "start": 1.95,
+      "end": 2.299
     },
     {
       "text": "les",
       "line": 0,
-      "start": 4.389,
-      "end": 4.481
+      "start": 2.345,
+      "end": 2.438
     },
     {
-      "text": "colosses.",
+      "text": "combattants",
       "line": 0,
-      "start": 4.516,
-      "end": 5.097
+      "start": 2.461,
+      "end": 2.937
     },
     {
-      "text": "Denver,",
-      "line": 1,
-      "start": 5.387,
-      "end": 5.921
-    },
-    {
-      "text": "États-Unis.",
-      "line": 1,
-      "start": 5.968,
-      "end": 6.734
-    },
-    {
-      "text": "Le",
-      "line": 1,
-      "start": 7.14,
-      "end": 7.256
-    },
-    {
-      "text": "tout",
-      "line": 1,
-      "start": 7.314,
-      "end": 7.454
-    },
-    {
-      "text": "premier",
-      "line": 1,
-      "start": 7.477,
-      "end": 7.814
-    },
-    {
-      "text": "UFC",
-      "line": 1,
-      "start": 7.895,
-      "end": 8.417
-    },
-    {
-      "text": "de",
-      "line": 1,
-      "start": 8.557,
-      "end": 8.626
-    },
-    {
-      "text": "l'histoire.",
-      "line": 1,
-      "start": 8.673,
-      "end": 9.474
-    },
-    {
-      "text": "Huit",
-      "line": 2,
-      "start": 9.822,
-      "end": 10.054
-    },
-    {
-      "text": "combattants.",
-      "line": 2,
-      "start": 10.077,
-      "end": 10.739
-    },
-    {
-      "text": "Pas",
-      "line": 2,
-      "start": 10.96,
-      "end": 11.122
-    },
-    {
-      "text": "de",
-      "line": 2,
-      "start": 11.157,
-      "end": 11.215
-    },
-    {
-      "text": "catégories",
-      "line": 2,
-      "start": 11.262,
-      "end": 11.738
-    },
-    {
-      "text": "de",
-      "line": 2,
-      "start": 11.761,
-      "end": 11.831
-    },
-    {
-      "text": "poids.",
-      "line": 2,
-      "start": 11.889,
-      "end": 12.307
-    },
-    {
-      "text": "Presque",
-      "line": 2,
-      "start": 12.597,
-      "end": 12.945
-    },
-    {
-      "text": "aucune",
-      "line": 2,
-      "start": 12.992,
-      "end": 13.305
-    },
-    {
-      "text": "règle.",
-      "line": 2,
-      "start": 13.34,
-      "end": 13.897
-    },
-    {
-      "text": "Dès",
-      "line": 3,
-      "start": 14.304,
-      "end": 14.489
-    },
-    {
-      "text": "le",
-      "line": 3,
-      "start": 14.524,
-      "end": 14.594
-    },
-    {
-      "text": "premier",
-      "line": 3,
-      "start": 14.64,
-      "end": 14.919
-    },
-    {
-      "text": "combat,",
-      "line": 3,
-      "start": 14.954,
-      "end": 15.465
-    },
-    {
-      "text": "un",
-      "line": 3,
-      "start": 15.569,
-      "end": 15.662
-    },
-    {
-      "text": "sumo",
-      "line": 3,
-      "start": 15.72,
-      "end": 15.987
-    },
-    {
-      "text": "se",
-      "line": 3,
-      "start": 16.034,
-      "end": 16.126
-    },
-    {
-      "text": "fait",
-      "line": 3,
-      "start": 16.184,
-      "end": 16.335
-    },
-    {
-      "text": "arracher",
-      "line": 3,
-      "start": 16.393,
-      "end": 16.753
-    },
-    {
-      "text": "une",
-      "line": 3,
-      "start": 16.811,
-      "end": 16.928
-    },
-    {
-      "text": "dent",
-      "line": 3,
-      "start": 16.962,
-      "end": 17.171
-    },
-    {
-      "text": "d'un",
-      "line": 3,
-      "start": 17.195,
-      "end": 17.311
-    },
-    {
-      "text": "coup",
-      "line": 3,
-      "start": 17.357,
-      "end": 17.508
-    },
-    {
-      "text": "de",
-      "line": 3,
-      "start": 17.531,
-      "end": 17.578
-    },
-    {
-      "text": "pied.",
-      "line": 3,
-      "start": 17.601,
-      "end": 18.065
-    },
-    {
-      "text": "Et",
-      "line": 4,
-      "start": 18.73,
-      "end": 18.846
-    },
-    {
-      "text": "au",
-      "line": 4,
-      "start": 18.869,
-      "end": 18.915
-    },
-    {
-      "text": "milieu",
-      "line": 4,
-      "start": 18.974,
-      "end": 19.229
-    },
-    {
-      "text": "de",
-      "line": 4,
-      "start": 19.287,
-      "end": 19.357
-    },
-    {
-      "text": "ces",
-      "line": 4,
-      "start": 19.415,
-      "end": 19.531
-    },
-    {
-      "text": "géants,",
-      "line": 4,
-      "start": 19.566,
-      "end": 19.949
-    },
-    {
-      "text": "un",
-      "line": 4,
-      "start": 20.065,
-      "end": 20.146
-    },
-    {
-      "text": "Brésilien",
-      "line": 4,
-      "start": 20.181,
-      "end": 20.669
-    },
-    {
-      "text": "d'environ",
-      "line": 4,
-      "start": 20.703,
-      "end": 21.052
-    },
-    {
-      "text": "80 kilos,",
-      "line": 4,
-      "start": 21.11,
-      "end": 22.097
-    },
-    {
-      "text": "en",
-      "line": 4,
-      "start": 22.282,
-      "end": 22.422
-    },
-    {
-      "text": "kimono",
-      "line": 4,
-      "start": 22.48,
-      "end": 22.944
-    },
-    {
-      "text": ":",
-      "line": 4,
-      "start": 23.049,
-      "end": 23.072
-    },
-    {
-      "text": "Royce",
-      "line": 4,
-      "start": 23.327,
-      "end": 23.606
-    },
-    {
-      "text": "Gracie.",
-      "line": 4,
-      "start": 23.629,
-      "end": 24.233
-    },
-    {
-      "text": "Sur",
-      "line": 5,
-      "start": 24.639,
-      "end": 24.813
-    },
-    {
-      "text": "le",
-      "line": 5,
-      "start": 24.848,
-      "end": 24.918
-    },
-    {
-      "text": "papier,",
-      "line": 5,
-      "start": 24.953,
-      "end": 25.313
-    },
-    {
-      "text": "il",
-      "line": 5,
-      "start": 25.359,
-      "end": 25.452
-    },
-    {
-      "text": "n'a",
-      "line": 5,
-      "start": 25.498,
-      "end": 25.58
-    },
-    {
-      "text": "aucune",
-      "line": 5,
-      "start": 25.638,
-      "end": 25.94
-    },
-    {
-      "text": "chance.",
-      "line": 5,
-      "start": 25.963,
-      "end": 26.543
-    },
-    {
-      "text": "Premier",
-      "line": 6,
-      "start": 27.008,
-      "end": 27.321
-    },
-    {
-      "text": "adversaire",
-      "line": 6,
-      "start": 27.379,
-      "end": 27.971
-    },
-    {
-      "text": ":",
-      "line": 6,
-      "start": 28.029,
-      "end": 28.076
-    },
-    {
-      "text": "un",
-      "line": 6,
-      "start": 28.145,
-      "end": 28.238
-    },
-    {
-      "text": "boxeur.",
-      "line": 6,
-      "start": 28.285,
-      "end": 28.935
-    },
-    {
-      "text": "Gracie",
-      "line": 6,
-      "start": 29.399,
-      "end": 29.736
-    },
-    {
-      "text": "l'amène",
-      "line": 6,
-      "start": 29.794,
-      "end": 30.096
-    },
-    {
-      "text": "au",
-      "line": 6,
-      "start": 30.119,
-      "end": 30.165
-    },
-    {
-      "text": "sol.",
-      "line": 6,
-      "start": 30.223,
-      "end": 30.63
-    },
-    {
-      "text": "Abandon",
-      "line": 6,
-      "start": 30.769,
-      "end": 31.222
-    },
-    {
-      "text": "en",
-      "line": 6,
-      "start": 31.28,
-      "end": 31.373
-    },
-    {
-      "text": "un",
-      "line": 6,
-      "start": 31.431,
-      "end": 31.477
-    },
-    {
-      "text": "peu",
-      "line": 6,
-      "start": 31.512,
-      "end": 31.617
+      "text": "les",
+      "line": 0,
+      "start": 2.961,
+      "end": 3.053
     },
     {
       "text": "plus",
-      "line": 6,
-      "start": 31.652,
-      "end": 31.814
+      "line": 0,
+      "start": 3.088,
+      "end": 3.239
+    },
+    {
+      "text": "redoutés",
+      "line": 0,
+      "start": 3.286,
+      "end": 3.68
     },
     {
       "text": "de",
-      "line": 6,
-      "start": 31.837,
-      "end": 31.907
+      "line": 0,
+      "start": 3.704,
+      "end": 3.762
     },
     {
-      "text": "deux",
-      "line": 6,
-      "start": 31.965,
-      "end": 32.081
+      "text": "la",
+      "line": 0,
+      "start": 3.796,
+      "end": 3.866
     },
     {
-      "text": "minutes.",
-      "line": 6,
-      "start": 32.104,
-      "end": 32.58
-    },
-    {
-      "text": "Puis",
-      "line": 7,
-      "start": 32.801,
-      "end": 33.021
-    },
-    {
-      "text": "Ken",
-      "line": 7,
-      "start": 33.056,
-      "end": 33.219
-    },
-    {
-      "text": "Shamrock,",
-      "line": 7,
-      "start": 33.277,
-      "end": 33.799
-    },
-    {
-      "text": "une",
-      "line": 7,
-      "start": 33.834,
-      "end": 33.962
-    },
-    {
-      "text": "montagne",
-      "line": 7,
-      "start": 33.985,
-      "end": 34.357
-    },
-    {
-      "text": "de",
-      "line": 7,
-      "start": 34.391,
-      "end": 34.473
-    },
-    {
-      "text": "muscles.",
-      "line": 7,
-      "start": 34.519,
-      "end": 35.088
-    },
-    {
-      "text": "Étranglement.",
-      "line": 7,
-      "start": 35.378,
-      "end": 36.133
-    },
-    {
-      "text": "Moins",
-      "line": 7,
-      "start": 36.354,
-      "end": 36.563
-    },
-    {
-      "text": "d'une",
-      "line": 7,
-      "start": 36.586,
-      "end": 36.737
-    },
-    {
-      "text": "minute.",
-      "line": 7,
-      "start": 36.76,
-      "end": 37.306
+      "text": "planète.",
+      "line": 0,
+      "start": 3.913,
+      "end": 4.528
     },
     {
       "text": "En",
-      "line": 8,
-      "start": 37.712,
-      "end": 37.851
+      "line": 1,
+      "start": 5.466,
+      "end": 5.629
     },
     {
-      "text": "finale,",
-      "line": 8,
-      "start": 37.909,
-      "end": 38.327
-    },
-    {
-      "text": "Gerard",
-      "line": 8,
-      "start": 38.397,
-      "end": 38.71
-    },
-    {
-      "text": "Gordeau,",
-      "line": 8,
-      "start": 38.757,
-      "end": 39.244
-    },
-    {
-      "text": "celui",
-      "line": 8,
-      "start": 39.349,
-      "end": 39.616
-    },
-    {
-      "text": "qui",
-      "line": 8,
-      "start": 39.674,
-      "end": 39.755
-    },
-    {
-      "text": "a",
-      "line": 8,
-      "start": 39.779,
-      "end": 39.802
-    },
-    {
-      "text": "fait",
-      "line": 8,
-      "start": 39.848,
-      "end": 39.976
-    },
-    {
-      "text": "sauter",
-      "line": 8,
-      "start": 40.011,
-      "end": 40.266
-    },
-    {
-      "text": "la",
-      "line": 8,
-      "start": 40.301,
-      "end": 40.382
-    },
-    {
-      "text": "dent",
-      "line": 8,
-      "start": 40.44,
-      "end": 40.58
-    },
-    {
-      "text": "du",
-      "line": 8,
-      "start": 40.603,
-      "end": 40.696
-    },
-    {
-      "text": "sumo.",
-      "line": 8,
-      "start": 40.731,
-      "end": 41.23
-    },
-    {
-      "text": "Gracie",
-      "line": 9,
-      "start": 41.776,
-      "end": 42.066
-    },
-    {
-      "text": "l'étrangle…",
-      "line": 9,
-      "start": 42.124,
-      "end": 42.716
-    },
-    {
-      "text": "et",
-      "line": 9,
-      "start": 42.821,
-      "end": 42.937
-    },
-    {
-      "text": "remporte",
-      "line": 9,
-      "start": 42.983,
-      "end": 43.378
+      "text": "1993,",
+      "line": 1,
+      "start": 5.664,
+      "end": 7.196
     },
     {
       "text": "le",
-      "line": 9,
-      "start": 43.413,
-      "end": 43.482
+      "line": 1,
+      "start": 7.336,
+      "end": 7.429
     },
     {
-      "text": "tournoi.",
-      "line": 9,
-      "start": 43.529,
-      "end": 44.063
-    },
-    {
-      "text": "Ce",
-      "line": 10,
-      "start": 45.001,
-      "end": 45.141
-    },
-    {
-      "text": "soir-là,",
-      "line": 10,
-      "start": 45.176,
-      "end": 45.663
+      "text": "combattant",
+      "line": 1,
+      "start": 7.475,
+      "end": 7.87
     },
     {
       "text": "le",
-      "line": 10,
-      "start": 45.768,
-      "end": 45.861
-    },
-    {
-      "text": "monde",
-      "line": 10,
-      "start": 45.907,
-      "end": 46.093
-    },
-    {
-      "text": "découvre",
-      "line": 10,
-      "start": 46.116,
-      "end": 46.511
-    },
-    {
-      "text": "le",
-      "line": 10,
-      "start": 46.534,
-      "end": 46.615
-    },
-    {
-      "text": "jiu-jitsu",
-      "line": 10,
-      "start": 46.673,
-      "end": 47.091
-    },
-    {
-      "text": "brésilien",
-      "line": 10,
-      "start": 47.138,
-      "end": 47.637
-    },
-    {
-      "text": ":",
-      "line": 10,
-      "start": 47.741,
-      "end": 47.776
-    },
-    {
-      "text": "la",
-      "line": 10,
-      "start": 47.997,
-      "end": 48.09
-    },
-    {
-      "text": "technique",
-      "line": 10,
-      "start": 48.148,
-      "end": 48.508
-    },
-    {
-      "text": "peut",
-      "line": 10,
-      "start": 48.531,
-      "end": 48.659
-    },
-    {
-      "text": "battre",
-      "line": 10,
-      "start": 48.682,
-      "end": 48.949
-    },
-    {
-      "text": "la",
-      "line": 10,
-      "start": 48.984,
-      "end": 49.042
-    },
-    {
-      "text": "force.",
-      "line": 10,
-      "start": 49.1,
-      "end": 49.576
-    },
-    {
-      "text": "Abonne-toi",
-      "line": 11,
-      "start": 49.924,
-      "end": 50.4
-    },
-    {
-      "text": "pour",
-      "line": 11,
-      "start": 50.447,
-      "end": 50.574
+      "line": 1,
+      "start": 7.905,
+      "end": 7.963
     },
     {
       "text": "plus",
+      "line": 1,
+      "start": 8.009,
+      "end": 8.172
+    },
+    {
+      "text": "léger",
+      "line": 1,
+      "start": 8.195,
+      "end": 8.45
+    },
+    {
+      "text": "du",
+      "line": 1,
+      "start": 8.485,
+      "end": 8.566
+    },
+    {
+      "text": "tournoi",
+      "line": 1,
+      "start": 8.613,
+      "end": 9.054
+    },
+    {
+      "text": "a",
+      "line": 1,
+      "start": 9.158,
+      "end": 9.228
+    },
+    {
+      "text": "battu",
+      "line": 1,
+      "start": 9.286,
+      "end": 9.53
+    },
+    {
+      "text": "tous",
+      "line": 1,
+      "start": 9.588,
+      "end": 9.716
+    },
+    {
+      "text": "les",
+      "line": 1,
+      "start": 9.739,
+      "end": 9.832
+    },
+    {
+      "text": "colosses.",
+      "line": 1,
+      "start": 9.855,
+      "end": 10.459
+    },
+    {
+      "text": "Denver,",
+      "line": 2,
+      "start": 10.865,
+      "end": 11.538
+    },
+    {
+      "text": "États-Unis.",
+      "line": 2,
+      "start": 11.597,
+      "end": 12.305
+    },
+    {
+      "text": "Le",
+      "line": 2,
+      "start": 12.769,
+      "end": 12.874
+    },
+    {
+      "text": "tout",
+      "line": 2,
+      "start": 12.932,
+      "end": 13.071
+    },
+    {
+      "text": "premier",
+      "line": 2,
+      "start": 13.094,
+      "end": 13.419
+    },
+    {
+      "text": "UFC",
+      "line": 2,
+      "start": 13.489,
+      "end": 13.942
+    },
+    {
+      "text": "de",
+      "line": 2,
+      "start": 14.058,
+      "end": 14.128
+    },
+    {
+      "text": "l'histoire.",
+      "line": 2,
+      "start": 14.174,
+      "end": 14.929
+    },
+    {
+      "text": "Huit",
+      "line": 3,
+      "start": 15.219,
+      "end": 15.497
+    },
+    {
+      "text": "combattants.",
+      "line": 3,
+      "start": 15.556,
+      "end": 16.241
+    },
+    {
+      "text": "Pas",
+      "line": 3,
+      "start": 16.647,
+      "end": 16.821
+    },
+    {
+      "text": "de",
+      "line": 3,
+      "start": 16.856,
+      "end": 16.926
+    },
+    {
+      "text": "catégories",
+      "line": 3,
+      "start": 16.96,
+      "end": 17.436
+    },
+    {
+      "text": "de",
+      "line": 3,
+      "start": 17.46,
+      "end": 17.529
+    },
+    {
+      "text": "poids.",
+      "line": 3,
+      "start": 17.587,
+      "end": 18.028
+    },
+    {
+      "text": "Presque",
+      "line": 3,
+      "start": 18.284,
+      "end": 18.644
+    },
+    {
+      "text": "aucune",
+      "line": 3,
+      "start": 18.667,
+      "end": 19.004
+    },
+    {
+      "text": "règle.",
+      "line": 3,
+      "start": 19.05,
+      "end": 19.526
+    },
+    {
+      "text": "Dès",
+      "line": 4,
+      "start": 19.991,
+      "end": 20.165
+    },
+    {
+      "text": "le",
+      "line": 4,
+      "start": 20.2,
+      "end": 20.269
+    },
+    {
+      "text": "premier",
+      "line": 4,
+      "start": 20.304,
+      "end": 20.571
+    },
+    {
+      "text": "combat,",
+      "line": 4,
+      "start": 20.606,
+      "end": 21.047
+    },
+    {
+      "text": "un",
+      "line": 4,
+      "start": 21.186,
+      "end": 21.268
+    },
+    {
+      "text": "sumo",
+      "line": 4,
+      "start": 21.326,
+      "end": 21.616
+    },
+    {
+      "text": "se",
+      "line": 4,
+      "start": 21.662,
+      "end": 21.744
+    },
+    {
+      "text": "fait",
+      "line": 4,
+      "start": 21.79,
+      "end": 21.929
+    },
+    {
+      "text": "arracher",
+      "line": 4,
+      "start": 21.987,
+      "end": 22.324
+    },
+    {
+      "text": "une",
+      "line": 4,
+      "start": 22.359,
+      "end": 22.498
+    },
+    {
+      "text": "dent",
+      "line": 4,
+      "start": 22.556,
+      "end": 22.719
+    },
+    {
+      "text": "d'un",
+      "line": 4,
+      "start": 22.742,
+      "end": 22.847
+    },
+    {
+      "text": "coup",
+      "line": 4,
+      "start": 22.893,
+      "end": 23.044
+    },
+    {
+      "text": "de",
+      "line": 4,
+      "start": 23.067,
+      "end": 23.114
+    },
+    {
+      "text": "pied.",
+      "line": 4,
+      "start": 23.148,
+      "end": 23.532
+    },
+    {
+      "text": "Et",
+      "line": 5,
+      "start": 24.138,
+      "end": 24.254
+    },
+    {
+      "text": "au",
+      "line": 5,
+      "start": 24.277,
+      "end": 24.324
+    },
+    {
+      "text": "milieu",
+      "line": 5,
+      "start": 24.37,
+      "end": 24.637
+    },
+    {
+      "text": "de",
+      "line": 5,
+      "start": 24.684,
+      "end": 24.753
+    },
+    {
+      "text": "ces",
+      "line": 5,
+      "start": 24.8,
+      "end": 24.916
+    },
+    {
+      "text": "géants,",
+      "line": 5,
+      "start": 24.951,
+      "end": 25.369
+    },
+    {
+      "text": "un",
+      "line": 5,
+      "start": 25.531,
+      "end": 25.624
+    },
+    {
+      "text": "Brésilien",
+      "line": 5,
+      "start": 25.67,
+      "end": 26.146
+    },
+    {
+      "text": "d'environ",
+      "line": 5,
+      "start": 26.181,
+      "end": 26.542
+    },
+    {
+      "text": "80 kilos,",
+      "line": 5,
+      "start": 26.611,
+      "end": 27.552
+    },
+    {
+      "text": "en",
+      "line": 5,
+      "start": 27.61,
+      "end": 27.761
+    },
+    {
+      "text": "kimono",
+      "line": 5,
+      "start": 27.807,
+      "end": 28.248
+    },
+    {
+      "text": ":",
+      "line": 5,
+      "start": 28.353,
+      "end": 28.411
+    },
+    {
+      "text": "Royce",
+      "line": 5,
+      "start": 28.597,
+      "end": 28.875
+    },
+    {
+      "text": "Gracie.",
+      "line": 5,
+      "start": 28.91,
+      "end": 29.467
+    },
+    {
+      "text": "Sur",
+      "line": 6,
+      "start": 29.932,
+      "end": 30.094
+    },
+    {
+      "text": "le",
+      "line": 6,
+      "start": 30.129,
+      "end": 30.187
+    },
+    {
+      "text": "papier,",
+      "line": 6,
+      "start": 30.234,
+      "end": 30.617
+    },
+    {
+      "text": "il",
+      "line": 6,
+      "start": 30.698,
+      "end": 30.803
+    },
+    {
+      "text": "n'a",
+      "line": 6,
+      "start": 30.861,
+      "end": 30.965
+    },
+    {
+      "text": "aucune",
+      "line": 6,
+      "start": 31.023,
+      "end": 31.325
+    },
+    {
+      "text": "chance.",
+      "line": 6,
+      "start": 31.348,
+      "end": 31.871
+    },
+    {
+      "text": "Premier",
+      "line": 7,
+      "start": 32.056,
+      "end": 32.393
+    },
+    {
+      "text": "adversaire",
+      "line": 7,
+      "start": 32.44,
+      "end": 33.066
+    },
+    {
+      "text": ":",
+      "line": 7,
+      "start": 33.125,
+      "end": 33.171
+    },
+    {
+      "text": "un",
+      "line": 7,
+      "start": 33.229,
+      "end": 33.322
+    },
+    {
+      "text": "boxeur.",
+      "line": 7,
+      "start": 33.368,
+      "end": 33.96
+    },
+    {
+      "text": "Gracie",
+      "line": 7,
+      "start": 34.599,
+      "end": 34.889
+    },
+    {
+      "text": "l'amène",
+      "line": 7,
+      "start": 34.947,
+      "end": 35.226
+    },
+    {
+      "text": "au",
+      "line": 7,
+      "start": 35.249,
+      "end": 35.296
+    },
+    {
+      "text": "sol.",
+      "line": 7,
+      "start": 35.354,
+      "end": 35.772
+    },
+    {
+      "text": "Abandon",
+      "line": 7,
+      "start": 36.062,
+      "end": 36.491
+    },
+    {
+      "text": "en",
+      "line": 7,
+      "start": 36.549,
+      "end": 36.677
+    },
+    {
+      "text": "un",
+      "line": 7,
+      "start": 36.735,
+      "end": 36.782
+    },
+    {
+      "text": "peu",
+      "line": 7,
+      "start": 36.816,
+      "end": 36.909
+    },
+    {
+      "text": "plus",
+      "line": 7,
+      "start": 36.944,
+      "end": 37.095
+    },
+    {
+      "text": "de",
+      "line": 7,
+      "start": 37.13,
+      "end": 37.2
+    },
+    {
+      "text": "deux",
+      "line": 7,
+      "start": 37.258,
+      "end": 37.374
+    },
+    {
+      "text": "minutes.",
+      "line": 7,
+      "start": 37.397,
+      "end": 37.873
+    },
+    {
+      "text": "Puis",
+      "line": 8,
+      "start": 38.094,
+      "end": 38.314
+    },
+    {
+      "text": "Ken",
+      "line": 8,
+      "start": 38.349,
+      "end": 38.523
+    },
+    {
+      "text": "Shamrock,",
+      "line": 8,
+      "start": 38.581,
+      "end": 39.08
+    },
+    {
+      "text": "une",
+      "line": 8,
+      "start": 39.115,
+      "end": 39.243
+    },
+    {
+      "text": "montagne",
+      "line": 8,
+      "start": 39.266,
+      "end": 39.649
+    },
+    {
+      "text": "de",
+      "line": 8,
+      "start": 39.696,
+      "end": 39.765
+    },
+    {
+      "text": "muscles.",
+      "line": 8,
+      "start": 39.812,
+      "end": 40.322
+    },
+    {
+      "text": "Étranglement.",
+      "line": 8,
+      "start": 40.671,
+      "end": 41.425
+    },
+    {
+      "text": "Moins",
+      "line": 8,
+      "start": 41.588,
+      "end": 41.797
+    },
+    {
+      "text": "d'une",
+      "line": 8,
+      "start": 41.82,
+      "end": 41.982
+    },
+    {
+      "text": "minute.",
+      "line": 8,
+      "start": 42.017,
+      "end": 42.54
+    },
+    {
+      "text": "En",
+      "line": 9,
+      "start": 42.702,
+      "end": 42.842
+    },
+    {
+      "text": "finale,",
+      "line": 9,
+      "start": 42.888,
+      "end": 43.318
+    },
+    {
+      "text": "Gerard",
+      "line": 9,
+      "start": 43.399,
+      "end": 43.747
+    },
+    {
+      "text": "Gordeau,",
+      "line": 9,
+      "start": 43.782,
+      "end": 44.281
+    },
+    {
+      "text": "celui",
+      "line": 9,
+      "start": 44.421,
+      "end": 44.688
+    },
+    {
+      "text": "qui",
+      "line": 9,
+      "start": 44.746,
+      "end": 44.839
+    },
+    {
+      "text": "a",
+      "line": 9,
+      "start": 44.873,
+      "end": 44.897
+    },
+    {
+      "text": "fait",
+      "line": 9,
+      "start": 44.943,
+      "end": 45.071
+    },
+    {
+      "text": "sauter",
+      "line": 9,
+      "start": 45.106,
+      "end": 45.361
+    },
+    {
+      "text": "la",
+      "line": 9,
+      "start": 45.384,
+      "end": 45.465
+    },
+    {
+      "text": "dent",
+      "line": 9,
+      "start": 45.535,
+      "end": 45.686
+    },
+    {
+      "text": "du",
+      "line": 9,
+      "start": 45.721,
+      "end": 45.814
+    },
+    {
+      "text": "sumo.",
+      "line": 9,
+      "start": 45.849,
+      "end": 46.371
+    },
+    {
+      "text": "Gracie",
+      "line": 10,
+      "start": 46.835,
+      "end": 47.126
+    },
+    {
+      "text": "l'étrangle…",
+      "line": 10,
+      "start": 47.184,
+      "end": 47.846
+    },
+    {
+      "text": "et",
+      "line": 10,
+      "start": 47.904,
+      "end": 48.02
+    },
+    {
+      "text": "remporte",
+      "line": 10,
+      "start": 48.066,
+      "end": 48.449
+    },
+    {
+      "text": "le",
+      "line": 10,
+      "start": 48.484,
+      "end": 48.554
+    },
+    {
+      "text": "tournoi.",
+      "line": 10,
+      "start": 48.6,
+      "end": 49.134
+    },
+    {
+      "text": "Ce",
       "line": 11,
-      "start": 50.621,
-      "end": 50.83
+      "start": 49.98,
+      "end": 50.119
+    },
+    {
+      "text": "soir-là,",
+      "line": 11,
+      "start": 50.166,
+      "end": 50.642
+    },
+    {
+      "text": "le",
+      "line": 11,
+      "start": 50.746,
+      "end": 50.851
+    },
+    {
+      "text": "monde",
+      "line": 11,
+      "start": 50.909,
+      "end": 51.118
+    },
+    {
+      "text": "découvre",
+      "line": 11,
+      "start": 51.141,
+      "end": 51.536
+    },
+    {
+      "text": "le",
+      "line": 11,
+      "start": 51.559,
+      "end": 51.64
+    },
+    {
+      "text": "jiu-jitsu",
+      "line": 11,
+      "start": 51.687,
+      "end": 52.128
+    },
+    {
+      "text": "brésilien",
+      "line": 11,
+      "start": 52.186,
+      "end": 52.662
+    },
+    {
+      "text": ":",
+      "line": 11,
+      "start": 52.778,
+      "end": 52.859
+    },
+    {
+      "text": "la",
+      "line": 11,
+      "start": 53.266,
+      "end": 53.358
+    },
+    {
+      "text": "technique",
+      "line": 11,
+      "start": 53.416,
+      "end": 53.776
+    },
+    {
+      "text": "peut",
+      "line": 11,
+      "start": 53.8,
+      "end": 53.927
+    },
+    {
+      "text": "battre",
+      "line": 11,
+      "start": 53.951,
+      "end": 54.183
+    },
+    {
+      "text": "la",
+      "line": 11,
+      "start": 54.218,
+      "end": 54.276
+    },
+    {
+      "text": "force.",
+      "line": 11,
+      "start": 54.334,
+      "end": 54.786
+    },
+    {
+      "text": "Abonne-toi",
+      "line": 12,
+      "start": 54.949,
+      "end": 55.46
+    },
+    {
+      "text": "pour",
+      "line": 12,
+      "start": 55.518,
+      "end": 55.646
+    },
+    {
+      "text": "plus",
+      "line": 12,
+      "start": 55.692,
+      "end": 55.889
     },
     {
       "text": "d'histoires",
-      "line": 11,
-      "start": 50.888,
-      "end": 51.34
+      "line": 12,
+      "start": 55.947,
+      "end": 56.528
     },
     {
       "text": "Hors",
-      "line": 11,
-      "start": 51.364,
-      "end": 51.503
+      "line": 12,
+      "start": 56.563,
+      "end": 56.865
     },
     {
       "text": "Limite.",
-      "line": 11,
-      "start": 51.526,
-      "end": 52.188
+      "line": 12,
+      "start": 56.899,
+      "end": 57.55
     }
   ]
 }

@@ -24,6 +24,212 @@
   },
   "lines": [
     {
+      "text": "Ce petit Brésilien en pyjama a humilié les combattants les plus redoutés de la planète.",
+      "pauseAfter": 0.3,
+      "panels": [
+        {
+          "id": "00a",
+          "bg": "pink",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "hero",
+              "build": "slim",
+              "x": 540,
+              "s": 3.7,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "crossed",
+                  0.5
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "EN PYJAMA ?!",
+              "at": "pyjama",
+              "x": 540,
+              "y": 250,
+              "rot": -5,
+              "color": "yellow",
+              "sound": "pop"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "pyjama"
+            }
+          ]
+        },
+        {
+          "id": "00b",
+          "cue": "humilié",
+          "bg": "blue",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 790,
+              "s": 3.6,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  0.35
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "hero",
+              "build": "slim",
+              "x": 330,
+              "s": 2.8,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "shoot",
+                  0.2
+                ],
+                [
+                  "guard",
+                  0.6
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": 0.35,
+              "x": 760,
+              "y": 420,
+              "rot": 8,
+              "color": "red",
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": 0.35
+            }
+          ]
+        },
+        {
+          "id": "00c",
+          "cue": "redoutés",
+          "bg": "orange",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.05,
+              1.15
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "muscle",
+              "x": 330,
+              "s": 3.6,
+              "facing": 1,
+              "poses": [
+                [
+                  "flex",
+                  0
+                ],
+                [
+                  "fallen",
+                  0.3
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "hero",
+              "build": "slim",
+              "x": 760,
+              "s": 2.8,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  0.55
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": 0.3,
+              "x": 320,
+              "y": 420,
+              "rot": -8,
+              "color": "yellow",
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": 0.3
+            },
+            {
+              "type": "shake",
+              "at": 0.3
+            }
+          ]
+        }
+      ]
+    },
+    {
       "text": "En {1993|mille neuf cent quatre-vingt-treize}, le combattant le plus léger du tournoi a battu tous les colosses.",
       "panels": [
         {
@@ -115,7 +321,8 @@
               "text": "UFC 1 — 1993",
               "at": 0.1
             }
-          ]
+          ],
+          "transition": "slide"
         },
         {
           "id": "01b",
@@ -987,6 +1194,14 @@
                 [
                   "guard",
                   1.0
+                ],
+                [
+                  "punch",
+                  1.9
+                ],
+                [
+                  "guard",
+                  2.2
                 ]
               ],
               "glove": true
@@ -1836,6 +2051,10 @@
                 [
                   "armsUp",
                   1.6
+                ],
+                [
+                  "guard",
+                  3.0
                 ]
               ]
             },
