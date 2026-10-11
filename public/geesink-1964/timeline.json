@@ -1,0 +1,1394 @@
+{
+  "slug": "geesink-1964",
+  "title": "Geesink fait pleurer le Japon (Tokyo 1964)",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 53.78,
+  "durationInFrames": 1614,
+  "voice": null,
+  "estimated": true,
+  "music": "geesink-1964/music.mp3",
+  "musicCuts": [
+    {
+      "start": 31.867,
+      "end": 36.559000000000005
+    }
+  ],
+  "words": [
+    {
+      "text": "En",
+      "line": 0,
+      "start": 0.25,
+      "end": 0.387
+    },
+    {
+      "text": "1964,",
+      "line": 0,
+      "start": 0.416,
+      "end": 2.039
+    },
+    {
+      "text": "un",
+      "line": 0,
+      "start": 2.229,
+      "end": 2.366
+    },
+    {
+      "text": "géant",
+      "line": 0,
+      "start": 2.395,
+      "end": 2.68
+    },
+    {
+      "text": "néerlandais",
+      "line": 0,
+      "start": 2.709,
+      "end": 3.292
+    },
+    {
+      "text": "a",
+      "line": 0,
+      "start": 3.32,
+      "end": 3.408
+    },
+    {
+      "text": "fait",
+      "line": 0,
+      "start": 3.437,
+      "end": 3.673
+    },
+    {
+      "text": "pleurer",
+      "line": 0,
+      "start": 3.701,
+      "end": 4.086
+    },
+    {
+      "text": "tout",
+      "line": 0,
+      "start": 4.115,
+      "end": 4.351
+    },
+    {
+      "text": "le",
+      "line": 0,
+      "start": 4.38,
+      "end": 4.517
+    },
+    {
+      "text": "Japon.",
+      "line": 0,
+      "start": 4.545,
+      "end": 4.88
+    },
+    {
+      "text": "Tokyo.",
+      "line": 1,
+      "start": 5.28,
+      "end": 5.616
+    },
+    {
+      "text": "Pour",
+      "line": 1,
+      "start": 6.016,
+      "end": 6.252
+    },
+    {
+      "text": "la",
+      "line": 1,
+      "start": 6.28,
+      "end": 6.418
+    },
+    {
+      "text": "première",
+      "line": 1,
+      "start": 6.446,
+      "end": 6.88
+    },
+    {
+      "text": "fois,",
+      "line": 1,
+      "start": 6.909,
+      "end": 7.195
+    },
+    {
+      "text": "le",
+      "line": 1,
+      "start": 7.385,
+      "end": 7.522
+    },
+    {
+      "text": "judo",
+      "line": 1,
+      "start": 7.551,
+      "end": 7.787
+    },
+    {
+      "text": "entre",
+      "line": 1,
+      "start": 7.816,
+      "end": 8.101
+    },
+    {
+      "text": "aux",
+      "line": 1,
+      "start": 8.13,
+      "end": 8.317
+    },
+    {
+      "text": "Jeux",
+      "line": 1,
+      "start": 8.345,
+      "end": 8.581
+    },
+    {
+      "text": "olympiques.",
+      "line": 1,
+      "start": 8.61,
+      "end": 9.193
+    },
+    {
+      "text": "Chez",
+      "line": 1,
+      "start": 9.593,
+      "end": 9.829
+    },
+    {
+      "text": "lui,",
+      "line": 1,
+      "start": 9.858,
+      "end": 10.094
+    },
+    {
+      "text": "au",
+      "line": 1,
+      "start": 10.284,
+      "end": 10.421
+    },
+    {
+      "text": "Japon.",
+      "line": 1,
+      "start": 10.45,
+      "end": 10.785
+    },
+    {
+      "text": "Les",
+      "line": 2,
+      "start": 11.185,
+      "end": 11.372
+    },
+    {
+      "text": "Japonais",
+      "line": 2,
+      "start": 11.4,
+      "end": 11.835
+    },
+    {
+      "text": "gagnent",
+      "line": 2,
+      "start": 11.863,
+      "end": 12.248
+    },
+    {
+      "text": "trois",
+      "line": 2,
+      "start": 12.277,
+      "end": 12.562
+    },
+    {
+      "text": "catégories",
+      "line": 2,
+      "start": 12.591,
+      "end": 13.124
+    },
+    {
+      "text": "sur",
+      "line": 2,
+      "start": 13.153,
+      "end": 13.34
+    },
+    {
+      "text": "quatre.",
+      "line": 2,
+      "start": 13.368,
+      "end": 13.753
+    },
+    {
+      "text": "Il",
+      "line": 3,
+      "start": 14.153,
+      "end": 14.29
+    },
+    {
+      "text": "ne",
+      "line": 3,
+      "start": 14.319,
+      "end": 14.456
+    },
+    {
+      "text": "reste",
+      "line": 3,
+      "start": 14.484,
+      "end": 14.77
+    },
+    {
+      "text": "que",
+      "line": 3,
+      "start": 14.799,
+      "end": 14.985
+    },
+    {
+      "text": "la",
+      "line": 3,
+      "start": 15.014,
+      "end": 15.151
+    },
+    {
+      "text": "plus",
+      "line": 3,
+      "start": 15.18,
+      "end": 15.416
+    },
+    {
+      "text": "prestigieuse",
+      "line": 3,
+      "start": 15.444,
+      "end": 16.077
+    },
+    {
+      "text": ":",
+      "line": 3,
+      "start": 16.105,
+      "end": 16.193
+    },
+    {
+      "text": "toutes",
+      "line": 3,
+      "start": 16.593,
+      "end": 16.928
+    },
+    {
+      "text": "catégories.",
+      "line": 3,
+      "start": 16.957,
+      "end": 17.54
+    },
+    {
+      "text": "En",
+      "line": 4,
+      "start": 17.94,
+      "end": 18.077
+    },
+    {
+      "text": "finale,",
+      "line": 4,
+      "start": 18.105,
+      "end": 18.49
+    },
+    {
+      "text": "le",
+      "line": 4,
+      "start": 18.68,
+      "end": 18.818
+    },
+    {
+      "text": "champion",
+      "line": 4,
+      "start": 18.846,
+      "end": 19.28
+    },
+    {
+      "text": "japonais",
+      "line": 4,
+      "start": 19.309,
+      "end": 19.743
+    },
+    {
+      "text": "Akio",
+      "line": 4,
+      "start": 19.772,
+      "end": 20.008
+    },
+    {
+      "text": "Kaminaga.",
+      "line": 4,
+      "start": 20.037,
+      "end": 20.52
+    },
+    {
+      "text": "Face",
+      "line": 5,
+      "start": 20.92,
+      "end": 21.157
+    },
+    {
+      "text": "à",
+      "line": 5,
+      "start": 21.185,
+      "end": 21.273
+    },
+    {
+      "text": "lui,",
+      "line": 5,
+      "start": 21.301,
+      "end": 21.538
+    },
+    {
+      "text": "Anton",
+      "line": 5,
+      "start": 21.728,
+      "end": 22.014
+    },
+    {
+      "text": "Geesink.",
+      "line": 5,
+      "start": 22.042,
+      "end": 22.477
+    },
+    {
+      "text": "1,98 m.",
+      "line": 5,
+      "start": 22.877,
+      "end": 24.45
+    },
+    {
+      "text": "120 kilos.",
+      "line": 5,
+      "start": 24.85,
+      "end": 25.73
+    },
+    {
+      "text": "Geesink",
+      "line": 6,
+      "start": 26.13,
+      "end": 26.515
+    },
+    {
+      "text": "l'emmène",
+      "line": 6,
+      "start": 26.543,
+      "end": 26.978
+    },
+    {
+      "text": "au",
+      "line": 6,
+      "start": 27.006,
+      "end": 27.143
+    },
+    {
+      "text": "sol",
+      "line": 6,
+      "start": 27.172,
+      "end": 27.359
+    },
+    {
+      "text": "et",
+      "line": 6,
+      "start": 27.387,
+      "end": 27.524
+    },
+    {
+      "text": "l'immobilise.",
+      "line": 6,
+      "start": 27.553,
+      "end": 28.235
+    },
+    {
+      "text": "30",
+      "line": 6,
+      "start": 28.635,
+      "end": 28.97
+    },
+    {
+      "text": "secondes",
+      "line": 6,
+      "start": 28.999,
+      "end": 29.433
+    },
+    {
+      "text": "plus",
+      "line": 6,
+      "start": 29.461,
+      "end": 29.698
+    },
+    {
+      "text": "tard…",
+      "line": 6,
+      "start": 29.726,
+      "end": 30.012
+    },
+    {
+      "text": "ippon.",
+      "line": 6,
+      "start": 30.412,
+      "end": 30.747
+    },
+    {
+      "text": "Le",
+      "line": 7,
+      "start": 31.947,
+      "end": 32.084
+    },
+    {
+      "text": "Budokan",
+      "line": 7,
+      "start": 32.113,
+      "end": 32.498
+    },
+    {
+      "text": "devient",
+      "line": 7,
+      "start": 32.526,
+      "end": 32.911
+    },
+    {
+      "text": "silencieux.",
+      "line": 7,
+      "start": 32.94,
+      "end": 33.522
+    },
+    {
+      "text": "Dans",
+      "line": 7,
+      "start": 33.922,
+      "end": 34.159
+    },
+    {
+      "text": "les",
+      "line": 7,
+      "start": 34.187,
+      "end": 34.374
+    },
+    {
+      "text": "tribunes,",
+      "line": 7,
+      "start": 34.402,
+      "end": 34.886
+    },
+    {
+      "text": "des",
+      "line": 7,
+      "start": 35.077,
+      "end": 35.263
+    },
+    {
+      "text": "Japonais",
+      "line": 7,
+      "start": 35.292,
+      "end": 35.726
+    },
+    {
+      "text": "pleurent.",
+      "line": 7,
+      "start": 35.755,
+      "end": 36.239
+    },
+    {
+      "text": "Les",
+      "line": 8,
+      "start": 36.639,
+      "end": 36.825
+    },
+    {
+      "text": "officiels",
+      "line": 8,
+      "start": 36.854,
+      "end": 37.338
+    },
+    {
+      "text": "néerlandais",
+      "line": 8,
+      "start": 37.366,
+      "end": 37.949
+    },
+    {
+      "text": "veulent",
+      "line": 8,
+      "start": 37.978,
+      "end": 38.362
+    },
+    {
+      "text": "courir",
+      "line": 8,
+      "start": 38.391,
+      "end": 38.726
+    },
+    {
+      "text": "sur",
+      "line": 8,
+      "start": 38.755,
+      "end": 38.941
+    },
+    {
+      "text": "le",
+      "line": 8,
+      "start": 38.97,
+      "end": 39.107
+    },
+    {
+      "text": "tapis",
+      "line": 8,
+      "start": 39.136,
+      "end": 39.421
+    },
+    {
+      "text": "pour",
+      "line": 8,
+      "start": 39.45,
+      "end": 39.686
+    },
+    {
+      "text": "fêter",
+      "line": 8,
+      "start": 39.715,
+      "end": 40
+    },
+    {
+      "text": "ça.",
+      "line": 8,
+      "start": 40.029,
+      "end": 40.216
+    },
+    {
+      "text": "Avec",
+      "line": 8,
+      "start": 40.616,
+      "end": 40.852
+    },
+    {
+      "text": "leurs",
+      "line": 8,
+      "start": 40.88,
+      "end": 41.166
+    },
+    {
+      "text": "chaussures.",
+      "line": 8,
+      "start": 41.195,
+      "end": 41.778
+    },
+    {
+      "text": "Geesink",
+      "line": 9,
+      "start": 42.178,
+      "end": 42.562
+    },
+    {
+      "text": "les",
+      "line": 9,
+      "start": 42.591,
+      "end": 42.778
+    },
+    {
+      "text": "arrête",
+      "line": 9,
+      "start": 42.806,
+      "end": 43.141
+    },
+    {
+      "text": "d'un",
+      "line": 9,
+      "start": 43.17,
+      "end": 43.406
+    },
+    {
+      "text": "geste.",
+      "line": 9,
+      "start": 43.435,
+      "end": 43.77
+    },
+    {
+      "text": "Et",
+      "line": 9,
+      "start": 44.17,
+      "end": 44.307
+    },
+    {
+      "text": "il",
+      "line": 9,
+      "start": 44.336,
+      "end": 44.473
+    },
+    {
+      "text": "salue",
+      "line": 9,
+      "start": 44.501,
+      "end": 44.787
+    },
+    {
+      "text": "son",
+      "line": 9,
+      "start": 44.816,
+      "end": 45.002
+    },
+    {
+      "text": "adversaire.",
+      "line": 9,
+      "start": 45.031,
+      "end": 45.614
+    },
+    {
+      "text": "Ce",
+      "line": 10,
+      "start": 46.014,
+      "end": 46.151
+    },
+    {
+      "text": "jour-là,",
+      "line": 10,
+      "start": 46.18,
+      "end": 46.614
+    },
+    {
+      "text": "le",
+      "line": 10,
+      "start": 46.804,
+      "end": 46.941
+    },
+    {
+      "text": "judo",
+      "line": 10,
+      "start": 46.97,
+      "end": 47.206
+    },
+    {
+      "text": "est",
+      "line": 10,
+      "start": 47.235,
+      "end": 47.421
+    },
+    {
+      "text": "devenu",
+      "line": 10,
+      "start": 47.45,
+      "end": 47.785
+    },
+    {
+      "text": "un",
+      "line": 10,
+      "start": 47.814,
+      "end": 47.951
+    },
+    {
+      "text": "sport",
+      "line": 10,
+      "start": 47.98,
+      "end": 48.265
+    },
+    {
+      "text": "mondial.",
+      "line": 10,
+      "start": 48.294,
+      "end": 48.728
+    },
+    {
+      "text": "Abonne-toi",
+      "line": 11,
+      "start": 49.428,
+      "end": 49.961
+    },
+    {
+      "text": "pour",
+      "line": 11,
+      "start": 49.99,
+      "end": 50.226
+    },
+    {
+      "text": "plus",
+      "line": 11,
+      "start": 50.255,
+      "end": 50.491
+    },
+    {
+      "text": "d'histoires",
+      "line": 11,
+      "start": 50.52,
+      "end": 51.102
+    },
+    {
+      "text": "Hors",
+      "line": 11,
+      "start": 51.131,
+      "end": 51.367
+    },
+    {
+      "text": "Limite.",
+      "line": 11,
+      "start": 51.396,
+      "end": 51.78
+    }
+  ],
+  "shots": [
+    {
+      "id": "01a",
+      "image": null,
+      "start": 0,
+      "end": 2.315,
+      "motion": "zoomOut",
+      "variant": 0,
+      "transition": "none",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "01b",
+      "image": null,
+      "start": 2.315,
+      "end": 3.621,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "whip",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "01c",
+      "image": null,
+      "start": 3.621,
+      "end": 5.2,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "flash",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "02a",
+      "image": null,
+      "start": 5.2,
+      "end": 7.471,
+      "motion": "panRight",
+      "variant": 0,
+      "transition": "whip",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "02b",
+      "image": null,
+      "start": 7.471,
+      "end": 9.513,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "zoom",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "02c",
+      "image": null,
+      "start": 9.513,
+      "end": 11.105,
+      "motion": "zoomOut",
+      "variant": 0,
+      "transition": "whip",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "03a",
+      "image": null,
+      "start": 11.105,
+      "end": 12.197,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "flash",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "03b",
+      "image": null,
+      "start": 12.197,
+      "end": 14.073,
+      "motion": "panLeft",
+      "variant": 0,
+      "transition": "whip",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "04a.1",
+      "image": null,
+      "start": 14.073,
+      "end": 15.293,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "zoom",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "04a.2",
+      "image": null,
+      "start": 15.293,
+      "end": 16.513,
+      "motion": "zoomIn",
+      "variant": 1,
+      "transition": "jump",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "04b",
+      "image": null,
+      "start": 16.513,
+      "end": 17.86,
+      "motion": "panRight",
+      "variant": 0,
+      "transition": "whip",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "05a",
+      "image": null,
+      "start": 17.86,
+      "end": 19.692,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "flash",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "05b",
+      "image": null,
+      "start": 19.692,
+      "end": 20.84,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "whip",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "06a",
+      "image": null,
+      "start": 20.84,
+      "end": 22.797,
+      "motion": "zoomOut",
+      "variant": 0,
+      "transition": "zoom",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "06b",
+      "image": null,
+      "start": 22.797,
+      "end": 24.77,
+      "motion": "panUp",
+      "variant": 0,
+      "transition": "whip",
+      "direction": 1,
+      "impact": "soft"
+    },
+    {
+      "id": "06c",
+      "image": null,
+      "start": 24.77,
+      "end": 26.05,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "whip",
+      "direction": -1,
+      "impact": "soft"
+    },
+    {
+      "id": "07a",
+      "image": null,
+      "start": 26.05,
+      "end": 27.473,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "whip",
+      "direction": 1,
+      "impact": "soft"
+    },
+    {
+      "id": "07b.1",
+      "image": null,
+      "start": 27.473,
+      "end": 28.903,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "zoom",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "07b.2",
+      "image": null,
+      "start": 28.903,
+      "end": 30.332,
+      "motion": "panLeft",
+      "variant": 1,
+      "transition": "jump",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "07c",
+      "image": null,
+      "start": 30.332,
+      "end": 31.867,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "flash",
+      "direction": -1,
+      "impact": "hard"
+    },
+    {
+      "id": "08a",
+      "image": null,
+      "start": 31.867,
+      "end": 33.842,
+      "motion": "zoomOut",
+      "variant": 0,
+      "transition": "cut",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "08b",
+      "image": null,
+      "start": 33.842,
+      "end": 35.675,
+      "motion": "panLeft",
+      "variant": 0,
+      "transition": "cut",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "08c",
+      "image": null,
+      "start": 35.675,
+      "end": 36.559,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "cut",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "09a",
+      "image": null,
+      "start": 36.559,
+      "end": 38.311,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "whip",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "09b",
+      "image": null,
+      "start": 38.311,
+      "end": 40.536,
+      "motion": "panRight",
+      "variant": 0,
+      "transition": "whip",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "09c",
+      "image": null,
+      "start": 40.536,
+      "end": 42.098,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "zoom",
+      "direction": -1,
+      "impact": "soft"
+    },
+    {
+      "id": "10a",
+      "image": null,
+      "start": 42.098,
+      "end": 44.09,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "flash",
+      "direction": 1,
+      "impact": "soft"
+    },
+    {
+      "id": "10b",
+      "image": null,
+      "start": 44.09,
+      "end": 44.951,
+      "motion": "zoomOut",
+      "variant": 0,
+      "transition": "whip",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "10c",
+      "image": null,
+      "start": 44.951,
+      "end": 45.934,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "whip",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "11a",
+      "image": null,
+      "start": 45.934,
+      "end": 47.37,
+      "motion": "zoomOut",
+      "variant": 0,
+      "transition": "flash",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "11b",
+      "image": null,
+      "start": 47.37,
+      "end": 49.348,
+      "motion": "panRight",
+      "variant": 0,
+      "transition": "whip",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "12a.1",
+      "image": null,
+      "start": 49.348,
+      "end": 50.825,
+      "motion": "zoomIn",
+      "variant": 0,
+      "transition": "flash",
+      "direction": -1,
+      "impact": null
+    },
+    {
+      "id": "12a.2",
+      "image": null,
+      "start": 50.825,
+      "end": 52.303,
+      "motion": "panRight",
+      "variant": 1,
+      "transition": "jump",
+      "direction": 1,
+      "impact": null
+    },
+    {
+      "id": "12a.3",
+      "image": null,
+      "start": 52.303,
+      "end": 53.78,
+      "motion": "panLeft",
+      "variant": 2,
+      "transition": "jump",
+      "direction": -1,
+      "impact": null
+    }
+  ],
+  "overlays": [
+    {
+      "type": "counter",
+      "from": 1900,
+      "to": 1964,
+      "start": 0.416,
+      "end": 2.616
+    },
+    {
+      "type": "title",
+      "text": "TOKYO 1964",
+      "start": 5.28,
+      "end": 6.446
+    },
+    {
+      "type": "title",
+      "text": "1RE FOIS AUX JO",
+      "start": 6.446,
+      "end": 8.646
+    },
+    {
+      "type": "title",
+      "text": "NIPPON BUDOKAN",
+      "start": 9.593,
+      "end": 11.255
+    },
+    {
+      "type": "medals",
+      "won": 3,
+      "total": 4,
+      "start": 12.277,
+      "end": 14.223
+    },
+    {
+      "type": "title",
+      "text": "TOUTES CATÉGORIES",
+      "subtitle": "aucune limite de poids",
+      "start": 16.593,
+      "end": 18.01
+    },
+    {
+      "type": "name",
+      "text": "AKIO KAMINAGA",
+      "subtitle": "Champion du Japon",
+      "flag": "jp",
+      "start": 19.772,
+      "end": 20.99
+    },
+    {
+      "type": "name",
+      "text": "ANTON GEESINK",
+      "subtitle": "Pays-Bas",
+      "flag": "nl",
+      "start": 21.728,
+      "end": 22.877
+    },
+    {
+      "type": "counter",
+      "from": 0,
+      "to": 1.98,
+      "decimals": 2,
+      "suffix": " m",
+      "start": 22.877,
+      "end": 24.377
+    },
+    {
+      "type": "counter",
+      "from": 0,
+      "to": 120,
+      "suffix": " kg",
+      "start": 24.85,
+      "end": 26.2
+    },
+    {
+      "type": "counter",
+      "from": 0,
+      "to": 30,
+      "suffix": " s",
+      "start": 28.635,
+      "end": 30.412
+    },
+    {
+      "type": "stamp",
+      "text": "IPPON !",
+      "start": 30.412,
+      "end": 32.012
+    },
+    {
+      "type": "stamp",
+      "text": "AVEC LES CHAUSSURES ?!",
+      "color": "red",
+      "start": 40.616,
+      "end": 42.216
+    },
+    {
+      "type": "title",
+      "text": "RESPECT",
+      "start": 44.501,
+      "end": 46.084
+    },
+    {
+      "type": "title",
+      "text": "SPORT MONDIAL",
+      "start": 47.98,
+      "end": 49.428
+    },
+    {
+      "type": "logo",
+      "text": "HORS LIMITE",
+      "subtitle": "ABONNE-TOI",
+      "start": 49.428,
+      "end": 53.78
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/tick.wav",
+      "start": 0.416,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 2.195,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 3.621,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 5.08,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 7.351,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 9.393,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 11.105,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 12.077,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/tick.wav",
+      "start": 12.277,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 13.953,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 16.393,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 17.86,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 19.572,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 20.72,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 22.677,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 22.797,
+      "volume": 0.7
+    },
+    {
+      "src": "sfx/tick.wav",
+      "start": 22.877,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 24.65,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 24.77,
+      "volume": 0.7
+    },
+    {
+      "src": "sfx/tick.wav",
+      "start": 24.85,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 25.93,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 26.05,
+      "volume": 0.7
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 27.353,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/tick.wav",
+      "start": 28.635,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/impact.wav",
+      "start": 30.332,
+      "volume": 0.8
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 30.412,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 36.439,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 38.191,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 40.416,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 40.536,
+      "volume": 0.7
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 42.098,
+      "volume": 0.7
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 43.97,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 44.831,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 45.934,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "start": 47.25,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 49.348,
+      "volume": 0.45
+    }
+  ]
+}

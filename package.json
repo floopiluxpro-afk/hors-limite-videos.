@@ -1,0 +1,35 @@
+{
+  "name": "hors-limite-videos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Usine à vidéos TikTok verticales Hors Limite (Remotion)",
+  "scripts": {
+    "studio": "remotion studio",
+    "new": "node scripts/new-video.mjs",
+    "storyboard": "node scripts/make-storyboard.mjs",
+    "decoupage": "node scripts/print-storyboard.mjs",
+    "voice": "node scripts/generate-voice.mjs",
+    "images": "node scripts/generate-images.mjs",
+    "timeline": "node scripts/build-timeline.mjs",
+    "audio": "node scripts/generate-audio.mjs",
+    "preview": "node scripts/preview-stills.mjs",
+    "render": "node scripts/render.mjs",
+    "make": "node scripts/make-all.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "@remotion/bundler": "^4.0.534",
+    "@remotion/cli": "^4.0.534",
+    "@remotion/renderer": "^4.0.534",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "^4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

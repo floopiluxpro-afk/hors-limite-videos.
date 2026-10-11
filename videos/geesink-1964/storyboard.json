@@ -1,0 +1,353 @@
+{
+  "slug": "geesink-1964",
+  "title": "Geesink fait pleurer le Japon (Tokyo 1964)",
+  "style": "Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.",
+  "characters": {
+    "geesink": {
+      "name": "Anton Geesink",
+      "description": "Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest."
+    },
+    "kaminaga": {
+      "name": "Akio Kaminaga",
+      "description": "Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest."
+    },
+    "officiels": {
+      "name": "Officiels néerlandais",
+      "description": "Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair."
+    },
+    "arbitre": {
+      "name": "Arbitre",
+      "description": "Japanese judo referee clay figurine, middle-aged, neat black hair, wearing a dark navy blazer, white shirt, dark tie and grey trousers."
+    }
+  },
+  "voice": {
+    "speed": 1.05,
+    "stability": 0.4,
+    "similarity_boost": 0.8,
+    "style": 0.45
+  },
+  "music": { "bpm": 100 },
+  "lines": [
+    {
+      "text": "En {1964|mille neuf cent soixante-quatre}, un géant néerlandais a fait pleurer tout le Japon.",
+      "shots": [
+        {
+          "id": "01a",
+          "image": "Dramatic low-angle wide shot at dusk: the giant Geesink figurine stands like a colossus over a miniature clay Tokyo cityscape from the 1960s, tiny houses and a red-and-white lattice tower reaching only his knees, orange sky, strong backlight.",
+          "characters": ["geesink"],
+          "motion": "zoomOut"
+        },
+        {
+          "id": "01b",
+          "cue": "géant",
+          "image": "Extreme close-up of Geesink's face looking down at the camera, calm and serious, strong square jaw, warm rim light, dark arena background.",
+          "characters": ["geesink"],
+          "motion": "zoomIn",
+          "transition": "whip"
+        },
+        {
+          "id": "01c",
+          "cue": "pleurer",
+          "image": "Close-up of a Japanese spectator figurine in a 1960s dark suit crying, big glossy clay tears rolling down his cheeks, blurred packed stadium crowd behind.",
+          "motion": "zoomIn",
+          "transition": "flash"
+        }
+      ],
+      "overlays": [
+        { "type": "counter", "cue": "1964", "from": 1900, "to": 1964, "duration": 2.2 }
+      ]
+    },
+    {
+      "text": "Tokyo. Pour la première fois, le judo entre aux Jeux olympiques. Chez lui, au Japon.",
+      "shots": [
+        {
+          "id": "02a",
+          "image": "Miniature clay diorama of Tokyo in 1964 on a bright sunny morning: Mount Fuji with a snowy cap in the background, cherry blossom trees, colorful festive bunting flags, a large modern stadium in the center.",
+          "motion": "panRight",
+          "transition": "whip"
+        },
+        {
+          "id": "02b",
+          "cue": "judo",
+          "image": "A pristine green-and-beige tatami judo mat on a raised platform under a single spotlight in an empty arena, five interlocking colored clay rings hanging above it.",
+          "motion": "zoomIn",
+          "transition": "zoom"
+        },
+        {
+          "id": "02c",
+          "cue": "Chez",
+          "image": "Exterior of the Nippon Budokan made of clay: octagonal hall with a sweeping temple-like roof topped with a golden ornament, crowds of tiny Japanese figurines walking in, Japanese flags (white with a red circle) waving.",
+          "motion": "zoomOut",
+          "transition": "whip"
+        }
+      ],
+      "overlays": [
+        { "type": "title", "cue": "Tokyo", "text": "TOKYO 1964", "duration": 1.6 },
+        { "type": "title", "cue": "première", "text": "1RE FOIS AUX JO", "duration": 2.2 },
+        { "type": "title", "cue": "Chez", "text": "NIPPON BUDOKAN", "duration": 1.8 }
+      ]
+    },
+    {
+      "text": "Les Japonais gagnent trois catégories sur quatre.",
+      "shots": [
+        {
+          "id": "03a",
+          "image": "Three Japanese judoka figurines in white judogi standing proudly on three podium steps, each holding up a shiny gold medal, golden confetti falling, joyful smiles.",
+          "motion": "zoomIn",
+          "transition": "flash"
+        },
+        {
+          "id": "03b",
+          "cue": "trois",
+          "image": "Close-up of a wooden display case with four velvet slots: three hold shiny clay gold medals, the fourth slot on the right is empty and lit by a spotlight.",
+          "motion": "panLeft",
+          "transition": "whip"
+        }
+      ],
+      "overlays": [
+        { "type": "medals", "cue": "trois", "won": 3, "total": 4, "duration": 2.4 }
+      ]
+    },
+    {
+      "text": "Il ne reste que la plus prestigieuse : toutes catégories.",
+      "shots": [
+        {
+          "id": "04a",
+          "image": "A single huge gold medal resting on a red velvet cushion under one dramatic spotlight in a dark arena, dust particles floating in the light beam.",
+          "motion": "zoomIn",
+          "transition": "zoom"
+        },
+        {
+          "id": "04b",
+          "cue": "toutes",
+          "image": "Line-up of judoka figurines of very different sizes standing side by side on a tatami, from a small lightweight to a huge heavyweight, the last and tallest one is Geesink, open weight category feeling.",
+          "characters": ["geesink"],
+          "motion": "panRight",
+          "transition": "whip"
+        }
+      ],
+      "overlays": [
+        { "type": "title", "cue": "toutes", "text": "TOUTES CATÉGORIES", "subtitle": "aucune limite de poids", "duration": 2.4 }
+      ]
+    },
+    {
+      "text": "En finale, le champion japonais Akio Kaminaga.",
+      "shots": [
+        {
+          "id": "05a",
+          "image": "Heroic low-angle shot: Kaminaga walking out of a tunnel into the bright Budokan arena, packed stands of Japanese spectators waving small Japanese flags.",
+          "characters": ["kaminaga"],
+          "motion": "zoomIn",
+          "transition": "flash"
+        },
+        {
+          "id": "05b",
+          "cue": "Akio",
+          "image": "Medium close-up of Kaminaga tightening his black belt with both hands, fierce focused eyes, crowd blurred behind.",
+          "characters": ["kaminaga"],
+          "motion": "zoomIn",
+          "transition": "whip"
+        }
+      ],
+      "overlays": [
+        { "type": "name", "cue": "Akio", "text": "AKIO KAMINAGA", "subtitle": "Champion du Japon", "flag": "jp", "duration": 2.2 }
+      ]
+    },
+    {
+      "text": "Face à lui, Anton {Geesink|Guésink}. {1,98 m|un mètre quatre-vingt-dix-huit}. {120 kilos|cent vingt kilos}.",
+      "shots": [
+        {
+          "id": "06a",
+          "image": "Extreme low-angle shot of Geesink stepping onto the tatami, towering and intimidating, arena ceiling lights glowing behind his head.",
+          "characters": ["geesink"],
+          "motion": "zoomOut",
+          "transition": "zoom"
+        },
+        {
+          "id": "06b",
+          "cue": "1,98",
+          "image": "Kaminaga and Geesink figurines standing side by side in front of a wooden height measuring chart with plain tick marks, Geesink is a full head taller, Kaminaga looks up at him.",
+          "characters": ["geesink", "kaminaga"],
+          "motion": "panUp",
+          "transition": "whip",
+          "impact": "soft"
+        },
+        {
+          "id": "06c",
+          "cue": "120",
+          "image": "Geesink standing on an old-fashioned mechanical floor scale, the needle swung to the far end, the scale slightly bending under his weight, humorous touch.",
+          "characters": ["geesink"],
+          "motion": "zoomIn",
+          "transition": "whip",
+          "impact": "soft"
+        }
+      ],
+      "overlays": [
+        { "type": "name", "cue": "Anton", "text": "ANTON GEESINK", "subtitle": "Pays-Bas", "flag": "nl", "duration": 1.4 },
+        { "type": "counter", "cue": "1,98", "from": 0, "to": 1.98, "decimals": 2, "suffix": " m", "duration": 1.5 },
+        { "type": "counter", "cue": "120", "from": 0, "to": 120, "suffix": " kg", "duration": 1.6 }
+      ]
+    },
+    {
+      "text": "{Geesink|Guésink} l'emmène au sol et l'immobilise. {30|Trente} secondes plus tard… ippon.",
+      "pauseAfter": 0.8,
+      "shots": [
+        {
+          "id": "07a",
+          "image": "Dynamic action shot: Geesink throwing Kaminaga down onto the tatami, both figurines caught mid-motion, a puff of clay dust, dramatic tilted angle.",
+          "characters": ["geesink", "kaminaga"],
+          "motion": "zoomIn",
+          "transition": "whip",
+          "impact": "soft"
+        },
+        {
+          "id": "07b",
+          "cue": "l'immobilise",
+          "image": "Top-down view: Geesink pinning Kaminaga on his back on the tatami with a scarf hold (kesa-gatame), Kaminaga straining to escape, drops of sweat.",
+          "characters": ["geesink", "kaminaga"],
+          "motion": "zoomIn",
+          "transition": "zoom"
+        },
+        {
+          "id": "07c",
+          "cue": "ippon",
+          "image": "The referee figurine thrusting his arm straight up to the sky to announce ippon, Geesink still holding Kaminaga on the mat below, explosive burst of light behind the referee.",
+          "characters": ["arbitre", "geesink", "kaminaga"],
+          "motion": "zoomIn",
+          "transition": "flash",
+          "impact": "hard"
+        }
+      ],
+      "overlays": [
+        { "type": "counter", "cue": "30", "from": 0, "to": 30, "suffix": " s", "duration": 1.8 },
+        { "type": "stamp", "cue": "ippon", "text": "IPPON !", "duration": 1.6 }
+      ]
+    },
+    {
+      "text": "Le Budokan devient silencieux. Dans les tribunes, des Japonais pleurent.",
+      "music": "cut",
+      "shots": [
+        {
+          "id": "08a",
+          "image": "Wide shot of the packed Budokan stands, thousands of tiny Japanese spectator figurines completely frozen and silent, cold dim bluish light.",
+          "motion": "zoomOut",
+          "transition": "cut"
+        },
+        {
+          "id": "08b",
+          "cue": "Dans",
+          "image": "Close-up of Japanese spectators in the stands crying, a woman in a kimono covering her mouth with her hand, men with glossy clay tears.",
+          "motion": "panLeft",
+          "transition": "cut"
+        },
+        {
+          "id": "08c",
+          "cue": "pleurent",
+          "image": "An elderly Japanese man in a 1960s suit wiping a tear with a white handkerchief, soft melancholic light.",
+          "motion": "zoomIn",
+          "transition": "cut"
+        }
+      ]
+    },
+    {
+      "text": "Les officiels néerlandais veulent courir sur le tapis pour fêter ça. Avec leurs chaussures.",
+      "shots": [
+        {
+          "id": "09a",
+          "image": "The three Dutch officials leaping up from their bench, arms raised in joy, mouths wide open shouting.",
+          "characters": ["officiels"],
+          "motion": "zoomIn",
+          "transition": "whip"
+        },
+        {
+          "id": "09b",
+          "cue": "courir",
+          "image": "The three Dutch officials running toward the tatami in excitement, ties flying, the judo mat in the foreground.",
+          "characters": ["officiels"],
+          "motion": "panRight",
+          "transition": "whip"
+        },
+        {
+          "id": "09c",
+          "cue": "Avec",
+          "image": "Floor-level extreme close-up: a polished black leather dress shoe with an orange sock, about to step onto the edge of the sacred tatami mat, dramatic tension.",
+          "motion": "zoomIn",
+          "transition": "zoom",
+          "impact": "soft"
+        }
+      ],
+      "overlays": [
+        { "type": "stamp", "cue": "Avec", "text": "AVEC LES CHAUSSURES ?!", "color": "red", "duration": 1.6 }
+      ]
+    },
+    {
+      "text": "{Geesink|Guésink} les arrête d'un geste. Et il salue son adversaire.",
+      "shots": [
+        {
+          "id": "10a",
+          "image": "Geesink kneeling on the tatami raising one open hand firmly toward the camera to stop the officials, calm authoritative face, the three officials frozen mid-run in the background.",
+          "characters": ["geesink", "officiels"],
+          "motion": "zoomIn",
+          "transition": "flash",
+          "impact": "soft"
+        },
+        {
+          "id": "10b",
+          "cue": "Et",
+          "image": "Geesink and Kaminaga standing face to face on the tatami, bowing deeply to each other, respectful atmosphere, warm golden light.",
+          "characters": ["geesink", "kaminaga"],
+          "motion": "zoomOut",
+          "transition": "whip"
+        },
+        {
+          "id": "10c",
+          "cue": "adversaire",
+          "image": "Close-up of Geesink's huge hand and Kaminaga's hand in a firm handshake, white judogi sleeves, black belts visible, warm light.",
+          "characters": ["geesink", "kaminaga"],
+          "motion": "zoomIn",
+          "transition": "whip"
+        }
+      ],
+      "overlays": [
+        { "type": "title", "cue": "salue", "text": "RESPECT", "duration": 1.6 }
+      ]
+    },
+    {
+      "text": "Ce jour-là, le judo est devenu un sport mondial.",
+      "pauseAfter": 0.3,
+      "shots": [
+        {
+          "id": "11a",
+          "image": "A clay globe of the Earth on a wooden stand, tiny judoka figurines in white judogi standing on every continent and bowing.",
+          "motion": "zoomOut",
+          "transition": "flash"
+        },
+        {
+          "id": "11b",
+          "cue": "devenu",
+          "image": "Children of many different origins in white judogi practicing on a tatami in a bright modern dojo, many small colorful national flags hanging on the wall, joyful.",
+          "motion": "panRight",
+          "transition": "whip"
+        }
+      ],
+      "overlays": [
+        { "type": "title", "cue": "sport", "text": "SPORT MONDIAL", "duration": 1.8 }
+      ]
+    },
+    {
+      "text": "Abonne-toi pour plus d'histoires Hors Limite.",
+      "shots": [
+        {
+          "id": "12a",
+          "image": "Geesink and Kaminaga figurines standing side by side on a tatami with arms crossed, looking at the camera, big empty dark wall in the upper part of the frame, dramatic red and gold lighting.",
+          "characters": ["geesink", "kaminaga"],
+          "motion": "zoomIn",
+          "transition": "flash"
+        }
+      ],
+      "overlays": [
+        { "type": "logo", "cue": "Abonne-toi", "text": "HORS LIMITE", "subtitle": "ABONNE-TOI", "duration": 99 }
+      ]
+    }
+  ]
+}
