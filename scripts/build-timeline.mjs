@@ -159,11 +159,13 @@ export function buildTimeline(slug, {estimate = false} = {}) {
 
   // Bruitages
   let sfx = [];
+  // Sons aux changements d'image (whoosh, petits chocs) : désactivés par défaut, "sfx": {"transitions": true} pour les remettre.
+  const transitionSfx = sb.sfx?.transitions === true;
   for (const s of shots) {
-    if (s.transition === 'whip' || s.transition === 'zoom') sfx.push({src: 'sfx/whoosh.wav', start: s.start - 0.12, volume: 0.5});
-    if (s.transition === 'flash' && s.impact !== 'hard') sfx.push({src: 'sfx/hit.wav', start: s.start, volume: 0.45});
+    if (transitionSfx && (s.transition === 'whip' || s.transition === 'zoom')) sfx.push({src: 'sfx/whoosh.wav', start: s.start - 0.12, volume: 0.5});
+    if (transitionSfx && s.transition === 'flash' && s.impact !== 'hard') sfx.push({src: 'sfx/hit.wav', start: s.start, volume: 0.45});
     if (s.impact === 'hard') sfx.push({src: 'sfx/impact.wav', start: s.start, volume: 0.8});
-    if (s.impact === 'soft') sfx.push({src: 'sfx/hit.wav', start: s.start, volume: 0.7});
+    if (transitionSfx && s.impact === 'soft') sfx.push({src: 'sfx/hit.wav', start: s.start, volume: 0.7});
   }
   for (const o of overlays) {
     if (o.type === 'stamp') sfx.push({src: 'sfx/hit.wav', start: o.start, volume: 0.6});
