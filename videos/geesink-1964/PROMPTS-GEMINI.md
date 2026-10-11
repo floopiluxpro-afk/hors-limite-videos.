@@ -13,7 +13,9 @@ Bonjour ! Je vais te demander une série d'images pour une vidéo TikTok vertica
 ### ref-geesink : Anton Geesink
 
 ```
-Character reference image, vertical 9:16. Full body, front view, standing in a neutral relaxed pose, centered, plain light grey studio background, soft even lighting. Character: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
+Character reference image, vertical 9:16. Full body, front view, standing in a neutral relaxed pose, centered, plain light grey studio background, soft even lighting. Character (the giant Dutch judoka): Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -21,7 +23,9 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 ### ref-kaminaga : Akio Kaminaga
 
 ```
-Character reference image, vertical 9:16. Full body, front view, standing in a neutral relaxed pose, centered, plain light grey studio background, soft even lighting. Character: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
+Character reference image, vertical 9:16. Full body, front view, standing in a neutral relaxed pose, centered, plain light grey studio background, soft even lighting. Character (the Japanese judoka): Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -29,7 +33,9 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 ### ref-officiels : Officiels néerlandais
 
 ```
-Character reference image, vertical 9:16. Full body, front view, standing in a neutral relaxed pose, centered, plain light grey studio background, soft even lighting. Character: Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair.
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
+Character reference image, vertical 9:16. Full body, front view, standing in a neutral relaxed pose, centered, plain light grey studio background, soft even lighting. Character (the three Dutch officials): Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -37,7 +43,9 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 ### ref-arbitre : Arbitre
 
 ```
-Character reference image, vertical 9:16. Full body, front view, standing in a neutral relaxed pose, centered, plain light grey studio background, soft even lighting. Character: Japanese judo referee clay figurine, middle-aged, neat black hair, wearing a dark navy blazer, white shirt, dark tie and grey trousers.
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
+Character reference image, vertical 9:16. Full body, front view, standing in a neutral relaxed pose, centered, plain light grey studio background, soft even lighting. Character (the referee): Japanese judo referee clay figurine, middle-aged, neat black hair, wearing a dark navy blazer, white shirt, dark tie and grey trousers.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -49,11 +57,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Dramatic low-angle wide shot at dusk: the giant Geesink figurine stands like a colossus over a miniature clay Tokyo cityscape from the 1960s, tiny houses and a red-and-white lattice tower reaching only his knees, orange sky, strong backlight.
+Scene: Dramatic low-angle wide shot at dusk: The giant the giant Dutch judoka figurine stands like a colossus over a miniature clay Tokyo cityscape from the 1960s, tiny houses and a red-and-white lattice tower reaching only his knees, orange sky, strong backlight.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -63,11 +73,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Extreme close-up of Geesink's face looking down at the camera, calm and serious, strong square jaw, warm rim light, dark arena background.
+Scene: Extreme close-up of the giant Dutch judoka's face looking down at the camera, calm and serious, strong square jaw, warm rim light, dark arena background.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -77,6 +89,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Close-up of a Japanese spectator figurine in a 1960s dark suit crying, big glossy clay tears rolling down his cheeks, blurred packed stadium crowd behind.
 
@@ -88,6 +102,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Miniature clay diorama of Tokyo in 1964 on a bright sunny morning: Mount Fuji with a snowy cap in the background, cherry blossom trees, colorful festive bunting flags, a large modern stadium in the center.
 
@@ -99,6 +115,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: A pristine green-and-beige tatami judo mat on a raised platform under a single spotlight in an empty arena, five interlocking colored clay rings hanging above it.
 
@@ -110,6 +128,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Exterior of the Nippon Budokan made of clay: octagonal hall with a sweeping temple-like roof topped with a golden ornament, crowds of tiny Japanese figurines walking in, Japanese flags (white with a red circle) waving.
 
@@ -121,6 +141,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Three Japanese judoka figurines in white judogi standing proudly on three podium steps, each holding up a shiny gold medal, golden confetti falling, joyful smiles.
 
@@ -132,6 +154,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Close-up of a wooden display case with four velvet slots: three hold shiny clay gold medals, the fourth slot on the right is empty and lit by a spotlight.
 
@@ -143,6 +167,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: A single huge gold medal resting on a red velvet cushion under one dramatic spotlight in a dark arena, dust particles floating in the light beam.
 
@@ -154,11 +180,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Line-up of judoka figurines of very different sizes standing side by side on a tatami, from a small lightweight to a huge heavyweight, the last and tallest one is Geesink, open weight category feeling.
+Scene: Line-up of judoka figurines of very different sizes standing side by side on a tatami, from a small lightweight to a huge heavyweight, the last and tallest one is the giant Dutch judoka, open weight category feeling.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -168,11 +196,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Heroic low-angle shot: Kaminaga walking out of a tunnel into the bright Budokan arena, packed stands of Japanese spectators waving small Japanese flags.
+Scene: Heroic low-angle shot: The Japanese judoka walking out of a tunnel into the bright Budokan arena, packed stands of Japanese spectators waving small Japanese flags.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -182,11 +212,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Medium close-up of Kaminaga tightening his black belt with both hands, fierce focused eyes, crowd blurred behind.
+Scene: Medium close-up of the Japanese judoka tightening his black belt with both hands, fierce focused eyes, crowd blurred behind.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -196,11 +228,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Extreme low-angle shot of Geesink stepping onto the tatami, towering and intimidating, arena ceiling lights glowing behind his head.
+Scene: Extreme low-angle shot of the giant Dutch judoka stepping onto the tatami, towering and intimidating, arena ceiling lights glowing behind his head.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -210,12 +244,14 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink, Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Kaminaga and Geesink figurines standing side by side in front of a wooden height measuring chart with plain tick marks, Geesink is a full head taller, Kaminaga looks up at him.
+Scene: The Japanese judoka and the giant Dutch judoka figurines standing side by side in front of a wooden height measuring chart with plain tick marks, the giant Dutch judoka is a full head taller, the Japanese judoka looks up at him.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -225,11 +261,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Geesink standing on an old-fashioned mechanical floor scale, the needle swung to the far end, the scale slightly bending under his weight, humorous touch.
+Scene: The giant Dutch judoka standing on an old-fashioned mechanical floor scale, the needle swung to the far end, the scale slightly bending under his weight, humorous touch.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -239,12 +277,14 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink, Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Dynamic action shot: Geesink throwing Kaminaga down onto the tatami, both figurines caught mid-motion, a puff of clay dust, dramatic tilted angle.
+Scene: Dynamic action shot: The giant Dutch judoka throwing the Japanese judoka down onto the tatami, both figurines caught mid-motion, a puff of clay dust, dramatic tilted angle.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -254,12 +294,14 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink, Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Top-down view: Geesink pinning Kaminaga on his back on the tatami with a scarf hold (kesa-gatame), Kaminaga straining to escape, drops of sweat.
+Scene: Top-down view: The giant Dutch judoka pinning the Japanese judoka on his back on the tatami with a scarf hold (kesa-gatame), the Japanese judoka straining to escape, drops of sweat.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -269,13 +311,15 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Arbitre, Anton Geesink, Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: The referee figurine thrusting his arm straight up to the sky to announce ippon, Geesink still holding Kaminaga on the mat below, explosive burst of light behind the referee.
+Scene: The referee figurine thrusting his arm straight up to the sky to announce ippon, the giant Dutch judoka still holding the Japanese judoka on the mat below, explosive burst of light behind the referee.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Arbitre: Japanese judo referee clay figurine, middle-aged, neat black hair, wearing a dark navy blazer, white shirt, dark tie and grey trousers.
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the referee: Japanese judo referee clay figurine, middle-aged, neat black hair, wearing a dark navy blazer, white shirt, dark tie and grey trousers.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -285,6 +329,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Wide shot of the packed Budokan stands, thousands of tiny Japanese spectator figurines completely frozen and silent, cold dim bluish light.
 
@@ -296,6 +342,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Close-up of Japanese spectators in the stands crying, a woman in a kimono covering her mouth with her hand, men with glossy clay tears.
 
@@ -307,6 +355,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: An elderly Japanese man in a 1960s suit wiping a tear with a white handkerchief, soft melancholic light.
 
@@ -318,11 +368,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Officiels néerlandais
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: The three Dutch officials leaping up from their bench, arms raised in joy, mouths wide open shouting.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Officiels néerlandais: Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair.
+- the three Dutch officials: Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -332,11 +384,13 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Officiels néerlandais
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: The three Dutch officials running toward the tatami in excitement, ties flying, the judo mat in the foreground.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Officiels néerlandais: Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair.
+- the three Dutch officials: Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -346,6 +400,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Floor-level extreme close-up: a polished black leather dress shoe with an orange sock, about to step onto the edge of the sacred tatami mat, dramatic tension.
 
@@ -357,12 +413,14 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink, Officiels néerlandais
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Geesink kneeling on the tatami raising one open hand firmly toward the camera to stop the officials, calm authoritative face, the three officials frozen mid-run in the background.
+Scene: The giant Dutch judoka kneeling on the tatami raising one open hand firmly toward the camera to stop the officials, calm authoritative face, the three officials frozen mid-run in the background.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
-- Officiels néerlandais: Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the three Dutch officials: Three middle-aged Dutch official clay figurines in dark 1960s suits with bright orange ties, white shirts and polished black leather dress shoes, one bald with glasses, one with a grey moustache, one with combed brown hair.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -372,12 +430,14 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink, Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Geesink and Kaminaga standing face to face on the tatami, bowing deeply to each other, respectful atmosphere, warm golden light.
+Scene: The giant Dutch judoka and the Japanese judoka standing face to face on the tatami, bowing deeply to each other, respectful atmosphere, warm golden light.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -387,12 +447,14 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink, Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Close-up of Geesink's huge hand and Kaminaga's hand in a firm handshake, white judogi sleeves, black belts visible, warm light.
+Scene: Close-up of the giant Dutch judoka's huge hand and the Japanese judoka's hand in a firm handshake, white judogi sleeves, black belts visible, warm light.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
@@ -402,6 +464,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: A clay globe of the Earth on a wooden stand, tiny judoka figurines in white judogi standing on every continent and bowing.
 
@@ -413,6 +477,8 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Pas de personnage principal
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
 Scene: Children of many different origins in white judogi practicing on a tatami in a bright modern dojo, many small colorful national flags hanging on the wall, joyful.
 
@@ -424,12 +490,14 @@ Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with 
 Personnages : Anton Geesink, Akio Kaminaga
 
 ```
+Génère une image (ne réponds pas par du texte, dessine directement l'image).
+
 Create one vertical 9:16 image (portrait format, taller than wide).
-Scene: Geesink and Kaminaga figurines standing side by side on a tatami with arms crossed, looking at the camera, big empty dark wall in the upper part of the frame, dramatic red and gold lighting.
+Scene: The giant Dutch judoka and the Japanese judoka figurines standing side by side on a tatami with arms crossed, looking at the camera, big empty dark wall in the upper part of the frame, dramatic red and gold lighting.
 
 Characters in this scene. Each one MUST look exactly like the reference images I gave you earlier (same face, hair, body proportions, judogi, belt and flag patch):
-- Anton Geesink: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
-- Akio Kaminaga: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than Geesink (his head reaches Geesink's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
+- the giant Dutch judoka: Dutch judoka clay figurine: a giant, extremely tall, broad-shouldered heavyweight man around 30 years old, much taller than everyone else, short slicked-back blond hair, square jaw, light blue eyes, calm serious expression, very large hands. Wears a thick white cotton judogi with a black belt and a small Netherlands flag patch (red, white, blue horizontal stripes) on the left chest.
+- the Japanese judoka: Japanese judoka clay figurine: stocky and powerful man around 28 years old, clearly shorter than the giant Dutch judoka (his head reaches the giant Dutch judoka's shoulders), short cropped black hair, thick black eyebrows, proud determined expression. Wears a white judogi with a black belt and a small Japan flag patch (white with a red circle) on the left chest.
 
 Style: Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.
 ```
