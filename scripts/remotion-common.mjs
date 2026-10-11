@@ -1,8 +1,12 @@
 // Bundle Remotion + sélection de la composition, partagés par preview et render.
+import fs from 'node:fs';
 import path from 'node:path';
 import {bundle} from '@remotion/bundler';
 import {selectComposition} from '@remotion/renderer';
-import {ROOT, browserExecutable} from './lib.mjs';
+import {ROOT, browserExecutable, publicDir} from './lib.mjs';
+
+/** Composition à utiliser : "Comic" si la vidéo a une timeline BD. */
+export const compositionId = (slug) => (fs.existsSync(path.join(publicDir(slug), 'comic.json')) ? 'Comic' : 'HorsLimite');
 
 export async function prepare(slug) {
   console.log('Bundle Remotion…');
@@ -10,7 +14,7 @@ export async function prepare(slug) {
   const inputProps = {slug};
   const composition = await selectComposition({
     serveUrl,
-    id: 'HorsLimite',
+    id: compositionId(slug),
     inputProps,
     browserExecutable: browserExecutable(),
   });

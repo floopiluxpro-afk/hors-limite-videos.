@@ -1,4 +1,5 @@
 import '@fontsource/anton/400.css';
+import '@fontsource/bangers/400.css';
 import '@fontsource/montserrat/800.css';
 import '@fontsource/montserrat/900.css';
 
@@ -12,6 +13,7 @@ export const COLORS = {
 export const FONTS = {
   title: 'Anton, Impact, sans-serif',
   caption: 'Montserrat, Arial Black, sans-serif',
+  comic: 'Bangers, Impact, sans-serif',
 };
 
 /** Contour noir épais (ombres empilées : fiable dans Chromium). */

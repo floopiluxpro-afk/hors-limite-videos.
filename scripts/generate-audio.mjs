@@ -220,10 +220,99 @@ function makeMusic(duration, bpm) {
   return [wl, wr];
 }
 
+
+// ---------- bruitages BD ----------
+function makeCrack() {
+  const n = Math.floor(0.5 * SR);
+  const nz = new Float32Array(n);
+  for (let i = 0; i < n; i++) {
+    const t = i / SR;
+    // salve de craquements : plusieurs petits clics rapprochés
+    const burst = [0, 0.012, 0.03, 0.05, 0.08].some((b) => t >= b && t < b + 0.006) ? 1 : 0.25;
+    nz[i] = noise() * burst * Math.exp(-t * 14);
+  }
+  const hp = svf(nz, () => 2500, 0.6, 'high');
+  const body = tone(0.4, {f0: 220, f1: 90, fall: 25, decay: 12});
+  const out = new Float32Array(n);
+  for (let i = 0; i < n; i++) out[i] = hp[i] * 1.2 + (i < body.length ? body[i] * 0.6 : 0);
+  const wet = reverb(out, 0.2, 0.4);
+  normalize([wet]);
+  return [wet, wet];
+}
+
+function makeTap() {
+  // deux tapes sèches sur le tapis
+  const n = Math.floor(0.55 * SR);
+  const out = new Float32Array(n);
+  for (const at of [0, 0.2]) {
+    const thump = tone(0.18, {f0: 140, f1: 80, fall: 30, decay: 28});
+    const nz = new Float32Array(thump.length);
+    for (let i = 0; i < nz.length; i++) nz[i] = noise() * Math.exp((-i / SR) * 60);
+    const slap = svf(nz, () => 1400, 0.8, 'band');
+    mixAt(out, thump.map((v, i) => v + slap[i] * 1.5), at);
+  }
+  normalize([out], 0.85);
+  return [out, out];
+}
+
+function makePop() {
+  const t = tone(0.22, {f0: 300, f1: 900, fall: 25, decay: 18});
+  normalize([t], 0.7);
+  return [t, t];
+}
+
+// ---------- boucle rythmique ----------
+function makeBeat(duration, bpm) {
+  const n = Math.ceil(duration * SR);
+  const L = new Float32Array(n);
+  const R = new Float32Array(n);
+  const step = 60 / bpm / 4;
+  const kick = tone(0.35, {f0: 150, f1: 45, fall: 30, decay: 9});
+  const snareN = new Float32Array(Math.floor(0.22 * SR));
+  for (let i = 0; i < snareN.length; i++) snareN[i] = noise() * Math.exp((-i / SR) * 20);
+  const snareBody = tone(0.22, {f0: 240, f1: 180, fall: 20, decay: 25});
+  const snare = svf(snareN, () => 2200, 0.7, 'band').map((v, i) => v * 1.6 + snareBody[i] * 0.5);
+  const hatN = new Float32Array(Math.floor(0.05 * SR));
+  for (let i = 0; i < hatN.length; i++) hatN[i] = noise() * Math.exp((-i / SR) * 90);
+  const hat = svf(hatN, () => 8000, 0.5, 'high');
+  // basse : motif de 2 mesures (mi, sol, la, ré)
+  const bassNotes = [41.2, 41.2, 49.0, 55.0, 41.2, 41.2, 36.7, 49.0];
+  const bars = Math.ceil(duration / (step * 16));
+  for (let b = 0; b < bars; b++) {
+    const fill = b % 4 === 3;
+    for (let s = 0; s < 16; s++) {
+      const t = (b * 16 + s) * step;
+      if ([0, 7, 10].includes(s) || (fill && s >= 12)) mixAt(L, kick, t, 0.9), mixAt(R, kick, t, 0.9);
+      if (s === 4 || s === 12 || (fill && s % 2 === 1 && s > 8)) mixAt(L, snare, t, 0.45), mixAt(R, snare, t, 0.5);
+      if (s % 2 === 0) mixAt(L, hat, t, 0.18), mixAt(R, hat, t, 0.28);
+      if (s % 4 === 0 || s % 4 === 3) {
+        const f = bassNotes[(b % 2) * 4 + Math.floor(s / 4)];
+        const len = step * (s % 4 === 0 ? 2.6 : 0.9);
+        const bass = new Float32Array(Math.floor(len * SR));
+        for (let i = 0; i < bass.length; i++) {
+          const tt = i / SR;
+          const saw = 2 * ((tt * f) % 1) - 1;
+          bass[i] = (Math.sin(2 * Math.PI * f * tt) * 0.7 + saw * 0.25) * Math.min(1, tt * 200) * Math.exp(-tt * 3);
+        }
+        mixAt(L, bass, t, 0.5);
+        mixAt(R, bass, t, 0.5);
+      }
+    }
+  }
+  for (let i = 0; i < n; i++) {
+    const t = i / SR;
+    const fade = Math.max(0, Math.min(1, t / 0.3, (duration - t) / 1.2));
+    L[i] = Math.tanh(L[i] * 1.1) * fade;
+    R[i] = Math.tanh(R[i] * 1.1) * fade;
+  }
+  normalize([L, R], 0.85);
+  return [L, R];
+}
+
 // ---------- main ----------
 const args = parseArgs();
 const sfxDir = ensureDir(path.join(ROOT, 'public', 'sfx'));
-const sfx = {whoosh: makeWhoosh, hit: makeHit, impact: makeImpact, tick: makeTick};
+const sfx = {whoosh: makeWhoosh, hit: makeHit, impact: makeImpact, tick: makeTick, crack: makeCrack, tap: makeTap, pop: makePop};
 for (const [name, fn] of Object.entries(sfx)) {
   const f = path.join(sfxDir, `${name}.wav`);
   if (!fs.existsSync(f) || args.force) {
@@ -238,7 +327,8 @@ if (args._[0]) {
   const wordsFile = path.join(publicDir(slug), 'words.json');
   const duration = fs.existsSync(wordsFile) ? readJson(wordsFile).duration + 2 : 60;
   const wav = path.join(publicDir(slug), 'music.wav');
-  writeWav(wav, ...makeMusic(duration, sb.music?.bpm ?? 100));
+  const music = sb.music?.style === 'beat' ? makeBeat : makeMusic; // "beat" : boucle batterie + basse ; sinon taiko
+  writeWav(wav, ...music(duration, sb.music?.bpm ?? 100));
   if (hasFfmpeg()) {
     const mp3 = wav.replace(/\.wav$/, '.mp3');
     execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', wav, '-b:a', '192k', mp3]);

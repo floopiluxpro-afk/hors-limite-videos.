@@ -1,0 +1,2777 @@
+{
+  "slug": "royce-gracie-ufc-1",
+  "title": "Royce Gracie, le plus léger de l'UFC 1",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 53.619,
+  "durationInFrames": 1609,
+  "voice": "royce-gracie-ufc-1/voice.mp3",
+  "music": "royce-gracie-ufc-1/music.mp3",
+  "musicCuts": [],
+  "words": [
+    {
+      "text": "En",
+      "line": 0,
+      "start": 0,
+      "end": 0.151
+    },
+    {
+      "text": "1993,",
+      "line": 0,
+      "start": 0.197,
+      "end": 1.834
+    },
+    {
+      "text": "le",
+      "line": 0,
+      "start": 1.997,
+      "end": 2.09
+    },
+    {
+      "text": "combattant",
+      "line": 0,
+      "start": 2.136,
+      "end": 2.566
+    },
+    {
+      "text": "le",
+      "line": 0,
+      "start": 2.601,
+      "end": 2.659
+    },
+    {
+      "text": "plus",
+      "line": 0,
+      "start": 2.705,
+      "end": 2.879
+    },
+    {
+      "text": "léger",
+      "line": 0,
+      "start": 2.902,
+      "end": 3.146
+    },
+    {
+      "text": "du",
+      "line": 0,
+      "start": 3.181,
+      "end": 3.262
+    },
+    {
+      "text": "tournoi",
+      "line": 0,
+      "start": 3.309,
+      "end": 3.715
+    },
+    {
+      "text": "a",
+      "line": 0,
+      "start": 3.773,
+      "end": 3.831
+    },
+    {
+      "text": "battu",
+      "line": 0,
+      "start": 3.901,
+      "end": 4.168
+    },
+    {
+      "text": "tous",
+      "line": 0,
+      "start": 4.226,
+      "end": 4.365
+    },
+    {
+      "text": "les",
+      "line": 0,
+      "start": 4.389,
+      "end": 4.481
+    },
+    {
+      "text": "colosses.",
+      "line": 0,
+      "start": 4.516,
+      "end": 5.097
+    },
+    {
+      "text": "Denver,",
+      "line": 1,
+      "start": 5.387,
+      "end": 5.921
+    },
+    {
+      "text": "États-Unis.",
+      "line": 1,
+      "start": 5.968,
+      "end": 6.734
+    },
+    {
+      "text": "Le",
+      "line": 1,
+      "start": 7.14,
+      "end": 7.256
+    },
+    {
+      "text": "tout",
+      "line": 1,
+      "start": 7.314,
+      "end": 7.454
+    },
+    {
+      "text": "premier",
+      "line": 1,
+      "start": 7.477,
+      "end": 7.814
+    },
+    {
+      "text": "UFC",
+      "line": 1,
+      "start": 7.895,
+      "end": 8.417
+    },
+    {
+      "text": "de",
+      "line": 1,
+      "start": 8.557,
+      "end": 8.626
+    },
+    {
+      "text": "l'histoire.",
+      "line": 1,
+      "start": 8.673,
+      "end": 9.474
+    },
+    {
+      "text": "Huit",
+      "line": 2,
+      "start": 9.822,
+      "end": 10.054
+    },
+    {
+      "text": "combattants.",
+      "line": 2,
+      "start": 10.077,
+      "end": 10.739
+    },
+    {
+      "text": "Pas",
+      "line": 2,
+      "start": 10.96,
+      "end": 11.122
+    },
+    {
+      "text": "de",
+      "line": 2,
+      "start": 11.157,
+      "end": 11.215
+    },
+    {
+      "text": "catégories",
+      "line": 2,
+      "start": 11.262,
+      "end": 11.738
+    },
+    {
+      "text": "de",
+      "line": 2,
+      "start": 11.761,
+      "end": 11.831
+    },
+    {
+      "text": "poids.",
+      "line": 2,
+      "start": 11.889,
+      "end": 12.307
+    },
+    {
+      "text": "Presque",
+      "line": 2,
+      "start": 12.597,
+      "end": 12.945
+    },
+    {
+      "text": "aucune",
+      "line": 2,
+      "start": 12.992,
+      "end": 13.305
+    },
+    {
+      "text": "règle.",
+      "line": 2,
+      "start": 13.34,
+      "end": 13.897
+    },
+    {
+      "text": "Dès",
+      "line": 3,
+      "start": 14.304,
+      "end": 14.489
+    },
+    {
+      "text": "le",
+      "line": 3,
+      "start": 14.524,
+      "end": 14.594
+    },
+    {
+      "text": "premier",
+      "line": 3,
+      "start": 14.64,
+      "end": 14.919
+    },
+    {
+      "text": "combat,",
+      "line": 3,
+      "start": 14.954,
+      "end": 15.465
+    },
+    {
+      "text": "un",
+      "line": 3,
+      "start": 15.569,
+      "end": 15.662
+    },
+    {
+      "text": "sumo",
+      "line": 3,
+      "start": 15.72,
+      "end": 15.987
+    },
+    {
+      "text": "se",
+      "line": 3,
+      "start": 16.034,
+      "end": 16.126
+    },
+    {
+      "text": "fait",
+      "line": 3,
+      "start": 16.184,
+      "end": 16.335
+    },
+    {
+      "text": "arracher",
+      "line": 3,
+      "start": 16.393,
+      "end": 16.753
+    },
+    {
+      "text": "une",
+      "line": 3,
+      "start": 16.811,
+      "end": 16.928
+    },
+    {
+      "text": "dent",
+      "line": 3,
+      "start": 16.962,
+      "end": 17.171
+    },
+    {
+      "text": "d'un",
+      "line": 3,
+      "start": 17.195,
+      "end": 17.311
+    },
+    {
+      "text": "coup",
+      "line": 3,
+      "start": 17.357,
+      "end": 17.508
+    },
+    {
+      "text": "de",
+      "line": 3,
+      "start": 17.531,
+      "end": 17.578
+    },
+    {
+      "text": "pied.",
+      "line": 3,
+      "start": 17.601,
+      "end": 18.065
+    },
+    {
+      "text": "Et",
+      "line": 4,
+      "start": 18.73,
+      "end": 18.846
+    },
+    {
+      "text": "au",
+      "line": 4,
+      "start": 18.869,
+      "end": 18.915
+    },
+    {
+      "text": "milieu",
+      "line": 4,
+      "start": 18.974,
+      "end": 19.229
+    },
+    {
+      "text": "de",
+      "line": 4,
+      "start": 19.287,
+      "end": 19.357
+    },
+    {
+      "text": "ces",
+      "line": 4,
+      "start": 19.415,
+      "end": 19.531
+    },
+    {
+      "text": "géants,",
+      "line": 4,
+      "start": 19.566,
+      "end": 19.949
+    },
+    {
+      "text": "un",
+      "line": 4,
+      "start": 20.065,
+      "end": 20.146
+    },
+    {
+      "text": "Brésilien",
+      "line": 4,
+      "start": 20.181,
+      "end": 20.669
+    },
+    {
+      "text": "d'environ",
+      "line": 4,
+      "start": 20.703,
+      "end": 21.052
+    },
+    {
+      "text": "80 kilos,",
+      "line": 4,
+      "start": 21.11,
+      "end": 22.097
+    },
+    {
+      "text": "en",
+      "line": 4,
+      "start": 22.282,
+      "end": 22.422
+    },
+    {
+      "text": "kimono",
+      "line": 4,
+      "start": 22.48,
+      "end": 22.944
+    },
+    {
+      "text": ":",
+      "line": 4,
+      "start": 23.049,
+      "end": 23.072
+    },
+    {
+      "text": "Royce",
+      "line": 4,
+      "start": 23.327,
+      "end": 23.606
+    },
+    {
+      "text": "Gracie.",
+      "line": 4,
+      "start": 23.629,
+      "end": 24.233
+    },
+    {
+      "text": "Sur",
+      "line": 5,
+      "start": 24.639,
+      "end": 24.813
+    },
+    {
+      "text": "le",
+      "line": 5,
+      "start": 24.848,
+      "end": 24.918
+    },
+    {
+      "text": "papier,",
+      "line": 5,
+      "start": 24.953,
+      "end": 25.313
+    },
+    {
+      "text": "il",
+      "line": 5,
+      "start": 25.359,
+      "end": 25.452
+    },
+    {
+      "text": "n'a",
+      "line": 5,
+      "start": 25.498,
+      "end": 25.58
+    },
+    {
+      "text": "aucune",
+      "line": 5,
+      "start": 25.638,
+      "end": 25.94
+    },
+    {
+      "text": "chance.",
+      "line": 5,
+      "start": 25.963,
+      "end": 26.543
+    },
+    {
+      "text": "Premier",
+      "line": 6,
+      "start": 27.008,
+      "end": 27.321
+    },
+    {
+      "text": "adversaire",
+      "line": 6,
+      "start": 27.379,
+      "end": 27.971
+    },
+    {
+      "text": ":",
+      "line": 6,
+      "start": 28.029,
+      "end": 28.076
+    },
+    {
+      "text": "un",
+      "line": 6,
+      "start": 28.145,
+      "end": 28.238
+    },
+    {
+      "text": "boxeur.",
+      "line": 6,
+      "start": 28.285,
+      "end": 28.935
+    },
+    {
+      "text": "Gracie",
+      "line": 6,
+      "start": 29.399,
+      "end": 29.736
+    },
+    {
+      "text": "l'amène",
+      "line": 6,
+      "start": 29.794,
+      "end": 30.096
+    },
+    {
+      "text": "au",
+      "line": 6,
+      "start": 30.119,
+      "end": 30.165
+    },
+    {
+      "text": "sol.",
+      "line": 6,
+      "start": 30.223,
+      "end": 30.63
+    },
+    {
+      "text": "Abandon",
+      "line": 6,
+      "start": 30.769,
+      "end": 31.222
+    },
+    {
+      "text": "en",
+      "line": 6,
+      "start": 31.28,
+      "end": 31.373
+    },
+    {
+      "text": "un",
+      "line": 6,
+      "start": 31.431,
+      "end": 31.477
+    },
+    {
+      "text": "peu",
+      "line": 6,
+      "start": 31.512,
+      "end": 31.617
+    },
+    {
+      "text": "plus",
+      "line": 6,
+      "start": 31.652,
+      "end": 31.814
+    },
+    {
+      "text": "de",
+      "line": 6,
+      "start": 31.837,
+      "end": 31.907
+    },
+    {
+      "text": "deux",
+      "line": 6,
+      "start": 31.965,
+      "end": 32.081
+    },
+    {
+      "text": "minutes.",
+      "line": 6,
+      "start": 32.104,
+      "end": 32.58
+    },
+    {
+      "text": "Puis",
+      "line": 7,
+      "start": 32.801,
+      "end": 33.021
+    },
+    {
+      "text": "Ken",
+      "line": 7,
+      "start": 33.056,
+      "end": 33.219
+    },
+    {
+      "text": "Shamrock,",
+      "line": 7,
+      "start": 33.277,
+      "end": 33.799
+    },
+    {
+      "text": "une",
+      "line": 7,
+      "start": 33.834,
+      "end": 33.962
+    },
+    {
+      "text": "montagne",
+      "line": 7,
+      "start": 33.985,
+      "end": 34.357
+    },
+    {
+      "text": "de",
+      "line": 7,
+      "start": 34.391,
+      "end": 34.473
+    },
+    {
+      "text": "muscles.",
+      "line": 7,
+      "start": 34.519,
+      "end": 35.088
+    },
+    {
+      "text": "Étranglement.",
+      "line": 7,
+      "start": 35.378,
+      "end": 36.133
+    },
+    {
+      "text": "Moins",
+      "line": 7,
+      "start": 36.354,
+      "end": 36.563
+    },
+    {
+      "text": "d'une",
+      "line": 7,
+      "start": 36.586,
+      "end": 36.737
+    },
+    {
+      "text": "minute.",
+      "line": 7,
+      "start": 36.76,
+      "end": 37.306
+    },
+    {
+      "text": "En",
+      "line": 8,
+      "start": 37.712,
+      "end": 37.851
+    },
+    {
+      "text": "finale,",
+      "line": 8,
+      "start": 37.909,
+      "end": 38.327
+    },
+    {
+      "text": "Gerard",
+      "line": 8,
+      "start": 38.397,
+      "end": 38.71
+    },
+    {
+      "text": "Gordeau,",
+      "line": 8,
+      "start": 38.757,
+      "end": 39.244
+    },
+    {
+      "text": "celui",
+      "line": 8,
+      "start": 39.349,
+      "end": 39.616
+    },
+    {
+      "text": "qui",
+      "line": 8,
+      "start": 39.674,
+      "end": 39.755
+    },
+    {
+      "text": "a",
+      "line": 8,
+      "start": 39.779,
+      "end": 39.802
+    },
+    {
+      "text": "fait",
+      "line": 8,
+      "start": 39.848,
+      "end": 39.976
+    },
+    {
+      "text": "sauter",
+      "line": 8,
+      "start": 40.011,
+      "end": 40.266
+    },
+    {
+      "text": "la",
+      "line": 8,
+      "start": 40.301,
+      "end": 40.382
+    },
+    {
+      "text": "dent",
+      "line": 8,
+      "start": 40.44,
+      "end": 40.58
+    },
+    {
+      "text": "du",
+      "line": 8,
+      "start": 40.603,
+      "end": 40.696
+    },
+    {
+      "text": "sumo.",
+      "line": 8,
+      "start": 40.731,
+      "end": 41.23
+    },
+    {
+      "text": "Gracie",
+      "line": 9,
+      "start": 41.776,
+      "end": 42.066
+    },
+    {
+      "text": "l'étrangle…",
+      "line": 9,
+      "start": 42.124,
+      "end": 42.716
+    },
+    {
+      "text": "et",
+      "line": 9,
+      "start": 42.821,
+      "end": 42.937
+    },
+    {
+      "text": "remporte",
+      "line": 9,
+      "start": 42.983,
+      "end": 43.378
+    },
+    {
+      "text": "le",
+      "line": 9,
+      "start": 43.413,
+      "end": 43.482
+    },
+    {
+      "text": "tournoi.",
+      "line": 9,
+      "start": 43.529,
+      "end": 44.063
+    },
+    {
+      "text": "Ce",
+      "line": 10,
+      "start": 45.001,
+      "end": 45.141
+    },
+    {
+      "text": "soir-là,",
+      "line": 10,
+      "start": 45.176,
+      "end": 45.663
+    },
+    {
+      "text": "le",
+      "line": 10,
+      "start": 45.768,
+      "end": 45.861
+    },
+    {
+      "text": "monde",
+      "line": 10,
+      "start": 45.907,
+      "end": 46.093
+    },
+    {
+      "text": "découvre",
+      "line": 10,
+      "start": 46.116,
+      "end": 46.511
+    },
+    {
+      "text": "le",
+      "line": 10,
+      "start": 46.534,
+      "end": 46.615
+    },
+    {
+      "text": "jiu-jitsu",
+      "line": 10,
+      "start": 46.673,
+      "end": 47.091
+    },
+    {
+      "text": "brésilien",
+      "line": 10,
+      "start": 47.138,
+      "end": 47.637
+    },
+    {
+      "text": ":",
+      "line": 10,
+      "start": 47.741,
+      "end": 47.776
+    },
+    {
+      "text": "la",
+      "line": 10,
+      "start": 47.997,
+      "end": 48.09
+    },
+    {
+      "text": "technique",
+      "line": 10,
+      "start": 48.148,
+      "end": 48.508
+    },
+    {
+      "text": "peut",
+      "line": 10,
+      "start": 48.531,
+      "end": 48.659
+    },
+    {
+      "text": "battre",
+      "line": 10,
+      "start": 48.682,
+      "end": 48.949
+    },
+    {
+      "text": "la",
+      "line": 10,
+      "start": 48.984,
+      "end": 49.042
+    },
+    {
+      "text": "force.",
+      "line": 10,
+      "start": 49.1,
+      "end": 49.576
+    },
+    {
+      "text": "Abonne-toi",
+      "line": 11,
+      "start": 49.924,
+      "end": 50.4
+    },
+    {
+      "text": "pour",
+      "line": 11,
+      "start": 50.447,
+      "end": 50.574
+    },
+    {
+      "text": "plus",
+      "line": 11,
+      "start": 50.621,
+      "end": 50.83
+    },
+    {
+      "text": "d'histoires",
+      "line": 11,
+      "start": 50.888,
+      "end": 51.34
+    },
+    {
+      "text": "Hors",
+      "line": 11,
+      "start": 51.364,
+      "end": 51.503
+    },
+    {
+      "text": "Limite.",
+      "line": 11,
+      "start": 51.526,
+      "end": 52.188
+    }
+  ],
+  "panels": [
+    {
+      "id": "01a",
+      "bg": "blue",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          800
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "heavy",
+          "x": 170,
+          "s": 3.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "sumo",
+          "x": 560,
+          "y": 900,
+          "s": 3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "muscle",
+          "x": 910,
+          "s": 3.6,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "flex",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 540,
+          "s": 2.1,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            },
+            {
+              "pose": "guard",
+              "t": 0.6
+            },
+            {
+              "pose": "punch",
+              "t": 1.7
+            },
+            {
+              "pose": "guard",
+              "t": 1.95
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "text": "UFC 1 — 1993",
+          "at": 0.1
+        }
+      ],
+      "line": 0,
+      "start": 0,
+      "end": 2.645,
+      "fx": []
+    },
+    {
+      "id": "01b",
+      "cue": "plus",
+      "bg": "yellow",
+      "rays": true,
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1.05,
+          1.15
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "heavy",
+          "x": 860,
+          "s": 6,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 300,
+          "s": 2.4,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "LE PLUS LÉGER",
+          "at": 0.257,
+          "y": 300
+        }
+      ],
+      "line": 0,
+      "start": 2.645,
+      "end": 3.841,
+      "fx": []
+    },
+    {
+      "id": "01c",
+      "cue": "battu",
+      "bg": "red",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "heavy",
+          "x": 250,
+          "s": 3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "fallen",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "muscle",
+          "x": 830,
+          "s": 3,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "fallen",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 540,
+          "s": 3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "armsUp",
+              "t": 0.35
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "BAM !",
+          "at": 0.675,
+          "x": 540,
+          "y": 220,
+          "rot": -8,
+          "color": "yellow",
+          "sound": "hit"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.675
+        }
+      ],
+      "line": 0,
+      "start": 3.841,
+      "end": 5.327
+    },
+    {
+      "id": "02a",
+      "bg": "purple",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1.12,
+          1
+        ],
+        "focus": [
+          540,
+          900
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "city",
+          "x": 540,
+          "y": 1060,
+          "s": 1
+        },
+        {
+          "type": "caption",
+          "text": "DENVER, ÉTATS-UNIS · 12 NOVEMBRE 1993",
+          "at": 0.1
+        }
+      ],
+      "line": 1,
+      "start": 5.327,
+      "end": 7.417,
+      "fx": []
+    },
+    {
+      "id": "02b",
+      "cue": "premier",
+      "bg": "cyan",
+      "rays": true,
+      "floor": null,
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          760
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "cage",
+          "x": 540,
+          "y": 760,
+          "s": 1
+        },
+        {
+          "type": "title",
+          "text": "UFC 1",
+          "subtitle": "LE TOUT PREMIER",
+          "at": 0.478,
+          "y": 330,
+          "size": 230,
+          "sound": "hit"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.478
+        }
+      ],
+      "line": 1,
+      "start": 7.417,
+      "end": 9.762
+    },
+    {
+      "id": "03a",
+      "bg": "orange",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          800
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "tall",
+          "x": 110,
+          "s": 1.78,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "sumo",
+          "x": 230,
+          "s": 1.7,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "heavy",
+          "x": 350,
+          "s": 1.87,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "crossed",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "x": 470,
+          "s": 1.87,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ],
+          "glove": true
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "muscle",
+          "x": 730,
+          "s": 1.87,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "flex",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "heavy",
+          "x": 850,
+          "s": 1.95,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "tall",
+          "x": 970,
+          "s": 1.7,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 610,
+          "s": 1.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "8 COMBATTANTS",
+          "at": 0.06,
+          "y": 260
+        }
+      ],
+      "line": 2,
+      "start": 9.762,
+      "end": 10.9,
+      "fx": []
+    },
+    {
+      "id": "03b",
+      "cue": "Pas",
+      "bg": "green",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          750
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "scale",
+          "x": 540,
+          "y": 1060,
+          "s": 1.2,
+          "breakAt": 0.989
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "sumo",
+          "x": 540,
+          "y": 905,
+          "s": 2.4,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "PAS DE CATÉGORIES",
+          "at": 0.06,
+          "y": 260
+        },
+        {
+          "type": "sfx",
+          "text": "KRAK !",
+          "at": 0.989,
+          "x": 740,
+          "y": 700,
+          "rot": 10,
+          "color": "red",
+          "sound": "crack"
+        }
+      ],
+      "fx": [
+        {
+          "type": "shake",
+          "at": 0.989
+        }
+      ],
+      "line": 2,
+      "start": 10.9,
+      "end": 12.537
+    },
+    {
+      "id": "03c",
+      "cue": "Presque",
+      "bg": "pink",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "rulebook",
+          "x": 540,
+          "y": 720,
+          "s": 1.3,
+          "tearAt": 0.803
+        },
+        {
+          "type": "title",
+          "text": "PRESQUE AUCUNE RÈGLE",
+          "at": 0.06,
+          "y": 260
+        },
+        {
+          "type": "sfx",
+          "text": "SCRATCH !",
+          "at": 0.803,
+          "x": 760,
+          "y": 980,
+          "rot": -10,
+          "color": "yellow",
+          "sound": "crack"
+        }
+      ],
+      "line": 2,
+      "start": 12.537,
+      "end": 14.244,
+      "fx": []
+    },
+    {
+      "id": "04a",
+      "bg": "blue",
+      "rays": true,
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          750
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "tall",
+          "x": 300,
+          "s": 3.4,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "sumo",
+          "x": 760,
+          "s": 3,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "text": "1ER COMBAT : KICKBOXEUR CONTRE SUMO",
+          "at": 0.1
+        }
+      ],
+      "line": 3,
+      "start": 14.244,
+      "end": 16.333,
+      "fx": []
+    },
+    {
+      "id": "04b",
+      "cue": "arracher",
+      "bg": "yellow",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.12
+        ],
+        "focus": [
+          600,
+          640
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "tall",
+          "x": 300,
+          "s": 3.4,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "kick",
+              "t": 0.874
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "sumo",
+          "x": 740,
+          "s": 3,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "prop",
+          "name": "tooth",
+          "x": 690,
+          "y": 470,
+          "s": 1.6,
+          "at": 1.024
+        },
+        {
+          "type": "sfx",
+          "text": "KRAK !",
+          "at": 1.024,
+          "x": 840,
+          "y": 230,
+          "rot": 12,
+          "color": "red",
+          "sound": "crack"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 1.024
+        },
+        {
+          "type": "shake",
+          "at": 1.024
+        }
+      ],
+      "line": 3,
+      "start": 16.333,
+      "end": 18.67
+    },
+    {
+      "id": "05a",
+      "bg": "orange",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.05
+        ],
+        "focus": [
+          540,
+          900
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "heavy",
+          "x": 130,
+          "s": 7,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "tall",
+          "x": 480,
+          "s": 6.2,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "muscle",
+          "x": 900,
+          "s": 6.6,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 150,
+          "s": 2,
+          "facing": 1,
+          "cycle": {
+            "poses": [
+              "walk1",
+              "walk2"
+            ],
+            "every": 0.32,
+            "from": 0,
+            "until": null
+          },
+          "move": {
+            "to": [
+              760,
+              1060
+            ],
+            "at": 0,
+            "dur": 2.2
+          }
+        }
+      ],
+      "line": 4,
+      "start": 18.67,
+      "end": 21.05,
+      "fx": []
+    },
+    {
+      "id": "05b",
+      "cue": "80",
+      "bg": "green",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 540,
+          "s": 3.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            },
+            {
+              "pose": "guard",
+              "t": 0.3
+            }
+          ]
+        },
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 80,
+          "prefix": "≈ ",
+          "suffix": " KG",
+          "at": 0.06,
+          "y": 250
+        }
+      ],
+      "line": 4,
+      "start": 21.05,
+      "end": 23.267,
+      "fx": []
+    },
+    {
+      "id": "05c",
+      "cue": "Royce",
+      "bg": "red",
+      "rays": true,
+      "transition": "flash",
+      "camera": {
+        "zoom": [
+          1.1,
+          1
+        ],
+        "focus": [
+          540,
+          600
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 540,
+          "s": 3.3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "crossed",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "name",
+          "text": "ROYCE GRACIE",
+          "subtitle": "BRÉSIL · EN KIMONO",
+          "flag": "br",
+          "at": 0.06,
+          "y": 230
+        }
+      ],
+      "line": 4,
+      "start": 23.267,
+      "end": 24.579,
+      "fx": []
+    },
+    {
+      "id": "06a",
+      "bg": "cyan",
+      "rays": true,
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "heavy",
+          "x": 740,
+          "s": 4.6,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "crossed",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 300,
+          "s": 2.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "AUCUNE CHANCE ?",
+          "at": 1.059,
+          "y": 260
+        },
+        {
+          "type": "sfx",
+          "text": "?!",
+          "at": 1.384,
+          "x": 330,
+          "y": 560,
+          "rot": -6,
+          "color": "yellow",
+          "sound": "pop",
+          "size": 150
+        }
+      ],
+      "line": 5,
+      "start": 24.579,
+      "end": 26.948,
+      "fx": []
+    },
+    {
+      "id": "07a",
+      "bg": "blue",
+      "rays": true,
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          750
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "x": 740,
+          "s": 3.4,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "punch",
+              "t": 0.7
+            },
+            {
+              "pose": "guard",
+              "t": 1
+            }
+          ],
+          "glove": true
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 300,
+          "s": 3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "text": "QUART DE FINALE",
+          "at": 0.05
+        },
+        {
+          "type": "name",
+          "text": "UN BOXEUR",
+          "subtitle": "AVEC UN SEUL GANT !",
+          "at": 1.337
+        }
+      ],
+      "line": 6,
+      "start": 26.948,
+      "end": 29.734,
+      "fx": []
+    },
+    {
+      "id": "07b",
+      "cue": "amène",
+      "bg": "yellow",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1.05,
+          1.15
+        ],
+        "focus": [
+          540,
+          800
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "x": 700,
+          "s": 3.4,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "lying",
+              "t": 0.35
+            }
+          ],
+          "glove": true
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 280,
+          "s": 3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "shoot",
+              "t": 0.1
+            }
+          ],
+          "move": {
+            "to": [
+              520,
+              1060
+            ],
+            "at": 0.1,
+            "dur": 0.3
+          }
+        },
+        {
+          "type": "sfx",
+          "text": "BOUM !",
+          "at": 0.4,
+          "x": 560,
+          "y": 420,
+          "rot": -10,
+          "color": "yellow",
+          "sound": "boom"
+        }
+      ],
+      "fx": [
+        {
+          "type": "shake",
+          "at": 0.4
+        }
+      ],
+      "line": 6,
+      "start": 29.734,
+      "end": 30.709
+    },
+    {
+      "id": "07c",
+      "cue": "Abandon",
+      "bg": "red",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          880
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "x": 620,
+          "s": 3.4,
+          "facing": -1,
+          "cycle": {
+            "poses": [
+              "tapA",
+              "tapB"
+            ],
+            "every": 0.2,
+            "from": 0,
+            "until": null
+          },
+          "glove": true
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 470,
+          "y": 985,
+          "s": 3,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "mount",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "TAP TAP !",
+          "at": 0.15,
+          "x": 540,
+          "y": 330,
+          "rot": -6,
+          "color": "yellow",
+          "sound": "tap"
+        },
+        {
+          "type": "timer",
+          "text": "2:18",
+          "at": 1.256
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.15
+        }
+      ],
+      "line": 6,
+      "start": 30.709,
+      "end": 32.741
+    },
+    {
+      "id": "08a",
+      "bg": "purple",
+      "rays": true,
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          600,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "muscle",
+          "x": 700,
+          "s": 4,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            },
+            {
+              "pose": "flex",
+              "t": 1.244
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 230,
+          "s": 2.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "text": "DEMI-FINALE",
+          "at": 0.05
+        },
+        {
+          "type": "name",
+          "text": "KEN SHAMROCK",
+          "subtitle": "UNE MONTAGNE DE MUSCLES",
+          "flag": "us",
+          "at": 0.315
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 1.244
+        }
+      ],
+      "line": 7,
+      "start": 32.741,
+      "end": 35.318
+    },
+    {
+      "id": "08b",
+      "cue": "Étranglement",
+      "bg": "yellow",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1.1,
+          1.22
+        ],
+        "focus": [
+          520,
+          880
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "muscle",
+          "x": 560,
+          "s": 3.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "choked",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 400,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "sit",
+              "t": 0
+            },
+            {
+              "pose": "choke",
+              "t": 0.15
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "ÉTRANGLEMENT",
+          "at": 0.06,
+          "y": 260
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.15
+        }
+      ],
+      "line": 7,
+      "start": 35.318,
+      "end": 36.294
+    },
+    {
+      "id": "08c",
+      "cue": "Moins",
+      "bg": "red",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1.2,
+          1.3
+        ],
+        "focus": [
+          520,
+          880
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "muscle",
+          "x": 560,
+          "s": 3.6,
+          "facing": 1,
+          "cycle": {
+            "poses": [
+              "choked",
+              "chokedTap"
+            ],
+            "every": 0.2,
+            "from": 0,
+            "until": null
+          }
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 400,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "choke",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "TAP TAP !",
+          "at": 0.1,
+          "x": 760,
+          "y": 380,
+          "rot": 8,
+          "color": "yellow",
+          "sound": "tap"
+        },
+        {
+          "type": "timer",
+          "text": "0:57",
+          "at": 0.466
+        }
+      ],
+      "line": 7,
+      "start": 36.294,
+      "end": 37.652,
+      "fx": []
+    },
+    {
+      "id": "09a",
+      "bg": "blue",
+      "rays": true,
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          600,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "tall",
+          "x": 720,
+          "s": 3.6,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 280,
+          "s": 3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "text": "FINALE",
+          "at": 0.05
+        },
+        {
+          "type": "name",
+          "text": "GERARD GORDEAU",
+          "subtitle": "KICKBOXEUR",
+          "flag": "nl",
+          "at": 0.745
+        }
+      ],
+      "line": 8,
+      "start": 37.652,
+      "end": 39.289,
+      "fx": []
+    },
+    {
+      "id": "09b",
+      "cue": "celui",
+      "bg": "orange",
+      "rays": true,
+      "transition": "flash",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "tall",
+          "x": 820,
+          "s": 4.4,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "inset",
+          "x": 60,
+          "y": 330,
+          "w": 620,
+          "h": 640,
+          "rot": -4,
+          "bg": "sepia",
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "x": 190,
+              "y": 600,
+              "s": 1.9,
+              "facing": 1,
+              "poses": [
+                {
+                  "pose": "guard",
+                  "t": 0
+                },
+                {
+                  "pose": "kick",
+                  "t": 0.4
+                }
+              ],
+              "sepia": true
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "sumo",
+              "x": 440,
+              "y": 600,
+              "s": 1.7,
+              "facing": -1,
+              "poses": [
+                {
+                  "pose": "stand",
+                  "t": 0
+                }
+              ],
+              "sepia": true
+            },
+            {
+              "type": "prop",
+              "name": "tooth",
+              "x": 410,
+              "y": 270,
+              "s": 1,
+              "at": 0.45
+            },
+            {
+              "type": "sfx",
+              "text": "KRAK !",
+              "at": 0.45,
+              "x": 430,
+              "y": 140,
+              "rot": 10,
+              "color": "red",
+              "sound": "crack",
+              "size": 110
+            }
+          ]
+        }
+      ],
+      "line": 8,
+      "start": 39.289,
+      "end": 41.716,
+      "fx": []
+    },
+    {
+      "id": "10a",
+      "bg": "purple",
+      "rays": true,
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1.1,
+          1.25
+        ],
+        "focus": [
+          520,
+          880
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "tall",
+          "x": 560,
+          "s": 3.4,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "choked",
+              "t": 0
+            }
+          ],
+          "cycle": {
+            "poses": [
+              "choked",
+              "chokedTap"
+            ],
+            "every": 0.2,
+            "from": 0.667,
+            "until": null
+          }
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 400,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "sit",
+              "t": 0
+            },
+            {
+              "pose": "choke",
+              "t": 0.408
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "TAP TAP !",
+          "at": 0.667,
+          "x": 760,
+          "y": 400,
+          "rot": 8,
+          "color": "yellow",
+          "sound": "tap"
+        },
+        {
+          "type": "timer",
+          "text": "1:44",
+          "at": 0.667
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.408
+        },
+        {
+          "type": "shake",
+          "at": 0.408
+        }
+      ],
+      "line": 9,
+      "start": 41.716,
+      "end": 42.923
+    },
+    {
+      "id": "10b",
+      "cue": "remporte",
+      "bg": "yellow",
+      "rays": true,
+      "transition": "flash",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "confetti",
+          "x": 540,
+          "y": 0,
+          "s": 1
+        },
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 540,
+          "s": 3.3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "armsUp",
+              "t": 0.15
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "VAINQUEUR !",
+          "at": 0.606,
+          "x": 540,
+          "y": 130,
+          "rot": -6,
+          "color": "red",
+          "sound": "boom",
+          "size": 125
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.606
+        },
+        {
+          "type": "shake",
+          "at": 0.606
+        },
+        {
+          "type": "flash",
+          "at": 0.606
+        }
+      ],
+      "line": 9,
+      "start": 42.923,
+      "end": 44.941
+    },
+    {
+      "id": "11a",
+      "bg": "blue",
+      "rays": true,
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "globe",
+          "x": 540,
+          "y": 680,
+          "s": 1.25
+        },
+        {
+          "type": "caption",
+          "text": "CE SOIR-LÀ…",
+          "at": 0.05
+        }
+      ],
+      "line": 10,
+      "start": 44.941,
+      "end": 46.613,
+      "fx": []
+    },
+    {
+      "id": "11b",
+      "cue": "jiu-jitsu",
+      "bg": "green",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1.05,
+          1.12
+        ],
+        "focus": [
+          540,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 540,
+          "s": 3.8,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            },
+            {
+              "pose": "guard",
+              "t": 0.2
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "JIU-JITSU BRÉSILIEN",
+          "at": 0.06,
+          "y": 260,
+          "sound": "hit"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.06
+        }
+      ],
+      "line": 10,
+      "start": 46.613,
+      "end": 48.088
+    },
+    {
+      "id": "11c",
+      "cue": "technique",
+      "bg": "pink",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "balance",
+          "x": 540,
+          "y": 1060,
+          "s": 0.85,
+          "at": 0.594
+        },
+        {
+          "type": "title",
+          "text": "TECHNIQUE > FORCE",
+          "at": 0.594,
+          "y": 260
+        }
+      ],
+      "line": 10,
+      "start": 48.088,
+      "end": 49.864,
+      "fx": []
+    },
+    {
+      "id": "12a",
+      "bg": "red",
+      "rays": true,
+      "transition": "flash",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "hero",
+          "build": "slim",
+          "x": 540,
+          "s": 2.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "crossed",
+              "t": 0
+            },
+            {
+              "pose": "armsUp",
+              "t": 1.6
+            }
+          ]
+        },
+        {
+          "type": "logo",
+          "text": "HORS LIMITE",
+          "subtitle": "ABONNE-TOI",
+          "at": 0.1
+        }
+      ],
+      "line": 11,
+      "start": 49.864,
+      "end": 53.619,
+      "fx": []
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/hit.wav",
+      "start": 4.516,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 7.895,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/crack.wav",
+      "start": 11.889,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/crack.wav",
+      "start": 13.34,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/crack.wav",
+      "start": 17.357,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/pop.wav",
+      "start": 25.963,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/impact.wav",
+      "start": 30.134,
+      "volume": 0.75
+    },
+    {
+      "src": "sfx/tap.wav",
+      "start": 30.859,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/tap.wav",
+      "start": 36.394,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/crack.wav",
+      "start": 39.739,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/tap.wav",
+      "start": 42.383,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/impact.wav",
+      "start": 43.529,
+      "volume": 0.75
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 46.673,
+      "volume": 0.55
+    }
+  ]
+}

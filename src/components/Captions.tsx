@@ -32,7 +32,7 @@ export function paginate(words: Word[]): Page[] {
   });
 }
 
-export const Captions: React.FC<{words: Word[]}> = ({words}) => {
+export const Captions: React.FC<{words: Word[]; top?: number}> = ({words, top = SAFE.captionTop}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
@@ -45,7 +45,7 @@ export const Captions: React.FC<{words: Word[]}> = ({words}) => {
     <div
       style={{
         position: 'absolute',
-        top: SAFE.captionTop,
+        top,
         left: SAFE.sidePadding,
         right: SAFE.sidePadding,
         display: 'flex',

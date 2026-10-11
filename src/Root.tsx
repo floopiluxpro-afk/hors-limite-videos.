@@ -2,6 +2,16 @@ import React from 'react';
 import {CalculateMetadataFunction, Composition, staticFile} from 'remotion';
 import {HorsLimiteVideo} from './Video';
 import {Cover, CoverProps} from './Cover';
+import {PoseSheet} from './comic/PoseSheet';
+import {ComicVideo} from './comic/ComicVideo';
+import type {Comic, ComicProps} from './comic/types';
+
+const comicMetadata: CalculateMetadataFunction<ComicProps> = async ({props}) => {
+  const res = await fetch(staticFile(`${props.slug}/comic.json`));
+  if (!res.ok) throw new Error(`comic.json introuvable pour "${props.slug}" : lance "npm run comic -- ${props.slug}"`);
+  const comic = (await res.json()) as Comic;
+  return {durationInFrames: comic.durationInFrames, fps: comic.fps, width: comic.width, height: comic.height, props: {...props, comic}};
+};
 import type {Timeline, VideoProps} from './types';
 
 const calculateMetadata: CalculateMetadataFunction<VideoProps> = async ({props}) => {
@@ -39,5 +49,17 @@ export const RemotionRoot: React.FC = () => (
       durationInFrames={1}
       defaultProps={{image: 'geesink-1964/images/01a.jpg', title: ['Un géant a fait', '*pleurer*', 'tout le Japon'], badge: '1964'} as CoverProps}
     />
+    {/* Vidéo au format BD (storyboard "format": "comic") */}
+    <Composition
+      id="Comic"
+      component={ComicVideo}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={30 * 50}
+      defaultProps={{slug: 'royce-gracie-ufc-1'} as ComicProps}
+      calculateMetadata={comicMetadata}
+    />
+    <Composition id="PoseSheet" component={PoseSheet} width={1080} height={1920} fps={30} durationInFrames={1} />
   </>
 );

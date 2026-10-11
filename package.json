@@ -18,10 +18,13 @@
     "make": "node scripts/make-all.mjs",
     "typecheck": "tsc --noEmit",
     "draw": "node scripts/draw-images.mjs",
-    "cover": "node scripts/render-cover.mjs"
+    "cover": "node scripts/render-cover.mjs",
+    "comic": "node scripts/build-comic.mjs",
+    "poses": "remotion still PoseSheet out/poses.png"
   },
   "dependencies": {
     "@fontsource/anton": "^5.3.0",
+    "@fontsource/bangers": "^5.3.0",
     "@fontsource/montserrat": "^5.3.0",
     "@remotion/bundler": "^4.0.534",
     "@remotion/cli": "^4.0.534",

@@ -13,6 +13,7 @@ export const useFonts = () => {
   useEffect(() => {
     Promise.all([
       document.fonts.load(`400 100px ${FONTS.title}`),
+      document.fonts.load(`400 100px ${FONTS.comic}`),
       document.fonts.load(`900 100px ${FONTS.caption}`),
       document.fonts.load(`800 100px ${FONTS.caption}`),
     ]).finally(() => continueRender(handle));

@@ -9,7 +9,9 @@ import {prepare} from './remotion-common.mjs';
 
 const args = parseArgs();
 const slug = getSlug(args);
-const timeline = readJson(path.join(publicDir(slug), 'timeline.json'));
+const comicFile = path.join(publicDir(slug), 'comic.json');
+const isComic = fs.existsSync(comicFile);
+const timeline = readJson(isComic ? comicFile : path.join(publicDir(slug), 'timeline.json'));
 const dir = ensureDir(path.join(outDir(slug), 'stills'));
 for (const f of fs.readdirSync(dir)) fs.rmSync(path.join(dir, f));
 
@@ -19,7 +21,14 @@ const fps = timeline.fps;
 // Un instant par image source : 0,55 s après le début du plan (incrustations visibles), borné au plan.
 const moments = [];
 const seen = new Set();
-for (const s of timeline.shots) {
+// BD : un instant par case, juste après son dernier événement (pose, onomatopée…).
+for (const p of isComic ? timeline.panels : []) {
+  const dur = p.end - p.start;
+  const ats = [...p.elements.flatMap((e) => [e.at ?? 0, ...(e.poses ?? []).map((k) => k.t)]), ...p.fx.map((f) => f.at)];
+  const t = Math.min(dur - 0.04, Math.max(0.35, Math.max(...ats) + 0.3));
+  moments.push({name: p.id, t: p.start + t});
+}
+for (const s of isComic ? [] : timeline.shots) {
   const base = s.id.split('.')[0];
   if (seen.has(base)) continue;
   seen.add(base);

@@ -42,3 +42,23 @@ C'est la seule source de la vidéo :
 Montage automatique : un plan de plus de 2,4 s est redécoupé en sous-plans recadrés pour garder un changement
 toutes les 1,5-2 s ; la musique est baissée automatiquement pendant la voix ; whoosh sur les whips, impacts sur les temps forts.
 Sous-titres : 1 à 3 mots, blanc contour noir, mot prononcé en jaune, au centre-bas (hors zones d'interface TikTok).
+
+## Format bande dessinée (sans images ni voix générées par IA d'image)
+
+Exemple complet : `videos/royce-gracie-ufc-1/storyboard.json` (`"format": "comic"`).
+Tout est dessiné en code (`src/comic/`) : cases tramées avec lignes de vitesse, pantins articulés
+(`src/comic/poses.ts` : morphologies et poses), décors (`src/comic/Props.tsx`), lettrage BD (`src/comic/Lettering.tsx`).
+
+```bash
+npm run new -- mon-sujet
+npm run storyboard -- mon-sujet --format comic   # propose les cases (ou écris-les à la main / demande à Claude)
+npm run make -- mon-sujet                        # voix + musique + timeline BD + captures
+npm run render -- mon-sujet                      # MP4 H.264 + AAC, volume normalisé à -14 LUFS
+```
+
+- Voix : ElevenLabs (timings mot à mot). Dans un environnement avec proxy, lancer les scripts avec
+  `NODE_USE_ENV_PROXY=1` (fait automatiquement par `npm run make`).
+- Une case = `{ id, cue, bg, rays, transition, camera, elements[], fx[] }` ; repère 1080 de large, sol à y = 1060.
+- Instants (`at`, poses) : secondes depuis le début de la case, ou un mot de la phrase (`"coup-0.15"`).
+- Planche de toutes les poses : `npm run poses` → `out/poses.png`.
+- Musique : `"music": {"style": "beat", "bpm": 104}` (boucle batterie + basse générée en code).
