@@ -16,7 +16,8 @@
     "preview": "node scripts/preview-stills.mjs",
     "render": "node scripts/render.mjs",
     "make": "node scripts/make-all.mjs",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "draw": "node scripts/draw-images.mjs"
   },
   "dependencies": {
     "@fontsource/anton": "^5.3.0",
