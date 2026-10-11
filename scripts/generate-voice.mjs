@@ -70,7 +70,7 @@ async function synthesize() {
   const v = sb.voice || {};
   console.log(`Synthèse de ${text.length} caractères avec la voix ${voiceId}…`);
   const res = await fetchWithRetry(
-    `${API}/text-to-speech/${voiceId}/with-timestamps?output_format=mp3_44100_192`,
+    `${API}/text-to-speech/${voiceId}/with-timestamps?output_format=${process.env.ELEVENLABS_FORMAT || 'mp3_44100_128'}`,
     {
       method: 'POST',
       headers,

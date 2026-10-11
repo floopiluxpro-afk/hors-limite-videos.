@@ -4,719 +4,719 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "duration": 53.78,
-  "durationInFrames": 1614,
-  "voice": null,
-  "estimated": true,
+  "duration": 55.856,
+  "durationInFrames": 1676,
+  "voice": "geesink-1964/voice.mp3",
+  "estimated": false,
   "music": "geesink-1964/music.mp3",
   "musicCuts": [
     {
-      "start": 31.867,
-      "end": 36.559000000000005
+      "start": 33.67,
+      "end": 38.313
     }
   ],
   "words": [
     {
       "text": "En",
       "line": 0,
-      "start": 0.25,
-      "end": 0.387
+      "start": 0,
+      "end": 0.163
     },
     {
       "text": "1964,",
       "line": 0,
-      "start": 0.416,
-      "end": 2.039
+      "start": 0.209,
+      "end": 1.672
     },
     {
       "text": "un",
       "line": 0,
-      "start": 2.229,
-      "end": 2.366
+      "start": 1.811,
+      "end": 1.916
     },
     {
       "text": "géant",
       "line": 0,
-      "start": 2.395,
-      "end": 2.68
+      "start": 1.985,
+      "end": 2.276
     },
     {
       "text": "néerlandais",
       "line": 0,
-      "start": 2.709,
-      "end": 3.292
+      "start": 2.334,
+      "end": 2.995
     },
     {
       "text": "a",
       "line": 0,
-      "start": 3.32,
-      "end": 3.408
+      "start": 3.053,
+      "end": 3.111
     },
     {
       "text": "fait",
       "line": 0,
-      "start": 3.437,
-      "end": 3.673
+      "start": 3.181,
+      "end": 3.309
     },
     {
       "text": "pleurer",
       "line": 0,
-      "start": 3.701,
-      "end": 4.086
+      "start": 3.332,
+      "end": 3.657
     },
     {
       "text": "tout",
       "line": 0,
-      "start": 4.115,
-      "end": 4.351
+      "start": 3.692,
+      "end": 3.831
     },
     {
       "text": "le",
       "line": 0,
-      "start": 4.38,
-      "end": 4.517
+      "start": 3.855,
+      "end": 3.924
     },
     {
       "text": "Japon.",
       "line": 0,
-      "start": 4.545,
-      "end": 4.88
+      "start": 3.959,
+      "end": 4.516
     },
     {
       "text": "Tokyo.",
       "line": 1,
-      "start": 5.28,
-      "end": 5.616
+      "start": 4.83,
+      "end": 5.526
     },
     {
       "text": "Pour",
       "line": 1,
-      "start": 6.016,
-      "end": 6.252
+      "start": 5.944,
+      "end": 6.107
     },
     {
       "text": "la",
       "line": 1,
-      "start": 6.28,
-      "end": 6.418
+      "start": 6.153,
+      "end": 6.211
     },
     {
       "text": "première",
       "line": 1,
-      "start": 6.446,
-      "end": 6.88
+      "start": 6.258,
+      "end": 6.583
     },
     {
       "text": "fois,",
       "line": 1,
-      "start": 6.909,
-      "end": 7.195
+      "start": 6.618,
+      "end": 6.978
     },
     {
       "text": "le",
       "line": 1,
-      "start": 7.385,
-      "end": 7.522
+      "start": 7.117,
+      "end": 7.233
     },
     {
       "text": "judo",
       "line": 1,
-      "start": 7.551,
-      "end": 7.787
+      "start": 7.291,
+      "end": 7.616
     },
     {
       "text": "entre",
       "line": 1,
-      "start": 7.816,
-      "end": 8.101
+      "start": 7.674,
+      "end": 7.906
     },
     {
       "text": "aux",
       "line": 1,
-      "start": 8.13,
-      "end": 8.317
+      "start": 7.93,
+      "end": 8.011
     },
     {
       "text": "Jeux",
       "line": 1,
-      "start": 8.345,
-      "end": 8.581
+      "start": 8.069,
+      "end": 8.231
     },
     {
       "text": "olympiques.",
       "line": 1,
-      "start": 8.61,
-      "end": 9.193
+      "start": 8.301,
+      "end": 9.091
     },
     {
       "text": "Chez",
       "line": 1,
-      "start": 9.593,
-      "end": 9.829
+      "start": 9.671,
+      "end": 9.927
     },
     {
       "text": "lui,",
       "line": 1,
-      "start": 9.858,
-      "end": 10.094
+      "start": 9.95,
+      "end": 10.356
     },
     {
       "text": "au",
       "line": 1,
-      "start": 10.284,
-      "end": 10.421
+      "start": 10.449,
+      "end": 10.6
     },
     {
       "text": "Japon.",
       "line": 1,
-      "start": 10.45,
-      "end": 10.785
+      "start": 10.646,
+      "end": 11.227
     },
     {
       "text": "Les",
       "line": 2,
-      "start": 11.185,
-      "end": 11.372
+      "start": 11.714,
+      "end": 11.877
     },
     {
       "text": "Japonais",
       "line": 2,
-      "start": 11.4,
-      "end": 11.835
+      "start": 11.912,
+      "end": 12.33
     },
     {
       "text": "gagnent",
       "line": 2,
-      "start": 11.863,
-      "end": 12.248
+      "start": 12.365,
+      "end": 12.655
     },
     {
       "text": "trois",
       "line": 2,
-      "start": 12.277,
-      "end": 12.562
+      "start": 12.678,
+      "end": 12.91
     },
     {
       "text": "catégories",
       "line": 2,
-      "start": 12.591,
-      "end": 13.124
+      "start": 12.934,
+      "end": 13.456
     },
     {
       "text": "sur",
       "line": 2,
-      "start": 13.153,
-      "end": 13.34
+      "start": 13.479,
+      "end": 13.618
     },
     {
       "text": "quatre.",
       "line": 2,
-      "start": 13.368,
-      "end": 13.753
+      "start": 13.688,
+      "end": 14.234
     },
     {
       "text": "Il",
       "line": 3,
-      "start": 14.153,
-      "end": 14.29
+      "start": 14.814,
+      "end": 14.954
     },
     {
       "text": "ne",
       "line": 3,
-      "start": 14.319,
-      "end": 14.456
+      "start": 15,
+      "end": 15.07
     },
     {
       "text": "reste",
       "line": 3,
-      "start": 14.484,
-      "end": 14.77
+      "start": 15.128,
+      "end": 15.418
     },
     {
       "text": "que",
       "line": 3,
-      "start": 14.799,
-      "end": 14.985
+      "start": 15.465,
+      "end": 15.546
     },
     {
       "text": "la",
       "line": 3,
-      "start": 15.014,
-      "end": 15.151
+      "start": 15.581,
+      "end": 15.65
     },
     {
       "text": "plus",
       "line": 3,
-      "start": 15.18,
-      "end": 15.416
+      "start": 15.697,
+      "end": 15.836
     },
     {
       "text": "prestigieuse",
       "line": 3,
-      "start": 15.444,
-      "end": 16.077
+      "start": 15.859,
+      "end": 16.672
     },
     {
       "text": ":",
       "line": 3,
-      "start": 16.105,
-      "end": 16.193
+      "start": 16.811,
+      "end": 16.881
     },
     {
       "text": "toutes",
       "line": 3,
-      "start": 16.593,
-      "end": 16.928
+      "start": 16.997,
+      "end": 17.241
     },
     {
       "text": "catégories.",
       "line": 3,
-      "start": 16.957,
-      "end": 17.54
+      "start": 17.264,
+      "end": 18.088
     },
     {
       "text": "En",
       "line": 4,
-      "start": 17.94,
-      "end": 18.077
+      "start": 18.75,
+      "end": 18.901
     },
     {
       "text": "finale,",
       "line": 4,
-      "start": 18.105,
-      "end": 18.49
+      "start": 18.948,
+      "end": 19.424
     },
     {
       "text": "le",
       "line": 4,
-      "start": 18.68,
-      "end": 18.818
+      "start": 19.54,
+      "end": 19.644
     },
     {
       "text": "champion",
       "line": 4,
-      "start": 18.846,
-      "end": 19.28
+      "start": 19.691,
+      "end": 20.027
     },
     {
       "text": "japonais",
       "line": 4,
-      "start": 19.309,
-      "end": 19.743
+      "start": 20.074,
+      "end": 20.515
     },
     {
       "text": "Akio",
       "line": 4,
-      "start": 19.772,
-      "end": 20.008
+      "start": 20.573,
+      "end": 20.968
     },
     {
       "text": "Kaminaga.",
       "line": 4,
-      "start": 20.037,
-      "end": 20.52
+      "start": 21.026,
+      "end": 21.85
     },
     {
       "text": "Face",
       "line": 5,
-      "start": 20.92,
-      "end": 21.157
+      "start": 22.431,
+      "end": 22.698
     },
     {
       "text": "à",
       "line": 5,
-      "start": 21.185,
-      "end": 21.273
+      "start": 22.732,
+      "end": 22.756
     },
     {
       "text": "lui,",
       "line": 5,
-      "start": 21.301,
-      "end": 21.538
+      "start": 22.79,
+      "end": 23.116
     },
     {
       "text": "Anton",
       "line": 5,
-      "start": 21.728,
-      "end": 22.014
+      "start": 23.232,
+      "end": 23.65
     },
     {
       "text": "Geesink.",
       "line": 5,
-      "start": 22.042,
-      "end": 22.477
+      "start": 23.742,
+      "end": 24.462
     },
     {
       "text": "1,98 m.",
       "line": 5,
-      "start": 22.877,
-      "end": 24.45
+      "start": 24.625,
+      "end": 26.157
     },
     {
       "text": "120 kilos.",
       "line": 5,
-      "start": 24.85,
-      "end": 25.73
+      "start": 26.273,
+      "end": 27.249
     },
     {
       "text": "Geesink",
       "line": 6,
-      "start": 26.13,
-      "end": 26.515
+      "start": 27.736,
+      "end": 28.177
     },
     {
       "text": "l'emmène",
       "line": 6,
-      "start": 26.543,
-      "end": 26.978
+      "start": 28.247,
+      "end": 28.561
     },
     {
       "text": "au",
       "line": 6,
-      "start": 27.006,
-      "end": 27.143
+      "start": 28.584,
+      "end": 28.63
     },
     {
       "text": "sol",
       "line": 6,
-      "start": 27.172,
-      "end": 27.359
+      "start": 28.7,
+      "end": 28.944
     },
     {
       "text": "et",
       "line": 6,
-      "start": 27.387,
-      "end": 27.524
+      "start": 29.06,
+      "end": 29.164
     },
     {
       "text": "l'immobilise.",
       "line": 6,
-      "start": 27.553,
-      "end": 28.235
+      "start": 29.199,
+      "end": 30.093
     },
     {
       "text": "30",
       "line": 6,
-      "start": 28.635,
-      "end": 28.97
+      "start": 30.453,
+      "end": 30.755
     },
     {
       "text": "secondes",
       "line": 6,
-      "start": 28.999,
-      "end": 29.433
+      "start": 30.778,
+      "end": 31.115
     },
     {
       "text": "plus",
       "line": 6,
-      "start": 29.461,
-      "end": 29.698
+      "start": 31.138,
+      "end": 31.289
     },
     {
       "text": "tard…",
       "line": 6,
-      "start": 29.726,
-      "end": 30.012
+      "start": 31.312,
+      "end": 31.765
     },
     {
       "text": "ippon.",
       "line": 6,
-      "start": 30.412,
-      "end": 30.747
+      "start": 31.835,
+      "end": 32.462
     },
     {
       "text": "Le",
       "line": 7,
-      "start": 31.947,
-      "end": 32.084
+      "start": 33.75,
+      "end": 33.877
     },
     {
       "text": "Budokan",
       "line": 7,
-      "start": 32.113,
-      "end": 32.498
+      "start": 33.924,
+      "end": 34.388
     },
     {
       "text": "devient",
       "line": 7,
-      "start": 32.526,
-      "end": 32.911
+      "start": 34.458,
+      "end": 34.748
     },
     {
       "text": "silencieux.",
       "line": 7,
-      "start": 32.94,
-      "end": 33.522
+      "start": 34.771,
+      "end": 35.503
     },
     {
       "text": "Dans",
       "line": 7,
-      "start": 33.922,
-      "end": 34.159
+      "start": 35.921,
+      "end": 36.072
     },
     {
       "text": "les",
       "line": 7,
-      "start": 34.187,
-      "end": 34.374
+      "start": 36.095,
+      "end": 36.188
     },
     {
       "text": "tribunes,",
       "line": 7,
-      "start": 34.402,
-      "end": 34.886
+      "start": 36.211,
+      "end": 36.733
     },
     {
       "text": "des",
       "line": 7,
-      "start": 35.077,
-      "end": 35.263
+      "start": 36.873,
+      "end": 36.989
     },
     {
       "text": "Japonais",
       "line": 7,
-      "start": 35.292,
-      "end": 35.726
+      "start": 37.024,
+      "end": 37.407
     },
     {
       "text": "pleurent.",
       "line": 7,
-      "start": 35.755,
-      "end": 36.239
+      "start": 37.43,
+      "end": 37.976
     },
     {
       "text": "Les",
       "line": 8,
-      "start": 36.639,
-      "end": 36.825
+      "start": 38.393,
+      "end": 38.556
     },
     {
       "text": "officiels",
       "line": 8,
-      "start": 36.854,
-      "end": 37.338
+      "start": 38.626,
+      "end": 39.113
     },
     {
       "text": "néerlandais",
       "line": 8,
-      "start": 37.366,
-      "end": 37.949
+      "start": 39.137,
+      "end": 39.763
     },
     {
       "text": "veulent",
       "line": 8,
-      "start": 37.978,
-      "end": 38.362
+      "start": 39.856,
+      "end": 40.228
     },
     {
       "text": "courir",
       "line": 8,
-      "start": 38.391,
-      "end": 38.726
+      "start": 40.39,
+      "end": 40.75
     },
     {
       "text": "sur",
       "line": 8,
-      "start": 38.755,
-      "end": 38.941
+      "start": 40.808,
+      "end": 40.948
     },
     {
       "text": "le",
       "line": 8,
-      "start": 38.97,
-      "end": 39.107
+      "start": 40.983,
+      "end": 41.041
     },
     {
       "text": "tapis",
       "line": 8,
-      "start": 39.136,
-      "end": 39.421
+      "start": 41.087,
+      "end": 41.412
     },
     {
       "text": "pour",
       "line": 8,
-      "start": 39.45,
-      "end": 39.686
+      "start": 41.435,
+      "end": 41.551
     },
     {
       "text": "fêter",
       "line": 8,
-      "start": 39.715,
-      "end": 40
+      "start": 41.609,
+      "end": 41.876
     },
     {
       "text": "ça.",
       "line": 8,
-      "start": 40.029,
-      "end": 40.216
+      "start": 41.911,
+      "end": 42.306
     },
     {
       "text": "Avec",
       "line": 8,
-      "start": 40.616,
-      "end": 40.852
+      "start": 42.724,
+      "end": 42.991
     },
     {
       "text": "leurs",
       "line": 8,
-      "start": 40.88,
-      "end": 41.166
+      "start": 43.049,
+      "end": 43.165
     },
     {
       "text": "chaussures.",
       "line": 8,
-      "start": 41.195,
-      "end": 41.778
+      "start": 43.188,
+      "end": 43.897
     },
     {
       "text": "Geesink",
       "line": 9,
-      "start": 42.178,
-      "end": 42.562
+      "start": 44.384,
+      "end": 44.86
     },
     {
       "text": "les",
       "line": 9,
-      "start": 42.591,
-      "end": 42.778
+      "start": 44.918,
+      "end": 45.023
     },
     {
       "text": "arrête",
       "line": 9,
-      "start": 42.806,
-      "end": 43.141
+      "start": 45.092,
+      "end": 45.336
     },
     {
       "text": "d'un",
       "line": 9,
-      "start": 43.17,
-      "end": 43.406
+      "start": 45.359,
+      "end": 45.499
     },
     {
       "text": "geste.",
       "line": 9,
-      "start": 43.435,
-      "end": 43.77
+      "start": 45.557,
+      "end": 46.137
     },
     {
       "text": "Et",
       "line": 9,
-      "start": 44.17,
-      "end": 44.307
+      "start": 46.404,
+      "end": 46.544
     },
     {
       "text": "il",
       "line": 9,
-      "start": 44.336,
-      "end": 44.473
+      "start": 46.567,
+      "end": 46.637
     },
     {
       "text": "salue",
       "line": 9,
-      "start": 44.501,
-      "end": 44.787
+      "start": 46.73,
+      "end": 47.008
     },
     {
       "text": "son",
       "line": 9,
-      "start": 44.816,
-      "end": 45.002
+      "start": 47.032,
+      "end": 47.159
     },
     {
       "text": "adversaire.",
       "line": 9,
-      "start": 45.031,
-      "end": 45.614
+      "start": 47.229,
+      "end": 48.007
     },
     {
       "text": "Ce",
       "line": 10,
-      "start": 46.014,
-      "end": 46.151
+      "start": 48.425,
+      "end": 48.564
     },
     {
       "text": "jour-là,",
       "line": 10,
-      "start": 46.18,
-      "end": 46.614
+      "start": 48.611,
+      "end": 49.029
     },
     {
       "text": "le",
       "line": 10,
-      "start": 46.804,
-      "end": 46.941
+      "start": 49.121,
+      "end": 49.238
     },
     {
       "text": "judo",
       "line": 10,
-      "start": 46.97,
-      "end": 47.206
+      "start": 49.296,
+      "end": 49.528
     },
     {
       "text": "est",
       "line": 10,
-      "start": 47.235,
-      "end": 47.421
+      "start": 49.597,
+      "end": 49.667
     },
     {
       "text": "devenu",
       "line": 10,
-      "start": 47.45,
-      "end": 47.785
+      "start": 49.69,
+      "end": 49.969
     },
     {
       "text": "un",
       "line": 10,
-      "start": 47.814,
-      "end": 47.951
+      "start": 50.004,
+      "end": 50.062
     },
     {
       "text": "sport",
       "line": 10,
-      "start": 47.98,
-      "end": 48.265
+      "start": 50.097,
+      "end": 50.34
     },
     {
       "text": "mondial.",
       "line": 10,
-      "start": 48.294,
-      "end": 48.728
+      "start": 50.375,
+      "end": 50.991
     },
     {
       "text": "Abonne-toi",
       "line": 11,
-      "start": 49.428,
-      "end": 49.961
+      "start": 51.651,
+      "end": 52.185
     },
     {
       "text": "pour",
       "line": 11,
-      "start": 49.99,
-      "end": 50.226
+      "start": 52.231,
+      "end": 52.359
     },
     {
       "text": "plus",
       "line": 11,
-      "start": 50.255,
-      "end": 50.491
+      "start": 52.405,
+      "end": 52.626
     },
     {
       "text": "d'histoires",
       "line": 11,
-      "start": 50.52,
-      "end": 51.102
+      "start": 52.684,
+      "end": 53.218
     },
     {
       "text": "Hors",
       "line": 11,
-      "start": 51.131,
-      "end": 51.367
+      "start": 53.241,
+      "end": 53.462
     },
     {
       "text": "Limite.",
       "line": 11,
-      "start": 51.396,
-      "end": 51.78
+      "start": 53.485,
+      "end": 54.228
     }
   ],
   "shots": [
@@ -724,7 +724,7 @@
       "id": "01a",
       "image": "geesink-1964/images/01a.jpg",
       "start": 0,
-      "end": 2.315,
+      "end": 1.905,
       "motion": "zoomOut",
       "variant": 0,
       "transition": "none",
@@ -734,8 +734,8 @@
     {
       "id": "01b",
       "image": "geesink-1964/images/01b.jpg",
-      "start": 2.315,
-      "end": 3.621,
+      "start": 1.905,
+      "end": 3.252,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "whip",
@@ -745,8 +745,8 @@
     {
       "id": "01c",
       "image": "geesink-1964/images/01c.jpg",
-      "start": 3.621,
-      "end": 5.2,
+      "start": 3.252,
+      "end": 4.75,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "flash",
@@ -754,10 +754,10 @@
       "impact": null
     },
     {
-      "id": "02a",
+      "id": "02a.1",
       "image": "geesink-1964/images/02a.jpg",
-      "start": 5.2,
-      "end": 7.471,
+      "start": 4.75,
+      "end": 5.981,
       "motion": "panRight",
       "variant": 0,
       "transition": "whip",
@@ -765,76 +765,76 @@
       "impact": null
     },
     {
+      "id": "02a.2",
+      "image": "geesink-1964/images/02a.jpg",
+      "start": 5.981,
+      "end": 7.211,
+      "motion": "zoomIn",
+      "variant": 1,
+      "transition": "jump",
+      "direction": 1,
+      "impact": null
+    },
+    {
       "id": "02b",
       "image": "geesink-1964/images/02b.jpg",
-      "start": 7.471,
-      "end": 9.513,
+      "start": 7.211,
+      "end": 9.591,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "zoom",
-      "direction": 1,
+      "direction": -1,
       "impact": null
     },
     {
       "id": "02c",
       "image": "geesink-1964/images/02c.jpg",
-      "start": 9.513,
-      "end": 11.105,
+      "start": 9.591,
+      "end": 11.634,
       "motion": "zoomOut",
       "variant": 0,
       "transition": "whip",
-      "direction": -1,
+      "direction": 1,
       "impact": null
     },
     {
       "id": "03a",
       "image": "geesink-1964/images/03a.jpg",
-      "start": 11.105,
-      "end": 12.197,
+      "start": 11.634,
+      "end": 12.598,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "flash",
-      "direction": 1,
+      "direction": -1,
       "impact": null
     },
     {
       "id": "03b",
       "image": "geesink-1964/images/03b.jpg",
-      "start": 12.197,
-      "end": 14.073,
+      "start": 12.598,
+      "end": 14.734,
       "motion": "panLeft",
       "variant": 0,
       "transition": "whip",
-      "direction": -1,
-      "impact": null
-    },
-    {
-      "id": "04a.1",
-      "image": "geesink-1964/images/04a.jpg",
-      "start": 14.073,
-      "end": 15.293,
-      "motion": "zoomIn",
-      "variant": 0,
-      "transition": "zoom",
       "direction": 1,
       "impact": null
     },
     {
-      "id": "04a.2",
+      "id": "04a",
       "image": "geesink-1964/images/04a.jpg",
-      "start": 15.293,
-      "end": 16.513,
+      "start": 14.734,
+      "end": 16.917,
       "motion": "zoomIn",
-      "variant": 1,
-      "transition": "jump",
+      "variant": 0,
+      "transition": "zoom",
       "direction": -1,
       "impact": null
     },
     {
       "id": "04b",
       "image": "geesink-1964/images/04b.jpg",
-      "start": 16.513,
-      "end": 17.86,
+      "start": 16.917,
+      "end": 18.67,
       "motion": "panRight",
       "variant": 0,
       "transition": "whip",
@@ -844,8 +844,8 @@
     {
       "id": "05a",
       "image": "geesink-1964/images/05a.jpg",
-      "start": 17.86,
-      "end": 19.692,
+      "start": 18.67,
+      "end": 20.493,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "flash",
@@ -855,8 +855,8 @@
     {
       "id": "05b",
       "image": "geesink-1964/images/05b.jpg",
-      "start": 19.692,
-      "end": 20.84,
+      "start": 20.493,
+      "end": 22.351,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "whip",
@@ -866,8 +866,8 @@
     {
       "id": "06a",
       "image": "geesink-1964/images/06a.jpg",
-      "start": 20.84,
-      "end": 22.797,
+      "start": 22.351,
+      "end": 24.545,
       "motion": "zoomOut",
       "variant": 0,
       "transition": "zoom",
@@ -877,8 +877,8 @@
     {
       "id": "06b",
       "image": "geesink-1964/images/06b.jpg",
-      "start": 22.797,
-      "end": 24.77,
+      "start": 24.545,
+      "end": 26.193,
       "motion": "panUp",
       "variant": 0,
       "transition": "whip",
@@ -888,8 +888,8 @@
     {
       "id": "06c",
       "image": "geesink-1964/images/06c.jpg",
-      "start": 24.77,
-      "end": 26.05,
+      "start": 26.193,
+      "end": 27.656,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "whip",
@@ -899,8 +899,8 @@
     {
       "id": "07a",
       "image": "geesink-1964/images/07a.jpg",
-      "start": 26.05,
-      "end": 27.473,
+      "start": 27.656,
+      "end": 29.119,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "whip",
@@ -910,8 +910,8 @@
     {
       "id": "07b.1",
       "image": "geesink-1964/images/07b.jpg",
-      "start": 27.473,
-      "end": 28.903,
+      "start": 29.119,
+      "end": 30.437,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "zoom",
@@ -921,8 +921,8 @@
     {
       "id": "07b.2",
       "image": "geesink-1964/images/07b.jpg",
-      "start": 28.903,
-      "end": 30.332,
+      "start": 30.437,
+      "end": 31.755,
       "motion": "panLeft",
       "variant": 1,
       "transition": "jump",
@@ -932,8 +932,8 @@
     {
       "id": "07c",
       "image": "geesink-1964/images/07c.jpg",
-      "start": 30.332,
-      "end": 31.867,
+      "start": 31.755,
+      "end": 33.67,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "flash",
@@ -943,8 +943,8 @@
     {
       "id": "08a",
       "image": "geesink-1964/images/08a.jpg",
-      "start": 31.867,
-      "end": 33.842,
+      "start": 33.67,
+      "end": 35.841,
       "motion": "zoomOut",
       "variant": 0,
       "transition": "cut",
@@ -954,8 +954,8 @@
     {
       "id": "08b",
       "image": "geesink-1964/images/08b.jpg",
-      "start": 33.842,
-      "end": 35.675,
+      "start": 35.841,
+      "end": 37.35,
       "motion": "panLeft",
       "variant": 0,
       "transition": "cut",
@@ -965,8 +965,8 @@
     {
       "id": "08c",
       "image": "geesink-1964/images/08c.jpg",
-      "start": 35.675,
-      "end": 36.559,
+      "start": 37.35,
+      "end": 38.313,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "cut",
@@ -976,8 +976,8 @@
     {
       "id": "09a",
       "image": "geesink-1964/images/09a.jpg",
-      "start": 36.559,
-      "end": 38.311,
+      "start": 38.313,
+      "end": 40.31,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "whip",
@@ -987,8 +987,8 @@
     {
       "id": "09b",
       "image": "geesink-1964/images/09b.jpg",
-      "start": 38.311,
-      "end": 40.536,
+      "start": 40.31,
+      "end": 42.644,
       "motion": "panRight",
       "variant": 0,
       "transition": "whip",
@@ -998,8 +998,8 @@
     {
       "id": "09c",
       "image": "geesink-1964/images/09c.jpg",
-      "start": 40.536,
-      "end": 42.098,
+      "start": 42.644,
+      "end": 44.304,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "zoom",
@@ -1009,8 +1009,8 @@
     {
       "id": "10a",
       "image": "geesink-1964/images/10a.jpg",
-      "start": 42.098,
-      "end": 44.09,
+      "start": 44.304,
+      "end": 46.324,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "flash",
@@ -1020,8 +1020,8 @@
     {
       "id": "10b",
       "image": "geesink-1964/images/10b.jpg",
-      "start": 44.09,
-      "end": 44.951,
+      "start": 46.324,
+      "end": 47.149,
       "motion": "zoomOut",
       "variant": 0,
       "transition": "whip",
@@ -1031,8 +1031,8 @@
     {
       "id": "10c",
       "image": "geesink-1964/images/10c.jpg",
-      "start": 44.951,
-      "end": 45.934,
+      "start": 47.149,
+      "end": 48.345,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "whip",
@@ -1042,8 +1042,8 @@
     {
       "id": "11a",
       "image": "geesink-1964/images/11a.jpg",
-      "start": 45.934,
-      "end": 47.37,
+      "start": 48.345,
+      "end": 49.61,
       "motion": "zoomOut",
       "variant": 0,
       "transition": "flash",
@@ -1053,8 +1053,8 @@
     {
       "id": "11b",
       "image": "geesink-1964/images/11b.jpg",
-      "start": 47.37,
-      "end": 49.348,
+      "start": 49.61,
+      "end": 51.571,
       "motion": "panRight",
       "variant": 0,
       "transition": "whip",
@@ -1064,8 +1064,8 @@
     {
       "id": "12a.1",
       "image": "geesink-1964/images/12a.jpg",
-      "start": 49.348,
-      "end": 50.825,
+      "start": 51.571,
+      "end": 52.999,
       "motion": "zoomIn",
       "variant": 0,
       "transition": "flash",
@@ -1075,8 +1075,8 @@
     {
       "id": "12a.2",
       "image": "geesink-1964/images/12a.jpg",
-      "start": 50.825,
-      "end": 52.303,
+      "start": 52.999,
+      "end": 54.428,
       "motion": "panRight",
       "variant": 1,
       "transition": "jump",
@@ -1086,8 +1086,8 @@
     {
       "id": "12a.3",
       "image": "geesink-1964/images/12a.jpg",
-      "start": 52.303,
-      "end": 53.78,
+      "start": 54.428,
+      "end": 55.856,
       "motion": "panLeft",
       "variant": 2,
       "transition": "jump",
@@ -1100,56 +1100,56 @@
       "type": "counter",
       "from": 1900,
       "to": 1964,
-      "start": 0.416,
-      "end": 2.616
+      "start": 0.209,
+      "end": 2.409
     },
     {
       "type": "title",
       "text": "TOKYO 1964",
-      "start": 5.28,
-      "end": 6.446
+      "start": 4.83,
+      "end": 6.258
     },
     {
       "type": "title",
       "text": "1RE FOIS AUX JO",
-      "start": 6.446,
-      "end": 8.646
+      "start": 6.258,
+      "end": 8.458
     },
     {
       "type": "title",
       "text": "NIPPON BUDOKAN",
-      "start": 9.593,
-      "end": 11.255
+      "start": 9.671,
+      "end": 11.471
     },
     {
       "type": "medals",
       "won": 3,
       "total": 4,
-      "start": 12.277,
-      "end": 14.223
+      "start": 12.678,
+      "end": 14.884
     },
     {
       "type": "title",
       "text": "TOUTES CATÉGORIES",
       "subtitle": "aucune limite de poids",
-      "start": 16.593,
-      "end": 18.01
+      "start": 16.997,
+      "end": 18.82
     },
     {
       "type": "name",
       "text": "AKIO KAMINAGA",
       "subtitle": "Champion du Japon",
       "flag": "jp",
-      "start": 19.772,
-      "end": 20.99
+      "start": 20.573,
+      "end": 22.501
     },
     {
       "type": "name",
       "text": "ANTON GEESINK",
       "subtitle": "Pays-Bas",
       "flag": "nl",
-      "start": 21.728,
-      "end": 22.877
+      "start": 23.232,
+      "end": 24.625
     },
     {
       "type": "counter",
@@ -1157,237 +1157,237 @@
       "to": 1.98,
       "decimals": 2,
       "suffix": " m",
-      "start": 22.877,
-      "end": 24.377
+      "start": 24.625,
+      "end": 26.125
     },
     {
       "type": "counter",
       "from": 0,
       "to": 120,
       "suffix": " kg",
-      "start": 24.85,
-      "end": 26.2
+      "start": 26.273,
+      "end": 27.806
     },
     {
       "type": "counter",
       "from": 0,
       "to": 30,
       "suffix": " s",
-      "start": 28.635,
-      "end": 30.412
+      "start": 30.453,
+      "end": 31.835
     },
     {
       "type": "stamp",
       "text": "IPPON !",
-      "start": 30.412,
-      "end": 32.012
+      "start": 31.835,
+      "end": 33.435
     },
     {
       "type": "stamp",
       "text": "AVEC LES CHAUSSURES ?!",
       "color": "red",
-      "start": 40.616,
-      "end": 42.216
+      "start": 42.724,
+      "end": 44.324
     },
     {
       "type": "title",
       "text": "RESPECT",
-      "start": 44.501,
-      "end": 46.084
+      "start": 46.73,
+      "end": 48.33
     },
     {
       "type": "title",
       "text": "SPORT MONDIAL",
-      "start": 47.98,
-      "end": 49.428
+      "start": 50.097,
+      "end": 51.651
     },
     {
       "type": "logo",
       "text": "HORS LIMITE",
       "subtitle": "ABONNE-TOI",
-      "start": 49.428,
-      "end": 53.78
+      "start": 51.651,
+      "end": 55.856
     }
   ],
   "sfx": [
     {
       "src": "sfx/tick.wav",
-      "start": 0.416,
+      "start": 0.209,
       "volume": 0.35
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 2.195,
+      "start": 1.785,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 3.621,
+      "start": 3.252,
       "volume": 0.45
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 5.08,
+      "start": 4.63,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 7.351,
+      "start": 7.091,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 9.393,
+      "start": 9.471,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 11.105,
+      "start": 11.634,
       "volume": 0.45
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 12.077,
+      "start": 12.478,
       "volume": 0.5
     },
     {
       "src": "sfx/tick.wav",
-      "start": 12.277,
+      "start": 12.678,
       "volume": 0.35
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 13.953,
+      "start": 14.614,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 16.393,
+      "start": 16.797,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 17.86,
+      "start": 18.67,
       "volume": 0.45
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 19.572,
+      "start": 20.373,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 20.72,
+      "start": 22.231,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 22.677,
+      "start": 24.425,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 22.797,
+      "start": 24.545,
       "volume": 0.7
     },
     {
       "src": "sfx/tick.wav",
-      "start": 22.877,
+      "start": 24.625,
       "volume": 0.35
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 24.65,
+      "start": 26.073,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 24.77,
+      "start": 26.193,
       "volume": 0.7
     },
     {
       "src": "sfx/tick.wav",
-      "start": 24.85,
+      "start": 26.273,
       "volume": 0.35
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 25.93,
+      "start": 27.536,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 26.05,
+      "start": 27.656,
       "volume": 0.7
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 27.353,
+      "start": 28.999,
       "volume": 0.5
     },
     {
       "src": "sfx/tick.wav",
-      "start": 28.635,
+      "start": 30.453,
       "volume": 0.35
     },
     {
       "src": "sfx/impact.wav",
-      "start": 30.332,
+      "start": 31.755,
       "volume": 0.8
     },
     {
       "src": "sfx/hit.wav",
-      "start": 30.412,
+      "start": 31.835,
       "volume": 0.6
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 36.439,
+      "start": 38.193,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 38.191,
+      "start": 40.19,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 40.416,
+      "start": 42.524,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 40.536,
+      "start": 42.644,
       "volume": 0.7
     },
     {
       "src": "sfx/hit.wav",
-      "start": 42.098,
+      "start": 44.304,
       "volume": 0.7
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 43.97,
+      "start": 46.204,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 44.831,
+      "start": 47.029,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 45.934,
+      "start": 48.345,
       "volume": 0.45
     },
     {
       "src": "sfx/whoosh.wav",
-      "start": 47.25,
+      "start": 49.49,
       "volume": 0.5
     },
     {
       "src": "sfx/hit.wav",
-      "start": 49.348,
+      "start": 51.571,
       "volume": 0.45
     }
   ]

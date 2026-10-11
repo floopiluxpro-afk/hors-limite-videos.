@@ -52,7 +52,7 @@ export const Captions: React.FC<{words: Word[]}> = ({words}) => {
         flexWrap: 'wrap',
         justifyContent: 'center',
         alignItems: 'center',
-        columnGap: 30,
+        columnGap: 46,
         rowGap: 4,
         transform: `scale(${pin})`,
       }}
@@ -60,7 +60,7 @@ export const Captions: React.FC<{words: Word[]}> = ({words}) => {
       {page.words.map((w, i) => {
         const nextStart = page.words[i + 1]?.start ?? page.end;
         const active = t >= w.start - 0.03 && t < nextStart;
-        const pop = active ? interpolate(t - w.start, [0, 0.07, 0.18], [1, 1.14, 1.08], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
+        const pop = active ? interpolate(t - w.start, [0, 0.07, 0.18], [1, 1.08, 1.04], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
         return (
           <span
             key={`${w.start}-${i}`}
