@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.1  0 0 0 0 0.08  0 0 0 0 0.06  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
+    <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.28"/>
+  </radialGradient>
+  <radialGradient id="spot" cx="50%" cy="0%" r="100%">
+    <stop offset="0%" stop-color="#fff6d8" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#fff6d8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#fff3c4" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#fff3c4" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1080" height="1920" fill="#3b3346"/>
+<rect x="0" y="0" width="1080" height="1920" fill="#3b3346" /><circle cx="540" cy="760" r="560" fill="#4c4258" /><path d="M -60 1920 L -60 1408 Q 120 1199 540 1199 Q 960 1199 1140 1408 L 1140 1920 Z" fill="#2b2a33" stroke="#1a1714" stroke-width="12"/><polygon points="418.4,1199 661.6,1199 540,1541" fill="#fbf8f1" stroke="#1a1714" stroke-width="7.199999999999999"/><polygon points="509.6,1205 570.4,1205 581.8,1522 540,1571.4 498.2,1522" fill="#7a1f2b" stroke="#1a1714" stroke-width="6"/><rect x="445" y="1066" width="190" height="171" fill="#e8bd8f" stroke="#1a1714" stroke-width="12"/><circle cx="540" cy="800" r="392" fill="#1a1714" /><circle cx="540" cy="800" r="380" fill="#e8bd8f" /><path d="M 160 838 Q 141 667 236 686 L 274 838 Z" fill="#a8a29a"/><circle cx="403.2" cy="819" r="32.3" fill="#1a1714" /><line x1="342.4" y1="758.2" x2="464" y2="697.4" stroke="#1a1714" stroke-width="30.4" stroke-linecap="round" /><circle cx="676.8" cy="819" r="32.3" fill="#1a1714" /><line x1="737.6" y1="758.2" x2="616" y2="697.4" stroke="#1a1714" stroke-width="30.4" stroke-linecap="round" /><path d="M 403.2 876 q -34.2 83.6 0 114 q 34.2 -30.4 0 -114 Z" fill="#7ec8e3" stroke="#1a1714" stroke-width="9.5"/><path d="M 403.2 1028 q -26.6 64.6 0 87.4 q 26.6 -22.8 0 -87.4 Z" fill="#7ec8e3" stroke="#1a1714" stroke-width="9.5"/><path d="M 676.8 876 q -34.2 83.6 0 114 q 34.2 -30.4 0 -114 Z" fill="#7ec8e3" stroke="#1a1714" stroke-width="9.5"/><path d="M 676.8 1028 q -26.6 64.6 0 87.4 q 26.6 -22.8 0 -87.4 Z" fill="#7ec8e3" stroke="#1a1714" stroke-width="9.5"/><path d="M 479.2 1012.8 Q 540 952 600.8 1012.8" fill="none" stroke="#1a1714" stroke-width="22.8" stroke-linecap="round"/><line x1="160" y1="1450" x2="340" y2="960" stroke="#1a1714" stroke-width="130" stroke-linecap="round" /><line x1="160" y1="1450" x2="340" y2="960" stroke="#2b2a33" stroke-width="110" stroke-linecap="round" /><circle cx="360" cy="900" r="74" fill="#1a1714" /><circle cx="360" cy="900" r="64" fill="#e8bd8f" /><path d="M 321 786 Q 420 709 530 775 L 486 929 Q 409 896 343 940 Z" fill="#fbf8f1" stroke="#1a1714" stroke-width="8.8" stroke-linejoin="round"/>
+<rect width="1080" height="1920" fill="url(#vignette)"/>
+<rect width="1080" height="1920" filter="url(#grain)"/>
+</svg>

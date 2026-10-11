@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.1  0 0 0 0 0.08  0 0 0 0 0.06  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
+    <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.28"/>
+  </radialGradient>
+  <radialGradient id="spot" cx="50%" cy="0%" r="100%">
+    <stop offset="0%" stop-color="#fff6d8" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#fff6d8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#fff3c4" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#fff3c4" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1080" height="1920" fill="#141a2e"/>
+<rect x="0" y="0" width="1080" height="1920" fill="#141a2e" /><polygon points="540,760 3140,760 3108,1166.7" fill="#d4a640" opacity="0.08"/><polygon points="540,760 3012.7,1563.4 2856.6,1940.4" fill="#d4a640" opacity="0.08"/><polygon points="540,760 2643.4,2288.2 2378.5,2598.5" fill="#d4a640" opacity="0.08"/><polygon points="540,760 2068.2,2863.4 1720.4,3076.6" fill="#d4a640" opacity="0.08"/><polygon points="540,760 1343.4,3232.7 946.7,3328" fill="#d4a640" opacity="0.08"/><polygon points="540,760 540,3360 133.3,3328" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -263.4,3232.7 -640.4,3076.6" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -988.2,2863.4 -1298.5,2598.5" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -1563.4,2288.2 -1776.6,1940.4" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -1932.7,1563.4 -2028,1166.7" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -2060,760 -2028,353.3" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -1932.7,-43.4 -1776.6,-420.4" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -1563.4,-768.2 -1298.5,-1078.5" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -988.2,-1343.4 -640.4,-1556.6" fill="#d4a640" opacity="0.08"/><polygon points="540,760 -263.4,-1712.7 133.3,-1808" fill="#d4a640" opacity="0.08"/><polygon points="540,760 540,-1840 946.7,-1808" fill="#d4a640" opacity="0.08"/><polygon points="540,760 1343.4,-1712.7 1720.4,-1556.6" fill="#d4a640" opacity="0.08"/><polygon points="540,760 2068.2,-1343.4 2378.5,-1078.5" fill="#d4a640" opacity="0.08"/><polygon points="540,760 2643.4,-768.2 2856.6,-420.4" fill="#d4a640" opacity="0.08"/><polygon points="540,760 3012.7,-43.4 3108,353.3" fill="#d4a640" opacity="0.08"/><circle cx="540" cy="780" r="520" fill="#d4a640" opacity="0.9"/><path d="M -60 1920 L -60 1480 Q 120 1250 540 1250 Q 960 1250 1140 1480 L 1140 1920 Z" fill="#fbf8f1" stroke="#1a1714" stroke-width="12"/><path d="M 330 1265 L 560 1700 M 750 1265 L 520 1600" stroke="#1a1714" stroke-width="12" fill="none"/><rect x="700" y="1420" width="130" height="88" fill="#1a1714" /><rect x="706" y="1426" width="118" height="25.3" fill="#ae1c28" /><rect x="706" y="1451.3" width="118" height="25.3" fill="#fbf8f1" /><rect x="706" y="1476.7" width="118" height="25.3" fill="#21468b" /><rect x="430" y="1130" width="220" height="200" fill="#f0c9a0" stroke="#1a1714" stroke-width="12"/><circle cx="540" cy="800" r="442" fill="#1a1714" /><circle cx="540" cy="800" r="430" fill="#f0c9a0" /><path d="M 110 778.5 Q 88.5 262.5 540 318.4 Q 991.5 262.5 970 778.5 Q 798 533.4 540 542 Q 282 533.4 110 778.5 Z" fill="#f2c84b" stroke="#1a1714" stroke-width="9.600000000000001"/><circle cx="385.2" cy="821.5" r="36.6" fill="#1a1714" /><line x1="316.4" y1="718.3" x2="454" y2="718.3" stroke="#1a1714" stroke-width="30.1" stroke-linecap="round" /><circle cx="694.8" cy="821.5" r="36.6" fill="#1a1714" /><line x1="626" y1="718.3" x2="763.6" y2="718.3" stroke="#1a1714" stroke-width="30.1" stroke-linecap="round" /><line x1="484.1" y1="1015" x2="595.9" y2="1015" stroke="#1a1714" stroke-width="25.8" stroke-linecap="round" />
+<rect width="1080" height="1920" fill="url(#vignette)"/>
+<rect width="1080" height="1920" filter="url(#grain)"/>
+</svg>

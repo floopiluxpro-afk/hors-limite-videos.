@@ -722,7 +722,7 @@
   "shots": [
     {
       "id": "01a",
-      "image": null,
+      "image": "geesink-1964/images/01a.jpg",
       "start": 0,
       "end": 2.315,
       "motion": "zoomOut",
@@ -733,7 +733,7 @@
     },
     {
       "id": "01b",
-      "image": null,
+      "image": "geesink-1964/images/01b.jpg",
       "start": 2.315,
       "end": 3.621,
       "motion": "zoomIn",
@@ -744,7 +744,7 @@
     },
     {
       "id": "01c",
-      "image": null,
+      "image": "geesink-1964/images/01c.jpg",
       "start": 3.621,
       "end": 5.2,
       "motion": "zoomIn",
@@ -755,7 +755,7 @@
     },
     {
       "id": "02a",
-      "image": null,
+      "image": "geesink-1964/images/02a.jpg",
       "start": 5.2,
       "end": 7.471,
       "motion": "panRight",
@@ -766,7 +766,7 @@
     },
     {
       "id": "02b",
-      "image": null,
+      "image": "geesink-1964/images/02b.jpg",
       "start": 7.471,
       "end": 9.513,
       "motion": "zoomIn",
@@ -777,7 +777,7 @@
     },
     {
       "id": "02c",
-      "image": null,
+      "image": "geesink-1964/images/02c.jpg",
       "start": 9.513,
       "end": 11.105,
       "motion": "zoomOut",
@@ -788,7 +788,7 @@
     },
     {
       "id": "03a",
-      "image": null,
+      "image": "geesink-1964/images/03a.jpg",
       "start": 11.105,
       "end": 12.197,
       "motion": "zoomIn",
@@ -799,7 +799,7 @@
     },
     {
       "id": "03b",
-      "image": null,
+      "image": "geesink-1964/images/03b.jpg",
       "start": 12.197,
       "end": 14.073,
       "motion": "panLeft",
@@ -810,7 +810,7 @@
     },
     {
       "id": "04a.1",
-      "image": null,
+      "image": "geesink-1964/images/04a.jpg",
       "start": 14.073,
       "end": 15.293,
       "motion": "zoomIn",
@@ -821,7 +821,7 @@
     },
     {
       "id": "04a.2",
-      "image": null,
+      "image": "geesink-1964/images/04a.jpg",
       "start": 15.293,
       "end": 16.513,
       "motion": "zoomIn",
@@ -832,7 +832,7 @@
     },
     {
       "id": "04b",
-      "image": null,
+      "image": "geesink-1964/images/04b.jpg",
       "start": 16.513,
       "end": 17.86,
       "motion": "panRight",
@@ -843,7 +843,7 @@
     },
     {
       "id": "05a",
-      "image": null,
+      "image": "geesink-1964/images/05a.jpg",
       "start": 17.86,
       "end": 19.692,
       "motion": "zoomIn",
@@ -854,7 +854,7 @@
     },
     {
       "id": "05b",
-      "image": null,
+      "image": "geesink-1964/images/05b.jpg",
       "start": 19.692,
       "end": 20.84,
       "motion": "zoomIn",
@@ -865,7 +865,7 @@
     },
     {
       "id": "06a",
-      "image": null,
+      "image": "geesink-1964/images/06a.jpg",
       "start": 20.84,
       "end": 22.797,
       "motion": "zoomOut",
@@ -876,7 +876,7 @@
     },
     {
       "id": "06b",
-      "image": null,
+      "image": "geesink-1964/images/06b.jpg",
       "start": 22.797,
       "end": 24.77,
       "motion": "panUp",
@@ -887,7 +887,7 @@
     },
     {
       "id": "06c",
-      "image": null,
+      "image": "geesink-1964/images/06c.jpg",
       "start": 24.77,
       "end": 26.05,
       "motion": "zoomIn",
@@ -898,7 +898,7 @@
     },
     {
       "id": "07a",
-      "image": null,
+      "image": "geesink-1964/images/07a.jpg",
       "start": 26.05,
       "end": 27.473,
       "motion": "zoomIn",
@@ -909,7 +909,7 @@
     },
     {
       "id": "07b.1",
-      "image": null,
+      "image": "geesink-1964/images/07b.jpg",
       "start": 27.473,
       "end": 28.903,
       "motion": "zoomIn",
@@ -920,7 +920,7 @@
     },
     {
       "id": "07b.2",
-      "image": null,
+      "image": "geesink-1964/images/07b.jpg",
       "start": 28.903,
       "end": 30.332,
       "motion": "panLeft",
@@ -931,7 +931,7 @@
     },
     {
       "id": "07c",
-      "image": null,
+      "image": "geesink-1964/images/07c.jpg",
       "start": 30.332,
       "end": 31.867,
       "motion": "zoomIn",
@@ -942,7 +942,7 @@
     },
     {
       "id": "08a",
-      "image": null,
+      "image": "geesink-1964/images/08a.jpg",
       "start": 31.867,
       "end": 33.842,
       "motion": "zoomOut",
@@ -953,7 +953,7 @@
     },
     {
       "id": "08b",
-      "image": null,
+      "image": "geesink-1964/images/08b.jpg",
       "start": 33.842,
       "end": 35.675,
       "motion": "panLeft",
@@ -964,7 +964,7 @@
     },
     {
       "id": "08c",
-      "image": null,
+      "image": "geesink-1964/images/08c.jpg",
       "start": 35.675,
       "end": 36.559,
       "motion": "zoomIn",
@@ -975,7 +975,7 @@
     },
     {
       "id": "09a",
-      "image": null,
+      "image": "geesink-1964/images/09a.jpg",
       "start": 36.559,
       "end": 38.311,
       "motion": "zoomIn",
@@ -986,7 +986,7 @@
     },
     {
       "id": "09b",
-      "image": null,
+      "image": "geesink-1964/images/09b.jpg",
       "start": 38.311,
       "end": 40.536,
       "motion": "panRight",
@@ -997,7 +997,7 @@
     },
     {
       "id": "09c",
-      "image": null,
+      "image": "geesink-1964/images/09c.jpg",
       "start": 40.536,
       "end": 42.098,
       "motion": "zoomIn",
@@ -1008,7 +1008,7 @@
     },
     {
       "id": "10a",
-      "image": null,
+      "image": "geesink-1964/images/10a.jpg",
       "start": 42.098,
       "end": 44.09,
       "motion": "zoomIn",
@@ -1019,7 +1019,7 @@
     },
     {
       "id": "10b",
-      "image": null,
+      "image": "geesink-1964/images/10b.jpg",
       "start": 44.09,
       "end": 44.951,
       "motion": "zoomOut",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "10c",
-      "image": null,
+      "image": "geesink-1964/images/10c.jpg",
       "start": 44.951,
       "end": 45.934,
       "motion": "zoomIn",
@@ -1041,7 +1041,7 @@
     },
     {
       "id": "11a",
-      "image": null,
+      "image": "geesink-1964/images/11a.jpg",
       "start": 45.934,
       "end": 47.37,
       "motion": "zoomOut",
@@ -1052,7 +1052,7 @@
     },
     {
       "id": "11b",
-      "image": null,
+      "image": "geesink-1964/images/11b.jpg",
       "start": 47.37,
       "end": 49.348,
       "motion": "panRight",
@@ -1063,7 +1063,7 @@
     },
     {
       "id": "12a.1",
-      "image": null,
+      "image": "geesink-1964/images/12a.jpg",
       "start": 49.348,
       "end": 50.825,
       "motion": "zoomIn",
@@ -1074,7 +1074,7 @@
     },
     {
       "id": "12a.2",
-      "image": null,
+      "image": "geesink-1964/images/12a.jpg",
       "start": 50.825,
       "end": 52.303,
       "motion": "panRight",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "12a.3",
-      "image": null,
+      "image": "geesink-1964/images/12a.jpg",
       "start": 52.303,
       "end": 53.78,
       "motion": "panLeft",

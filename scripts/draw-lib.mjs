@@ -219,6 +219,7 @@ export const CHAR = {
 const OUTFITS = {
   judogi: {top: P.white, topShade: P.whiteShade, legs: P.white, legsShade: P.whiteShade, feet: 'skin', belt: P.black},
   suit: {top: '#2b2a33', topShade: '#1f1e26', legs: '#2b2a33', legsShade: '#1f1e26', feet: P.ink, tie: P.orange, shirt: P.white},
+  kimono: {top: '#b8324a', topShade: '#962840', legs: '#b8324a', legsShade: '#962840', feet: P.white, obi: P.gold},
   blazer: {top: P.navy, topShade: '#172038', legs: '#77736c', legsShade: '#5f5b55', feet: P.ink, tie: '#2b2a33', shirt: P.white},
 };
 
@@ -239,7 +240,7 @@ function seg(pts, color, w, ol) {
   );
 }
 
-function head(c, r, ch, {f = 1, face = false, mood = 'neutral', front = false, ol = 4} = {}) {
+export function head(c, r, ch, {f = 1, face = false, mood = 'neutral', front = false, ol = 4} = {}) {
   let out = circle(c[0], c[1], r + ol, P.ink) + circle(c[0], c[1], r, ch.skin);
   const hr = r;
   if (ch.hairStyle === 'slick' && ch.hair) {
@@ -251,6 +252,9 @@ function head(c, r, ch, {f = 1, face = false, mood = 'neutral', front = false, o
     out += `<path d="M ${r1(c[0] - hr * 1.02)} ${r1(c[1] - hr * 0.1)} A ${r1(hr * 1.02)} ${r1(hr * 1.02)} 0 0 1 ${r1(c[0] + hr * 1.02)} ${r1(c[1] - hr * 0.1)} Q ${r1(c[0])} ${r1(c[1] - hr * 0.55)} ${r1(c[0] - hr * 1.02)} ${r1(c[1] - hr * 0.1)} Z" fill="${ch.hair}"/>`;
   } else if (ch.hairStyle === 'side' && ch.hair) {
     out += `<path d="M ${r1(c[0] - hr * 1.02)} ${r1(c[1] + hr * 0.05)} A ${r1(hr * 1.02)} ${r1(hr * 1.02)} 0 0 1 ${r1(c[0] + hr * 1.02)} ${r1(c[1] + hr * 0.05)} Q ${r1(c[0] + hr * 0.2)} ${r1(c[1] - hr * 0.75)} ${r1(c[0] - hr * 1.02)} ${r1(c[1] + hr * 0.05)} Z" fill="${ch.hair}"/>`;
+  } else if (ch.hairStyle === 'bun' && ch.hair) {
+    out += circle(c[0], c[1] - hr * 1.05, hr * 0.42, ch.hair);
+    out += `<path d="M ${r1(c[0] - hr * 1.04)} ${r1(c[1] + hr * 0.2)} A ${r1(hr * 1.04)} ${r1(hr * 1.04)} 0 0 1 ${r1(c[0] + hr * 1.04)} ${r1(c[1] + hr * 0.2)} Q ${r1(c[0])} ${r1(c[1] - hr * 0.6)} ${r1(c[0] - hr * 1.04)} ${r1(c[1] + hr * 0.2)} Z" fill="${ch.hair}"/>`;
   } else if (ch.hairStyle === 'bald') {
     out += `<path d="M ${r1(c[0] - hr * 1.0)} ${r1(c[1] + hr * 0.1)} Q ${r1(c[0] - hr * 1.05)} ${r1(c[1] - hr * 0.35)} ${r1(c[0] - hr * 0.8)} ${r1(c[1] - hr * 0.3)} L ${r1(c[0] - hr * 0.7)} ${r1(c[1] + hr * 0.1)} Z" fill="${P.greyLight}"/>`;
   }
@@ -262,10 +266,8 @@ function head(c, r, ch, {f = 1, face = false, mood = 'neutral', front = false, o
       const browY = ey - hr * 0.24;
       const tilt = mood === 'fierce' ? hr * 0.08 : mood === 'sad' || mood === 'cry' ? -hr * 0.08 : 0;
       const inner = front ? (ex < c[0] ? 1 : -1) : -f;
-      out += line(ex - hr * 0.16, browY + (inner < 0 ? tilt : -tilt) * 0, ex + hr * 0.16, browY, P.ink, hr * 0.07, '');
-      if (tilt) {
-        out += line(ex - inner * hr * 0.16, browY - tilt, ex + inner * hr * 0.16, browY + tilt, P.ink, hr * 0.08);
-      }
+      if (tilt) out += line(ex - inner * hr * 0.16, browY - tilt, ex + inner * hr * 0.16, browY + tilt, P.ink, hr * 0.08);
+      else out += line(ex - hr * 0.16, browY, ex + hr * 0.16, browY, P.ink, hr * 0.07);
     }
     if (mood === 'cry') {
       for (const ex of eyes) {
@@ -368,7 +370,7 @@ export function figure(name, {hip, size = 900, f = 1, lean = 0, headTilt = 0, ar
 }
 
 // Front view figure standing; feet at [x, groundY].
-export function figureFront(name, {x, ground, size = 900, armL = {sh: 16, el: 4}, armR = {sh: 16, el: 4}, legSpread = 6, face = false, mood = 'neutral', crossed = false} = {}) {
+export function figureFront(name, {x, ground, size = 900, armL = {sh: 16, el: 4}, armR = {sh: 16, el: 4}, legSpread = 6, face = false, mood = 'neutral', crossed = false, armsFront = false} = {}) {
   const ch = typeof name === 'string' ? CHAR[name] : name;
   const o = OUTFITS[ch.outfit];
   const Hh = size * ch.height;
@@ -403,15 +405,29 @@ export function figureFront(name, {x, ground, size = 900, armL = {sh: 16, el: 4}
       const e = add(s0, vec(tua, side), L.ua);
       const h = add(e, vec(tua - arm.el, side), L.fa);
       a += seg([s0, e, h], o.top, wLimb, ol);
-      a += circle(h[0], h[1], wLimb * 0.5 + ol, P.ink) + circle(h[0], h[1], wLimb * 0.5, ch.skin);
+      if (arm.palm) {
+        const pr = wLimb * 0.85;
+        for (let k = -2; k <= 2; k++) {
+          const fa = (k * 16 * Math.PI) / 180;
+          const fl = pr * (k === -2 ? 1.2 : 1.6);
+          a += limb([h[0], h[1] - pr * 0.2], [h[0] + Math.sin(fa) * fl, h[1] - pr * 0.2 - Math.cos(fa) * fl], ch.skin, pr * 0.42, ol);
+        }
+        a += circle(h[0], h[1], pr + ol, P.ink) + circle(h[0], h[1], pr, ch.skin);
+      } else {
+        a += circle(h[0], h[1], wLimb * 0.5 + ol, P.ink) + circle(h[0], h[1], wLimb * 0.5, ch.skin);
+      }
+      if (arm.medal) a += medal(h[0], h[1] - wLimb * 1.1, wLimb * 1.1, {ribbon: false});
     }
     return a;
   };
-  if (!crossed) out += drawArms();
+  if (!crossed && !armsFront) out += drawArms();
   const [t0, t1, t2, t3] = torso;
   const cr = wLimb * 0.7;
   out += `<path d="M ${r1(t0[0])} ${r1(t0[1] + cr)} Q ${r1(t0[0])} ${r1(t0[1])} ${r1(t0[0] + cr)} ${r1(t0[1])} L ${r1(t1[0] - cr)} ${r1(t1[1])} Q ${r1(t1[0])} ${r1(t1[1])} ${r1(t1[0])} ${r1(t1[1] + cr)} L ${r1(t2[0])} ${r1(t2[1])} L ${r1(t3[0])} ${r1(t3[1])} Z" fill="${o.top}" stroke="${P.ink}" stroke-width="${r1(ol * 2)}" stroke-linejoin="round"/>`;
-  if (ch.outfit === 'judogi') {
+  if (ch.outfit === 'kimono') {
+    out += `<path d="M ${r1(x - shW * 0.3)} ${r1(shY + 2)} L ${r1(x + shW * 0.12)} ${r1(shY + L.torso * 0.6)} M ${r1(x + shW * 0.3)} ${r1(shY + 2)} L ${r1(x)} ${r1(shY + L.torso * 0.45)}" stroke="${P.white}" stroke-width="${r1(ol * 3)}" fill="none"/>`;
+    out += rect(x - shW * 0.45, shY + L.torso * 0.6, shW * 0.9, L.torso * 0.25, o.obi, `stroke="${P.ink}" stroke-width="${r1(ol)}"`);
+  } else if (ch.outfit === 'judogi') {
     out += `<path d="M ${r1(x - shW * 0.28)} ${r1(shY + 2)} L ${r1(x + shW * 0.08)} ${r1(shY + L.torso * 0.55)} M ${r1(x + shW * 0.28)} ${r1(shY + 2)} L ${r1(x - shW * 0.02)} ${r1(shY + L.torso * 0.45)}" stroke="${P.ink}" stroke-width="${r1(ol * 1.1)}" fill="none" stroke-linecap="round"/>`;
     const by = hipY - L.torso * 0.05;
     out += rect(x - hipW / 2 - wLimb * 0.25, by - wLimb * 0.22, hipW + wLimb * 0.5, wLimb * 0.44, o.belt);
@@ -433,7 +449,31 @@ export function figureFront(name, {x, ground, size = 900, armL = {sh: 16, el: 4}
     out += seg([[x - shW * 0.42, shY + wLimb * 0.6], [x - shW * 0.45, cy], [x + shW * 0.25, cy - wLimb * 0.3]], o.topShade || o.top, wLimb, ol);
     out += seg([[x + shW * 0.42, shY + wLimb * 0.6], [x + shW * 0.45, cy + wLimb * 0.4], [x - shW * 0.25, cy + wLimb * 0.2]], o.top, wLimb, ol);
   }
+  if (armsFront) out += drawArms();
   const hc = [x, shY - L.neck];
   out += head(hc, L.head, ch, {front: true, face, mood, ol});
   return out;
+}
+
+export function medal(cx, cy, r, {ribbon = true, ribbonColor = P.red} = {}) {
+  let out = '';
+  if (ribbon) {
+    out += poly([[cx - r * 0.55, cy - r * 2.4], [cx - r * 0.05, cy - r * 2.4], [cx + r * 0.35, cy - r * 0.6], [cx - r * 0.15, cy - r * 0.6]], ribbonColor, `stroke="${P.ink}" stroke-width="${r1(r * 0.05)}"`);
+    out += poly([[cx + r * 0.55, cy - r * 2.4], [cx + r * 0.05, cy - r * 2.4], [cx - r * 0.35, cy - r * 0.6], [cx + r * 0.15, cy - r * 0.6]], P.white, `stroke="${P.ink}" stroke-width="${r1(r * 0.05)}"`);
+  }
+  out += circle(cx, cy, r * 1.06, P.ink) + circle(cx, cy, r, P.gold) + circle(cx, cy, r * 0.72, P.goldLight) + circle(cx, cy, r * 0.5, P.gold);
+  out += `<path d="M ${r1(cx - r * 0.55)} ${r1(cy - r * 0.45)} A ${r1(r * 0.75)} ${r1(r * 0.75)} 0 0 1 ${r1(cx + r * 0.1)} ${r1(cy - r * 0.75)}" stroke="#fff8dc" stroke-width="${r1(r * 0.1)}" fill="none" stroke-linecap="round"/>`;
+  return out;
+}
+
+export function olympicRings(cx, cy, r) {
+  const cols = ['#0081c8', P.ink, '#ee334e', '#fcb131', '#00a651'];
+  const pos = [[-2.2, 0], [0, 0], [2.2, 0], [-1.1, 1], [1.1, 1]];
+  return pos.map(([dx, dy], i) => circle(cx + dx * r, cy + dy * r, r, 'none', `stroke="${cols[i]}" stroke-width="${r1(r * 0.22)}"`)).join('');
+}
+
+// Groupe flouté (pour les arrière-plans).
+export function blurred(body, std = 8) {
+  const id = 'b' + Math.round(std * 100);
+  return `<filter id="${id}"><feGaussianBlur stdDeviation="${std}"/></filter><g filter="url(#${id})">${body}</g>`;
 }
