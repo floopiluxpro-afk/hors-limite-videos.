@@ -85,10 +85,10 @@ export function sun(cx, cy, r, fill = P.red) {
   return circle(cx, cy, r, fill);
 }
 
-export function rays(cx, cy, {n = 16, color = P.red, opacity = 0.18, len = 2600} = {}) {
+export function rays(cx, cy, {n = 16, color = P.red, opacity = 0.18, len = 2600, rot = 0} = {}) {
   let out = '';
   for (let i = 0; i < n; i++) {
-    const a0 = (i / n) * 2 * Math.PI;
+    const a0 = (i / n) * 2 * Math.PI + (rot * Math.PI) / 180;
     const a1 = a0 + Math.PI / n;
     out += poly(
       [
@@ -240,7 +240,7 @@ function seg(pts, color, w, ol) {
   );
 }
 
-export function head(c, r, ch, {f = 1, face = false, mood = 'neutral', front = false, ol = 4} = {}) {
+export function head(c, r, ch, {f = 1, face = false, mood = 'neutral', front = false, ol = 4, tear = 0} = {}) {
   let out = circle(c[0], c[1], r + ol, P.ink) + circle(c[0], c[1], r, ch.skin);
   const hr = r;
   if (ch.hairStyle === 'slick' && ch.hair) {
@@ -270,7 +270,10 @@ export function head(c, r, ch, {f = 1, face = false, mood = 'neutral', front = f
       else out += line(ex - hr * 0.16, browY, ex + hr * 0.16, browY, P.ink, hr * 0.07);
     }
     if (mood === 'cry') {
-      for (const ex of eyes) {
+      const td = hr * 0.35 * tear;
+      for (const ex0 of eyes) {
+        const ex = ex0;
+        const ey = c[1] + hr * 0.05 + td;
         out += `<path d="M ${r1(ex)} ${r1(ey + hr * 0.15)} q ${r1(-hr * 0.09)} ${r1(hr * 0.22)} 0 ${r1(hr * 0.3)} q ${r1(hr * 0.09)} ${r1(-hr * 0.08)} 0 ${r1(-hr * 0.3)} Z" fill="#7ec8e3" stroke="${P.ink}" stroke-width="${r1(hr * 0.025)}"/>`;
         out += `<path d="M ${r1(ex)} ${r1(ey + hr * 0.55)} q ${r1(-hr * 0.07)} ${r1(hr * 0.17)} 0 ${r1(hr * 0.23)} q ${r1(hr * 0.07)} ${r1(-hr * 0.06)} 0 ${r1(-hr * 0.23)} Z" fill="#7ec8e3" stroke="${P.ink}" stroke-width="${r1(hr * 0.025)}"/>`;
       }

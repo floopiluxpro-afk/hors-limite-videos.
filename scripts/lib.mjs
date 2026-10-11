@@ -204,6 +204,21 @@ export function browserExecutable() {
   return fs.existsSync(local) ? local : null;
 }
 
+// Images d'animation image par image : <id>@0.jpg, <id>@1.jpg… + réglages dans images/anim.json.
+export function findFrames(slug, id) {
+  const dir = path.join(publicDir(slug), 'images');
+  if (!fs.existsSync(dir)) return null;
+  const frames = fs
+    .readdirSync(dir)
+    .filter((n) => n.startsWith(`${id}@`))
+    .sort((a, b) => parseInt(a.slice(id.length + 1)) - parseInt(b.slice(id.length + 1)))
+    .map((n) => `${slug}/images/${n}`);
+  if (frames.length < 2) return null;
+  const metaFile = path.join(dir, 'anim.json');
+  const meta = fs.existsSync(metaFile) ? JSON.parse(fs.readFileSync(metaFile, 'utf8'))[id] || {} : {};
+  return {frames, fps: meta.fps || 8, mode: meta.mode || 'loop'};
+}
+
 export function findImage(slug, id) {
   const dir = path.join(publicDir(slug), 'images');
   if (!fs.existsSync(dir)) return null;

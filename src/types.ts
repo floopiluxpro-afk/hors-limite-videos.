@@ -13,6 +13,12 @@ export type Shot = {
   transition: Transition;
   direction: 1 | -1;
   impact: 'soft' | 'hard' | null;
+  /** Animation image par image (style stop-motion). */
+  frames?: string[];
+  animFps?: number;
+  animMode?: 'loop' | 'once' | 'pingpong';
+  animStart?: number;
+  animEnd?: number;
 };
 
 export type Overlay = {

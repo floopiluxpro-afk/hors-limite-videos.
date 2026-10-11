@@ -1,0 +1,70 @@
+{
+  "01a": {
+    "fps": 6,
+    "mode": "loop"
+  },
+  "07a": {
+    "fps": 8,
+    "mode": "once"
+  },
+  "01c": {
+    "fps": 6,
+    "mode": "loop"
+  },
+  "03a": {
+    "fps": 8,
+    "mode": "loop"
+  },
+  "04a": {
+    "fps": 5,
+    "mode": "loop"
+  },
+  "05a": {
+    "fps": 5,
+    "mode": "loop"
+  },
+  "06c": {
+    "fps": 8,
+    "mode": "pingpong"
+  },
+  "07c": {
+    "fps": 8,
+    "mode": "once"
+  },
+  "08b": {
+    "fps": 6,
+    "mode": "loop"
+  },
+  "08c": {
+    "fps": 6,
+    "mode": "loop"
+  },
+  "09a": {
+    "fps": 9,
+    "mode": "pingpong"
+  },
+  "09b": {
+    "fps": 7,
+    "mode": "loop"
+  },
+  "09c": {
+    "fps": 8,
+    "mode": "once"
+  },
+  "10b": {
+    "fps": 8,
+    "mode": "once"
+  },
+  "10c": {
+    "fps": 6,
+    "mode": "loop"
+  },
+  "11a": {
+    "fps": 5,
+    "mode": "pingpong"
+  },
+  "11b": {
+    "fps": 4,
+    "mode": "loop"
+  }
+}

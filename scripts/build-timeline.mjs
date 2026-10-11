@@ -11,7 +11,7 @@ import {
   buildSpeech,
   HEIGHT,
   WIDTH,
-  findImage,
+  findImage, findFrames,
   getSlug,
   loadStoryboard,
   normalizeWord,
@@ -101,6 +101,7 @@ export function buildTimeline(slug, {estimate = false} = {}) {
       const start = starts[k];
       const end = k + 1 < starts.length ? starts[k + 1] : s1;
       const image = findImage(slug, shot.id);
+      const anim = findFrames(slug, shot.id);
       if (!image) missing.push(shot.id);
       const dur = end - start;
       const parts = dur > MAX_SHOT ? Math.ceil(dur / 2.0) : 1;
@@ -121,6 +122,7 @@ export function buildTimeline(slug, {estimate = false} = {}) {
           transition,
           direction: shots.length % 2 === 0 ? 1 : -1,
           impact: p === 0 ? shot.impact || null : null,
+          ...(anim ? {frames: anim.frames, animFps: anim.fps, animMode: anim.mode, animStart: +start.toFixed(3), animEnd: +end.toFixed(3)} : {}),
         });
       }
       shotCounter++;

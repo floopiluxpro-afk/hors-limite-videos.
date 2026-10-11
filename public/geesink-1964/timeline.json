@@ -729,7 +729,17 @@
       "variant": 0,
       "transition": "none",
       "direction": 1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/01a@0.jpg",
+        "geesink-1964/images/01a@1.jpg",
+        "geesink-1964/images/01a@2.jpg",
+        "geesink-1964/images/01a@3.jpg"
+      ],
+      "animFps": 6,
+      "animMode": "loop",
+      "animStart": 0,
+      "animEnd": 1.905
     },
     {
       "id": "01b",
@@ -751,7 +761,17 @@
       "variant": 0,
       "transition": "flash",
       "direction": 1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/01c@0.jpg",
+        "geesink-1964/images/01c@1.jpg",
+        "geesink-1964/images/01c@2.jpg",
+        "geesink-1964/images/01c@3.jpg"
+      ],
+      "animFps": 6,
+      "animMode": "loop",
+      "animStart": 3.252,
+      "animEnd": 4.75
     },
     {
       "id": "02a.1",
@@ -806,7 +826,17 @@
       "variant": 0,
       "transition": "flash",
       "direction": -1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/03a@0.jpg",
+        "geesink-1964/images/03a@1.jpg",
+        "geesink-1964/images/03a@2.jpg",
+        "geesink-1964/images/03a@3.jpg"
+      ],
+      "animFps": 8,
+      "animMode": "loop",
+      "animStart": 11.634,
+      "animEnd": 12.598
     },
     {
       "id": "03b",
@@ -828,7 +858,17 @@
       "variant": 0,
       "transition": "zoom",
       "direction": -1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/04a@0.jpg",
+        "geesink-1964/images/04a@1.jpg",
+        "geesink-1964/images/04a@2.jpg",
+        "geesink-1964/images/04a@3.jpg"
+      ],
+      "animFps": 5,
+      "animMode": "loop",
+      "animStart": 14.734,
+      "animEnd": 16.917
     },
     {
       "id": "04b",
@@ -850,7 +890,15 @@
       "variant": 0,
       "transition": "flash",
       "direction": -1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/05a@0.jpg",
+        "geesink-1964/images/05a@1.jpg"
+      ],
+      "animFps": 5,
+      "animMode": "loop",
+      "animStart": 18.67,
+      "animEnd": 20.493
     },
     {
       "id": "05b",
@@ -894,7 +942,16 @@
       "variant": 0,
       "transition": "whip",
       "direction": -1,
-      "impact": "soft"
+      "impact": "soft",
+      "frames": [
+        "geesink-1964/images/06c@0.jpg",
+        "geesink-1964/images/06c@1.jpg",
+        "geesink-1964/images/06c@2.jpg"
+      ],
+      "animFps": 8,
+      "animMode": "pingpong",
+      "animStart": 26.193,
+      "animEnd": 27.656
     },
     {
       "id": "07a",
@@ -905,7 +962,19 @@
       "variant": 0,
       "transition": "whip",
       "direction": 1,
-      "impact": "soft"
+      "impact": "soft",
+      "frames": [
+        "geesink-1964/images/07a@0.jpg",
+        "geesink-1964/images/07a@1.jpg",
+        "geesink-1964/images/07a@2.jpg",
+        "geesink-1964/images/07a@3.jpg",
+        "geesink-1964/images/07a@4.jpg",
+        "geesink-1964/images/07a@5.jpg"
+      ],
+      "animFps": 8,
+      "animMode": "once",
+      "animStart": 27.656,
+      "animEnd": 29.119
     },
     {
       "id": "07b.1",
@@ -938,7 +1007,17 @@
       "variant": 0,
       "transition": "flash",
       "direction": -1,
-      "impact": "hard"
+      "impact": "hard",
+      "frames": [
+        "geesink-1964/images/07c@0.jpg",
+        "geesink-1964/images/07c@1.jpg",
+        "geesink-1964/images/07c@2.jpg",
+        "geesink-1964/images/07c@3.jpg"
+      ],
+      "animFps": 8,
+      "animMode": "once",
+      "animStart": 31.755,
+      "animEnd": 33.67
     },
     {
       "id": "08a",
@@ -960,7 +1039,17 @@
       "variant": 0,
       "transition": "cut",
       "direction": -1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/08b@0.jpg",
+        "geesink-1964/images/08b@1.jpg",
+        "geesink-1964/images/08b@2.jpg",
+        "geesink-1964/images/08b@3.jpg"
+      ],
+      "animFps": 6,
+      "animMode": "loop",
+      "animStart": 35.841,
+      "animEnd": 37.35
     },
     {
       "id": "08c",
@@ -971,7 +1060,17 @@
       "variant": 0,
       "transition": "cut",
       "direction": 1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/08c@0.jpg",
+        "geesink-1964/images/08c@1.jpg",
+        "geesink-1964/images/08c@2.jpg",
+        "geesink-1964/images/08c@3.jpg"
+      ],
+      "animFps": 6,
+      "animMode": "loop",
+      "animStart": 37.35,
+      "animEnd": 38.313
     },
     {
       "id": "09a",
@@ -982,7 +1081,16 @@
       "variant": 0,
       "transition": "whip",
       "direction": -1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/09a@0.jpg",
+        "geesink-1964/images/09a@1.jpg",
+        "geesink-1964/images/09a@2.jpg"
+      ],
+      "animFps": 9,
+      "animMode": "pingpong",
+      "animStart": 38.313,
+      "animEnd": 40.31
     },
     {
       "id": "09b",
@@ -993,7 +1101,15 @@
       "variant": 0,
       "transition": "whip",
       "direction": 1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/09b@0.jpg",
+        "geesink-1964/images/09b@1.jpg"
+      ],
+      "animFps": 7,
+      "animMode": "loop",
+      "animStart": 40.31,
+      "animEnd": 42.644
     },
     {
       "id": "09c",
@@ -1004,7 +1120,17 @@
       "variant": 0,
       "transition": "zoom",
       "direction": -1,
-      "impact": "soft"
+      "impact": "soft",
+      "frames": [
+        "geesink-1964/images/09c@0.jpg",
+        "geesink-1964/images/09c@1.jpg",
+        "geesink-1964/images/09c@2.jpg",
+        "geesink-1964/images/09c@3.jpg"
+      ],
+      "animFps": 8,
+      "animMode": "once",
+      "animStart": 42.644,
+      "animEnd": 44.304
     },
     {
       "id": "10a",
@@ -1026,7 +1152,18 @@
       "variant": 0,
       "transition": "whip",
       "direction": -1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/10b@0.jpg",
+        "geesink-1964/images/10b@1.jpg",
+        "geesink-1964/images/10b@2.jpg",
+        "geesink-1964/images/10b@3.jpg",
+        "geesink-1964/images/10b@4.jpg"
+      ],
+      "animFps": 8,
+      "animMode": "once",
+      "animStart": 46.324,
+      "animEnd": 47.149
     },
     {
       "id": "10c",
@@ -1037,7 +1174,15 @@
       "variant": 0,
       "transition": "whip",
       "direction": 1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/10c@0.jpg",
+        "geesink-1964/images/10c@1.jpg"
+      ],
+      "animFps": 6,
+      "animMode": "loop",
+      "animStart": 47.149,
+      "animEnd": 48.345
     },
     {
       "id": "11a",
@@ -1048,7 +1193,16 @@
       "variant": 0,
       "transition": "flash",
       "direction": -1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/11a@0.jpg",
+        "geesink-1964/images/11a@1.jpg",
+        "geesink-1964/images/11a@2.jpg"
+      ],
+      "animFps": 5,
+      "animMode": "pingpong",
+      "animStart": 48.345,
+      "animEnd": 49.61
     },
     {
       "id": "11b",
@@ -1059,7 +1213,15 @@
       "variant": 0,
       "transition": "whip",
       "direction": 1,
-      "impact": null
+      "impact": null,
+      "frames": [
+        "geesink-1964/images/11b@0.jpg",
+        "geesink-1964/images/11b@1.jpg"
+      ],
+      "animFps": 4,
+      "animMode": "loop",
+      "animStart": 49.61,
+      "animEnd": 51.571
     },
     {
       "id": "12a.1",

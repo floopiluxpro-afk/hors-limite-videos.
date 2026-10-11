@@ -33,6 +33,26 @@ function impactScale(shot: Shot, dt: number) {
   return interpolate(dt, [0, 0.08, 0.6], [1, 1.12, 1.06], {...clamp, easing: Easing.out(Easing.quad)});
 }
 
+function frameSrc(shot: Shot, t: number): string | null {
+  const f = shot.frames;
+  if (!f || f.length < 2) return shot.image;
+  const n = f.length;
+  if (shot.animMode === 'once') {
+    const a = shot.animStart ?? shot.start;
+    const b = shot.animEnd ?? shot.end;
+    // l'action se joue sur les 3/4 du plan puis reste sur la dernière pose
+    const k = Math.floor(interpolate(t, [a, a + (b - a) * 0.75], [0, n - 0.001], clamp));
+    return f[k];
+  }
+  const step = Math.floor(Math.max(0, t - (shot.animStart ?? shot.start)) * (shot.animFps ?? 8));
+  if (shot.animMode === 'pingpong') {
+    const period = 2 * (n - 1);
+    const m = step % period;
+    return f[m < n ? m : period - m];
+  }
+  return f[step % n];
+}
+
 const ShotLayer: React.FC<{shot: Shot; next?: Shot; t: number; width: number}> = ({shot, next, t, width}) => {
   const dur = shot.end - shot.start;
   const p = interpolate(t, [shot.start, shot.end], [0, 1], clamp);
@@ -81,7 +101,7 @@ const ShotLayer: React.FC<{shot: Shot; next?: Shot; t: number; width: number}> =
         }}
       >
         {shot.image ? (
-          <Img src={staticFile(shot.image)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          <Img src={staticFile(frameSrc(shot, t) ?? shot.image)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
         ) : (
           <Placeholder id={shot.id} dur={dur} />
         )}
