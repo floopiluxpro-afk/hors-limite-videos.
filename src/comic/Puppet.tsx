@@ -1,5 +1,6 @@
 import React from 'react';
 import {BUILDS, Pose} from './poses';
+import {useComicTheme} from './theme';
 
 export type PuppetStyle = 'hero' | 'shadow';
 
@@ -9,6 +10,7 @@ export type PuppetProps = {
   style?: PuppetStyle; // hero = kimono blanc ceinture noire ; shadow = silhouette noire
   glove?: boolean; // un seul gant de boxe (main avant)
   sepia?: boolean;
+  filter?: string;
 };
 
 type P = {x: number; y: number};
@@ -18,19 +20,23 @@ const add = (p: P, d: P, k: number): P => ({x: p.x + d.x * k, y: p.y + d.y * k})
 
 const Seg: React.FC<{a: P; b: P; w: number; fill: string; line: string; ow: number}> = ({a, b, w, fill, line, ow}) => (
   <>
-    <line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke={line} strokeWidth={w + ow * 2} strokeLinecap="round" />
+    {ow > 0 ? <line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke={line} strokeWidth={w + ow * 2} strokeLinecap="round" /> : null}
     <line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke={fill} strokeWidth={w} strokeLinecap="round" />
   </>
 );
 
 /** Pantin dessiné en SVG, pieds à l'origine, tourné vers la droite. */
-export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = 'shadow', glove, sepia}) => {
+export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = 'shadow', glove, sepia, filter}) => {
   const b = BUILDS[build] ?? BUILDS.normal;
   const hero = style === 'hero';
-  const ow = 5;
-  const line = '#000';
-  const front = hero ? '#FFFFFF' : sepia ? '#3b2a1a' : '#0b0b0b';
-  const back = hero ? '#D7D7D7' : sepia ? '#5a4330' : '#2a2a2a';
+  const th = useComicTheme();
+  const flat = th.name === 'flat';
+  const ow = flat ? 0 : 5;
+  const line = flat ? 'none' : '#000';
+  const front = hero ? th.hero : sepia ? '#3b2a1a' : th.shadow;
+  const back = hero ? th.heroBack : sepia ? '#5a4330' : th.shadowBack;
+  const beltColor = flat ? th.shadow : '#000';
+  const lapel = flat ? '#C5CBD6' : line;
   const skin = '#F1C59B';
 
   const legLen = b.thigh + b.shin;
@@ -113,7 +119,7 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
   const knot = add(beltC, perp, b.hipW * 0.22);
 
   return (
-    <g transform={`translate(0 ${ground}) rotate(${pose.rot ?? 0} ${H.x} ${H.y})`} strokeLinejoin="round">
+    <g transform={`translate(0 ${ground}) rotate(${pose.rot ?? 0} ${H.x} ${H.y})`} strokeLinejoin="round" filter={filter}>
       {drawLeg(lB, back)}
       {drawArm(aB, back)}
       <path d={tp} fill={front} stroke={line} strokeWidth={ow} />
@@ -138,12 +144,12 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
           <polyline
             points={`${add(N, perp, -b.shoulderW * 0.3).x},${add(N, perp, -b.shoulderW * 0.3).y} ${add(beltC, perp, b.hipW * 0.12).x},${add(beltC, perp, b.hipW * 0.12).y} ${add(N, perp, b.shoulderW * 0.3).x},${add(N, perp, b.shoulderW * 0.3).y}`}
             fill="none"
-            stroke={line}
-            strokeWidth={3.5}
+            stroke={lapel}
+            strokeWidth={flat ? 4 : 3.5}
           />
-          <line x1={beltL.x} y1={beltL.y} x2={beltR.x} y2={beltR.y} stroke="#000" strokeWidth={10} strokeLinecap="round" />
-          <line x1={knot.x} y1={knot.y} x2={knot.x + 4} y2={knot.y + 16} stroke="#000" strokeWidth={6} strokeLinecap="round" />
-          <line x1={knot.x} y1={knot.y} x2={knot.x - 5} y2={knot.y + 15} stroke="#000" strokeWidth={6} strokeLinecap="round" />
+          <line x1={beltL.x} y1={beltL.y} x2={beltR.x} y2={beltR.y} stroke={beltColor} strokeWidth={10} strokeLinecap="round" />
+          <line x1={knot.x} y1={knot.y} x2={knot.x + 4} y2={knot.y + 16} stroke={beltColor} strokeWidth={6} strokeLinecap="round" />
+          <line x1={knot.x} y1={knot.y} x2={knot.x - 5} y2={knot.y + 15} stroke={beltColor} strokeWidth={6} strokeLinecap="round" />
         </>
       ) : null}
       {drawLeg(lF, front)}

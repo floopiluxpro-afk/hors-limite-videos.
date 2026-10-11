@@ -99,6 +99,7 @@ export function buildComic(slug) {
   const comic = {
     slug,
     title: sb.title,
+    theme: sb.theme ?? 'comic',
     fps: FPS,
     width: WIDTH,
     height: HEIGHT,

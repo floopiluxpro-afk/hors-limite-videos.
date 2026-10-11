@@ -46,6 +46,8 @@ Sous-titres : 1 à 3 mots, blanc contour noir, mot prononcé en jaune, au centre
 ## Format bande dessinée (sans images ni voix générées par IA d'image)
 
 Exemple complet : `videos/royce-gracie-ufc-1/storyboard.json` (`"format": "comic"`).
+Deux thèmes graphiques : `"theme": "flat"` (flat design : aplats sans contour, ombres douces, Montserrat ; utilisé pour Royce)
+ou `"theme": "comic"` (BD : contours noirs, trame de points, lignes de vitesse, Bangers).
 Tout est dessiné en code (`src/comic/`) : cases tramées avec lignes de vitesse, pantins articulés
 (`src/comic/poses.ts` : morphologies et poses), décors (`src/comic/Props.tsx`), lettrage BD (`src/comic/Lettering.tsx`).
 

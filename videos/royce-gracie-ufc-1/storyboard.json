@@ -1,6 +1,7 @@
 {
   "slug": "royce-gracie-ufc-1",
   "format": "comic",
+  "theme": "flat",
   "title": "Royce Gracie, le plus léger de l'UFC 1",
   "cover": {
     "panel": "10b",
@@ -1788,7 +1789,7 @@
               "name": "balance",
               "x": 540,
               "y": 1060,
-              "s": 0.85,
+              "s": 0.75,
               "at": "battre"
             },
             {

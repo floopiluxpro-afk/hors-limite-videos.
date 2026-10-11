@@ -1,7 +1,9 @@
 // Une case de BD plein écran : fond coloré tramé, lignes de vitesse, sol, personnages, décors, lettrage.
 import React from 'react';
 import {Easing, interpolate, random} from 'remotion';
-import {Lettering} from './Lettering';
+import {Lettering as ComicLettering} from './Lettering';
+import {FlatDefs, FlatLettering} from './FlatLettering';
+import {useComicTheme} from './theme';
 import {PROPS} from './Props';
 import {Puppet} from './Puppet';
 import {poseAt, POSES} from './poses';
@@ -32,6 +34,44 @@ export const PALETTE: Record<string, [string, string]> = {
   pink: ['#FF5C9A', '#B32A63'],
   sepia: ['#E9D3A6', '#B89B68'],
 };
+
+/** Lettrage selon le thème (BD ou flat). */
+const Lettering: React.FC<{el: ComicElement; t: number; dur: number}> = (props) =>
+  useComicTheme().name === 'flat' ? <FlatLettering {...props} /> : <ComicLettering {...props} />;
+
+export const FLAT_PALETTE: Record<string, [string, string]> = {
+  blue: ['#4A7BF7', '#3159C4'],
+  yellow: ['#FFC93C', '#E5A50F'],
+  red: ['#FF5A5F', '#D63A40'],
+  purple: ['#7B61FF', '#5A3FE0'],
+  cyan: ['#2EC4B6', '#1E9A8F'],
+  orange: ['#FF9F1C', '#E07B00'],
+  green: ['#3DDC97', '#22B375'],
+  pink: ['#FF7AA2', '#E2557F'],
+  sepia: ['#F1E3C6', '#D9C39A'],
+};
+
+/** Fond flat : aplat + grandes formes douces qui dérivent lentement. */
+const FlatBackground: React.FC<{id: string; color: string; t: number; focus: [number, number]}> = ({id, color, t, focus}) => (
+  <g>
+    <defs>
+      <radialGradient id={`flglow-${id}`} cx={focus[0] / W} cy={focus[1] / H} r={0.7}>
+        <stop offset="0" stopColor="rgba(255,255,255,0.22)" />
+        <stop offset="1" stopColor="rgba(255,255,255,0)" />
+      </radialGradient>
+    </defs>
+    <rect x={-200} y={-200} width={W + 400} height={H + 400} fill={color} />
+    {[
+      [180, 380, 260],
+      [900, 260, 200],
+      [820, 900, 320],
+      [120, 1000, 180],
+    ].map(([x, y, r], i) => (
+      <circle key={i} cx={x + Math.sin(t * 0.6 + i) * 25} cy={y + Math.cos(t * 0.5 + i) * 20} r={r} fill="rgba(255,255,255,0.1)" />
+    ))}
+    <rect x={-200} y={-200} width={W + 400} height={H + 400} fill={`url(#flglow-${id})`} />
+  </g>
+);
 
 const LETTERING = new Set(['caption', 'sfx', 'title', 'name', 'timer', 'counter', 'logo']);
 
@@ -85,6 +125,8 @@ function puppetPose(el: ComicElement, t: number) {
 }
 
 export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; floor: number; idp: string}> = ({el, t, dur, floor, idp}) => {
+  const th = useComicTheme();
+  const flat = th.name === 'flat';
   let x = el.x ?? W / 2;
   let y = el.y ?? floor;
   if (el.move) {
@@ -97,28 +139,31 @@ export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; f
     case 'puppet':
       return (
         <g transform={`translate(${x} ${y}) scale(${s * (el.facing ?? 1)} ${s})`}>
-          <Puppet pose={puppetPose(el, t)} build={el.build} style={el.style} glove={el.glove} sepia={el.sepia} />
+          {flat && Math.abs(y - floor) < 4 ? <ellipse cx={0} cy={0} rx={48} ry={7} fill="rgba(0,0,0,0.18)" /> : null}
+          <Puppet filter={flat ? 'url(#fl-shadow)' : undefined} pose={puppetPose(el, t)} build={el.build} style={el.style} glove={el.glove} sepia={el.sepia} />
         </g>
       );
     case 'prop': {
       const P = PROPS[el.name ?? ''];
       return P ? (
         <g transform={`translate(${x} ${y}) rotate(${el.rot ?? 0}) scale(${s})`}>
-          <P el={el} t={t} />
+          <P el={el} t={t} th={th} />
         </g>
       ) : null;
     }
     case 'inset': {
       const w = el.w ?? 500;
       const h = el.h ?? 500;
-      const [bg, fl] = PALETTE[el.bg ?? 'sepia'] ?? PALETTE.sepia;
+      const pal = flat ? FLAT_PALETTE : PALETTE;
+      const [bg, fl] = pal[el.bg ?? 'sepia'] ?? pal.sepia;
       const id = `${idp}-inset`;
       const appear = interpolate(t, [0, 0.15], [0.6, 1], {...clamp, easing: Easing.out(Easing.back(1.8))});
       return (
         <g transform={`translate(${x + w / 2} ${y + h / 2}) rotate(${el.rot ?? 0}) scale(${appear}) translate(${-w / 2} ${-h / 2})`}>
-          <rect x={12} y={12} width={w} height={h} fill={INK} />
+          {flat ? null : <rect x={12} y={12} width={w} height={h} fill={INK} />}
+          {flat ? <rect width={w} height={h} rx={36} fill="#fff" filter="url(#fl-shadow)" /> : null}
           <clipPath id={`clip-${id}`}>
-            <rect width={w} height={h} />
+            <rect width={w} height={h} rx={flat ? 36 : 0} />
           </clipPath>
           <g clipPath={`url(#clip-${id})`}>
             <rect width={w} height={h} fill={bg} />
@@ -131,7 +176,7 @@ export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; f
               ),
             )}
           </g>
-          <rect width={w} height={h} fill="none" stroke={INK} strokeWidth={10} />
+          {flat ? null : <rect width={w} height={h} fill="none" stroke={INK} strokeWidth={10} />}
         </g>
       );
     }
@@ -156,8 +201,12 @@ export function panelFx(panel: ComicPanel, t: number) {
 }
 
 export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({panel, t, frame}) => {
+  const th = useComicTheme();
+  const flat = th.name === 'flat';
   const dur = panel.end - panel.start;
-  const [bg, floorColor] = PALETTE[panel.bg] ?? PALETTE.blue;
+  const pal = flat ? FLAT_PALETTE : PALETTE;
+  const [bg, floorColor] = pal[panel.bg] ?? pal.blue;
+  const gutter = flat ? 0 : GUTTER;
   const cam = panel.camera ?? {zoom: [1, 1.06], focus: [540, 760]};
   // le point de mire est donné dans le repère du storyboard : on le projette sur la scène
   const focus: [number, number] = [
@@ -173,20 +222,25 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
 
   return (
     <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{position: 'absolute', inset: 0}}>
+      {flat ? <FlatDefs /> : null}
       <rect width={W} height={H} fill="#fff" />
       <clipPath id={`frame-${id}`}>
-        <rect x={GUTTER} y={GUTTER} width={W - GUTTER * 2} height={H - GUTTER * 2} />
+        <rect x={gutter} y={gutter} width={W - gutter * 2} height={H - gutter * 2} />
       </clipPath>
       <g clipPath={`url(#frame-${id})`}>
         <g transform={`translate(${sx} ${sy})`}>
           <g transform={`translate(${focus[0]} ${focus[1]}) scale(${zoom}) translate(${-focus[0]} ${-focus[1]})`}>
-            <Background id={id} color={bg} rays={panel.rays} t={t} focus={focus} />
+            {flat ? (
+              <FlatBackground id={id} color={bg} t={t} focus={focus} />
+            ) : (
+              <Background id={id} color={bg} rays={panel.rays} t={t} focus={focus} />
+            )}
             <g transform={stage}>
             {hasFloor ? (
               <g>
                 <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={floorColor} />
-                <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={`url(#dots-${id})`} />
-                <line x1={-600} x2={W + 600} y1={FLOOR_Y} y2={FLOOR_Y} stroke={INK} strokeWidth={10} />
+                {flat ? null : <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={`url(#dots-${id})`} />}
+                {flat ? null : <line x1={-600} x2={W + 600} y1={FLOOR_Y} y2={FLOOR_Y} stroke={INK} strokeWidth={10} />}
               </g>
             ) : null}
             {panel.elements.map((el, i) =>
@@ -201,7 +255,7 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
         </g>
         {flash > 0.01 ? <rect width={W} height={H} fill="#fff" opacity={flash} /> : null}
       </g>
-      <rect x={GUTTER} y={GUTTER} width={W - GUTTER * 2} height={H - GUTTER * 2} fill="none" stroke={INK} strokeWidth={BORDER} />
+      {flat ? null : <rect x={GUTTER} y={GUTTER} width={W - GUTTER * 2} height={H - GUTTER * 2} fill="none" stroke={INK} strokeWidth={BORDER} />}
     </svg>
   );
 };
