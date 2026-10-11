@@ -1,6 +1,11 @@
 {
   "slug": "geesink-1964",
   "title": "Geesink fait pleurer le Japon (Tokyo 1964)",
+  "cover": {
+    "image": "01a",
+    "title": ["Un géant a fait", "*pleurer*", "tout le Japon"],
+    "badge": "1964"
+  },
   "style": "Claymation 3D render: handmade plasticine / modeling-clay figurines with visible fingerprints and soft clay texture, miniature diorama set, tilt-shift shallow depth of field, warm cinematic lighting, rich saturated colors, stop-motion animation look. Never photorealistic, no real photos, no archival look, no black-and-white. Absolutely no text, no letters, no numbers, no logos, no watermark. Vertical 9:16 composition, main subject in the upper and middle part of the frame, lower quarter kept simple.",
   "characters": {
     "geesink": {

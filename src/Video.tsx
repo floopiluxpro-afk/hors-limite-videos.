@@ -8,7 +8,7 @@ import {Effects} from './components/Effects';
 import {FONTS} from './theme';
 import type {VideoProps} from './types';
 
-const useFonts = () => {
+export const useFonts = () => {
   const [handle] = useState(() => delayRender('Chargement des polices'));
   useEffect(() => {
     Promise.all([

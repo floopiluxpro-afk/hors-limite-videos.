@@ -17,7 +17,8 @@
     "render": "node scripts/render.mjs",
     "make": "node scripts/make-all.mjs",
     "typecheck": "tsc --noEmit",
-    "draw": "node scripts/draw-images.mjs"
+    "draw": "node scripts/draw-images.mjs",
+    "cover": "node scripts/render-cover.mjs"
   },
   "dependencies": {
     "@fontsource/anton": "^5.3.0",

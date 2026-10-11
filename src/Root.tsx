@@ -1,6 +1,7 @@
 import React from 'react';
 import {CalculateMetadataFunction, Composition, staticFile} from 'remotion';
 import {HorsLimiteVideo} from './Video';
+import {Cover, CoverProps} from './Cover';
 import type {Timeline, VideoProps} from './types';
 
 const calculateMetadata: CalculateMetadataFunction<VideoProps> = async ({props}) => {
@@ -17,14 +18,26 @@ const calculateMetadata: CalculateMetadataFunction<VideoProps> = async ({props})
 };
 
 export const RemotionRoot: React.FC = () => (
-  <Composition
-    id="HorsLimite"
-    component={HorsLimiteVideo}
-    width={1080}
-    height={1920}
-    fps={30}
-    durationInFrames={30 * 50}
-    defaultProps={{slug: 'geesink-1964'} as VideoProps}
-    calculateMetadata={calculateMetadata}
-  />
+  <>
+    <Composition
+      id="HorsLimite"
+      component={HorsLimiteVideo}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={30 * 50}
+      defaultProps={{slug: 'geesink-1964'} as VideoProps}
+      calculateMetadata={calculateMetadata}
+    />
+    {/* Couverture TikTok (image fixe) : props issues de "cover" dans le storyboard. */}
+    <Composition
+      id="Cover"
+      component={Cover}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={1}
+      defaultProps={{image: 'geesink-1964/images/01a.jpg', title: ['Un géant a fait', '*pleurer*', 'tout le Japon'], badge: '1964'} as CoverProps}
+    />
+  </>
 );
