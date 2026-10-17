@@ -1,0 +1,1602 @@
+{
+  "slug": "mcgregor-aldo-13-secondes",
+  "format": "comic",
+  "theme": "flat",
+  "title": "McGregor détrône Aldo en 13 secondes (UFC 194)",
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "speed": 1.1,
+    "stability": 0.4,
+    "similarity_boost": 0.8,
+    "style": 0.45
+  },
+  "music": {
+    "style": "beat",
+    "bpm": 108
+  },
+  "lines": [
+    {
+      "text": "Il a détrôné un champion invaincu depuis dix ans… en {13|treize} secondes. Et il l'avait annoncé.",
+      "pauseAfter": 0.25,
+      "panels": [
+        {
+          "id": "00a",
+          "bg": "blue",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 540,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  0.5
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "crown",
+              "x": 548,
+              "y": 385,
+              "s": 0.9,
+              "at": 0.15
+            },
+            {
+              "type": "caption",
+              "text": "INVAINCU DEPUIS 10 ANS",
+              "at": 0.1
+            }
+          ]
+        },
+        {
+          "id": "00b",
+          "cue": "13",
+          "bg": "red",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.12
+            ],
+            "focus": [
+              600,
+              720
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 320,
+              "s": 3.3,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "13"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 690,
+              "s": 3.3,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  "13+0.15"
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "crown",
+              "x": 700,
+              "y": 420,
+              "s": 0.8,
+              "breakAt": "13+0.12"
+            },
+            {
+              "type": "counter",
+              "from": 0,
+              "to": 13,
+              "suffix": " S",
+              "at": "13",
+              "y": 260
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "13+0.12",
+              "x": 700,
+              "y": 470,
+              "rot": 8,
+              "color": "yellow",
+              "sound": "boom"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "13+0.12"
+            },
+            {
+              "type": "shake",
+              "at": "13+0.12"
+            }
+          ]
+        },
+        {
+          "id": "00c",
+          "cue": "annoncé",
+          "bg": "purple",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "flashes",
+              "x": 540,
+              "y": 1000,
+              "s": 1
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 540,
+              "s": 3.6,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "crossed",
+                  0.2
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "ET IL L'AVAIT ANNONCÉ",
+              "at": "annoncé",
+              "y": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Décembre {2015|deux mille quinze}, Las Vegas. {UFC 194|U-F-C cent quatre-vingt-quatorze}.",
+      "panels": [
+        {
+          "id": "01a",
+          "bg": "purple",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.1,
+              1.0
+            ],
+            "focus": [
+              540,
+              900
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "city",
+              "x": 540,
+              "y": 1060,
+              "s": 1
+            },
+            {
+              "type": "prop",
+              "name": "flashes",
+              "x": 540,
+              "y": 1000,
+              "s": 1
+            },
+            {
+              "type": "caption",
+              "text": "LAS VEGAS · 12 DÉCEMBRE 2015",
+              "at": 0.1
+            }
+          ]
+        },
+        {
+          "id": "01b",
+          "cue": "UFC",
+          "bg": "cyan",
+          "floor": null,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              760
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "cage",
+              "x": 540,
+              "y": 760,
+              "s": 1
+            },
+            {
+              "type": "title",
+              "text": "UFC 194",
+              "subtitle": "TITRE DES POIDS PLUMES",
+              "at": "UFC",
+              "y": 330,
+              "size": 230,
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "UFC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "José Aldo, le roi brésilien des poids plumes, n'a plus perdu depuis {2005|deux mille cinq}.",
+      "panels": [
+        {
+          "id": "02a",
+          "bg": "yellow",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 560,
+              "s": 3.4,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  0.4
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "crown",
+              "x": 515,
+              "y": 385,
+              "s": 0.9,
+              "at": "roi"
+            },
+            {
+              "type": "name",
+              "text": "JOSÉ ALDO",
+              "subtitle": "LE ROI DES POIDS PLUMES",
+              "flag": "br",
+              "at": "José",
+              "y": 190
+            }
+          ]
+        },
+        {
+          "id": "02b",
+          "cue": "perdu",
+          "bg": "green",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 540,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  0.3
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "INVAINCU DEPUIS 2005",
+              "at": "perdu",
+              "y": 250
+            },
+            {
+              "type": "counter",
+              "from": 0,
+              "to": 18,
+              "suffix": " VICTOIRES",
+              "at": "perdu+0.3",
+              "y": 420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "En face, Conor McGregor, un Irlandais qui parle beaucoup. Trop, disent ses critiques.",
+      "panels": [
+        {
+          "id": "03a",
+          "bg": "orange",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 520,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  0.4
+                ]
+              ]
+            },
+            {
+              "type": "name",
+              "text": "CONOR MCGREGOR",
+              "subtitle": "IRLANDE",
+              "flag": "ie",
+              "at": "Conor"
+            }
+          ]
+        },
+        {
+          "id": "03b",
+          "cue": "parle",
+          "bg": "pink",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 430,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "punch",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "mic",
+              "x": 630,
+              "y": 575,
+              "s": 0.9,
+              "rot": 80
+            },
+            {
+              "type": "bubble",
+              "text": "BLA BLA BLA !",
+              "at": "parle",
+              "x": 700,
+              "y": 330,
+              "tail": [
+                -150,
+                140
+              ]
+            },
+            {
+              "type": "bubble",
+              "text": "BLA BLA !",
+              "at": "beaucoup",
+              "x": 330,
+              "y": 200,
+              "tail": [
+                60,
+                150
+              ]
+            }
+          ]
+        },
+        {
+          "id": "03c",
+          "cue": "Trop",
+          "bg": "red",
+          "camera": {
+            "zoom": [
+              1.05,
+              1.15
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 540,
+              "s": 2.8,
+              "facing": 1,
+              "poses": [
+                [
+                  "flex",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "bubble",
+              "text": "BLA",
+              "at": 0.05,
+              "x": 250,
+              "y": 250,
+              "tail": [
+                120,
+                160
+              ]
+            },
+            {
+              "type": "bubble",
+              "text": "BLA BLA",
+              "at": 0.25,
+              "x": 800,
+              "y": 200,
+              "tail": [
+                -150,
+                170
+              ]
+            },
+            {
+              "type": "bubble",
+              "text": "BLA BLA BLA",
+              "at": 0.45,
+              "x": 540,
+              "y": 60,
+              "tail": [
+                0,
+                170
+              ]
+            },
+            {
+              "type": "title",
+              "text": "TROP ?",
+              "at": "Trop",
+              "y": 560,
+              "sound": "pop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Pendant des mois, McGregor provoque Aldo. Il prédit même qu'Aldo va trop s'avancer… et tomber sur sa main gauche.",
+      "panels": [
+        {
+          "id": "04a",
+          "bg": "blue",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 760,
+              "s": 3.3,
+              "facing": -1,
+              "poses": [
+                [
+                  "crossed",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 320,
+              "s": 3.3,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "provoque"
+                ],
+                [
+                  "guard",
+                  "Aldo"
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "LA PROVOC'",
+              "at": "provoque",
+              "y": 260
+            },
+            {
+              "type": "bubble",
+              "text": "!!!",
+              "at": "provoque+0.1",
+              "x": 560,
+              "y": 330,
+              "tail": [
+                -110,
+                120
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04b",
+          "cue": "prédit",
+          "bg": "yellow",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.05
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "title",
+              "text": "SA PRÉDICTION",
+              "at": "prédit",
+              "y": 250
+            },
+            {
+              "type": "inset",
+              "x": 70,
+              "y": 380,
+              "w": 940,
+              "h": 640,
+              "rot": -2,
+              "bg": "cyan",
+              "elements": [
+                {
+                  "type": "puppet",
+                  "style": "shadow",
+                  "build": "normal",
+                  "gloves": "#E5A50F",
+                  "x": 700,
+                  "y": 600,
+                  "s": 2.2,
+                  "facing": -1,
+                  "poses": [
+                    [
+                      "guard",
+                      0
+                    ],
+                    [
+                      "punch",
+                      "avancer"
+                    ]
+                  ],
+                  "move": {
+                    "to": [
+                      520,
+                      600
+                    ],
+                    "at": "avancer-0.2",
+                    "dur": 0.4
+                  }
+                },
+                {
+                  "type": "puppet",
+                  "style": "shadow",
+                  "build": "normal",
+                  "tint": "#1E9E57",
+                  "gloves": "#1D2133",
+                  "x": 330,
+                  "y": 600,
+                  "s": 2.2,
+                  "facing": 1,
+                  "poses": [
+                    [
+                      "guard",
+                      0
+                    ]
+                  ],
+                  "move": {
+                    "to": [
+                      270,
+                      600
+                    ],
+                    "at": "avancer",
+                    "dur": 0.3
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "04c",
+          "cue": "tomber",
+          "bg": "orange",
+          "camera": {
+            "zoom": [
+              1.05,
+              1.15
+            ],
+            "focus": [
+              560,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 380,
+              "s": 3.6,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "gauche-0.1"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "LA GAUCHE !",
+              "at": "gauche",
+              "x": 700,
+              "y": 250,
+              "rot": -6,
+              "color": "yellow",
+              "sound": "pop"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "gauche"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Le combat commence. Aldo s'avance.",
+      "panels": [
+        {
+          "id": "05a",
+          "bg": "red",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 300,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 780,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "caption",
+              "text": "ROUND 1",
+              "at": 0.05
+            },
+            {
+              "type": "timer",
+              "text": "0:01",
+              "at": 0.3,
+              "x": 820,
+              "y": 300
+            }
+          ]
+        },
+        {
+          "id": "05b",
+          "cue": "Aldo",
+          "bg": "blue",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              600,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 300,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 800,
+              "s": 3.2,
+              "facing": -1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.25
+              },
+              "move": {
+                "to": [
+                  620,
+                  1060
+                ],
+                "at": 0,
+                "dur": 1.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "McGregor recule d'un pas… et place une gauche en contre.",
+      "panels": [
+        {
+          "id": "06a",
+          "bg": "purple",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              500,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 640,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "recule"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 360,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ],
+              "move": {
+                "to": [
+                  290,
+                  1060
+                ],
+                "at": "recule",
+                "dur": 0.35
+              }
+            },
+            {
+              "type": "bubble",
+              "text": "UN PAS EN ARRIÈRE",
+              "at": "pas",
+              "x": 330,
+              "y": 220,
+              "tail": [
+                0,
+                160
+              ],
+              "size": 48
+            }
+          ]
+        },
+        {
+          "id": "06b",
+          "cue": "place",
+          "bg": "yellow",
+          "camera": {
+            "zoom": [
+              1.1,
+              1.25
+            ],
+            "focus": [
+              520,
+              640
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 600,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "punch",
+                  0
+                ],
+                [
+                  "fallen",
+                  "gauche+0.12"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 290,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "gauche"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "gauche+0.05",
+              "x": 560,
+              "y": 380,
+              "rot": -8,
+              "color": "red",
+              "sound": "boom",
+              "size": 200
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "gauche+0.05"
+            },
+            {
+              "type": "shake",
+              "at": "gauche+0.05"
+            },
+            {
+              "type": "flash",
+              "at": "gauche+0.05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Aldo s'écroule. L'arbitre arrête tout.",
+      "pauseAfter": 0.3,
+      "panels": [
+        {
+          "id": "07a",
+          "bg": "red",
+          "camera": {
+            "zoom": [
+              1.15,
+              1.05
+            ],
+            "focus": [
+              600,
+              850
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 640,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "fallen",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 330,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  0.5
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "K.O. !",
+              "at": 0.15,
+              "x": 600,
+              "y": 360,
+              "rot": 6,
+              "color": "yellow",
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": 0.15
+            }
+          ]
+        },
+        {
+          "id": "07b",
+          "cue": "arbitre",
+          "bg": "cyan",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 780,
+              "s": 3.0,
+              "facing": -1,
+              "poses": [
+                [
+                  "fallen",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 250,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "armsUp",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#8892A6",
+              "x": 540,
+              "s": 3.2,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "armsUp",
+                  "stand"
+                ],
+                "every": 0.22
+              }
+            },
+            {
+              "type": "sfx",
+              "text": "STOP !",
+              "at": "arrête",
+              "x": 540,
+              "y": 300,
+              "rot": -4,
+              "color": "red",
+              "sound": "pop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "{13|Treize} secondes : la victoire la plus rapide de l'histoire dans un combat pour un titre {UFC|U-F-C}.",
+      "panels": [
+        {
+          "id": "08a",
+          "bg": "yellow",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 540,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "counter",
+              "from": 0,
+              "to": 13,
+              "suffix": " S",
+              "at": 0.05,
+              "y": 280
+            },
+            {
+              "type": "timer",
+              "text": "0:13",
+              "at": 0.9,
+              "x": 820,
+              "y": 330
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": 0.85
+            }
+          ]
+        },
+        {
+          "id": "08b",
+          "cue": "rapide",
+          "bg": "purple",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 540,
+              "y": 700,
+              "s": 1.4
+            },
+            {
+              "type": "prop",
+              "name": "flashes",
+              "x": 540,
+              "y": 1000,
+              "s": 1
+            },
+            {
+              "type": "title",
+              "text": "RECORD",
+              "subtitle": "COMBAT POUR UN TITRE UFC",
+              "at": "rapide",
+              "y": 330,
+              "size": 200,
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "rapide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Exactement comme il l'avait annoncé.",
+      "panels": [
+        {
+          "id": "09a",
+          "bg": "green",
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.05
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "title",
+              "text": "COMME PRÉVU",
+              "at": 0.1,
+              "y": 250
+            },
+            {
+              "type": "inset",
+              "x": 70,
+              "y": 380,
+              "w": 940,
+              "h": 640,
+              "rot": 2,
+              "bg": "cyan",
+              "elements": [
+                {
+                  "type": "puppet",
+                  "style": "shadow",
+                  "build": "normal",
+                  "gloves": "#E5A50F",
+                  "x": 620,
+                  "y": 600,
+                  "s": 2.2,
+                  "facing": -1,
+                  "poses": [
+                    [
+                      "punch",
+                      0
+                    ],
+                    [
+                      "fallen",
+                      0.35
+                    ]
+                  ]
+                },
+                {
+                  "type": "puppet",
+                  "style": "shadow",
+                  "build": "normal",
+                  "tint": "#1E9E57",
+                  "gloves": "#1D2133",
+                  "x": 330,
+                  "y": 600,
+                  "s": 2.2,
+                  "facing": 1,
+                  "poses": [
+                    [
+                      "guard",
+                      0
+                    ],
+                    [
+                      "punch",
+                      0.25
+                    ]
+                  ]
+                },
+                {
+                  "type": "sfx",
+                  "text": "BAM !",
+                  "at": 0.35,
+                  "x": 560,
+                  "y": 200,
+                  "rot": -6,
+                  "color": "red",
+                  "size": 110
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Ce soir-là, McGregor devient champion… et une superstar mondiale.",
+      "panels": [
+        {
+          "id": "10a",
+          "bg": "red",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "confetti",
+              "x": 540,
+              "y": 0,
+              "s": 1
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 540,
+              "s": 3.3,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  0.2
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 540,
+              "y": 300,
+              "s": 0.75,
+              "rot": -4
+            },
+            {
+              "type": "title",
+              "text": "CHAMPION",
+              "at": "champion",
+              "y": 150
+            }
+          ]
+        },
+        {
+          "id": "10b",
+          "cue": "superstar",
+          "bg": "blue",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "flashes",
+              "x": 540,
+              "y": 1000,
+              "s": 1
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 540,
+              "s": 3.6,
+              "facing": 1,
+              "poses": [
+                [
+                  "armsUp",
+                  0
+                ],
+                [
+                  "crossed",
+                  0.4
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "SUPERSTAR MONDIALE",
+              "at": "superstar",
+              "y": 260,
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "superstar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Abonne-toi pour plus d'histoires Hors Limite.",
+      "panels": [
+        {
+          "id": "11a",
+          "bg": "red",
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 540,
+              "s": 2.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "crossed",
+                  0
+                ],
+                [
+                  "armsUp",
+                  1.6
+                ],
+                [
+                  "guard",
+                  3.0
+                ]
+              ]
+            },
+            {
+              "type": "logo",
+              "text": "HORS LIMITE",
+              "subtitle": "ABONNE-TOI",
+              "at": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

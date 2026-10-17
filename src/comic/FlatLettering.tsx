@@ -103,6 +103,7 @@ const FlagDot: React.FC<{code: string; cx: number; cy: number; r: number}> = ({c
     nl: ['#AE1C28', '#FFFFFF', '#21468B'],
     us: ['#B22234', '#FFFFFF', '#B22234', '#FFFFFF', '#3C3B6E'],
     fr: ['#0055A4', '#FFFFFF', '#EF4135'],
+    ie: ['#169B62', '#FFFFFF', '#FF883E'],
   };
   return (
     <g>
@@ -123,7 +124,7 @@ const FlagDot: React.FC<{code: string; cx: number; cy: number; r: number}> = ({c
           </>
         ) : (
           (stripes[code] ?? stripes.us).map((c, i, arr) =>
-            code === 'fr' ? (
+            code === 'fr' || code === 'ie' ? (
               <rect key={i} x={cx - r + ((2 * r) / arr.length) * i} y={cy - r} width={(2 * r) / arr.length} height={2 * r} fill={c} />
             ) : (
               <rect key={i} x={cx - r} y={cy - r + ((2 * r) / arr.length) * i} width={2 * r} height={(2 * r) / arr.length} fill={c} />
@@ -185,7 +186,7 @@ const Counter: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const v = Math.round((el.from ?? 0) + ((el.to ?? 0) - (el.from ?? 0)) * p);
   return (
     <g transform={`translate(540 ${el.y ?? 260}) scale(${pop(dt, 1.08)})`} filter={SHADOW}>
-      <T x={0} y={60} size={170} fill="#fff">
+      <T x={0} y={60} size={Math.min(170, 960 / (0.76 * Math.max(3, `${el.prefix ?? ''}${el.to ?? ''}${el.suffix ?? ''}`.length)))} fill="#fff">
         {`${el.prefix ?? ''}${v}${el.suffix ?? ''}`}
       </T>
     </g>
@@ -219,6 +220,25 @@ const Logo: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   );
 };
 
+/** Bulle de dialogue arrondie avec petite queue (vers `tail`, relatif à la bulle). */
+const Bubble: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
+  if (dt < 0) return null;
+  const size = el.size ? el.size * 0.75 : 48;
+  const text = el.text ?? '';
+  const w = tw(text, size) + 70;
+  const h = size * 1.9;
+  const [tx, ty] = (el as {tail?: [number, number]}).tail ?? [-w * 0.25, h * 0.95];
+  return (
+    <g transform={`translate(${el.x ?? 540} ${el.y ?? 400}) rotate(${(el.rot ?? 0) * 0.5}) scale(${pop(dt, 1.12)})`} filter={SHADOW}>
+      <path d={`M ${-w * 0.15} ${h * 0.2} L ${tx} ${ty} L ${w * 0.08} ${h * 0.2} Z`} fill="#fff" />
+      <rect x={-w / 2} y={-h / 2} width={w} height={h} rx={h / 2} fill="#fff" />
+      <T x={0} y={size * 0.36} size={size} fill={DARK}>
+        {text}
+      </T>
+    </g>
+  );
+};
+
 export const FlatLettering: React.FC<{el: ComicElement; t: number; dur: number}> = ({el, t, dur}) => {
   const dt = t - (el.at ?? 0);
   switch (el.type) {
@@ -236,6 +256,8 @@ export const FlatLettering: React.FC<{el: ComicElement; t: number; dur: number}>
       return <Counter el={el} dt={dt} />;
     case 'logo':
       return <Logo el={el} dt={dt} />;
+    case 'bubble':
+      return <Bubble el={el} dt={dt} />;
     default:
       return null;
   }

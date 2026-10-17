@@ -16,7 +16,7 @@ export const FLOOR_Y = 1060;
 // pour remplir l'écran ; les sous-titres se placent sur la bande de sol, sous la scène.
 export const STAGE = {floor: 1290, scale: 1.16};
 const stage = `translate(540 ${STAGE.floor}) scale(${STAGE.scale}) translate(-540 ${-FLOOR_Y})`;
-const ON_STAGE = new Set(['sfx', 'timer']);
+const ON_STAGE = new Set(['sfx', 'timer', 'bubble']);
 const GUTTER = 22;
 const BORDER = 13;
 const INK = '#000';
@@ -73,7 +73,7 @@ const FlatBackground: React.FC<{id: string; color: string; t: number; focus: [nu
   </g>
 );
 
-const LETTERING = new Set(['caption', 'sfx', 'title', 'name', 'timer', 'counter', 'logo']);
+const LETTERING = new Set(['caption', 'sfx', 'title', 'name', 'timer', 'counter', 'logo', 'bubble']);
 
 /** Trame de points + dégradé lumineux + lignes de vitesse en éventail. */
 const Background: React.FC<{id: string; color: string; rays?: boolean; t: number; focus: [number, number]}> = ({id, color, rays, t, focus}) => {
@@ -140,7 +140,7 @@ export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; f
       return (
         <g transform={`translate(${x} ${y}) scale(${s * (el.facing ?? 1)} ${s})`}>
           {flat && Math.abs(y - floor) < 4 ? <ellipse cx={0} cy={0} rx={48} ry={7} fill="rgba(0,0,0,0.18)" /> : null}
-          <Puppet filter={flat ? 'url(#fl-shadow)' : undefined} pose={puppetPose(el, t)} build={el.build} style={el.style} glove={el.glove} sepia={el.sepia} />
+          <Puppet filter={flat ? 'url(#fl-shadow)' : undefined} pose={puppetPose(el, t)} build={el.build} style={el.style} glove={el.glove} gloves={el.gloves} tint={el.tint} sepia={el.sepia} />
         </g>
       );
     case 'prop': {

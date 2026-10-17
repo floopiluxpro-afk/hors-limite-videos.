@@ -255,6 +255,73 @@ const Balance: PropFC = ({el, t, th}) => {
   );
 };
 
+
+/** Couronne dorée (origine = bas de la couronne) ; apparaît à `at`, peut tomber avec "breakAt". */
+const Crown: PropFC = ({el, t, th}) => {
+  const dt = t - (el.at ?? 0);
+  if (dt < 0) return null;
+  const appear = interpolate(dt, [0, 0.2], [0, 1], {...clamp, easing: Easing.out(Easing.back(2))});
+  const fall = el.breakAt !== undefined ? Math.max(0, t - el.breakAt) : 0;
+  return (
+    <g transform={`translate(${fall * 300} ${fall * fall * 2200}) rotate(${fall * 400}) scale(${appear})`}>
+      <polygon points="-70,0 70,0 85,-80 40,-35 0,-95 -40,-35 -85,-80" fill="#FFC93C" stroke={th.out} strokeWidth={7} strokeLinejoin="round" />
+      <rect x={-72} y={-14} width={144} height={18} fill="#E5A50F" />
+      {[-85, 0, 85].map((x, i) => (
+        <circle key={i} cx={x} cy={i === 1 ? -95 : -80} r={11} fill="#FF5A5F" stroke={th.out} strokeWidth={5} />
+      ))}
+    </g>
+  );
+};
+
+/** Ceinture de champion (origine = centre) ; brille. */
+const BeltGold: PropFC = ({t, th}) => {
+  const glint = ((t * 0.8) % 1.6) - 0.3;
+  return (
+    <g>
+      <rect x={-260} y={-45} width={520} height={90} rx={30} fill="#1D2133" stroke={th.out} strokeWidth={7} />
+      <ellipse rx={130} ry={95} fill="#FFC93C" stroke={th.out} strokeWidth={8} />
+      <ellipse rx={95} ry={66} fill="#E5A50F" />
+      <circle r={40} fill="#FFC93C" />
+      {[-195, 195].map((x) => (
+        <rect key={x} x={x - 30} y={-30} width={60} height={60} rx={10} fill="#FFC93C" stroke={th.out} strokeWidth={6} />
+      ))}
+      <clipPath id="beltClip">
+        <ellipse rx={130} ry={95} />
+      </clipPath>
+      <rect x={glint * 260 - 20} y={-120} width={40} height={240} fill="rgba(255,255,255,0.6)" transform="rotate(20)" clipPath="url(#beltClip)" />
+    </g>
+  );
+};
+
+/** Micro (origine = base du manche). */
+const Mic: PropFC = ({th}) => (
+  <g>
+    <rect x={-12} y={-150} width={24} height={150} rx={10} fill="#3A3F57" stroke={th.out} strokeWidth={6} />
+    <circle cx={0} cy={-175} r={42} fill="#9AA3AD" stroke={th.out} strokeWidth={7} />
+    <path d="M -30 -190 L 30 -160 M -36 -170 L 26 -140 M -26 -205 L 34 -175" stroke="#6B7380" strokeWidth={5} />
+  </g>
+);
+
+/** Flashs d'appareils photo qui crépitent dans tout le cadre. */
+const Flashes: PropFC = ({t}) => (
+  <g>
+    {Array.from({length: 18}, (_, i) => {
+      const period = 0.5 + random(`fp${i}`) * 0.7;
+      const phase = (t + random(`fo${i}`) * period) % period;
+      const on = phase < 0.09;
+      if (!on) return null;
+      const x = random(`fx${i}`) * 1080 - 540;
+      const y = -random(`fy${i}`) * 900;
+      return (
+        <g key={i} transform={`translate(${x} ${y})`}>
+          <circle r={46} fill="rgba(255,255,255,0.35)" />
+          <polygon points="0,-60 12,-12 60,0 12,12 0,60 -12,12 -60,0 -12,-12" fill="#fff" />
+        </g>
+      );
+    })}
+  </g>
+);
+
 export const PROPS: Record<string, PropFC> = {
   city: City,
   cage: Cage,
@@ -264,4 +331,8 @@ export const PROPS: Record<string, PropFC> = {
   confetti: Confetti,
   globe: Globe,
   balance: Balance,
+  crown: Crown,
+  beltGold: BeltGold,
+  mic: Mic,
+  flashes: Flashes,
 };

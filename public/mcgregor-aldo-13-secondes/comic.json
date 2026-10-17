@@ -1,0 +1,2419 @@
+{
+  "slug": "mcgregor-aldo-13-secondes",
+  "title": "McGregor détrône Aldo en 13 secondes (UFC 194)",
+  "theme": "flat",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 52.651,
+  "durationInFrames": 1580,
+  "voice": null,
+  "music": null,
+  "musicCuts": [],
+  "words": [
+    {
+      "text": "Il",
+      "line": 0,
+      "start": 0.25,
+      "end": 0.381
+    },
+    {
+      "text": "a",
+      "line": 0,
+      "start": 0.408,
+      "end": 0.492
+    },
+    {
+      "text": "détrôné",
+      "line": 0,
+      "start": 0.519,
+      "end": 0.886
+    },
+    {
+      "text": "un",
+      "line": 0,
+      "start": 0.914,
+      "end": 1.045
+    },
+    {
+      "text": "champion",
+      "line": 0,
+      "start": 1.072,
+      "end": 1.486
+    },
+    {
+      "text": "invaincu",
+      "line": 0,
+      "start": 1.514,
+      "end": 1.928
+    },
+    {
+      "text": "depuis",
+      "line": 0,
+      "start": 1.955,
+      "end": 2.275
+    },
+    {
+      "text": "dix",
+      "line": 0,
+      "start": 2.303,
+      "end": 2.481
+    },
+    {
+      "text": "ans…",
+      "line": 0,
+      "start": 2.508,
+      "end": 2.734
+    },
+    {
+      "text": "en",
+      "line": 0,
+      "start": 3.115,
+      "end": 3.246
+    },
+    {
+      "text": "13",
+      "line": 0,
+      "start": 3.274,
+      "end": 3.594
+    },
+    {
+      "text": "secondes.",
+      "line": 0,
+      "start": 3.621,
+      "end": 4.083
+    },
+    {
+      "text": "Et",
+      "line": 0,
+      "start": 4.465,
+      "end": 4.595
+    },
+    {
+      "text": "il",
+      "line": 0,
+      "start": 4.623,
+      "end": 4.754
+    },
+    {
+      "text": "l'avait",
+      "line": 0,
+      "start": 4.781,
+      "end": 5.148
+    },
+    {
+      "text": "annoncé.",
+      "line": 0,
+      "start": 5.175,
+      "end": 5.59
+    },
+    {
+      "text": "Décembre",
+      "line": 1,
+      "start": 6.222,
+      "end": 6.636
+    },
+    {
+      "text": "2015,",
+      "line": 1,
+      "start": 6.664,
+      "end": 7.551
+    },
+    {
+      "text": "Las",
+      "line": 1,
+      "start": 7.733,
+      "end": 7.911
+    },
+    {
+      "text": "Vegas.",
+      "line": 1,
+      "start": 7.938,
+      "end": 8.258
+    },
+    {
+      "text": "UFC 194.",
+      "line": 1,
+      "start": 8.64,
+      "end": 10.236
+    },
+    {
+      "text": "José",
+      "line": 2,
+      "start": 10.618,
+      "end": 10.844
+    },
+    {
+      "text": "Aldo,",
+      "line": 2,
+      "start": 10.871,
+      "end": 11.144
+    },
+    {
+      "text": "le",
+      "line": 2,
+      "start": 11.325,
+      "end": 11.456
+    },
+    {
+      "text": "roi",
+      "line": 2,
+      "start": 11.484,
+      "end": 11.662
+    },
+    {
+      "text": "brésilien",
+      "line": 2,
+      "start": 11.689,
+      "end": 12.151
+    },
+    {
+      "text": "des",
+      "line": 2,
+      "start": 12.178,
+      "end": 12.356
+    },
+    {
+      "text": "poids",
+      "line": 2,
+      "start": 12.384,
+      "end": 12.656
+    },
+    {
+      "text": "plumes,",
+      "line": 2,
+      "start": 12.684,
+      "end": 13.051
+    },
+    {
+      "text": "n'a",
+      "line": 2,
+      "start": 13.233,
+      "end": 13.411
+    },
+    {
+      "text": "plus",
+      "line": 2,
+      "start": 13.438,
+      "end": 13.664
+    },
+    {
+      "text": "perdu",
+      "line": 2,
+      "start": 13.691,
+      "end": 13.964
+    },
+    {
+      "text": "depuis",
+      "line": 2,
+      "start": 13.991,
+      "end": 14.311
+    },
+    {
+      "text": "2005.",
+      "line": 2,
+      "start": 14.338,
+      "end": 15.131
+    },
+    {
+      "text": "En",
+      "line": 3,
+      "start": 15.513,
+      "end": 15.644
+    },
+    {
+      "text": "face,",
+      "line": 3,
+      "start": 15.671,
+      "end": 15.944
+    },
+    {
+      "text": "Conor",
+      "line": 3,
+      "start": 16.125,
+      "end": 16.398
+    },
+    {
+      "text": "McGregor,",
+      "line": 3,
+      "start": 16.425,
+      "end": 16.887
+    },
+    {
+      "text": "un",
+      "line": 3,
+      "start": 17.069,
+      "end": 17.2
+    },
+    {
+      "text": "Irlandais",
+      "line": 3,
+      "start": 17.227,
+      "end": 17.689
+    },
+    {
+      "text": "qui",
+      "line": 3,
+      "start": 17.716,
+      "end": 17.895
+    },
+    {
+      "text": "parle",
+      "line": 3,
+      "start": 17.922,
+      "end": 18.195
+    },
+    {
+      "text": "beaucoup.",
+      "line": 3,
+      "start": 18.222,
+      "end": 18.684
+    },
+    {
+      "text": "Trop,",
+      "line": 3,
+      "start": 19.065,
+      "end": 19.338
+    },
+    {
+      "text": "disent",
+      "line": 3,
+      "start": 19.52,
+      "end": 19.84
+    },
+    {
+      "text": "ses",
+      "line": 3,
+      "start": 19.867,
+      "end": 20.045
+    },
+    {
+      "text": "critiques.",
+      "line": 3,
+      "start": 20.073,
+      "end": 20.582
+    },
+    {
+      "text": "Pendant",
+      "line": 4,
+      "start": 20.964,
+      "end": 21.331
+    },
+    {
+      "text": "des",
+      "line": 4,
+      "start": 21.358,
+      "end": 21.536
+    },
+    {
+      "text": "mois,",
+      "line": 4,
+      "start": 21.564,
+      "end": 21.836
+    },
+    {
+      "text": "McGregor",
+      "line": 4,
+      "start": 22.018,
+      "end": 22.433
+    },
+    {
+      "text": "provoque",
+      "line": 4,
+      "start": 22.46,
+      "end": 22.875
+    },
+    {
+      "text": "Aldo.",
+      "line": 4,
+      "start": 22.902,
+      "end": 23.175
+    },
+    {
+      "text": "Il",
+      "line": 4,
+      "start": 23.556,
+      "end": 23.687
+    },
+    {
+      "text": "prédit",
+      "line": 4,
+      "start": 23.715,
+      "end": 24.035
+    },
+    {
+      "text": "même",
+      "line": 4,
+      "start": 24.062,
+      "end": 24.287
+    },
+    {
+      "text": "qu'Aldo",
+      "line": 4,
+      "start": 24.315,
+      "end": 24.682
+    },
+    {
+      "text": "va",
+      "line": 4,
+      "start": 24.709,
+      "end": 24.84
+    },
+    {
+      "text": "trop",
+      "line": 4,
+      "start": 24.867,
+      "end": 25.093
+    },
+    {
+      "text": "s'avancer…",
+      "line": 4,
+      "start": 25.12,
+      "end": 25.629
+    },
+    {
+      "text": "et",
+      "line": 4,
+      "start": 26.011,
+      "end": 26.142
+    },
+    {
+      "text": "tomber",
+      "line": 4,
+      "start": 26.169,
+      "end": 26.489
+    },
+    {
+      "text": "sur",
+      "line": 4,
+      "start": 26.516,
+      "end": 26.695
+    },
+    {
+      "text": "sa",
+      "line": 4,
+      "start": 26.722,
+      "end": 26.853
+    },
+    {
+      "text": "main",
+      "line": 4,
+      "start": 26.88,
+      "end": 27.105
+    },
+    {
+      "text": "gauche.",
+      "line": 4,
+      "start": 27.133,
+      "end": 27.5
+    },
+    {
+      "text": "Le",
+      "line": 5,
+      "start": 27.882,
+      "end": 28.013
+    },
+    {
+      "text": "combat",
+      "line": 5,
+      "start": 28.04,
+      "end": 28.36
+    },
+    {
+      "text": "commence.",
+      "line": 5,
+      "start": 28.387,
+      "end": 28.849
+    },
+    {
+      "text": "Aldo",
+      "line": 5,
+      "start": 29.231,
+      "end": 29.456
+    },
+    {
+      "text": "s'avance.",
+      "line": 5,
+      "start": 29.484,
+      "end": 29.945
+    },
+    {
+      "text": "McGregor",
+      "line": 6,
+      "start": 30.327,
+      "end": 30.742
+    },
+    {
+      "text": "recule",
+      "line": 6,
+      "start": 30.769,
+      "end": 31.089
+    },
+    {
+      "text": "d'un",
+      "line": 6,
+      "start": 31.116,
+      "end": 31.342
+    },
+    {
+      "text": "pas…",
+      "line": 6,
+      "start": 31.369,
+      "end": 31.595
+    },
+    {
+      "text": "et",
+      "line": 6,
+      "start": 31.976,
+      "end": 32.107
+    },
+    {
+      "text": "place",
+      "line": 6,
+      "start": 32.135,
+      "end": 32.407
+    },
+    {
+      "text": "une",
+      "line": 6,
+      "start": 32.435,
+      "end": 32.613
+    },
+    {
+      "text": "gauche",
+      "line": 6,
+      "start": 32.64,
+      "end": 32.96
+    },
+    {
+      "text": "en",
+      "line": 6,
+      "start": 32.987,
+      "end": 33.118
+    },
+    {
+      "text": "contre.",
+      "line": 6,
+      "start": 33.145,
+      "end": 33.513
+    },
+    {
+      "text": "Aldo",
+      "line": 7,
+      "start": 33.895,
+      "end": 34.12
+    },
+    {
+      "text": "s'écroule.",
+      "line": 7,
+      "start": 34.147,
+      "end": 34.656
+    },
+    {
+      "text": "L'arbitre",
+      "line": 7,
+      "start": 35.038,
+      "end": 35.5
+    },
+    {
+      "text": "arrête",
+      "line": 7,
+      "start": 35.527,
+      "end": 35.847
+    },
+    {
+      "text": "tout.",
+      "line": 7,
+      "start": 35.875,
+      "end": 36.147
+    },
+    {
+      "text": "13",
+      "line": 8,
+      "start": 36.829,
+      "end": 37.149
+    },
+    {
+      "text": "secondes",
+      "line": 8,
+      "start": 37.176,
+      "end": 37.591
+    },
+    {
+      "text": ":",
+      "line": 8,
+      "start": 37.618,
+      "end": 37.702
+    },
+    {
+      "text": "la",
+      "line": 8,
+      "start": 38.084,
+      "end": 38.215
+    },
+    {
+      "text": "victoire",
+      "line": 8,
+      "start": 38.242,
+      "end": 38.656
+    },
+    {
+      "text": "la",
+      "line": 8,
+      "start": 38.684,
+      "end": 38.815
+    },
+    {
+      "text": "plus",
+      "line": 8,
+      "start": 38.842,
+      "end": 39.067
+    },
+    {
+      "text": "rapide",
+      "line": 8,
+      "start": 39.095,
+      "end": 39.415
+    },
+    {
+      "text": "de",
+      "line": 8,
+      "start": 39.442,
+      "end": 39.573
+    },
+    {
+      "text": "l'histoire",
+      "line": 8,
+      "start": 39.6,
+      "end": 40.109
+    },
+    {
+      "text": "dans",
+      "line": 8,
+      "start": 40.136,
+      "end": 40.362
+    },
+    {
+      "text": "un",
+      "line": 8,
+      "start": 40.389,
+      "end": 40.52
+    },
+    {
+      "text": "combat",
+      "line": 8,
+      "start": 40.547,
+      "end": 40.867
+    },
+    {
+      "text": "pour",
+      "line": 8,
+      "start": 40.895,
+      "end": 41.12
+    },
+    {
+      "text": "un",
+      "line": 8,
+      "start": 41.147,
+      "end": 41.278
+    },
+    {
+      "text": "titre",
+      "line": 8,
+      "start": 41.305,
+      "end": 41.578
+    },
+    {
+      "text": "UFC.",
+      "line": 8,
+      "start": 41.605,
+      "end": 41.925
+    },
+    {
+      "text": "Exactement",
+      "line": 9,
+      "start": 42.307,
+      "end": 42.816
+    },
+    {
+      "text": "comme",
+      "line": 9,
+      "start": 42.844,
+      "end": 43.116
+    },
+    {
+      "text": "il",
+      "line": 9,
+      "start": 43.144,
+      "end": 43.275
+    },
+    {
+      "text": "l'avait",
+      "line": 9,
+      "start": 43.302,
+      "end": 43.669
+    },
+    {
+      "text": "annoncé.",
+      "line": 9,
+      "start": 43.696,
+      "end": 44.111
+    },
+    {
+      "text": "Ce",
+      "line": 10,
+      "start": 44.493,
+      "end": 44.624
+    },
+    {
+      "text": "soir-là,",
+      "line": 10,
+      "start": 44.651,
+      "end": 45.065
+    },
+    {
+      "text": "McGregor",
+      "line": 10,
+      "start": 45.247,
+      "end": 45.662
+    },
+    {
+      "text": "devient",
+      "line": 10,
+      "start": 45.689,
+      "end": 46.056
+    },
+    {
+      "text": "champion…",
+      "line": 10,
+      "start": 46.084,
+      "end": 46.545
+    },
+    {
+      "text": "et",
+      "line": 10,
+      "start": 46.927,
+      "end": 47.058
+    },
+    {
+      "text": "une",
+      "line": 10,
+      "start": 47.085,
+      "end": 47.264
+    },
+    {
+      "text": "superstar",
+      "line": 10,
+      "start": 47.291,
+      "end": 47.753
+    },
+    {
+      "text": "mondiale.",
+      "line": 10,
+      "start": 47.78,
+      "end": 48.242
+    },
+    {
+      "text": "Abonne-toi",
+      "line": 11,
+      "start": 48.624,
+      "end": 49.133
+    },
+    {
+      "text": "pour",
+      "line": 11,
+      "start": 49.16,
+      "end": 49.385
+    },
+    {
+      "text": "plus",
+      "line": 11,
+      "start": 49.413,
+      "end": 49.638
+    },
+    {
+      "text": "d'histoires",
+      "line": 11,
+      "start": 49.665,
+      "end": 50.222
+    },
+    {
+      "text": "Hors",
+      "line": 11,
+      "start": 50.249,
+      "end": 50.475
+    },
+    {
+      "text": "Limite.",
+      "line": 11,
+      "start": 50.502,
+      "end": 50.869
+    }
+  ],
+  "panels": [
+    {
+      "id": "00a",
+      "bg": "blue",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 540,
+          "s": 3.4,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            },
+            {
+              "pose": "guard",
+              "t": 0.5
+            }
+          ]
+        },
+        {
+          "type": "prop",
+          "name": "crown",
+          "x": 548,
+          "y": 385,
+          "s": 0.9,
+          "at": 0.15
+        },
+        {
+          "type": "caption",
+          "text": "INVAINCU DEPUIS 10 ANS",
+          "at": 0.1
+        }
+      ],
+      "line": 0,
+      "start": 0,
+      "end": 3.214,
+      "fx": []
+    },
+    {
+      "id": "00b",
+      "cue": "13",
+      "bg": "red",
+      "camera": {
+        "zoom": [
+          1,
+          1.12
+        ],
+        "focus": [
+          600,
+          720
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 320,
+          "s": 3.3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "punch",
+              "t": 0.06
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 690,
+          "s": 3.3,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "fallen",
+              "t": 0.21
+            }
+          ]
+        },
+        {
+          "type": "prop",
+          "name": "crown",
+          "x": 700,
+          "y": 420,
+          "s": 0.8,
+          "breakAt": 0.18
+        },
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 13,
+          "suffix": " S",
+          "at": 0.06,
+          "y": 260
+        },
+        {
+          "type": "sfx",
+          "text": "BAM !",
+          "at": 0.18,
+          "x": 700,
+          "y": 470,
+          "rot": 8,
+          "color": "yellow",
+          "sound": "boom"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.18
+        },
+        {
+          "type": "shake",
+          "at": 0.18
+        }
+      ],
+      "line": 0,
+      "start": 3.214,
+      "end": 5.115
+    },
+    {
+      "id": "00c",
+      "cue": "annoncé",
+      "bg": "purple",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "flashes",
+          "x": 540,
+          "y": 1000,
+          "s": 1
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 540,
+          "s": 3.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "crossed",
+              "t": 0.2
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "ET IL L'AVAIT ANNONCÉ",
+          "at": 0.06,
+          "y": 260
+        }
+      ],
+      "line": 0,
+      "start": 5.115,
+      "end": 6.162,
+      "fx": []
+    },
+    {
+      "id": "01a",
+      "bg": "purple",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1.1,
+          1
+        ],
+        "focus": [
+          540,
+          900
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "city",
+          "x": 540,
+          "y": 1060,
+          "s": 1
+        },
+        {
+          "type": "prop",
+          "name": "flashes",
+          "x": 540,
+          "y": 1000,
+          "s": 1
+        },
+        {
+          "type": "caption",
+          "text": "LAS VEGAS · 12 DÉCEMBRE 2015",
+          "at": 0.1
+        }
+      ],
+      "line": 1,
+      "start": 6.162,
+      "end": 8.58,
+      "fx": []
+    },
+    {
+      "id": "01b",
+      "cue": "UFC",
+      "bg": "cyan",
+      "floor": null,
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          760
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "cage",
+          "x": 540,
+          "y": 760,
+          "s": 1
+        },
+        {
+          "type": "title",
+          "text": "UFC 194",
+          "subtitle": "TITRE DES POIDS PLUMES",
+          "at": 0.06,
+          "y": 330,
+          "size": 230,
+          "sound": "hit"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.06
+        }
+      ],
+      "line": 1,
+      "start": 8.58,
+      "end": 10.558
+    },
+    {
+      "id": "02a",
+      "bg": "yellow",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 560,
+          "s": 3.4,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            },
+            {
+              "pose": "guard",
+              "t": 0.4
+            }
+          ]
+        },
+        {
+          "type": "prop",
+          "name": "crown",
+          "x": 515,
+          "y": 385,
+          "s": 0.9,
+          "at": 0.926
+        },
+        {
+          "type": "name",
+          "text": "JOSÉ ALDO",
+          "subtitle": "LE ROI DES POIDS PLUMES",
+          "flag": "br",
+          "at": 0.06,
+          "y": 190
+        }
+      ],
+      "line": 2,
+      "start": 10.558,
+      "end": 13.631,
+      "fx": []
+    },
+    {
+      "id": "02b",
+      "cue": "perdu",
+      "bg": "green",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 540,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "armsUp",
+              "t": 0.3
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "INVAINCU DEPUIS 2005",
+          "at": 0.06,
+          "y": 250
+        },
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 18,
+          "suffix": " VICTOIRES",
+          "at": 0.36,
+          "y": 420
+        }
+      ],
+      "line": 2,
+      "start": 13.631,
+      "end": 15.453,
+      "fx": []
+    },
+    {
+      "id": "03a",
+      "bg": "orange",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 520,
+          "s": 3.4,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            },
+            {
+              "pose": "guard",
+              "t": 0.4
+            }
+          ]
+        },
+        {
+          "type": "name",
+          "text": "CONOR MCGREGOR",
+          "subtitle": "IRLANDE",
+          "flag": "ie",
+          "at": 0.672
+        }
+      ],
+      "line": 3,
+      "start": 15.453,
+      "end": 17.862,
+      "fx": []
+    },
+    {
+      "id": "03b",
+      "cue": "parle",
+      "bg": "pink",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 430,
+          "s": 3.4,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "punch",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "prop",
+          "name": "mic",
+          "x": 630,
+          "y": 575,
+          "s": 0.9,
+          "rot": 80
+        },
+        {
+          "type": "bubble",
+          "text": "BLA BLA BLA !",
+          "at": 0.06,
+          "x": 700,
+          "y": 330,
+          "tail": [
+            -150,
+            140
+          ]
+        },
+        {
+          "type": "bubble",
+          "text": "BLA BLA !",
+          "at": 0.36,
+          "x": 330,
+          "y": 200,
+          "tail": [
+            60,
+            150
+          ]
+        }
+      ],
+      "line": 3,
+      "start": 17.862,
+      "end": 19.005,
+      "fx": []
+    },
+    {
+      "id": "03c",
+      "cue": "Trop",
+      "bg": "red",
+      "camera": {
+        "zoom": [
+          1.05,
+          1.15
+        ],
+        "focus": [
+          540,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 540,
+          "s": 2.8,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "flex",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "bubble",
+          "text": "BLA",
+          "at": 0.05,
+          "x": 250,
+          "y": 250,
+          "tail": [
+            120,
+            160
+          ]
+        },
+        {
+          "type": "bubble",
+          "text": "BLA BLA",
+          "at": 0.25,
+          "x": 800,
+          "y": 200,
+          "tail": [
+            -150,
+            170
+          ]
+        },
+        {
+          "type": "bubble",
+          "text": "BLA BLA BLA",
+          "at": 0.45,
+          "x": 540,
+          "y": 60,
+          "tail": [
+            0,
+            170
+          ]
+        },
+        {
+          "type": "title",
+          "text": "TROP ?",
+          "at": 0.06,
+          "y": 560,
+          "sound": "pop"
+        }
+      ],
+      "line": 3,
+      "start": 19.005,
+      "end": 20.904,
+      "fx": []
+    },
+    {
+      "id": "04a",
+      "bg": "blue",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 760,
+          "s": 3.3,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "crossed",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 320,
+          "s": 3.3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "punch",
+              "t": 1.556
+            },
+            {
+              "pose": "guard",
+              "t": 1.998
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "LA PROVOC'",
+          "at": 1.556,
+          "y": 260
+        },
+        {
+          "type": "bubble",
+          "text": "!!!",
+          "at": 1.656,
+          "x": 560,
+          "y": 330,
+          "tail": [
+            -110,
+            120
+          ]
+        }
+      ],
+      "line": 4,
+      "start": 20.904,
+      "end": 23.655,
+      "fx": []
+    },
+    {
+      "id": "04b",
+      "cue": "prédit",
+      "bg": "yellow",
+      "camera": {
+        "zoom": [
+          1,
+          1.05
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "title",
+          "text": "SA PRÉDICTION",
+          "at": 0.06,
+          "y": 250
+        },
+        {
+          "type": "inset",
+          "x": 70,
+          "y": 380,
+          "w": 940,
+          "h": 640,
+          "rot": -2,
+          "bg": "cyan",
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 700,
+              "y": 600,
+              "s": 2.2,
+              "facing": -1,
+              "poses": [
+                {
+                  "pose": "guard",
+                  "t": 0
+                },
+                {
+                  "pose": "punch",
+                  "t": 1.465
+                }
+              ],
+              "move": {
+                "to": [
+                  520,
+                  600
+                ],
+                "at": 1.265,
+                "dur": 0.4
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 330,
+              "y": 600,
+              "s": 2.2,
+              "facing": 1,
+              "poses": [
+                {
+                  "pose": "guard",
+                  "t": 0
+                }
+              ],
+              "move": {
+                "to": [
+                  270,
+                  600
+                ],
+                "at": 1.465,
+                "dur": 0.3
+              }
+            }
+          ]
+        }
+      ],
+      "line": 4,
+      "start": 23.655,
+      "end": 26.109,
+      "fx": []
+    },
+    {
+      "id": "04c",
+      "cue": "tomber",
+      "bg": "orange",
+      "camera": {
+        "zoom": [
+          1.05,
+          1.15
+        ],
+        "focus": [
+          560,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 380,
+          "s": 3.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "punch",
+              "t": 0.924
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "LA GAUCHE !",
+          "at": 1.024,
+          "x": 700,
+          "y": 250,
+          "rot": -6,
+          "color": "yellow",
+          "sound": "pop"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 1.024
+        }
+      ],
+      "line": 4,
+      "start": 26.109,
+      "end": 27.822
+    },
+    {
+      "id": "05a",
+      "bg": "red",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 300,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 780,
+          "s": 3.2,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "text": "ROUND 1",
+          "at": 0.05
+        },
+        {
+          "type": "timer",
+          "text": "0:01",
+          "at": 0.3,
+          "x": 820,
+          "y": 300
+        }
+      ],
+      "line": 5,
+      "start": 27.822,
+      "end": 29.171,
+      "fx": []
+    },
+    {
+      "id": "05b",
+      "cue": "Aldo",
+      "bg": "blue",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          600,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 300,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 800,
+          "s": 3.2,
+          "facing": -1,
+          "cycle": {
+            "poses": [
+              "walk1",
+              "walk2"
+            ],
+            "every": 0.25,
+            "from": 0,
+            "until": null
+          },
+          "move": {
+            "to": [
+              620,
+              1060
+            ],
+            "at": 0,
+            "dur": 1.2
+          }
+        }
+      ],
+      "line": 5,
+      "start": 29.171,
+      "end": 30.267,
+      "fx": []
+    },
+    {
+      "id": "06a",
+      "bg": "purple",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          500,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 640,
+          "s": 3.2,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "punch",
+              "t": 0.502
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 360,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ],
+          "move": {
+            "to": [
+              290,
+              1060
+            ],
+            "at": 0.502,
+            "dur": 0.35
+          }
+        },
+        {
+          "type": "bubble",
+          "text": "UN PAS EN ARRIÈRE",
+          "at": 1.102,
+          "x": 330,
+          "y": 220,
+          "tail": [
+            0,
+            160
+          ],
+          "size": 48
+        }
+      ],
+      "line": 6,
+      "start": 30.267,
+      "end": 32.075,
+      "fx": []
+    },
+    {
+      "id": "06b",
+      "cue": "place",
+      "bg": "yellow",
+      "camera": {
+        "zoom": [
+          1.1,
+          1.25
+        ],
+        "focus": [
+          520,
+          640
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 600,
+          "s": 3.2,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "punch",
+              "t": 0
+            },
+            {
+              "pose": "fallen",
+              "t": 0.685
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 290,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "punch",
+              "t": 0.565
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "BAM !",
+          "at": 0.615,
+          "x": 560,
+          "y": 380,
+          "rot": -8,
+          "color": "red",
+          "sound": "boom",
+          "size": 200
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.615
+        },
+        {
+          "type": "shake",
+          "at": 0.615
+        },
+        {
+          "type": "flash",
+          "at": 0.615
+        }
+      ],
+      "line": 6,
+      "start": 32.075,
+      "end": 33.835
+    },
+    {
+      "id": "07a",
+      "bg": "red",
+      "camera": {
+        "zoom": [
+          1.15,
+          1.05
+        ],
+        "focus": [
+          600,
+          850
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 640,
+          "s": 3.2,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "fallen",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 330,
+          "s": 3.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "armsUp",
+              "t": 0.5
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "K.O. !",
+          "at": 0.15,
+          "x": 600,
+          "y": 360,
+          "rot": 6,
+          "color": "yellow",
+          "sound": "hit"
+        }
+      ],
+      "fx": [
+        {
+          "type": "shake",
+          "at": 0.15
+        }
+      ],
+      "line": 7,
+      "start": 33.835,
+      "end": 34.978
+    },
+    {
+      "id": "07b",
+      "cue": "arbitre",
+      "bg": "cyan",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "gloves": "#E5A50F",
+          "x": 780,
+          "s": 3,
+          "facing": -1,
+          "poses": [
+            {
+              "pose": "fallen",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 250,
+          "s": 3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "armsUp",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#8892A6",
+          "x": 540,
+          "s": 3.2,
+          "facing": 1,
+          "cycle": {
+            "poses": [
+              "armsUp",
+              "stand"
+            ],
+            "every": 0.22,
+            "from": 0,
+            "until": null
+          }
+        },
+        {
+          "type": "sfx",
+          "text": "STOP !",
+          "at": 0.549,
+          "x": 540,
+          "y": 300,
+          "rot": -4,
+          "color": "red",
+          "sound": "pop"
+        }
+      ],
+      "line": 7,
+      "start": 34.978,
+      "end": 36.769,
+      "fx": []
+    },
+    {
+      "id": "08a",
+      "bg": "yellow",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 540,
+          "s": 3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            }
+          ]
+        },
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 13,
+          "suffix": " S",
+          "at": 0.05,
+          "y": 280
+        },
+        {
+          "type": "timer",
+          "text": "0:13",
+          "at": 0.9,
+          "x": 820,
+          "y": 330
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.85
+        }
+      ],
+      "line": 8,
+      "start": 36.769,
+      "end": 39.035
+    },
+    {
+      "id": "08b",
+      "cue": "rapide",
+      "bg": "purple",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "beltGold",
+          "x": 540,
+          "y": 700,
+          "s": 1.4
+        },
+        {
+          "type": "prop",
+          "name": "flashes",
+          "x": 540,
+          "y": 1000,
+          "s": 1
+        },
+        {
+          "type": "title",
+          "text": "RECORD",
+          "subtitle": "COMBAT POUR UN TITRE UFC",
+          "at": 0.06,
+          "y": 330,
+          "size": 200,
+          "sound": "hit"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.06
+        }
+      ],
+      "line": 8,
+      "start": 39.035,
+      "end": 42.247
+    },
+    {
+      "id": "09a",
+      "bg": "green",
+      "transition": "flash",
+      "camera": {
+        "zoom": [
+          1,
+          1.05
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "title",
+          "text": "COMME PRÉVU",
+          "at": 0.1,
+          "y": 250
+        },
+        {
+          "type": "inset",
+          "x": 70,
+          "y": 380,
+          "w": 940,
+          "h": 640,
+          "rot": 2,
+          "bg": "cyan",
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#E5A50F",
+              "x": 620,
+              "y": 600,
+              "s": 2.2,
+              "facing": -1,
+              "poses": [
+                {
+                  "pose": "punch",
+                  "t": 0
+                },
+                {
+                  "pose": "fallen",
+                  "t": 0.35
+                }
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 330,
+              "y": 600,
+              "s": 2.2,
+              "facing": 1,
+              "poses": [
+                {
+                  "pose": "guard",
+                  "t": 0
+                },
+                {
+                  "pose": "punch",
+                  "t": 0.25
+                }
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": 0.35,
+              "x": 560,
+              "y": 200,
+              "rot": -6,
+              "color": "red",
+              "size": 110
+            }
+          ]
+        }
+      ],
+      "line": 9,
+      "start": 42.247,
+      "end": 44.433,
+      "fx": []
+    },
+    {
+      "id": "10a",
+      "bg": "red",
+      "transition": "slide",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ],
+        "focus": [
+          540,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "confetti",
+          "x": 540,
+          "y": 0,
+          "s": 1
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 540,
+          "s": 3.3,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "armsUp",
+              "t": 0.2
+            }
+          ]
+        },
+        {
+          "type": "prop",
+          "name": "beltGold",
+          "x": 540,
+          "y": 300,
+          "s": 0.75,
+          "rot": -4
+        },
+        {
+          "type": "title",
+          "text": "CHAMPION",
+          "at": 1.651,
+          "y": 150
+        }
+      ],
+      "line": 10,
+      "start": 44.433,
+      "end": 47.231,
+      "fx": []
+    },
+    {
+      "id": "10b",
+      "cue": "superstar",
+      "bg": "blue",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "prop",
+          "name": "flashes",
+          "x": 540,
+          "y": 1000,
+          "s": 1
+        },
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 540,
+          "s": 3.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "armsUp",
+              "t": 0
+            },
+            {
+              "pose": "crossed",
+              "t": 0.4
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "text": "SUPERSTAR MONDIALE",
+          "at": 0.06,
+          "y": 260,
+          "sound": "hit"
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.06
+        }
+      ],
+      "line": 10,
+      "start": 47.231,
+      "end": 48.564
+    },
+    {
+      "id": "11a",
+      "bg": "red",
+      "transition": "flash",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 540,
+          "s": 2.2,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "crossed",
+              "t": 0
+            },
+            {
+              "pose": "armsUp",
+              "t": 1.6
+            },
+            {
+              "pose": "guard",
+              "t": 3
+            }
+          ]
+        },
+        {
+          "type": "logo",
+          "text": "HORS LIMITE",
+          "subtitle": "ABONNE-TOI",
+          "at": 0.1
+        }
+      ],
+      "line": 11,
+      "start": 48.564,
+      "end": 52.651,
+      "fx": []
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/impact.wav",
+      "start": 3.394,
+      "volume": 0.75
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 8.64,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/pop.wav",
+      "start": 19.065,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/pop.wav",
+      "start": 27.133,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/impact.wav",
+      "start": 32.69,
+      "volume": 0.75
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 33.985,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/pop.wav",
+      "start": 35.527,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 39.095,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 47.291,
+      "volume": 0.55
+    }
+  ]
+}

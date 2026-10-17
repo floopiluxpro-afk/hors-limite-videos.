@@ -2,7 +2,8 @@ import type {PoseKey} from './poses';
 import type {Sfx, Word} from '../types';
 
 export type ComicElement = {
-  type: 'puppet' | 'prop' | 'caption' | 'sfx' | 'title' | 'name' | 'timer' | 'counter' | 'logo' | 'inset';
+  type: 'puppet' | 'prop' | 'caption' | 'sfx' | 'title' | 'name' | 'timer' | 'counter' | 'logo' | 'inset' | 'bubble';
+  tail?: [number, number];
   at?: number;
   x?: number;
   y?: number;
@@ -16,6 +17,8 @@ export type ComicElement = {
   cycle?: {poses: string[]; every: number; from: number; until: number | null};
   move?: {to: [number, number]; at: number; dur: number};
   glove?: boolean;
+  gloves?: string;
+  tint?: string;
   sepia?: boolean;
   // décor
   name?: string;

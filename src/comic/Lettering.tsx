@@ -110,6 +110,7 @@ const FLAGS: Record<string, string[]> = {
   us: ['#B22234', '#FFFFFF', '#B22234', '#FFFFFF', '#3C3B6E'],
   jp: ['#FFFFFF'],
   fr: ['#0055A4', '#FFFFFF', '#EF4135'],
+  ie: ['#169B62', '#FFFFFF', '#FF883E'],
 };
 
 const Flag: React.FC<{code: string; x: number; y: number; h: number}> = ({code, x, y, h}) => {
@@ -132,7 +133,7 @@ const Flag: React.FC<{code: string; x: number; y: number; h: number}> = ({code, 
     );
   }
   const cols = FLAGS[code] ?? FLAGS.us;
-  const vertical = code === 'fr';
+  const vertical = code === 'fr' || code === 'ie';
   return (
     <g>
       {cols.map((c, i) =>
@@ -200,7 +201,7 @@ const Counter: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const bump = p >= 1 ? interpolate(dt, [0.8, 0.88, 1], [1, 1.15, 1], clamp) : 1;
   return (
     <g transform={`translate(540 ${el.y ?? 260}) rotate(-4) scale(${pop(dt, 1.15) * bump})`}>
-      <InkText x={0} y={70} size={210} fill={YELLOW}>
+      <InkText x={0} y={70} size={Math.min(210, 960 / (0.5 * Math.max(3, `${el.prefix ?? ''}${el.to ?? ''}${el.suffix ?? ''}`.length)))} fill={YELLOW}>
         {`${el.prefix ?? ''}${v}${el.suffix ?? ''}`}
       </InkText>
     </g>
@@ -236,6 +237,26 @@ const Logo: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   );
 };
 
+/** Bulle de dialogue (queue vers `tail`, relatif à la bulle). */
+const Bubble: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
+  if (dt < 0) return null;
+  const size = el.size ?? 64;
+  const text = el.text ?? '';
+  const w = textWidth(text, size) + 90;
+  const h = size * 1.9;
+  const [tx, ty] = (el as {tail?: [number, number]}).tail ?? [-w * 0.25, h * 0.9];
+  return (
+    <g transform={`translate(${el.x ?? 540} ${el.y ?? 400}) rotate(${el.rot ?? 0}) scale(${pop(dt, 1.15)})`}>
+      <path d={`M ${-w * 0.12} ${h * 0.3} L ${tx} ${ty} L ${w * 0.05} ${h * 0.38} Z`} fill="#fff" stroke={INK} strokeWidth={7} strokeLinejoin="round" />
+      <ellipse rx={w / 2} ry={h / 2} fill="#fff" stroke={INK} strokeWidth={7} />
+      <path d={`M ${-w * 0.1} ${h * 0.28} L ${w * 0.03} ${h * 0.33}`} stroke="#fff" strokeWidth={10} />
+      <text x={0} y={size * 0.35} textAnchor="middle" fontFamily={COMIC_FONT} fontSize={size} fill={INK}>
+        {text}
+      </text>
+    </g>
+  );
+};
+
 export const Lettering: React.FC<{el: ComicElement; t: number; dur: number}> = ({el, t, dur}) => {
   const dt = t - (el.at ?? 0);
   const left = dur - t;
@@ -254,6 +275,8 @@ export const Lettering: React.FC<{el: ComicElement; t: number; dur: number}> = (
       return <Counter el={el} dt={dt} />;
     case 'logo':
       return <Logo el={el} dt={dt} />;
+    case 'bubble':
+      return <Bubble el={el} dt={dt} />;
     default:
       return null;
   }

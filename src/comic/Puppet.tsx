@@ -9,6 +9,8 @@ export type PuppetProps = {
   build?: string;
   style?: PuppetStyle; // hero = kimono blanc ceinture noire ; shadow = silhouette noire
   glove?: boolean; // un seul gant de boxe (main avant)
+  gloves?: string; // gants de MMA sur les deux mains (couleur)
+  tint?: string; // couleur du combattant (style shadow) : ex. vert pour McGregor
   sepia?: boolean;
   filter?: string;
 };
@@ -18,6 +20,13 @@ const rad = (d: number) => (d * Math.PI) / 180;
 const dir = (a: number): P => ({x: Math.sin(rad(a)), y: Math.cos(rad(a))});
 const add = (p: P, d: P, k: number): P => ({x: p.x + d.x * k, y: p.y + d.y * k});
 
+/** Assombrit (k < 0) ou éclaircit (k > 0) une couleur #rrggbb. */
+export const shade = (hex: string, k: number) => {
+  const n = parseInt(hex.slice(1), 16);
+  const f = (c: number) => Math.round(k < 0 ? c * (1 + k) : c + (255 - c) * k);
+  return `#${[(n >> 16) & 255, (n >> 8) & 255, n & 255].map((c) => f(c).toString(16).padStart(2, '0')).join('')}`;
+};
+
 const Seg: React.FC<{a: P; b: P; w: number; fill: string; line: string; ow: number}> = ({a, b, w, fill, line, ow}) => (
   <>
     {ow > 0 ? <line x1={a.x} y1={a.y} x2={b.x} y2={b.y} stroke={line} strokeWidth={w + ow * 2} strokeLinecap="round" /> : null}
@@ -26,15 +35,15 @@ const Seg: React.FC<{a: P; b: P; w: number; fill: string; line: string; ow: numb
 );
 
 /** Pantin dessiné en SVG, pieds à l'origine, tourné vers la droite. */
-export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = 'shadow', glove, sepia, filter}) => {
+export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = 'shadow', glove, gloves, tint, sepia, filter}) => {
   const b = BUILDS[build] ?? BUILDS.normal;
   const hero = style === 'hero';
   const th = useComicTheme();
   const flat = th.name === 'flat';
   const ow = flat ? 0 : 5;
   const line = flat ? 'none' : '#000';
-  const front = hero ? th.hero : sepia ? '#3b2a1a' : th.shadow;
-  const back = hero ? th.heroBack : sepia ? '#5a4330' : th.shadowBack;
+  const front = hero ? th.hero : sepia ? '#3b2a1a' : tint ?? th.shadow;
+  const back = hero ? th.heroBack : sepia ? '#5a4330' : tint ? shade(tint, -0.28) : th.shadowBack;
   const beltColor = flat ? th.shadow : '#000';
   const lapel = flat ? '#C5CBD6' : line;
   const skin = '#F1C59B';
@@ -89,7 +98,7 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
       <Seg a={l.F} b={l.T} w={limbW * 0.75} fill={hero ? skin : fill} line={line} ow={ow} />
     </>
   );
-  const drawArm = (a: ReturnType<typeof arm>, fill: string, withGlove = false) => (
+  const drawArm = (a: ReturnType<typeof arm>, fill: string, gloveColor?: string) => (
     <>
       <Seg a={S} b={a.E} w={limbW} fill={fill} line={line} ow={ow} />
       {build === 'muscle' ? (
@@ -104,8 +113,8 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
         />
       ) : null}
       <Seg a={a.E} b={a.W} w={limbW * 0.9} fill={fill} line={line} ow={ow} />
-      {withGlove ? (
-        <circle cx={a.W.x} cy={a.W.y} r={limbW * 1.05} fill="#D7262E" stroke={line} strokeWidth={ow} />
+      {gloveColor ? (
+        <circle cx={a.W.x} cy={a.W.y} r={limbW * (gloves ? 0.85 : 1.05)} fill={gloveColor} stroke={line} strokeWidth={ow} />
       ) : (
         <circle cx={a.W.x} cy={a.W.y} r={limbW * 0.62} fill={hero ? skin : fill} stroke={line} strokeWidth={ow} />
       )}
@@ -121,7 +130,7 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
   return (
     <g transform={`translate(0 ${ground}) rotate(${pose.rot ?? 0} ${H.x} ${H.y})`} strokeLinejoin="round" filter={filter}>
       {drawLeg(lB, back)}
-      {drawArm(aB, back)}
+      {drawArm(aB, back, gloves ? shade(gloves, -0.25) : undefined)}
       <path d={tp} fill={front} stroke={line} strokeWidth={ow} />
       {b.belly ? (
         <ellipse
@@ -170,7 +179,7 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
           />
         </>
       ) : null}
-      {drawArm(aF, front, glove)}
+      {drawArm(aF, front, gloves ?? (glove ? '#D7262E' : undefined))}
     </g>
   );
 };

@@ -7,6 +7,7 @@
 // Usage : npm run comic -- <slug>
 import fs from 'node:fs';
 import path from 'node:path';
+import {estimateWords} from './build-timeline.mjs';
 import {FPS, HEIGHT, WIDTH, getSlug, loadStoryboard, normalizeWord, parseArgs, publicDir, readJson, writeJson} from './lib.mjs';
 
 const LEAD = 0.06; // la case arrive juste avant le mot
@@ -15,9 +16,13 @@ const TAIL = 1.4; // fin après la dernière syllabe
 const SOUNDS = {hit: 'sfx/hit.wav', crack: 'sfx/crack.wav', tap: 'sfx/tap.wav', boom: 'sfx/impact.wav', pop: 'sfx/pop.wav', whoosh: 'sfx/whoosh.wav'};
 const VOLUMES = {hit: 0.55, crack: 0.6, tap: 0.6, boom: 0.75, pop: 0.45, whoosh: 0.4};
 
-export function buildComic(slug) {
+export function buildComic(slug, {estimate = false} = {}) {
   const sb = loadStoryboard(slug);
-  const voice = readJson(path.join(publicDir(slug), 'words.json'));
+  const wordsFile = path.join(publicDir(slug), 'words.json');
+  // Sans voix (ou --estimate) : timings estimés, pour valider les cases avant de générer la voix.
+  const hasVoice = fs.existsSync(wordsFile) && !estimate;
+  if (!hasVoice) console.log('(brouillon : timings estimés, pas de voix)');
+  const voice = hasVoice ? readJson(wordsFile) : estimateWords(sb);
   const words = voice.words;
   const total = Math.max(voice.duration, words.at(-1).end) + TAIL;
   const lineWords = sb.lines.map((_, li) => words.filter((w) => w.line === li));
@@ -105,7 +110,7 @@ export function buildComic(slug) {
     height: HEIGHT,
     duration: +total.toFixed(3),
     durationInFrames: Math.ceil(total * FPS),
-    voice: `${slug}/voice.mp3`,
+    voice: hasVoice ? `${slug}/voice.mp3` : null,
     music: ['mp3', 'wav'].map((e) => `${slug}/music.${e}`).find((f) => fs.existsSync(path.join(publicDir(slug), '..', f))) ?? null,
     musicCuts: [],
     words,
@@ -123,5 +128,6 @@ export function buildComic(slug) {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  buildComic(getSlug(parseArgs()));
+  const args = parseArgs();
+  buildComic(getSlug(args), {estimate: Boolean(args.estimate)});
 }
