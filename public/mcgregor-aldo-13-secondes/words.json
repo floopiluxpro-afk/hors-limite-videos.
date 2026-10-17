@@ -1,0 +1,750 @@
+{
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "duration": 53.211,
+  "words": [
+    {
+      "text": "Conor",
+      "line": 0,
+      "start": 0,
+      "end": 0.337
+    },
+    {
+      "text": "McGregor",
+      "line": 0,
+      "start": 0.395,
+      "end": 1.022
+    },
+    {
+      "text": "a",
+      "line": 0,
+      "start": 1.161,
+      "end": 1.242
+    },
+    {
+      "text": "détrôné",
+      "line": 0,
+      "start": 1.3,
+      "end": 1.741
+    },
+    {
+      "text": "un",
+      "line": 0,
+      "start": 1.8,
+      "end": 1.869
+    },
+    {
+      "text": "champion",
+      "line": 0,
+      "start": 1.916,
+      "end": 2.357
+    },
+    {
+      "text": "invaincu",
+      "line": 0,
+      "start": 2.415,
+      "end": 2.879
+    },
+    {
+      "text": "depuis",
+      "line": 0,
+      "start": 2.926,
+      "end": 3.17
+    },
+    {
+      "text": "dix",
+      "line": 0,
+      "start": 3.193,
+      "end": 3.39
+    },
+    {
+      "text": "ans…",
+      "line": 0,
+      "start": 3.471,
+      "end": 3.75
+    },
+    {
+      "text": "en",
+      "line": 0,
+      "start": 3.855,
+      "end": 3.982
+    },
+    {
+      "text": "13",
+      "line": 0,
+      "start": 4.029,
+      "end": 4.296
+    },
+    {
+      "text": "secondes.",
+      "line": 0,
+      "start": 4.331,
+      "end": 4.946
+    },
+    {
+      "text": "Et",
+      "line": 0,
+      "start": 5.492,
+      "end": 5.666
+    },
+    {
+      "text": "il",
+      "line": 0,
+      "start": 5.689,
+      "end": 5.747
+    },
+    {
+      "text": "l'avait",
+      "line": 0,
+      "start": 5.805,
+      "end": 6.037
+    },
+    {
+      "text": "annoncé.",
+      "line": 0,
+      "start": 6.06,
+      "end": 6.676
+    },
+    {
+      "text": "Décembre",
+      "line": 1,
+      "start": 7.111,
+      "end": 7.634
+    },
+    {
+      "text": "2015,",
+      "line": 1,
+      "start": 7.692,
+      "end": 8.563
+    },
+    {
+      "text": "Las",
+      "line": 1,
+      "start": 8.702,
+      "end": 8.865
+    },
+    {
+      "text": "Vegas.",
+      "line": 1,
+      "start": 8.934,
+      "end": 9.561
+    },
+    {
+      "text": "UFC 194.",
+      "line": 1,
+      "start": 9.968,
+      "end": 12.487
+    },
+    {
+      "text": "José",
+      "line": 2,
+      "start": 13.125,
+      "end": 13.416
+    },
+    {
+      "text": "Aldo,",
+      "line": 2,
+      "start": 13.451,
+      "end": 13.915
+    },
+    {
+      "text": "le",
+      "line": 2,
+      "start": 14.031,
+      "end": 14.124
+    },
+    {
+      "text": "roi",
+      "line": 2,
+      "start": 14.182,
+      "end": 14.333
+    },
+    {
+      "text": "brésilien",
+      "line": 2,
+      "start": 14.368,
+      "end": 14.844
+    },
+    {
+      "text": "des",
+      "line": 2,
+      "start": 14.89,
+      "end": 14.983
+    },
+    {
+      "text": "poids",
+      "line": 2,
+      "start": 15.006,
+      "end": 15.192
+    },
+    {
+      "text": "plumes,",
+      "line": 2,
+      "start": 15.215,
+      "end": 15.657
+    },
+    {
+      "text": "n'a",
+      "line": 2,
+      "start": 15.842,
+      "end": 15.935
+    },
+    {
+      "text": "plus",
+      "line": 2,
+      "start": 15.982,
+      "end": 16.133
+    },
+    {
+      "text": "perdu",
+      "line": 2,
+      "start": 16.156,
+      "end": 16.423
+    },
+    {
+      "text": "depuis",
+      "line": 2,
+      "start": 16.481,
+      "end": 16.76
+    },
+    {
+      "text": "2005.",
+      "line": 2,
+      "start": 16.794,
+      "end": 17.688
+    },
+    {
+      "text": "En",
+      "line": 3,
+      "start": 17.851,
+      "end": 18.002
+    },
+    {
+      "text": "face,",
+      "line": 3,
+      "start": 18.06,
+      "end": 18.35
+    },
+    {
+      "text": "Conor",
+      "line": 3,
+      "start": 18.373,
+      "end": 18.606
+    },
+    {
+      "text": "McGregor,",
+      "line": 3,
+      "start": 18.664,
+      "end": 19.36
+    },
+    {
+      "text": "un",
+      "line": 3,
+      "start": 19.442,
+      "end": 19.534
+    },
+    {
+      "text": "Irlandais",
+      "line": 3,
+      "start": 19.592,
+      "end": 20.034
+    },
+    {
+      "text": "qui",
+      "line": 3,
+      "start": 20.068,
+      "end": 20.173
+    },
+    {
+      "text": "parle",
+      "line": 3,
+      "start": 20.219,
+      "end": 20.463
+    },
+    {
+      "text": "beaucoup.",
+      "line": 3,
+      "start": 20.51,
+      "end": 20.997
+    },
+    {
+      "text": "Trop,",
+      "line": 3,
+      "start": 21.346,
+      "end": 21.705
+    },
+    {
+      "text": "disent",
+      "line": 3,
+      "start": 21.752,
+      "end": 22.019
+    },
+    {
+      "text": "ses",
+      "line": 3,
+      "start": 22.054,
+      "end": 22.17
+    },
+    {
+      "text": "critiques.",
+      "line": 3,
+      "start": 22.193,
+      "end": 22.82
+    },
+    {
+      "text": "Pendant",
+      "line": 4,
+      "start": 23.11,
+      "end": 23.447
+    },
+    {
+      "text": "des",
+      "line": 4,
+      "start": 23.482,
+      "end": 23.598
+    },
+    {
+      "text": "mois,",
+      "line": 4,
+      "start": 23.621,
+      "end": 23.969
+    },
+    {
+      "text": "McGregor",
+      "line": 4,
+      "start": 24.085,
+      "end": 24.585
+    },
+    {
+      "text": "provoque",
+      "line": 4,
+      "start": 24.643,
+      "end": 25.003
+    },
+    {
+      "text": "Aldo.",
+      "line": 4,
+      "start": 25.038,
+      "end": 25.49
+    },
+    {
+      "text": "Il",
+      "line": 4,
+      "start": 25.63,
+      "end": 25.769
+    },
+    {
+      "text": "prédit",
+      "line": 4,
+      "start": 25.827,
+      "end": 26.106
+    },
+    {
+      "text": "même",
+      "line": 4,
+      "start": 26.129,
+      "end": 26.326
+    },
+    {
+      "text": "qu'Aldo",
+      "line": 4,
+      "start": 26.361,
+      "end": 26.721
+    },
+    {
+      "text": "va",
+      "line": 4,
+      "start": 26.779,
+      "end": 26.883
+    },
+    {
+      "text": "trop",
+      "line": 4,
+      "start": 26.93,
+      "end": 27.104
+    },
+    {
+      "text": "s'avancer…",
+      "line": 4,
+      "start": 27.139,
+      "end": 27.812
+    },
+    {
+      "text": "et",
+      "line": 4,
+      "start": 27.998,
+      "end": 28.114
+    },
+    {
+      "text": "tomber",
+      "line": 4,
+      "start": 28.161,
+      "end": 28.416
+    },
+    {
+      "text": "sur",
+      "line": 4,
+      "start": 28.451,
+      "end": 28.567
+    },
+    {
+      "text": "sa",
+      "line": 4,
+      "start": 28.613,
+      "end": 28.706
+    },
+    {
+      "text": "main",
+      "line": 4,
+      "start": 28.764,
+      "end": 28.892
+    },
+    {
+      "text": "gauche.",
+      "line": 4,
+      "start": 28.939,
+      "end": 29.438
+    },
+    {
+      "text": "Le",
+      "line": 5,
+      "start": 30.076,
+      "end": 30.193
+    },
+    {
+      "text": "combat",
+      "line": 5,
+      "start": 30.239,
+      "end": 30.529
+    },
+    {
+      "text": "commence.",
+      "line": 5,
+      "start": 30.552,
+      "end": 31.179
+    },
+    {
+      "text": "Aldo",
+      "line": 5,
+      "start": 31.342,
+      "end": 31.655
+    },
+    {
+      "text": "s'avance.",
+      "line": 5,
+      "start": 31.713,
+      "end": 32.352
+    },
+    {
+      "text": "McGregor",
+      "line": 6,
+      "start": 32.538,
+      "end": 33.037
+    },
+    {
+      "text": "recule",
+      "line": 6,
+      "start": 33.107,
+      "end": 33.408
+    },
+    {
+      "text": "d'un",
+      "line": 6,
+      "start": 33.432,
+      "end": 33.559
+    },
+    {
+      "text": "pas…",
+      "line": 6,
+      "start": 33.617,
+      "end": 34.024
+    },
+    {
+      "text": "et",
+      "line": 6,
+      "start": 34.128,
+      "end": 34.256
+    },
+    {
+      "text": "place",
+      "line": 6,
+      "start": 34.291,
+      "end": 34.558
+    },
+    {
+      "text": "une",
+      "line": 6,
+      "start": 34.604,
+      "end": 34.697
+    },
+    {
+      "text": "gauche",
+      "line": 6,
+      "start": 34.732,
+      "end": 35.011
+    },
+    {
+      "text": "en",
+      "line": 6,
+      "start": 35.045,
+      "end": 35.127
+    },
+    {
+      "text": "contre.",
+      "line": 6,
+      "start": 35.185,
+      "end": 35.638
+    },
+    {
+      "text": "Aldo",
+      "line": 7,
+      "start": 35.777,
+      "end": 36.079
+    },
+    {
+      "text": "s'écroule.",
+      "line": 7,
+      "start": 36.137,
+      "end": 36.775
+    },
+    {
+      "text": "L'arbitre",
+      "line": 7,
+      "start": 37.031,
+      "end": 37.495
+    },
+    {
+      "text": "arrête",
+      "line": 7,
+      "start": 37.542,
+      "end": 37.867
+    },
+    {
+      "text": "tout.",
+      "line": 7,
+      "start": 37.913,
+      "end": 38.296
+    },
+    {
+      "text": "13",
+      "line": 8,
+      "start": 38.945,
+      "end": 39.281
+    },
+    {
+      "text": "secondes",
+      "line": 8,
+      "start": 39.304,
+      "end": 39.769
+    },
+    {
+      "text": ":",
+      "line": 8,
+      "start": 39.827,
+      "end": 39.862
+    },
+    {
+      "text": "la",
+      "line": 8,
+      "start": 39.978,
+      "end": 40.059
+    },
+    {
+      "text": "victoire",
+      "line": 8,
+      "start": 40.106,
+      "end": 40.454
+    },
+    {
+      "text": "la",
+      "line": 8,
+      "start": 40.477,
+      "end": 40.535
+    },
+    {
+      "text": "plus",
+      "line": 8,
+      "start": 40.582,
+      "end": 40.709
+    },
+    {
+      "text": "rapide",
+      "line": 8,
+      "start": 40.744,
+      "end": 41.034
+    },
+    {
+      "text": "de",
+      "line": 8,
+      "start": 41.069,
+      "end": 41.127
+    },
+    {
+      "text": "l'histoire",
+      "line": 8,
+      "start": 41.174,
+      "end": 41.615
+    },
+    {
+      "text": "dans",
+      "line": 8,
+      "start": 41.638,
+      "end": 41.777
+    },
+    {
+      "text": "un",
+      "line": 8,
+      "start": 41.835,
+      "end": 41.882
+    },
+    {
+      "text": "combat",
+      "line": 8,
+      "start": 41.928,
+      "end": 42.219
+    },
+    {
+      "text": "pour",
+      "line": 8,
+      "start": 42.242,
+      "end": 42.37
+    },
+    {
+      "text": "un",
+      "line": 8,
+      "start": 42.428,
+      "end": 42.486
+    },
+    {
+      "text": "titre",
+      "line": 8,
+      "start": 42.532,
+      "end": 42.846
+    },
+    {
+      "text": "UFC.",
+      "line": 8,
+      "start": 42.95,
+      "end": 43.635
+    },
+    {
+      "text": "Exactement",
+      "line": 9,
+      "start": 44.274,
+      "end": 44.959
+    },
+    {
+      "text": "comme",
+      "line": 9,
+      "start": 44.994,
+      "end": 45.168
+    },
+    {
+      "text": "il",
+      "line": 9,
+      "start": 45.191,
+      "end": 45.249
+    },
+    {
+      "text": "l'avait",
+      "line": 9,
+      "start": 45.272,
+      "end": 45.539
+    },
+    {
+      "text": "annoncé.",
+      "line": 9,
+      "start": 45.563,
+      "end": 46.143
+    },
+    {
+      "text": "Ce",
+      "line": 10,
+      "start": 46.306,
+      "end": 46.433
+    },
+    {
+      "text": "soir-là,",
+      "line": 10,
+      "start": 46.468,
+      "end": 46.921
+    },
+    {
+      "text": "McGregor",
+      "line": 10,
+      "start": 46.991,
+      "end": 47.443
+    },
+    {
+      "text": "devient",
+      "line": 10,
+      "start": 47.502,
+      "end": 47.769
+    },
+    {
+      "text": "champion…",
+      "line": 10,
+      "start": 47.792,
+      "end": 48.395
+    },
+    {
+      "text": "et",
+      "line": 10,
+      "start": 48.616,
+      "end": 48.709
+    },
+    {
+      "text": "une",
+      "line": 10,
+      "start": 48.744,
+      "end": 48.837
+    },
+    {
+      "text": "superstar",
+      "line": 10,
+      "start": 48.86,
+      "end": 49.347
+    },
+    {
+      "text": "mondiale.",
+      "line": 10,
+      "start": 49.406,
+      "end": 49.986
+    },
+    {
+      "text": "Abonne-toi",
+      "line": 11,
+      "start": 50.392,
+      "end": 50.973
+    },
+    {
+      "text": "pour",
+      "line": 11,
+      "start": 51.031,
+      "end": 51.193
+    },
+    {
+      "text": "plus",
+      "line": 11,
+      "start": 51.24,
+      "end": 51.437
+    },
+    {
+      "text": "d'histoires",
+      "line": 11,
+      "start": 51.484,
+      "end": 52.122
+    },
+    {
+      "text": "Hors",
+      "line": 11,
+      "start": 52.238,
+      "end": 52.471
+    },
+    {
+      "text": "Limite.",
+      "line": 11,
+      "start": 52.505,
+      "end": 53.167
+    }
+  ]
+}

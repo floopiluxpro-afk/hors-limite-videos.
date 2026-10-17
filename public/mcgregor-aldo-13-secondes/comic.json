@@ -5,752 +5,811 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "duration": 52.651,
-  "durationInFrames": 1580,
-  "voice": null,
-  "music": null,
+  "duration": 54.611,
+  "durationInFrames": 1639,
+  "voice": "mcgregor-aldo-13-secondes/voice.mp3",
+  "music": "mcgregor-aldo-13-secondes/music.mp3",
   "musicCuts": [],
   "words": [
     {
-      "text": "Il",
+      "text": "Conor",
       "line": 0,
-      "start": 0.25,
-      "end": 0.381
+      "start": 0,
+      "end": 0.337
+    },
+    {
+      "text": "McGregor",
+      "line": 0,
+      "start": 0.395,
+      "end": 1.022
     },
     {
       "text": "a",
       "line": 0,
-      "start": 0.408,
-      "end": 0.492
+      "start": 1.161,
+      "end": 1.242
     },
     {
       "text": "détrôné",
       "line": 0,
-      "start": 0.519,
-      "end": 0.886
+      "start": 1.3,
+      "end": 1.741
     },
     {
       "text": "un",
       "line": 0,
-      "start": 0.914,
-      "end": 1.045
+      "start": 1.8,
+      "end": 1.869
     },
     {
       "text": "champion",
       "line": 0,
-      "start": 1.072,
-      "end": 1.486
+      "start": 1.916,
+      "end": 2.357
     },
     {
       "text": "invaincu",
       "line": 0,
-      "start": 1.514,
-      "end": 1.928
+      "start": 2.415,
+      "end": 2.879
     },
     {
       "text": "depuis",
       "line": 0,
-      "start": 1.955,
-      "end": 2.275
+      "start": 2.926,
+      "end": 3.17
     },
     {
       "text": "dix",
       "line": 0,
-      "start": 2.303,
-      "end": 2.481
+      "start": 3.193,
+      "end": 3.39
     },
     {
       "text": "ans…",
       "line": 0,
-      "start": 2.508,
-      "end": 2.734
+      "start": 3.471,
+      "end": 3.75
     },
     {
       "text": "en",
       "line": 0,
-      "start": 3.115,
-      "end": 3.246
+      "start": 3.855,
+      "end": 3.982
     },
     {
       "text": "13",
       "line": 0,
-      "start": 3.274,
-      "end": 3.594
+      "start": 4.029,
+      "end": 4.296
     },
     {
       "text": "secondes.",
       "line": 0,
-      "start": 3.621,
-      "end": 4.083
+      "start": 4.331,
+      "end": 4.946
     },
     {
       "text": "Et",
       "line": 0,
-      "start": 4.465,
-      "end": 4.595
+      "start": 5.492,
+      "end": 5.666
     },
     {
       "text": "il",
       "line": 0,
-      "start": 4.623,
-      "end": 4.754
+      "start": 5.689,
+      "end": 5.747
     },
     {
       "text": "l'avait",
       "line": 0,
-      "start": 4.781,
-      "end": 5.148
+      "start": 5.805,
+      "end": 6.037
     },
     {
       "text": "annoncé.",
       "line": 0,
-      "start": 5.175,
-      "end": 5.59
+      "start": 6.06,
+      "end": 6.676
     },
     {
       "text": "Décembre",
       "line": 1,
-      "start": 6.222,
-      "end": 6.636
+      "start": 7.111,
+      "end": 7.634
     },
     {
       "text": "2015,",
       "line": 1,
-      "start": 6.664,
-      "end": 7.551
+      "start": 7.692,
+      "end": 8.563
     },
     {
       "text": "Las",
       "line": 1,
-      "start": 7.733,
-      "end": 7.911
+      "start": 8.702,
+      "end": 8.865
     },
     {
       "text": "Vegas.",
       "line": 1,
-      "start": 7.938,
-      "end": 8.258
+      "start": 8.934,
+      "end": 9.561
     },
     {
       "text": "UFC 194.",
       "line": 1,
-      "start": 8.64,
-      "end": 10.236
+      "start": 9.968,
+      "end": 12.487
     },
     {
       "text": "José",
       "line": 2,
-      "start": 10.618,
-      "end": 10.844
+      "start": 13.125,
+      "end": 13.416
     },
     {
       "text": "Aldo,",
       "line": 2,
-      "start": 10.871,
-      "end": 11.144
+      "start": 13.451,
+      "end": 13.915
     },
     {
       "text": "le",
       "line": 2,
-      "start": 11.325,
-      "end": 11.456
+      "start": 14.031,
+      "end": 14.124
     },
     {
       "text": "roi",
       "line": 2,
-      "start": 11.484,
-      "end": 11.662
+      "start": 14.182,
+      "end": 14.333
     },
     {
       "text": "brésilien",
       "line": 2,
-      "start": 11.689,
-      "end": 12.151
+      "start": 14.368,
+      "end": 14.844
     },
     {
       "text": "des",
       "line": 2,
-      "start": 12.178,
-      "end": 12.356
+      "start": 14.89,
+      "end": 14.983
     },
     {
       "text": "poids",
       "line": 2,
-      "start": 12.384,
-      "end": 12.656
+      "start": 15.006,
+      "end": 15.192
     },
     {
       "text": "plumes,",
       "line": 2,
-      "start": 12.684,
-      "end": 13.051
+      "start": 15.215,
+      "end": 15.657
     },
     {
       "text": "n'a",
       "line": 2,
-      "start": 13.233,
-      "end": 13.411
+      "start": 15.842,
+      "end": 15.935
     },
     {
       "text": "plus",
       "line": 2,
-      "start": 13.438,
-      "end": 13.664
+      "start": 15.982,
+      "end": 16.133
     },
     {
       "text": "perdu",
       "line": 2,
-      "start": 13.691,
-      "end": 13.964
+      "start": 16.156,
+      "end": 16.423
     },
     {
       "text": "depuis",
       "line": 2,
-      "start": 13.991,
-      "end": 14.311
+      "start": 16.481,
+      "end": 16.76
     },
     {
       "text": "2005.",
       "line": 2,
-      "start": 14.338,
-      "end": 15.131
+      "start": 16.794,
+      "end": 17.688
     },
     {
       "text": "En",
       "line": 3,
-      "start": 15.513,
-      "end": 15.644
+      "start": 17.851,
+      "end": 18.002
     },
     {
       "text": "face,",
       "line": 3,
-      "start": 15.671,
-      "end": 15.944
+      "start": 18.06,
+      "end": 18.35
     },
     {
       "text": "Conor",
       "line": 3,
-      "start": 16.125,
-      "end": 16.398
+      "start": 18.373,
+      "end": 18.606
     },
     {
       "text": "McGregor,",
       "line": 3,
-      "start": 16.425,
-      "end": 16.887
+      "start": 18.664,
+      "end": 19.36
     },
     {
       "text": "un",
       "line": 3,
-      "start": 17.069,
-      "end": 17.2
+      "start": 19.442,
+      "end": 19.534
     },
     {
       "text": "Irlandais",
       "line": 3,
-      "start": 17.227,
-      "end": 17.689
+      "start": 19.592,
+      "end": 20.034
     },
     {
       "text": "qui",
       "line": 3,
-      "start": 17.716,
-      "end": 17.895
+      "start": 20.068,
+      "end": 20.173
     },
     {
       "text": "parle",
       "line": 3,
-      "start": 17.922,
-      "end": 18.195
+      "start": 20.219,
+      "end": 20.463
     },
     {
       "text": "beaucoup.",
       "line": 3,
-      "start": 18.222,
-      "end": 18.684
+      "start": 20.51,
+      "end": 20.997
     },
     {
       "text": "Trop,",
       "line": 3,
-      "start": 19.065,
-      "end": 19.338
+      "start": 21.346,
+      "end": 21.705
     },
     {
       "text": "disent",
       "line": 3,
-      "start": 19.52,
-      "end": 19.84
+      "start": 21.752,
+      "end": 22.019
     },
     {
       "text": "ses",
       "line": 3,
-      "start": 19.867,
-      "end": 20.045
+      "start": 22.054,
+      "end": 22.17
     },
     {
       "text": "critiques.",
       "line": 3,
-      "start": 20.073,
-      "end": 20.582
+      "start": 22.193,
+      "end": 22.82
     },
     {
       "text": "Pendant",
       "line": 4,
-      "start": 20.964,
-      "end": 21.331
+      "start": 23.11,
+      "end": 23.447
     },
     {
       "text": "des",
       "line": 4,
-      "start": 21.358,
-      "end": 21.536
+      "start": 23.482,
+      "end": 23.598
     },
     {
       "text": "mois,",
       "line": 4,
-      "start": 21.564,
-      "end": 21.836
+      "start": 23.621,
+      "end": 23.969
     },
     {
       "text": "McGregor",
       "line": 4,
-      "start": 22.018,
-      "end": 22.433
+      "start": 24.085,
+      "end": 24.585
     },
     {
       "text": "provoque",
       "line": 4,
-      "start": 22.46,
-      "end": 22.875
+      "start": 24.643,
+      "end": 25.003
     },
     {
       "text": "Aldo.",
       "line": 4,
-      "start": 22.902,
-      "end": 23.175
+      "start": 25.038,
+      "end": 25.49
     },
     {
       "text": "Il",
       "line": 4,
-      "start": 23.556,
-      "end": 23.687
+      "start": 25.63,
+      "end": 25.769
     },
     {
       "text": "prédit",
       "line": 4,
-      "start": 23.715,
-      "end": 24.035
+      "start": 25.827,
+      "end": 26.106
     },
     {
       "text": "même",
       "line": 4,
-      "start": 24.062,
-      "end": 24.287
+      "start": 26.129,
+      "end": 26.326
     },
     {
       "text": "qu'Aldo",
       "line": 4,
-      "start": 24.315,
-      "end": 24.682
+      "start": 26.361,
+      "end": 26.721
     },
     {
       "text": "va",
       "line": 4,
-      "start": 24.709,
-      "end": 24.84
+      "start": 26.779,
+      "end": 26.883
     },
     {
       "text": "trop",
       "line": 4,
-      "start": 24.867,
-      "end": 25.093
+      "start": 26.93,
+      "end": 27.104
     },
     {
       "text": "s'avancer…",
       "line": 4,
-      "start": 25.12,
-      "end": 25.629
+      "start": 27.139,
+      "end": 27.812
     },
     {
       "text": "et",
       "line": 4,
-      "start": 26.011,
-      "end": 26.142
+      "start": 27.998,
+      "end": 28.114
     },
     {
       "text": "tomber",
       "line": 4,
-      "start": 26.169,
-      "end": 26.489
+      "start": 28.161,
+      "end": 28.416
     },
     {
       "text": "sur",
       "line": 4,
-      "start": 26.516,
-      "end": 26.695
+      "start": 28.451,
+      "end": 28.567
     },
     {
       "text": "sa",
       "line": 4,
-      "start": 26.722,
-      "end": 26.853
+      "start": 28.613,
+      "end": 28.706
     },
     {
       "text": "main",
       "line": 4,
-      "start": 26.88,
-      "end": 27.105
+      "start": 28.764,
+      "end": 28.892
     },
     {
       "text": "gauche.",
       "line": 4,
-      "start": 27.133,
-      "end": 27.5
+      "start": 28.939,
+      "end": 29.438
     },
     {
       "text": "Le",
       "line": 5,
-      "start": 27.882,
-      "end": 28.013
+      "start": 30.076,
+      "end": 30.193
     },
     {
       "text": "combat",
       "line": 5,
-      "start": 28.04,
-      "end": 28.36
+      "start": 30.239,
+      "end": 30.529
     },
     {
       "text": "commence.",
       "line": 5,
-      "start": 28.387,
-      "end": 28.849
+      "start": 30.552,
+      "end": 31.179
     },
     {
       "text": "Aldo",
       "line": 5,
-      "start": 29.231,
-      "end": 29.456
+      "start": 31.342,
+      "end": 31.655
     },
     {
       "text": "s'avance.",
       "line": 5,
-      "start": 29.484,
-      "end": 29.945
+      "start": 31.713,
+      "end": 32.352
     },
     {
       "text": "McGregor",
       "line": 6,
-      "start": 30.327,
-      "end": 30.742
+      "start": 32.538,
+      "end": 33.037
     },
     {
       "text": "recule",
       "line": 6,
-      "start": 30.769,
-      "end": 31.089
+      "start": 33.107,
+      "end": 33.408
     },
     {
       "text": "d'un",
       "line": 6,
-      "start": 31.116,
-      "end": 31.342
+      "start": 33.432,
+      "end": 33.559
     },
     {
       "text": "pas…",
       "line": 6,
-      "start": 31.369,
-      "end": 31.595
+      "start": 33.617,
+      "end": 34.024
     },
     {
       "text": "et",
       "line": 6,
-      "start": 31.976,
-      "end": 32.107
+      "start": 34.128,
+      "end": 34.256
     },
     {
       "text": "place",
       "line": 6,
-      "start": 32.135,
-      "end": 32.407
+      "start": 34.291,
+      "end": 34.558
     },
     {
       "text": "une",
       "line": 6,
-      "start": 32.435,
-      "end": 32.613
+      "start": 34.604,
+      "end": 34.697
     },
     {
       "text": "gauche",
       "line": 6,
-      "start": 32.64,
-      "end": 32.96
+      "start": 34.732,
+      "end": 35.011
     },
     {
       "text": "en",
       "line": 6,
-      "start": 32.987,
-      "end": 33.118
+      "start": 35.045,
+      "end": 35.127
     },
     {
       "text": "contre.",
       "line": 6,
-      "start": 33.145,
-      "end": 33.513
+      "start": 35.185,
+      "end": 35.638
     },
     {
       "text": "Aldo",
       "line": 7,
-      "start": 33.895,
-      "end": 34.12
+      "start": 35.777,
+      "end": 36.079
     },
     {
       "text": "s'écroule.",
       "line": 7,
-      "start": 34.147,
-      "end": 34.656
+      "start": 36.137,
+      "end": 36.775
     },
     {
       "text": "L'arbitre",
       "line": 7,
-      "start": 35.038,
-      "end": 35.5
+      "start": 37.031,
+      "end": 37.495
     },
     {
       "text": "arrête",
       "line": 7,
-      "start": 35.527,
-      "end": 35.847
+      "start": 37.542,
+      "end": 37.867
     },
     {
       "text": "tout.",
       "line": 7,
-      "start": 35.875,
-      "end": 36.147
+      "start": 37.913,
+      "end": 38.296
     },
     {
       "text": "13",
       "line": 8,
-      "start": 36.829,
-      "end": 37.149
+      "start": 38.945,
+      "end": 39.281
     },
     {
       "text": "secondes",
       "line": 8,
-      "start": 37.176,
-      "end": 37.591
+      "start": 39.304,
+      "end": 39.769
     },
     {
       "text": ":",
       "line": 8,
-      "start": 37.618,
-      "end": 37.702
+      "start": 39.827,
+      "end": 39.862
     },
     {
       "text": "la",
       "line": 8,
-      "start": 38.084,
-      "end": 38.215
+      "start": 39.978,
+      "end": 40.059
     },
     {
       "text": "victoire",
       "line": 8,
-      "start": 38.242,
-      "end": 38.656
+      "start": 40.106,
+      "end": 40.454
     },
     {
       "text": "la",
       "line": 8,
-      "start": 38.684,
-      "end": 38.815
+      "start": 40.477,
+      "end": 40.535
     },
     {
       "text": "plus",
       "line": 8,
-      "start": 38.842,
-      "end": 39.067
+      "start": 40.582,
+      "end": 40.709
     },
     {
       "text": "rapide",
       "line": 8,
-      "start": 39.095,
-      "end": 39.415
+      "start": 40.744,
+      "end": 41.034
     },
     {
       "text": "de",
       "line": 8,
-      "start": 39.442,
-      "end": 39.573
+      "start": 41.069,
+      "end": 41.127
     },
     {
       "text": "l'histoire",
       "line": 8,
-      "start": 39.6,
-      "end": 40.109
+      "start": 41.174,
+      "end": 41.615
     },
     {
       "text": "dans",
       "line": 8,
-      "start": 40.136,
-      "end": 40.362
+      "start": 41.638,
+      "end": 41.777
     },
     {
       "text": "un",
       "line": 8,
-      "start": 40.389,
-      "end": 40.52
+      "start": 41.835,
+      "end": 41.882
     },
     {
       "text": "combat",
       "line": 8,
-      "start": 40.547,
-      "end": 40.867
+      "start": 41.928,
+      "end": 42.219
     },
     {
       "text": "pour",
       "line": 8,
-      "start": 40.895,
-      "end": 41.12
+      "start": 42.242,
+      "end": 42.37
     },
     {
       "text": "un",
       "line": 8,
-      "start": 41.147,
-      "end": 41.278
+      "start": 42.428,
+      "end": 42.486
     },
     {
       "text": "titre",
       "line": 8,
-      "start": 41.305,
-      "end": 41.578
+      "start": 42.532,
+      "end": 42.846
     },
     {
       "text": "UFC.",
       "line": 8,
-      "start": 41.605,
-      "end": 41.925
+      "start": 42.95,
+      "end": 43.635
     },
     {
       "text": "Exactement",
       "line": 9,
-      "start": 42.307,
-      "end": 42.816
+      "start": 44.274,
+      "end": 44.959
     },
     {
       "text": "comme",
       "line": 9,
-      "start": 42.844,
-      "end": 43.116
+      "start": 44.994,
+      "end": 45.168
     },
     {
       "text": "il",
       "line": 9,
-      "start": 43.144,
-      "end": 43.275
+      "start": 45.191,
+      "end": 45.249
     },
     {
       "text": "l'avait",
       "line": 9,
-      "start": 43.302,
-      "end": 43.669
+      "start": 45.272,
+      "end": 45.539
     },
     {
       "text": "annoncé.",
       "line": 9,
-      "start": 43.696,
-      "end": 44.111
+      "start": 45.563,
+      "end": 46.143
     },
     {
       "text": "Ce",
       "line": 10,
-      "start": 44.493,
-      "end": 44.624
+      "start": 46.306,
+      "end": 46.433
     },
     {
       "text": "soir-là,",
       "line": 10,
-      "start": 44.651,
-      "end": 45.065
+      "start": 46.468,
+      "end": 46.921
     },
     {
       "text": "McGregor",
       "line": 10,
-      "start": 45.247,
-      "end": 45.662
+      "start": 46.991,
+      "end": 47.443
     },
     {
       "text": "devient",
       "line": 10,
-      "start": 45.689,
-      "end": 46.056
+      "start": 47.502,
+      "end": 47.769
     },
     {
       "text": "champion…",
       "line": 10,
-      "start": 46.084,
-      "end": 46.545
+      "start": 47.792,
+      "end": 48.395
     },
     {
       "text": "et",
       "line": 10,
-      "start": 46.927,
-      "end": 47.058
+      "start": 48.616,
+      "end": 48.709
     },
     {
       "text": "une",
       "line": 10,
-      "start": 47.085,
-      "end": 47.264
+      "start": 48.744,
+      "end": 48.837
     },
     {
       "text": "superstar",
       "line": 10,
-      "start": 47.291,
-      "end": 47.753
+      "start": 48.86,
+      "end": 49.347
     },
     {
       "text": "mondiale.",
       "line": 10,
-      "start": 47.78,
-      "end": 48.242
+      "start": 49.406,
+      "end": 49.986
     },
     {
       "text": "Abonne-toi",
       "line": 11,
-      "start": 48.624,
-      "end": 49.133
+      "start": 50.392,
+      "end": 50.973
     },
     {
       "text": "pour",
       "line": 11,
-      "start": 49.16,
-      "end": 49.385
+      "start": 51.031,
+      "end": 51.193
     },
     {
       "text": "plus",
       "line": 11,
-      "start": 49.413,
-      "end": 49.638
+      "start": 51.24,
+      "end": 51.437
     },
     {
       "text": "d'histoires",
       "line": 11,
-      "start": 49.665,
-      "end": 50.222
+      "start": 51.484,
+      "end": 52.122
     },
     {
       "text": "Hors",
       "line": 11,
-      "start": 50.249,
-      "end": 50.475
+      "start": 52.238,
+      "end": 52.471
     },
     {
       "text": "Limite.",
       "line": 11,
-      "start": 50.502,
-      "end": 50.869
+      "start": 52.505,
+      "end": 53.167
     }
   ],
   "panels": [
+    {
+      "id": "00m",
+      "bg": "orange",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ],
+        "focus": [
+          540,
+          700
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#1E9E57",
+          "gloves": "#1D2133",
+          "x": 540,
+          "s": 3.5,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "stand",
+              "t": 0
+            },
+            {
+              "pose": "guard",
+              "t": 0.4
+            }
+          ]
+        },
+        {
+          "type": "name",
+          "text": "CONOR MCGREGOR",
+          "subtitle": "IRLANDE",
+          "flag": "ie",
+          "at": 0.05,
+          "y": 200
+        }
+      ],
+      "fx": [
+        {
+          "type": "punch",
+          "at": 0.4
+        }
+      ],
+      "line": 0,
+      "start": 0,
+      "end": 1.856
+    },
     {
       "id": "00a",
       "bg": "blue",
@@ -798,9 +857,11 @@
           "at": 0.1
         }
       ],
+      "cue": "champion",
+      "transition": "slide",
       "line": 0,
-      "start": 0,
-      "end": 3.214,
+      "start": 1.856,
+      "end": 3.969,
       "fx": []
     },
     {
@@ -895,8 +956,8 @@
         }
       ],
       "line": 0,
-      "start": 3.214,
-      "end": 5.115
+      "start": 3.969,
+      "end": 6
     },
     {
       "id": "00c",
@@ -949,8 +1010,8 @@
         }
       ],
       "line": 0,
-      "start": 5.115,
-      "end": 6.162,
+      "start": 6,
+      "end": 7.051,
       "fx": []
     },
     {
@@ -989,8 +1050,8 @@
         }
       ],
       "line": 1,
-      "start": 6.162,
-      "end": 8.58,
+      "start": 7.051,
+      "end": 9.908,
       "fx": []
     },
     {
@@ -1001,7 +1062,7 @@
       "camera": {
         "zoom": [
           1,
-          1.1
+          1.18
         ],
         "focus": [
           540,
@@ -1033,8 +1094,8 @@
         }
       ],
       "line": 1,
-      "start": 8.58,
-      "end": 10.558
+      "start": 9.908,
+      "end": 13.065
     },
     {
       "id": "02a",
@@ -1067,6 +1128,14 @@
             {
               "pose": "guard",
               "t": 0.4
+            },
+            {
+              "pose": "punch",
+              "t": 2
+            },
+            {
+              "pose": "guard",
+              "t": 2.3
             }
           ]
         },
@@ -1076,7 +1145,7 @@
           "x": 515,
           "y": 385,
           "s": 0.9,
-          "at": 0.926
+          "at": 1.117
         },
         {
           "type": "name",
@@ -1088,8 +1157,8 @@
         }
       ],
       "line": 2,
-      "start": 10.558,
-      "end": 13.631,
+      "start": 13.065,
+      "end": 16.096,
       "fx": []
     },
     {
@@ -1142,8 +1211,8 @@
         }
       ],
       "line": 2,
-      "start": 13.631,
-      "end": 15.453,
+      "start": 16.096,
+      "end": 17.791,
       "fx": []
     },
     {
@@ -1186,12 +1255,12 @@
           "text": "CONOR MCGREGOR",
           "subtitle": "IRLANDE",
           "flag": "ie",
-          "at": 0.672
+          "at": 0.582
         }
       ],
       "line": 3,
-      "start": 15.453,
-      "end": 17.862,
+      "start": 17.791,
+      "end": 20.159,
       "fx": []
     },
     {
@@ -1247,7 +1316,7 @@
         {
           "type": "bubble",
           "text": "BLA BLA !",
-          "at": 0.36,
+          "at": 0.351,
           "x": 330,
           "y": 200,
           "tail": [
@@ -1257,8 +1326,8 @@
         }
       ],
       "line": 3,
-      "start": 17.862,
-      "end": 19.005,
+      "start": 20.159,
+      "end": 21.286,
       "fx": []
     },
     {
@@ -1334,8 +1403,8 @@
         }
       ],
       "line": 3,
-      "start": 19.005,
-      "end": 20.904,
+      "start": 21.286,
+      "end": 23.05,
       "fx": []
     },
     {
@@ -1384,24 +1453,24 @@
             },
             {
               "pose": "punch",
-              "t": 1.556
+              "t": 1.593
             },
             {
               "pose": "guard",
-              "t": 1.998
+              "t": 1.988
             }
           ]
         },
         {
           "type": "title",
           "text": "LA PROVOC'",
-          "at": 1.556,
+          "at": 1.593,
           "y": 260
         },
         {
           "type": "bubble",
           "text": "!!!",
-          "at": 1.656,
+          "at": 1.693,
           "x": 560,
           "y": 330,
           "tail": [
@@ -1411,8 +1480,8 @@
         }
       ],
       "line": 4,
-      "start": 20.904,
-      "end": 23.655,
+      "start": 23.05,
+      "end": 25.767,
       "fx": []
     },
     {
@@ -1461,7 +1530,7 @@
                 },
                 {
                   "pose": "punch",
-                  "t": 1.465
+                  "t": 1.372
                 }
               ],
               "move": {
@@ -1469,7 +1538,7 @@
                   520,
                   600
                 ],
-                "at": 1.265,
+                "at": 1.172,
                 "dur": 0.4
               }
             },
@@ -1494,7 +1563,7 @@
                   270,
                   600
                 ],
-                "at": 1.465,
+                "at": 1.372,
                 "dur": 0.3
               }
             }
@@ -1502,8 +1571,8 @@
         }
       ],
       "line": 4,
-      "start": 23.655,
-      "end": 26.109,
+      "start": 25.767,
+      "end": 28.101,
       "fx": []
     },
     {
@@ -1537,14 +1606,14 @@
             },
             {
               "pose": "punch",
-              "t": 0.924
+              "t": 0.738
             }
           ]
         },
         {
           "type": "sfx",
           "text": "LA GAUCHE !",
-          "at": 1.024,
+          "at": 0.838,
           "x": 700,
           "y": 250,
           "rot": -6,
@@ -1555,12 +1624,12 @@
       "fx": [
         {
           "type": "punch",
-          "at": 1.024
+          "at": 0.838
         }
       ],
       "line": 4,
-      "start": 26.109,
-      "end": 27.822
+      "start": 28.101,
+      "end": 30.016
     },
     {
       "id": "05a",
@@ -1622,8 +1691,8 @@
         }
       ],
       "line": 5,
-      "start": 27.822,
-      "end": 29.171,
+      "start": 30.016,
+      "end": 31.282,
       "fx": []
     },
     {
@@ -1685,8 +1754,8 @@
         }
       ],
       "line": 5,
-      "start": 29.171,
-      "end": 30.267,
+      "start": 31.282,
+      "end": 32.478,
       "fx": []
     },
     {
@@ -1719,7 +1788,7 @@
             },
             {
               "pose": "punch",
-              "t": 0.502
+              "t": 0.629
             }
           ]
         },
@@ -1743,14 +1812,14 @@
               290,
               1060
             ],
-            "at": 0.502,
+            "at": 0.629,
             "dur": 0.35
           }
         },
         {
           "type": "bubble",
           "text": "UN PAS EN ARRIÈRE",
-          "at": 1.102,
+          "at": 1.139,
           "x": 330,
           "y": 220,
           "tail": [
@@ -1761,8 +1830,8 @@
         }
       ],
       "line": 6,
-      "start": 30.267,
-      "end": 32.075,
+      "start": 32.478,
+      "end": 34.231,
       "fx": []
     },
     {
@@ -1795,7 +1864,7 @@
             },
             {
               "pose": "fallen",
-              "t": 0.685
+              "t": 0.621
             }
           ]
         },
@@ -1815,14 +1884,14 @@
             },
             {
               "pose": "punch",
-              "t": 0.565
+              "t": 0.501
             }
           ]
         },
         {
           "type": "sfx",
           "text": "BAM !",
-          "at": 0.615,
+          "at": 0.551,
           "x": 560,
           "y": 380,
           "rot": -8,
@@ -1834,20 +1903,20 @@
       "fx": [
         {
           "type": "punch",
-          "at": 0.615
+          "at": 0.551
         },
         {
           "type": "shake",
-          "at": 0.615
+          "at": 0.551
         },
         {
           "type": "flash",
-          "at": 0.615
+          "at": 0.551
         }
       ],
       "line": 6,
-      "start": 32.075,
-      "end": 33.835
+      "start": 34.231,
+      "end": 35.717
     },
     {
       "id": "07a",
@@ -1916,8 +1985,8 @@
         }
       ],
       "line": 7,
-      "start": 33.835,
-      "end": 34.978
+      "start": 35.717,
+      "end": 36.971
     },
     {
       "id": "07b",
@@ -1987,7 +2056,7 @@
         {
           "type": "sfx",
           "text": "STOP !",
-          "at": 0.549,
+          "at": 0.571,
           "x": 540,
           "y": 300,
           "rot": -4,
@@ -1996,8 +2065,8 @@
         }
       ],
       "line": 7,
-      "start": 34.978,
-      "end": 36.769,
+      "start": 36.971,
+      "end": 38.885,
       "fx": []
     },
     {
@@ -2054,8 +2123,8 @@
         }
       ],
       "line": 8,
-      "start": 36.769,
-      "end": 39.035
+      "start": 38.885,
+      "end": 40.684
     },
     {
       "id": "08b",
@@ -2100,11 +2169,15 @@
         {
           "type": "punch",
           "at": 0.06
+        },
+        {
+          "type": "flash",
+          "at": 2
         }
       ],
       "line": 8,
-      "start": 39.035,
-      "end": 42.247
+      "start": 40.684,
+      "end": 44.214
     },
     {
       "id": "09a",
@@ -2191,8 +2264,8 @@
         }
       ],
       "line": 9,
-      "start": 42.247,
-      "end": 44.433,
+      "start": 44.214,
+      "end": 46.246,
       "fx": []
     },
     {
@@ -2248,13 +2321,13 @@
         {
           "type": "title",
           "text": "CHAMPION",
-          "at": 1.651,
+          "at": 1.546,
           "y": 150
         }
       ],
       "line": 10,
-      "start": 44.433,
-      "end": 47.231,
+      "start": 46.246,
+      "end": 48.8,
       "fx": []
     },
     {
@@ -2314,8 +2387,8 @@
         }
       ],
       "line": 10,
-      "start": 47.231,
-      "end": 48.564
+      "start": 48.8,
+      "end": 50.332
     },
     {
       "id": "11a",
@@ -2364,55 +2437,55 @@
         }
       ],
       "line": 11,
-      "start": 48.564,
-      "end": 52.651,
+      "start": 50.332,
+      "end": 54.611,
       "fx": []
     }
   ],
   "sfx": [
     {
       "src": "sfx/impact.wav",
-      "start": 3.394,
+      "start": 4.149,
       "volume": 0.75
     },
     {
       "src": "sfx/hit.wav",
-      "start": 8.64,
+      "start": 9.968,
       "volume": 0.55
     },
     {
       "src": "sfx/pop.wav",
-      "start": 19.065,
+      "start": 21.346,
       "volume": 0.45
     },
     {
       "src": "sfx/pop.wav",
-      "start": 27.133,
+      "start": 28.939,
       "volume": 0.45
     },
     {
       "src": "sfx/impact.wav",
-      "start": 32.69,
+      "start": 34.782,
       "volume": 0.75
     },
     {
       "src": "sfx/hit.wav",
-      "start": 33.985,
+      "start": 35.867,
       "volume": 0.55
     },
     {
       "src": "sfx/pop.wav",
-      "start": 35.527,
+      "start": 37.542,
       "volume": 0.45
     },
     {
       "src": "sfx/hit.wav",
-      "start": 39.095,
+      "start": 40.744,
       "volume": 0.55
     },
     {
       "src": "sfx/hit.wav",
-      "start": 47.291,
+      "start": 48.86,
       "volume": 0.55
     }
   ]

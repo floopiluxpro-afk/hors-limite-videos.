@@ -16,9 +16,59 @@
   },
   "lines": [
     {
-      "text": "Il a détrôné un champion invaincu depuis dix ans… en {13|treize} secondes. Et il l'avait annoncé.",
+      "text": "Conor McGregor a détrôné un champion invaincu depuis dix ans… en {13|treize} secondes. Et il l'avait annoncé.",
       "pauseAfter": 0.25,
       "panels": [
+        {
+          "id": "00m",
+          "bg": "orange",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#1E9E57",
+              "gloves": "#1D2133",
+              "x": 540,
+              "s": 3.5,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  0.4
+                ]
+              ]
+            },
+            {
+              "type": "name",
+              "text": "CONOR MCGREGOR",
+              "subtitle": "IRLANDE",
+              "flag": "ie",
+              "at": 0.05,
+              "y": 200
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": 0.4
+            }
+          ]
+        },
         {
           "id": "00a",
           "bg": "blue",
@@ -65,7 +115,9 @@
               "text": "INVAINCU DEPUIS 10 ANS",
               "at": 0.1
             }
-          ]
+          ],
+          "cue": "champion",
+          "transition": "slide"
         },
         {
           "id": "00b",
@@ -259,7 +311,7 @@
           "camera": {
             "zoom": [
               1.0,
-              1.1
+              1.18
             ],
             "focus": [
               540,
@@ -327,6 +379,14 @@
                 [
                   "guard",
                   0.4
+                ],
+                [
+                  "punch",
+                  2.0
+                ],
+                [
+                  "guard",
+                  2.3
                 ]
               ]
             },
@@ -1331,6 +1391,10 @@
             {
               "type": "punch",
               "at": "rapide"
+            },
+            {
+              "type": "flash",
+              "at": 2.0
             }
           ]
         }
