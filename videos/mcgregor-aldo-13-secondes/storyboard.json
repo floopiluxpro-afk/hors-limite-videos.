@@ -3,6 +3,16 @@
   "format": "comic",
   "theme": "flat",
   "title": "McGregor détrône Aldo en 13 secondes (UFC 194)",
+  "cover": {
+    "panel": "00b",
+    "t": 0.5,
+    "title": [
+      "*13 secondes*",
+      "pour détrôner le roi"
+    ],
+    "badge": "UFC 194",
+    "keep": []
+  },
   "voice": {
     "voiceId": "JBFqnCBsd6RMkjVDRZzb",
     "speed": 1.1,

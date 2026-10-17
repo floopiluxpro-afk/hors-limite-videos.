@@ -4,6 +4,7 @@ import {HorsLimiteVideo} from './Video';
 import {Cover, CoverProps} from './Cover';
 import {PoseSheet} from './comic/PoseSheet';
 import {ComicVideo} from './comic/ComicVideo';
+import {ComicCover, ComicCoverProps} from './comic/ComicCover';
 import type {Comic, ComicProps} from './comic/types';
 
 const comicMetadata: CalculateMetadataFunction<ComicProps> = async ({props}) => {
@@ -59,6 +60,20 @@ export const RemotionRoot: React.FC = () => (
       durationInFrames={30 * 50}
       defaultProps={{slug: 'royce-gracie-ufc-1'} as ComicProps}
       calculateMetadata={comicMetadata}
+    />
+    {/* Couverture d'une vidéo en cases */}
+    <Composition
+      id="ComicCover"
+      component={ComicCover}
+      width={1080}
+      height={1920}
+      fps={30}
+      durationInFrames={1}
+      defaultProps={{slug: 'mcgregor-aldo-13-secondes', panel: '00b', title: ['13 secondes'], t: 0.3} as ComicCoverProps}
+      calculateMetadata={async ({props}) => {
+        const res = await fetch(staticFile(`${props.slug}/comic.json`));
+        return {props: {...props, comic: (await res.json()) as Comic}};
+      }}
     />
     <Composition id="PoseSheet" component={PoseSheet} width={1080} height={1920} fps={30} durationInFrames={1} />
   </>
