@@ -5,808 +5,886 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "duration": 58.045,
-  "durationInFrames": 1742,
-  "voice": null,
-  "music": null,
+  "duration": 57.537,
+  "durationInFrames": 1727,
+  "voice": "usyk-incontestable/voice.mp3",
+  "music": "usyk-incontestable/music.mp3",
   "musicCuts": [],
   "words": [
     {
       "text": "Il",
       "line": 0,
-      "start": 0.25,
-      "end": 0.381
+      "start": 0,
+      "end": 0.151
     },
     {
       "text": "a",
       "line": 0,
-      "start": 0.408,
-      "end": 0.492
+      "start": 0.209,
+      "end": 0.232
     },
     {
       "text": "réussi",
       "line": 0,
-      "start": 0.519,
-      "end": 0.839
+      "start": 0.29,
+      "end": 0.766
     },
     {
       "text": "ce",
       "line": 0,
-      "start": 0.866,
-      "end": 0.997
+      "start": 0.906,
+      "end": 1.068
     },
     {
       "text": "qu'aucun",
       "line": 0,
-      "start": 1.025,
-      "end": 1.439
+      "start": 1.126,
+      "end": 1.44
     },
     {
       "text": "poids",
       "line": 0,
-      "start": 1.466,
-      "end": 1.739
+      "start": 1.498,
+      "end": 1.753
     },
     {
       "text": "lourd",
       "line": 0,
-      "start": 1.766,
-      "end": 2.039
+      "start": 1.788,
+      "end": 2.055
     },
     {
       "text": "n'avait",
       "line": 0,
-      "start": 2.066,
-      "end": 2.434
+      "start": 2.101,
+      "end": 2.345
     },
     {
       "text": "fait",
       "line": 0,
-      "start": 2.461,
-      "end": 2.686
+      "start": 2.38,
+      "end": 2.519
     },
     {
       "text": "depuis",
       "line": 0,
-      "start": 2.714,
-      "end": 3.034
+      "start": 2.554,
+      "end": 2.821
     },
     {
       "text": "près",
       "line": 0,
-      "start": 3.061,
-      "end": 3.286
+      "start": 2.844,
+      "end": 3.03
     },
     {
       "text": "de",
       "line": 0,
-      "start": 3.314,
-      "end": 3.445
+      "start": 3.065,
+      "end": 3.146
     },
     {
       "text": "vingt-cinq",
       "line": 0,
-      "start": 3.472,
-      "end": 3.981
+      "start": 3.204,
+      "end": 3.599
     },
     {
       "text": "ans…",
       "line": 0,
-      "start": 4.008,
-      "end": 4.234
+      "start": 3.704,
+      "end": 3.959
     },
     {
       "text": "face",
       "line": 0,
-      "start": 4.615,
-      "end": 4.841
+      "start": 4.249,
+      "end": 4.516
     },
     {
       "text": "à",
       "line": 0,
-      "start": 4.868,
-      "end": 4.952
+      "start": 4.54,
+      "end": 4.563
     },
     {
       "text": "un",
       "line": 0,
-      "start": 4.979,
-      "end": 5.11
+      "start": 4.621,
+      "end": 4.69
     },
     {
       "text": "géant",
       "line": 0,
-      "start": 5.137,
-      "end": 5.41
+      "start": 4.748,
+      "end": 5.016
     },
     {
       "text": "de",
       "line": 0,
-      "start": 5.437,
-      "end": 5.568
+      "start": 5.05,
+      "end": 5.12
     },
     {
       "text": "2,06 mètres.",
       "line": 0,
-      "start": 5.595,
-      "end": 6.388
+      "start": 5.178,
+      "end": 6.165
     },
     {
       "text": "Oleksandr",
       "line": 1,
-      "start": 7.02,
-      "end": 7.482
+      "start": 6.961,
+      "end": 7.529
     },
     {
       "text": "Usyk",
       "line": 1,
-      "start": 7.509,
-      "end": 7.735
+      "start": 7.599,
+      "end": 7.947
     },
     {
       "text": "est",
       "line": 1,
-      "start": 7.762,
-      "end": 7.94
+      "start": 8.017,
+      "end": 8.133
     },
     {
       "text": "ukrainien.",
       "line": 1,
-      "start": 7.967,
-      "end": 8.476
+      "start": 8.191,
+      "end": 8.807
     },
     {
       "text": "Champion",
       "line": 1,
-      "start": 8.858,
-      "end": 9.273
+      "start": 9.155,
+      "end": 9.619
     },
     {
       "text": "olympique",
       "line": 1,
-      "start": 9.3,
-      "end": 9.762
+      "start": 9.689,
+      "end": 10.177
     },
     {
       "text": "à",
       "line": 1,
-      "start": 9.789,
-      "end": 9.873
+      "start": 10.223,
+      "end": 10.269
     },
     {
       "text": "Londres,",
       "line": 1,
-      "start": 9.9,
-      "end": 10.315
+      "start": 10.351,
+      "end": 10.896
     },
     {
       "text": "en",
       "line": 1,
-      "start": 10.496,
-      "end": 10.627
+      "start": 10.954,
+      "end": 11.094
     },
     {
       "text": "2012.",
       "line": 1,
-      "start": 10.655,
-      "end": 11.495
+      "start": 11.152,
+      "end": 12.034
     },
     {
       "text": "Chez",
       "line": 2,
-      "start": 11.876,
-      "end": 12.102
+      "start": 12.44,
+      "end": 12.626
     },
     {
       "text": "les",
       "line": 2,
-      "start": 12.129,
-      "end": 12.307
+      "start": 12.661,
+      "end": 12.742
     },
     {
       "text": "professionnels,",
       "line": 2,
-      "start": 12.335,
-      "end": 13.08
+      "start": 12.766,
+      "end": 13.509
     },
     {
       "text": "il",
       "line": 2,
-      "start": 13.262,
-      "end": 13.393
+      "start": 13.59,
+      "end": 13.74
     },
     {
       "text": "devient",
       "line": 2,
-      "start": 13.42,
-      "end": 13.787
+      "start": 13.798,
+      "end": 14.077
     },
     {
       "text": "champion",
       "line": 2,
-      "start": 13.815,
-      "end": 14.229
+      "start": 14.1,
+      "end": 14.483
     },
     {
       "text": "du",
       "line": 2,
-      "start": 14.256,
-      "end": 14.387
+      "start": 14.542,
+      "end": 14.611
     },
     {
       "text": "monde",
       "line": 2,
-      "start": 14.415,
-      "end": 14.687
+      "start": 14.669,
+      "end": 15.006
     },
     {
       "text": "incontesté…",
       "line": 2,
-      "start": 14.715,
-      "end": 15.271
+      "start": 15.029,
+      "end": 16.039
     },
     {
       "text": "des",
       "line": 2,
-      "start": 15.653,
-      "end": 15.831
+      "start": 16.202,
+      "end": 16.341
     },
     {
       "text": "lourds-légers.",
       "line": 2,
-      "start": 15.858,
-      "end": 16.556
+      "start": 16.376,
+      "end": 17.235
     },
     {
       "text": "Alors",
       "line": 3,
-      "start": 16.938,
-      "end": 17.211
+      "start": 17.583,
+      "end": 17.885
     },
     {
       "text": "il",
       "line": 3,
-      "start": 17.238,
-      "end": 17.369
+      "start": 17.932,
+      "end": 18.001
     },
     {
       "text": "monte",
       "line": 3,
-      "start": 17.396,
-      "end": 17.669
+      "start": 18.059,
+      "end": 18.257
     },
     {
       "text": "chez",
       "line": 3,
-      "start": 17.696,
-      "end": 17.922
+      "start": 18.28,
+      "end": 18.384
     },
     {
       "text": "les",
       "line": 3,
-      "start": 17.949,
-      "end": 18.127
+      "start": 18.419,
+      "end": 18.512
     },
     {
       "text": "poids",
       "line": 3,
-      "start": 18.155,
-      "end": 18.427
+      "start": 18.547,
+      "end": 18.744
     },
     {
       "text": "lourds.",
       "line": 3,
-      "start": 18.455,
-      "end": 18.822
+      "start": 18.768,
+      "end": 19.197
     },
     {
       "text": "Beaucoup",
       "line": 3,
-      "start": 19.204,
-      "end": 19.618
+      "start": 19.487,
+      "end": 19.812
     },
     {
       "text": "le",
       "line": 3,
-      "start": 19.645,
-      "end": 19.776
+      "start": 19.847,
+      "end": 19.917
     },
     {
       "text": "trouvent",
       "line": 3,
-      "start": 19.804,
-      "end": 20.218
+      "start": 19.963,
+      "end": 20.288
     },
     {
       "text": "trop",
       "line": 3,
-      "start": 20.245,
-      "end": 20.471
+      "start": 20.323,
+      "end": 20.521
     },
     {
       "text": "petit.",
       "line": 3,
-      "start": 20.498,
-      "end": 20.818
+      "start": 20.544,
+      "end": 21.043
     },
     {
       "text": "En",
       "line": 4,
-      "start": 21.2,
-      "end": 21.331
+      "start": 21.299,
+      "end": 21.449
     },
     {
       "text": "2021,",
       "line": 4,
-      "start": 21.358,
-      "end": 22.482
+      "start": 21.508,
+      "end": 22.494
     },
     {
       "text": "il",
       "line": 4,
-      "start": 22.664,
-      "end": 22.795
+      "start": 22.634,
+      "end": 22.785
     },
     {
       "text": "bat",
       "line": 4,
-      "start": 22.822,
-      "end": 23
+      "start": 22.843,
+      "end": 22.982
     },
     {
       "text": "Anthony",
       "line": 4,
-      "start": 23.027,
-      "end": 23.395
+      "start": 23.028,
+      "end": 23.412
     },
     {
       "text": "Joshua",
       "line": 4,
-      "start": 23.422,
-      "end": 23.742
+      "start": 23.47,
+      "end": 23.934
     },
     {
       "text": "et",
       "line": 4,
-      "start": 23.769,
-      "end": 23.9
+      "start": 24.038,
+      "end": 24.155
     },
     {
       "text": "lui",
       "line": 4,
-      "start": 23.927,
-      "end": 24.105
+      "start": 24.189,
+      "end": 24.329
     },
     {
       "text": "prend",
       "line": 4,
-      "start": 24.133,
-      "end": 24.405
+      "start": 24.375,
+      "end": 24.549
     },
     {
       "text": "trois",
       "line": 4,
-      "start": 24.433,
-      "end": 24.705
+      "start": 24.584,
+      "end": 24.816
     },
     {
       "text": "ceintures.",
       "line": 4,
-      "start": 24.733,
-      "end": 25.242
+      "start": 24.84,
+      "end": 25.455
     },
     {
       "text": "Il",
       "line": 5,
-      "start": 25.624,
-      "end": 25.755
+      "start": 25.745,
+      "end": 25.873
     },
     {
       "text": "n'en",
       "line": 5,
-      "start": 25.782,
-      "end": 26.007
+      "start": 25.919,
+      "end": 26.024
     },
     {
       "text": "manque",
       "line": 5,
-      "start": 26.035,
-      "end": 26.355
+      "start": 26.07,
+      "end": 26.291
     },
     {
       "text": "plus",
       "line": 5,
-      "start": 26.382,
-      "end": 26.607
+      "start": 26.314,
+      "end": 26.5
     },
     {
       "text": "qu'une",
       "line": 5,
-      "start": 26.635,
-      "end": 26.955
+      "start": 26.535,
+      "end": 26.93
     },
     {
       "text": ":",
       "line": 5,
-      "start": 26.982,
-      "end": 27.065
+      "start": 26.976,
+      "end": 27.139
     },
     {
       "text": "celle",
       "line": 5,
-      "start": 27.447,
-      "end": 27.72
+      "start": 27.301,
+      "end": 27.534
     },
     {
       "text": "de",
       "line": 5,
-      "start": 27.747,
-      "end": 27.878
+      "start": 27.568,
+      "end": 27.638
     },
     {
       "text": "Tyson",
       "line": 5,
-      "start": 27.905,
-      "end": 28.178
+      "start": 27.696,
+      "end": 28.056
     },
     {
       "text": "Fury.",
       "line": 5,
-      "start": 28.205,
-      "end": 28.478
+      "start": 28.114,
+      "end": 28.648
     },
     {
       "text": "Mai",
       "line": 6,
-      "start": 28.86,
-      "end": 29.038
+      "start": 29.112,
+      "end": 29.31
     },
     {
       "text": "2024,",
       "line": 6,
-      "start": 29.065,
-      "end": 30.236
+      "start": 29.368,
+      "end": 30.332
     },
     {
       "text": "Riyad.",
       "line": 6,
-      "start": 30.418,
-      "end": 30.738
+      "start": 30.436,
+      "end": 31.051
     },
     {
       "text": "Fury",
       "line": 6,
-      "start": 31.12,
-      "end": 31.345
+      "start": 31.272,
+      "end": 31.585
     },
     {
       "text": "mesure",
       "line": 6,
-      "start": 31.373,
-      "end": 31.693
+      "start": 31.632,
+      "end": 31.91
     },
     {
       "text": "2,06 mètres.",
       "line": 6,
-      "start": 31.72,
-      "end": 32.513
+      "start": 31.945,
+      "end": 32.874
     },
     {
       "text": "Usyk,",
       "line": 6,
-      "start": 32.895,
-      "end": 33.167
+      "start": 32.955,
+      "end": 33.466
     },
     {
       "text": "1,91 mètre.",
       "line": 6,
-      "start": 33.349,
-      "end": 34.662
+      "start": 33.513,
+      "end": 34.906
     },
     {
       "text": "Neuvième",
       "line": 7,
-      "start": 35.044,
-      "end": 35.458
+      "start": 35.092,
+      "end": 35.463
     },
     {
       "text": "round.",
       "line": 7,
-      "start": 35.485,
-      "end": 35.805
+      "start": 35.498,
+      "end": 35.951
     },
     {
       "text": "Usyk",
       "line": 7,
-      "start": 36.187,
-      "end": 36.413
+      "start": 36.171,
+      "end": 36.578
     },
     {
       "text": "touche",
       "line": 7,
-      "start": 36.44,
-      "end": 36.76
+      "start": 36.636,
+      "end": 36.88
     },
     {
       "text": "Fury,",
       "line": 7,
-      "start": 36.787,
-      "end": 37.06
+      "start": 36.914,
+      "end": 37.332
     },
     {
       "text": "qui",
       "line": 7,
-      "start": 37.242,
-      "end": 37.42
+      "start": 37.414,
+      "end": 37.541
     },
     {
       "text": "titube",
       "line": 7,
-      "start": 37.447,
-      "end": 37.767
+      "start": 37.599,
+      "end": 37.959
     },
     {
       "text": "dans",
       "line": 7,
-      "start": 37.795,
-      "end": 38.02
+      "start": 37.982,
+      "end": 38.11
     },
     {
       "text": "les",
       "line": 7,
-      "start": 38.047,
-      "end": 38.225
+      "start": 38.133,
+      "end": 38.226
     },
     {
       "text": "cordes…",
       "line": 7,
-      "start": 38.253,
-      "end": 38.62
+      "start": 38.261,
+      "end": 38.749
     },
     {
       "text": "sauvé",
       "line": 7,
-      "start": 39.002,
-      "end": 39.275
+      "start": 38.888,
+      "end": 39.19
     },
     {
       "text": "par",
       "line": 7,
-      "start": 39.302,
-      "end": 39.48
+      "start": 39.236,
+      "end": 39.352
     },
     {
       "text": "la",
       "line": 7,
-      "start": 39.507,
-      "end": 39.638
+      "start": 39.387,
+      "end": 39.457
     },
     {
       "text": "cloche.",
       "line": 7,
-      "start": 39.665,
-      "end": 40.033
+      "start": 39.503,
+      "end": 39.945
     },
     {
       "text": "Après",
       "line": 8,
-      "start": 40.415,
-      "end": 40.687
+      "start": 40.235,
+      "end": 40.548
     },
     {
       "text": "douze",
       "line": 8,
-      "start": 40.715,
-      "end": 40.987
+      "start": 40.571,
+      "end": 40.781
     },
     {
       "text": "rounds,",
       "line": 8,
-      "start": 41.015,
-      "end": 41.382
+      "start": 40.827,
+      "end": 41.245
     },
     {
       "text": "les",
       "line": 8,
-      "start": 41.564,
-      "end": 41.742
+      "start": 41.326,
+      "end": 41.466
     },
     {
       "text": "juges",
       "line": 8,
-      "start": 41.769,
-      "end": 42.042
+      "start": 41.512,
+      "end": 41.756
     },
     {
       "text": "rendent",
       "line": 8,
-      "start": 42.069,
-      "end": 42.436
+      "start": 41.779,
+      "end": 42.035
     },
     {
       "text": "leur",
       "line": 8,
-      "start": 42.464,
-      "end": 42.689
+      "start": 42.093,
+      "end": 42.197
     },
     {
       "text": "verdict",
       "line": 8,
-      "start": 42.716,
-      "end": 43.084
+      "start": 42.244,
+      "end": 42.65
     },
     {
       "text": ":",
       "line": 8,
-      "start": 43.111,
-      "end": 43.195
+      "start": 42.754,
+      "end": 42.778
     },
     {
       "text": "Usyk.",
       "line": 8,
-      "start": 43.576,
-      "end": 43.849
+      "start": 42.894,
+      "end": 43.486
     },
     {
       "text": "Il",
       "line": 9,
-      "start": 44.531,
-      "end": 44.662
+      "start": 44.076,
+      "end": 44.204
     },
     {
       "text": "devient",
       "line": 9,
-      "start": 44.689,
-      "end": 45.056
+      "start": 44.262,
+      "end": 44.54
     },
     {
       "text": "le",
       "line": 9,
-      "start": 45.084,
-      "end": 45.215
+      "start": 44.564,
+      "end": 44.622
     },
     {
       "text": "premier",
       "line": 9,
-      "start": 45.242,
-      "end": 45.609
+      "start": 44.68,
+      "end": 44.982
     },
     {
       "text": "champion",
       "line": 9,
-      "start": 45.636,
-      "end": 46.051
+      "start": 45.005,
+      "end": 45.353
     },
     {
       "text": "incontesté",
       "line": 9,
-      "start": 46.078,
-      "end": 46.587
+      "start": 45.4,
+      "end": 45.957
     },
     {
       "text": "des",
       "line": 9,
-      "start": 46.615,
-      "end": 46.793
+      "start": 46.015,
+      "end": 46.119
     },
     {
       "text": "poids",
       "line": 9,
-      "start": 46.82,
-      "end": 47.093
+      "start": 46.154,
+      "end": 46.328
     },
     {
       "text": "lourds",
       "line": 9,
-      "start": 47.12,
-      "end": 47.44
+      "start": 46.352,
+      "end": 46.642
     },
     {
       "text": "depuis",
       "line": 9,
-      "start": 47.467,
-      "end": 47.787
+      "start": 46.781,
+      "end": 47.071
     },
     {
       "text": "Lennox",
       "line": 9,
-      "start": 47.815,
-      "end": 48.135
+      "start": 47.118,
+      "end": 47.455
     },
     {
       "text": "Lewis,",
       "line": 9,
-      "start": 48.162,
-      "end": 48.482
+      "start": 47.513,
+      "end": 48.116
     },
     {
       "text": "en",
       "line": 9,
-      "start": 48.664,
-      "end": 48.795
+      "start": 48.302,
+      "end": 48.43
     },
     {
       "text": "1999.",
       "line": 9,
-      "start": 48.822,
-      "end": 50.655
+      "start": 48.476,
+      "end": 50.044
     },
     {
       "text": "Quatre",
       "line": 10,
-      "start": 51.036,
-      "end": 51.356
+      "start": 50.508,
+      "end": 50.845
     },
     {
       "text": "ceintures…",
       "line": 10,
-      "start": 51.384,
-      "end": 51.893
+      "start": 50.879,
+      "end": 51.518
     },
     {
       "text": "et",
       "line": 10,
-      "start": 52.275,
-      "end": 52.405
+      "start": 51.623,
+      "end": 51.739
     },
     {
       "text": "toujours",
       "line": 10,
-      "start": 52.433,
-      "end": 52.847
+      "start": 51.785,
+      "end": 52.133
     },
     {
       "text": "aucune",
       "line": 10,
-      "start": 52.875,
-      "end": 53.195
+      "start": 52.157,
+      "end": 52.377
     },
     {
       "text": "défaite.",
       "line": 10,
-      "start": 53.222,
-      "end": 53.636
+      "start": 52.4,
+      "end": 52.946
     },
     {
       "text": "Abonne-toi",
       "line": 11,
-      "start": 54.018,
-      "end": 54.527
+      "start": 53.352,
+      "end": 53.945
     },
     {
       "text": "pour",
       "line": 11,
-      "start": 54.555,
-      "end": 54.78
+      "start": 54.003,
+      "end": 54.165
     },
     {
       "text": "plus",
       "line": 11,
-      "start": 54.807,
-      "end": 55.033
+      "start": 54.212,
+      "end": 54.421
     },
     {
       "text": "d'histoires",
       "line": 11,
-      "start": 55.06,
-      "end": 55.616
+      "start": 54.455,
+      "end": 55.024
     },
     {
       "text": "Hors",
       "line": 11,
-      "start": 55.644,
-      "end": 55.869
+      "start": 55.082,
+      "end": 55.349
     },
     {
       "text": "Limite.",
       "line": 11,
-      "start": 55.896,
-      "end": 56.264
+      "start": 55.373,
+      "end": 56.092
     }
   ],
   "panels": [
     {
       "id": "00a",
+      "bg": "white",
+      "rays": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.12
+        ],
+        "focus": [
+          540,
+          650
+        ]
+      },
+      "elements": [
+        {
+          "type": "puppet",
+          "style": "shadow",
+          "build": "normal",
+          "tint": "#FFFFFF",
+          "gloves": "#E3001B",
+          "x": 540,
+          "s": 3.6,
+          "facing": 1,
+          "poses": [
+            {
+              "pose": "guard",
+              "t": 0
+            },
+            {
+              "pose": "punch",
+              "t": 0.25
+            },
+            {
+              "pose": "guard",
+              "t": 0.45
+            },
+            {
+              "pose": "punch",
+              "t": 0.65
+            },
+            {
+              "pose": "guard",
+              "t": 0.85
+            },
+            {
+              "pose": "punch",
+              "t": 1.05
+            },
+            {
+              "pose": "guard",
+              "t": 1.25
+            }
+          ]
+        },
+        {
+          "type": "sfx",
+          "text": "BAM !",
+          "at": 1.05,
+          "x": 780,
+          "y": 300,
+          "rot": 8,
+          "color": "red",
+          "sound": "hit",
+          "size": 130,
+          "dur": 0.6
+        }
+      ],
+      "fx": [
+        {
+          "type": "shake",
+          "at": 1.05
+        }
+      ],
+      "line": 0,
+      "start": 0,
+      "end": 2.494
+    },
+    {
+      "id": "00c",
       "bg": "black",
       "rays": true,
       "camera": {
@@ -836,7 +914,7 @@
             },
             {
               "pose": "armsUp",
-              "t": 2.461
+              "t": 0.2
             }
           ]
         },
@@ -846,7 +924,8 @@
           "x": 250,
           "y": 330,
           "s": 0.42,
-          "rot": -8
+          "rot": -8,
+          "at": 0
         },
         {
           "type": "prop",
@@ -854,7 +933,8 @@
           "x": 830,
           "y": 330,
           "s": 0.42,
-          "rot": 8
+          "rot": 8,
+          "at": 0
         },
         {
           "type": "prop",
@@ -862,7 +942,8 @@
           "x": 250,
           "y": 560,
           "s": 0.42,
-          "rot": -4
+          "rot": -4,
+          "at": 0
         },
         {
           "type": "prop",
@@ -870,24 +951,27 @@
           "x": 830,
           "y": 560,
           "s": 0.42,
-          "rot": 4
+          "rot": 4,
+          "at": 0
         },
         {
           "type": "counter",
           "from": 0,
           "to": 25,
           "suffix": " ANS",
-          "at": 3.472,
+          "at": 0.71,
           "y": 250
         }
       ],
+      "cue": "depuis",
+      "transition": "slam",
       "line": 0,
-      "start": 0,
-      "end": 5.077,
+      "start": 2.494,
+      "end": 4.688,
       "fx": []
     },
     {
-      "id": "00b",
+      "id": "00d",
       "cue": "géant",
       "bg": "white",
       "rays": true,
@@ -941,7 +1025,7 @@
         {
           "type": "sfx",
           "text": "2,06 M",
-          "at": 0.518,
+          "at": 0.49,
           "x": 720,
           "y": 150,
           "rot": 6,
@@ -952,12 +1036,12 @@
       "fx": [
         {
           "type": "punch",
-          "at": 0.518
+          "at": 0.49
         }
       ],
       "line": 0,
-      "start": 5.077,
-      "end": 6.96
+      "start": 4.688,
+      "end": 6.901
     },
     {
       "id": "01a",
@@ -1013,8 +1097,8 @@
         }
       ],
       "line": 1,
-      "start": 6.96,
-      "end": 8.798,
+      "start": 6.901,
+      "end": 9.095,
       "fx": []
     },
     {
@@ -1057,20 +1141,20 @@
             },
             {
               "pose": "armsUp",
-              "t": 0.502
+              "t": 0.594
             }
           ]
         },
         {
           "type": "title",
           "text": "OR OLYMPIQUE 2012",
-          "at": 1.102,
+          "at": 1.256,
           "y": 200
         }
       ],
       "line": 1,
-      "start": 8.798,
-      "end": 11.816,
+      "start": 9.095,
+      "end": 12.38,
       "fx": []
     },
     {
@@ -1143,7 +1227,7 @@
             },
             {
               "pose": "fallen",
-              "t": 2.199
+              "t": 1.92
             }
           ]
         }
@@ -1151,12 +1235,12 @@
       "fx": [
         {
           "type": "shake",
-          "at": 2.199
+          "at": 1.92
         }
       ],
       "line": 2,
-      "start": 11.816,
-      "end": 14.655
+      "start": 12.38,
+      "end": 14.969
     },
     {
       "id": "02b",
@@ -1237,8 +1321,8 @@
         }
       ],
       "line": 2,
-      "start": 14.655,
-      "end": 16.878,
+      "start": 14.969,
+      "end": 17.523,
       "fx": []
     },
     {
@@ -1285,13 +1369,13 @@
         {
           "type": "title",
           "text": "POIDS LOURDS",
-          "at": 1.577,
+          "at": 1.245,
           "y": 250
         }
       ],
       "line": 3,
-      "start": 16.878,
-      "end": 19.144,
+      "start": 17.523,
+      "end": 19.427,
       "fx": []
     },
     {
@@ -1359,7 +1443,7 @@
         {
           "type": "sfx",
           "text": "TROP PETIT ?!",
-          "at": 1.354,
+          "at": 1.117,
           "x": 540,
           "y": 260,
           "rot": -5,
@@ -1368,8 +1452,8 @@
         }
       ],
       "line": 3,
-      "start": 19.144,
-      "end": 21.14,
+      "start": 19.427,
+      "end": 21.239,
       "fx": []
     },
     {
@@ -1404,11 +1488,11 @@
             },
             {
               "pose": "punch",
-              "t": 1.682
+              "t": 1.604
             },
             {
               "pose": "guard",
-              "t": 1.982
+              "t": 1.904
             }
           ]
         },
@@ -1432,19 +1516,19 @@
           "text": "ANTHONY JOSHUA",
           "subtitle": "ROYAUME-UNI",
           "flag": "gb",
-          "at": 1.887,
+          "at": 1.789,
           "y": 200
         }
       ],
       "fx": [
         {
           "type": "shake",
-          "at": 1.732
+          "at": 1.654
         }
       ],
       "line": 4,
-      "start": 21.14,
-      "end": 24.373
+      "start": 21.239,
+      "end": 24.524
     },
     {
       "id": "04b",
@@ -1516,8 +1600,8 @@
         }
       ],
       "line": 4,
-      "start": 24.373,
-      "end": 25.564,
+      "start": 24.524,
+      "end": 25.685,
       "fx": []
     },
     {
@@ -1551,7 +1635,7 @@
             },
             {
               "pose": "flex",
-              "t": 2.341
+              "t": 2.011
             }
           ]
         },
@@ -1561,26 +1645,26 @@
           "x": 540,
           "y": 170,
           "s": 0.6,
-          "at": 1.071
+          "at": 0.85
         },
         {
           "type": "name",
           "text": "TYSON FURY",
           "subtitle": "2,06 M · INVAINCU",
           "flag": "gb",
-          "at": 2.341,
+          "at": 2.011,
           "y": 420
         }
       ],
       "fx": [
         {
           "type": "punch",
-          "at": 2.641
+          "at": 2.429
         }
       ],
       "line": 5,
-      "start": 25.564,
-      "end": 28.8
+      "start": 25.685,
+      "end": 29.052
     },
     {
       "id": "06a",
@@ -1618,8 +1702,8 @@
         }
       ],
       "line": 6,
-      "start": 28.8,
-      "end": 31.06,
+      "start": 29.052,
+      "end": 31.212,
       "fx": []
     },
     {
@@ -1651,6 +1735,10 @@
             {
               "pose": "stand",
               "t": 0
+            },
+            {
+              "pose": "guard",
+              "t": 1.743
             }
           ]
         },
@@ -1666,13 +1754,17 @@
             {
               "pose": "stand",
               "t": 0
+            },
+            {
+              "pose": "crossed",
+              "t": 2.301
             }
           ]
         },
         {
           "type": "sfx",
           "text": "2,06 M",
-          "at": 0.66,
+          "at": 0.733,
           "x": 760,
           "y": 120,
           "rot": 5,
@@ -1683,7 +1775,7 @@
         {
           "type": "sfx",
           "text": "1,91 M",
-          "at": 2.289,
+          "at": 2.301,
           "x": 320,
           "y": 380,
           "rot": -5,
@@ -1693,8 +1785,8 @@
         }
       ],
       "line": 6,
-      "start": 31.06,
-      "end": 34.984,
+      "start": 31.212,
+      "end": 35.032,
       "fx": []
     },
     {
@@ -1736,19 +1828,19 @@
             },
             {
               "pose": "punch",
-              "t": 1.456
+              "t": 1.604
             },
             {
               "pose": "guard",
-              "t": 1.656
+              "t": 1.804
             },
             {
               "pose": "punch",
-              "t": 1.856
+              "t": 2.004
             },
             {
               "pose": "guard",
-              "t": 2.056
+              "t": 2.204
             }
           ]
         },
@@ -1757,8 +1849,8 @@
           "style": "shadow",
           "build": "tall",
           "gloves": "#FFFFFF",
-          "x": 700,
-          "s": 3.2,
+          "x": 640,
+          "s": 3,
           "facing": -1,
           "poses": [
             {
@@ -1767,7 +1859,7 @@
             },
             {
               "pose": "stagger",
-              "t": 2.463
+              "t": 2.567
             }
           ]
         },
@@ -1779,7 +1871,7 @@
         {
           "type": "sfx",
           "text": "BAM !",
-          "at": 1.506,
+          "at": 1.654,
           "x": 700,
           "y": 300,
           "rot": 8,
@@ -1792,16 +1884,16 @@
       "fx": [
         {
           "type": "shake",
-          "at": 1.506
+          "at": 1.654
         },
         {
           "type": "punch",
-          "at": 2.463
+          "at": 2.567
         }
       ],
       "line": 7,
-      "start": 34.984,
-      "end": 38.942
+      "start": 35.032,
+      "end": 38.828
     },
     {
       "id": "07b",
@@ -1825,8 +1917,8 @@
           "style": "shadow",
           "build": "tall",
           "gloves": "#FFFFFF",
-          "x": 680,
-          "s": 3.2,
+          "x": 620,
+          "s": 3,
           "facing": -1,
           "poses": [
             {
@@ -1854,14 +1946,14 @@
             },
             {
               "pose": "stand",
-              "t": 1.123
+              "t": 1.075
             }
           ]
         },
         {
           "type": "sfx",
           "text": "DING DING !",
-          "at": 0.723,
+          "at": 0.675,
           "x": 540,
           "y": 250,
           "rot": -6,
@@ -1870,8 +1962,8 @@
         }
       ],
       "line": 7,
-      "start": 38.942,
-      "end": 40.355,
+      "start": 38.828,
+      "end": 40.175,
       "fx": []
     },
     {
@@ -1944,13 +2036,13 @@
         {
           "type": "title",
           "text": "LE VERDICT…",
-          "at": 2.361,
+          "at": 2.069,
           "y": 260
         }
       ],
       "line": 8,
-      "start": 40.355,
-      "end": 43.516,
+      "start": 40.175,
+      "end": 42.834,
       "fx": []
     },
     {
@@ -2013,8 +2105,8 @@
         }
       ],
       "line": 8,
-      "start": 43.516,
-      "end": 44.471
+      "start": 42.834,
+      "end": 44.016
     },
     {
       "id": "09a",
@@ -2059,14 +2151,14 @@
           "type": "title",
           "text": "CHAMPION INCONTESTÉ",
           "subtitle": "POIDS LOURDS",
-          "at": 1.607,
+          "at": 1.384,
           "y": 240,
           "sound": "hit"
         }
       ],
       "line": 9,
-      "start": 44.471,
-      "end": 47.755,
+      "start": 44.016,
+      "end": 47.058,
       "fx": []
     },
     {
@@ -2111,13 +2203,17 @@
             {
               "pose": "crossed",
               "t": 0
+            },
+            {
+              "pose": "armsUp",
+              "t": 2
             }
           ]
         }
       ],
       "line": 9,
-      "start": 47.755,
-      "end": 50.976,
+      "start": 47.058,
+      "end": 50.448,
       "fx": []
     },
     {
@@ -2195,7 +2291,7 @@
         {
           "type": "sfx",
           "text": "0 DÉFAITE",
-          "at": 1.899,
+          "at": 1.709,
           "x": 540,
           "y": 170,
           "rot": -5,
@@ -2207,12 +2303,12 @@
       "fx": [
         {
           "type": "punch",
-          "at": 1.899
+          "at": 1.709
         }
       ],
       "line": 10,
-      "start": 50.976,
-      "end": 53.958
+      "start": 50.448,
+      "end": 53.292
     },
     {
       "id": "11a",
@@ -2262,60 +2358,65 @@
         }
       ],
       "line": 11,
-      "start": 53.958,
-      "end": 58.045,
+      "start": 53.292,
+      "end": 57.537,
       "fx": []
     }
   ],
   "sfx": [
     {
       "src": "sfx/hit.wav",
-      "start": 5.595,
+      "start": 1.05,
       "volume": 0.55
     },
     {
       "src": "sfx/hit.wav",
-      "start": 14.715,
+      "start": 5.178,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/hit.wav",
+      "start": 15.029,
       "volume": 0.55
     },
     {
       "src": "sfx/pop.wav",
-      "start": 20.498,
+      "start": 20.544,
       "volume": 0.45
     },
     {
       "src": "sfx/pop.wav",
-      "start": 31.72,
+      "start": 31.945,
       "volume": 0.45
     },
     {
       "src": "sfx/pop.wav",
-      "start": 33.349,
+      "start": 33.513,
       "volume": 0.45
     },
     {
       "src": "sfx/hit.wav",
-      "start": 36.49,
+      "start": 36.686,
       "volume": 0.55
     },
     {
       "src": "sfx/crack.wav",
-      "start": 39.665,
+      "start": 39.503,
       "volume": 0.6
     },
     {
       "src": "sfx/impact.wav",
-      "start": 43.576,
+      "start": 42.894,
       "volume": 0.75
     },
     {
       "src": "sfx/hit.wav",
-      "start": 46.078,
+      "start": 45.4,
       "volume": 0.55
     },
     {
       "src": "sfx/hit.wav",
-      "start": 52.875,
+      "start": 52.157,
       "volume": 0.55
     }
   ]
