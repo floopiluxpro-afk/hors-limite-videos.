@@ -3,6 +3,16 @@
   "format": "comic",
   "theme": "manga",
   "title": "Usyk, champion incontesté des poids lourds (2024)",
+  "cover": {
+    "panel": "00d",
+    "t": 1.2,
+    "title": [
+      "*Incontesté*",
+      "le premier depuis 1999"
+    ],
+    "badge": "USYK VS FURY",
+    "keep": []
+  },
   "voice": {
     "voiceId": "JBFqnCBsd6RMkjVDRZzb",
     "speed": 1.1,
