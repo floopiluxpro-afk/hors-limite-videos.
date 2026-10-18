@@ -1,0 +1,1463 @@
+{
+  "slug": "usyk-incontestable",
+  "format": "comic",
+  "theme": "manga",
+  "title": "Usyk, champion incontesté des poids lourds (2024)",
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "speed": 1.1,
+    "stability": 0.4,
+    "similarity_boost": 0.8,
+    "style": 0.45
+  },
+  "music": {
+    "style": "beat",
+    "bpm": 104
+  },
+  "lines": [
+    {
+      "text": "Il a réussi ce qu'aucun poids lourd n'avait fait depuis près de vingt-cinq ans… face à un géant de {2,06 mètres|deux mètres six}.",
+      "pauseAfter": 0.25,
+      "panels": [
+        {
+          "id": "00a",
+          "bg": "black",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  "fait"
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 250,
+              "y": 330,
+              "s": 0.42,
+              "rot": -8
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 830,
+              "y": 330,
+              "s": 0.42,
+              "rot": 8
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 250,
+              "y": 560,
+              "s": 0.42,
+              "rot": -4
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 830,
+              "y": 560,
+              "s": 0.42,
+              "rot": 4
+            },
+            {
+              "type": "counter",
+              "from": 0,
+              "to": 25,
+              "suffix": " ANS",
+              "at": "vingt-cinq",
+              "y": 250
+            }
+          ]
+        },
+        {
+          "id": "00b",
+          "cue": "géant",
+          "bg": "white",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.05
+            ],
+            "focus": [
+              620,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 280,
+              "s": 2.9,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 740,
+              "s": 3.5,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  0.4
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "2,06 M",
+              "at": "2,06",
+              "x": 720,
+              "y": 150,
+              "rot": 6,
+              "color": "red",
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "2,06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Oleksandr Usyk est ukrainien. Champion olympique à Londres, en {2012|deux mille douze}.",
+      "panels": [
+        {
+          "id": "01a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.5,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  0.3
+                ],
+                [
+                  "punch",
+                  1.3
+                ],
+                [
+                  "guard",
+                  1.55
+                ]
+              ]
+            },
+            {
+              "type": "name",
+              "text": "OLEKSANDR USYK",
+              "subtitle": "UKRAINE",
+              "flag": "ua",
+              "at": "Oleksandr",
+              "y": 200
+            }
+          ]
+        },
+        {
+          "id": "01b",
+          "cue": "Champion",
+          "bg": "gray",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "rings",
+              "x": 540,
+              "y": 420,
+              "s": 0.9,
+              "at": 0.05
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  "olympique"
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "OR OLYMPIQUE 2012",
+              "at": "Londres",
+              "y": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Chez les professionnels, il devient champion du monde incontesté… des lourds-légers.",
+      "panels": [
+        {
+          "id": "02a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "ring",
+              "x": 540,
+              "y": 1060,
+              "s": 0.95
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 360,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  0.6
+                ],
+                [
+                  "guard",
+                  0.85
+                ],
+                [
+                  "punch",
+                  1.3
+                ],
+                [
+                  "guard",
+                  1.55
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "gloves": "#FFFFFF",
+              "x": 740,
+              "s": 3.0,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  "champion+0.2"
+                ]
+              ]
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "champion+0.2"
+            }
+          ]
+        },
+        {
+          "id": "02b",
+          "cue": "incontesté",
+          "bg": "black",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.3,
+              "facing": 1,
+              "poses": [
+                [
+                  "armsUp",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 250,
+              "y": 330,
+              "s": 0.42,
+              "rot": -8,
+              "at": 0
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 830,
+              "y": 330,
+              "s": 0.42,
+              "rot": 8,
+              "at": 0
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 250,
+              "y": 560,
+              "s": 0.42,
+              "rot": -4,
+              "at": 0
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 830,
+              "y": 560,
+              "s": 0.42,
+              "rot": 4,
+              "at": 0
+            },
+            {
+              "type": "title",
+              "text": "INCONTESTÉ",
+              "subtitle": "LOURDS-LÉGERS",
+              "at": "incontesté",
+              "y": 230,
+              "sound": "hit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Alors il monte chez les poids lourds. Beaucoup le trouvent trop petit.",
+      "panels": [
+        {
+          "id": "03a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.1,
+              "facing": 1,
+              "poses": [
+                [
+                  "walk1",
+                  0
+                ]
+              ],
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.3
+              }
+            },
+            {
+              "type": "title",
+              "text": "POIDS LOURDS",
+              "at": "lourds",
+              "y": 250
+            }
+          ]
+        },
+        {
+          "id": "03b",
+          "cue": "Beaucoup",
+          "bg": "gray",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 250,
+              "s": 3.9,
+              "facing": 1,
+              "poses": [
+                [
+                  "crossed",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "muscle",
+              "gloves": "#FFFFFF",
+              "x": 830,
+              "s": 3.7,
+              "facing": -1,
+              "poses": [
+                [
+                  "flex",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 2.7,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "TROP PETIT ?!",
+              "at": "petit",
+              "x": 540,
+              "y": 260,
+              "rot": -5,
+              "color": "red",
+              "sound": "pop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "En {2021|deux mille vingt et un}, il bat Anthony Joshua et lui prend trois ceintures.",
+      "panels": [
+        {
+          "id": "04a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              560,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 330,
+              "s": 3.1,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "bat"
+                ],
+                [
+                  "guard",
+                  "bat+0.3"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "muscle",
+              "gloves": "#FFFFFF",
+              "x": 760,
+              "s": 3.4,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "name",
+              "text": "ANTHONY JOSHUA",
+              "subtitle": "ROYAUME-UNI",
+              "flag": "gb",
+              "at": "Anthony",
+              "y": 200
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "bat+0.05"
+            }
+          ]
+        },
+        {
+          "id": "04b",
+          "cue": "trois",
+          "bg": "black",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.3,
+              "facing": 1,
+              "poses": [
+                [
+                  "armsUp",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 230,
+              "y": 400,
+              "s": 0.42,
+              "rot": -8,
+              "at": 0
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 540,
+              "y": 180,
+              "s": 0.42,
+              "rot": 0,
+              "at": 0
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 850,
+              "y": 400,
+              "s": 0.42,
+              "rot": 8,
+              "at": 0
+            },
+            {
+              "type": "counter",
+              "from": 0,
+              "to": 3,
+              "suffix": " CEINTURES",
+              "at": "trois",
+              "y": 620
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Il n'en manque plus qu'une : celle de Tyson Fury.",
+      "panels": [
+        {
+          "id": "05a",
+          "bg": "gray",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.12
+            ],
+            "focus": [
+              540,
+              600
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 560,
+              "s": 3.4,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "flex",
+                  "Tyson"
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 540,
+              "y": 170,
+              "s": 0.6,
+              "at": "une"
+            },
+            {
+              "type": "name",
+              "text": "TYSON FURY",
+              "subtitle": "2,06 M · INVAINCU",
+              "flag": "gb",
+              "at": "Tyson",
+              "y": 420
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "Fury"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Mai {2024|deux mille vingt-quatre}, Riyad. Fury mesure {2,06 mètres|deux mètres six}. Usyk, {1,91 mètre|un mètre quatre-vingt-onze}.",
+      "panels": [
+        {
+          "id": "06a",
+          "bg": "white",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.1,
+              1.0
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "crowd",
+              "x": 540,
+              "y": 1060,
+              "s": 1.25
+            },
+            {
+              "type": "prop",
+              "name": "flashes",
+              "x": 540,
+              "y": 1000,
+              "s": 1
+            },
+            {
+              "type": "caption",
+              "text": "RIYAD · 18 MAI 2024",
+              "at": 0.05
+            }
+          ]
+        },
+        {
+          "id": "06b",
+          "cue": "Fury",
+          "bg": "white",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 320,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 740,
+              "s": 3.6,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "2,06 M",
+              "at": "2,06",
+              "x": 760,
+              "y": 120,
+              "rot": 5,
+              "color": "red",
+              "sound": "pop",
+              "size": 130
+            },
+            {
+              "type": "sfx",
+              "text": "1,91 M",
+              "at": "1,91",
+              "x": 320,
+              "y": 380,
+              "rot": -5,
+              "color": "white",
+              "sound": "pop",
+              "size": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Neuvième round. Usyk touche Fury, qui titube dans les cordes… sauvé par la cloche.",
+      "panels": [
+        {
+          "id": "07a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "ring",
+              "x": 540,
+              "y": 1060,
+              "s": 0.95
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 340,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "touche"
+                ],
+                [
+                  "guard",
+                  "touche+0.2"
+                ],
+                [
+                  "punch",
+                  "touche+0.4"
+                ],
+                [
+                  "guard",
+                  "touche+0.6"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 700,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "stagger",
+                  "titube"
+                ]
+              ]
+            },
+            {
+              "type": "caption",
+              "text": "ROUND 9",
+              "at": 0.05
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "touche+0.05",
+              "x": 700,
+              "y": 300,
+              "rot": 8,
+              "color": "red",
+              "sound": "hit",
+              "size": 140,
+              "dur": 0.6
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "touche+0.05"
+            },
+            {
+              "type": "punch",
+              "at": "titube"
+            }
+          ]
+        },
+        {
+          "id": "07b",
+          "cue": "sauvé",
+          "bg": "gray",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.05,
+              1.15
+            ],
+            "focus": [
+              600,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 680,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "stagger",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#BDBDBD",
+              "x": 420,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "armsUp",
+                  "sauvé"
+                ],
+                [
+                  "stand",
+                  "cloche+0.4"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "DING DING !",
+              "at": "cloche",
+              "x": 540,
+              "y": 250,
+              "rot": -6,
+              "color": "red",
+              "sound": "crack"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Après douze rounds, les juges rendent leur verdict : Usyk.",
+      "pauseAfter": 0.3,
+      "panels": [
+        {
+          "id": "08a",
+          "bg": "gray",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 300,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#BDBDBD",
+              "x": 540,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 790,
+              "s": 3.5,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "caption",
+              "text": "12 ROUNDS PLUS TARD…",
+              "at": 0.05
+            },
+            {
+              "type": "title",
+              "text": "LE VERDICT…",
+              "at": "verdict",
+              "y": 260
+            }
+          ]
+        },
+        {
+          "id": "08b",
+          "cue": "Usyk",
+          "bg": "black",
+          "rays": true,
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.12
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.5,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "armsUp",
+                  0.1
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "USYK !",
+              "at": "Usyk",
+              "x": 540,
+              "y": 240,
+              "rot": -6,
+              "color": "red",
+              "sound": "boom",
+              "size": 200
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "Usyk"
+            },
+            {
+              "type": "shake",
+              "at": "Usyk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Il devient le premier champion incontesté des poids lourds depuis Lennox Lewis, en {1999|mille neuf cent quatre-vingt-dix-neuf}.",
+      "panels": [
+        {
+          "id": "09a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "confetti",
+              "x": 540,
+              "y": 0,
+              "s": 1
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.3,
+              "facing": 1,
+              "poses": [
+                [
+                  "armsUp",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "CHAMPION INCONTESTÉ",
+              "subtitle": "POIDS LOURDS",
+              "at": "incontesté",
+              "y": 240,
+              "sound": "hit"
+            }
+          ]
+        },
+        {
+          "id": "09b",
+          "cue": "Lennox",
+          "bg": "gray",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "counter",
+              "from": 2024,
+              "to": 1999,
+              "at": "Lennox",
+              "y": 330
+            },
+            {
+              "type": "title",
+              "text": "UNE PREMIÈRE DEPUIS",
+              "at": 0.0,
+              "y": 170
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 2.6,
+              "facing": 1,
+              "poses": [
+                [
+                  "crossed",
+                  0
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Quatre ceintures… et toujours aucune défaite.",
+      "panels": [
+        {
+          "id": "10a",
+          "bg": "black",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  "Quatre"
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 250,
+              "y": 330,
+              "s": 0.42,
+              "rot": -8,
+              "at": "Quatre+0"
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 830,
+              "y": 330,
+              "s": 0.42,
+              "rot": 8,
+              "at": "Quatre+0.15"
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 250,
+              "y": 560,
+              "s": 0.42,
+              "rot": -4,
+              "at": "Quatre+0.3"
+            },
+            {
+              "type": "prop",
+              "name": "beltGold",
+              "x": 830,
+              "y": 560,
+              "s": 0.42,
+              "rot": 4,
+              "at": "Quatre+0.45"
+            },
+            {
+              "type": "sfx",
+              "text": "0 DÉFAITE",
+              "at": "aucune",
+              "x": 540,
+              "y": 170,
+              "rot": -5,
+              "color": "red",
+              "sound": "hit",
+              "size": 150
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "aucune"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Abonne-toi pour plus d'histoires Hors Limite.",
+      "panels": [
+        {
+          "id": "11a",
+          "bg": "white",
+          "rays": true,
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 2.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  1.5
+                ],
+                [
+                  "guard",
+                  2.8
+                ]
+              ]
+            },
+            {
+              "type": "logo",
+              "text": "HORS LIMITE",
+              "subtitle": "ABONNE-TOI",
+              "at": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

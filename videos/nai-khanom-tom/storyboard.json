@@ -3,6 +3,16 @@
   "format": "comic",
   "theme": "manga",
   "title": "Nai Khanom Tom, le prisonnier qui a gagné sa liberté (muay-thaï)",
+  "cover": {
+    "panel": "00a",
+    "t": 1.3,
+    "title": [
+      "*10 champions*",
+      "battus d'affilée"
+    ],
+    "badge": "MUAY-THAÏ",
+    "keep": []
+  },
   "voice": {
     "voiceId": "JBFqnCBsd6RMkjVDRZzb",
     "speed": 1.1,

@@ -49,7 +49,7 @@ export const ComicVideo: React.FC<ComicProps> = ({comic}) => {
   const prev = comic.panels[cur - 1];
   const t = now - panel.start;
   const theme = THEMES[comic.theme ?? 'comic'] ?? THEMES.comic;
-  const flat = theme.name === 'flat';
+  const flat = theme.name === 'flat' || theme.name === 'neon';
   const e = enter(panel, t, cur, flat);
   const showPrev = prev && t < T && (flat || (panel.transition !== 'flash' && panel.transition !== 'cut'));
 

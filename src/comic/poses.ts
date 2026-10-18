@@ -79,6 +79,8 @@ export const POSES: Record<string, Pose> = {
   knee: {torso: -12, head: 4, armF: L(95, 45), armB: L(85, 55), legF: L(112, -150), legB: L(-8, 0)},
   ramMuay: {torso: 0, head: -10, armF: L(115, -25), armB: L(-110, 25), legF: L(80, -110), legB: L(0, 0)},
   waiKhru: {torso: 48, head: 12, armF: L(78, 62), armB: L(72, 66), legF: L(8, -95), legB: L(-6, -90)},
+  // titube en arrière, sonné
+  stagger: {torso: -24, head: -22, armF: L(30, 60), armB: L(-60, 40), legF: L(28, -10), legB: L(-12, -22)},
   bow: {torso: 50, head: 10, armF: L(10, 0), armB: L(-5, 0), legF: L(4, -4), legB: L(-4, -4)},
 };
 

@@ -452,6 +452,20 @@ const Throne: PropFC = ({th}) => (
   </g>
 );
 
+/** Anneaux olympiques (origine = centre). Apparaissent un par un à partir de `at`. */
+const Rings: PropFC = ({el, t}) => {
+  const cols = ['#0085C7', '#222', '#DF0024', '#F4C300', '#009F3D'];
+  const pos = [[-230, -50], [0, -50], [230, -50], [-115, 60], [115, 60]];
+  return (
+    <g>
+      {pos.map(([x, y], i) => {
+        const k = interpolate(t - (el.at ?? 0) - i * 0.12, [0, 0.2], [0, 1], {...clamp, easing: Easing.out(Easing.back(2))});
+        return k > 0 ? <circle key={i} cx={x} cy={y} r={100 * k} fill="none" stroke={cols[i] === '#222' ? '#EEE' : cols[i]} strokeWidth={22} /> : null;
+      })}
+    </g>
+  );
+};
+
 export const PROPS: Record<string, PropFC> = {
   city: City,
   cage: Cage,
@@ -473,4 +487,5 @@ export const PROPS: Record<string, PropFC> = {
   lanterns: Lanterns,
   chains: Chains,
   throne: Throne,
+  rings: Rings,
 };

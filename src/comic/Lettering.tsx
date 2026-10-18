@@ -116,6 +116,8 @@ const FLAGS: Record<string, string[]> = {
   fr: ['#0055A4', '#FFFFFF', '#EF4135'],
   ie: ['#169B62', '#FFFFFF', '#FF883E'],
   th: ['#A51931', '#F4F5F8', '#2D2A4A', '#2D2A4A', '#F4F5F8', '#A51931'],
+  ua: ['#0057B7', '#FFD700'],
+  gb: ['#012169', '#FFFFFF', '#C8102E', '#FFFFFF', '#012169'],
 };
 
 const Flag: React.FC<{code: string; x: number; y: number; h: number}> = ({code, x, y, h}) => {
@@ -126,6 +128,18 @@ const Flag: React.FC<{code: string; x: number; y: number; h: number}> = ({code, 
         <rect x={x} y={y} width={w} height={h} fill="#009C3B" stroke={INK} strokeWidth={5} />
         <polygon points={`${x + w / 2},${y + 8} ${x + w - 10},${y + h / 2} ${x + w / 2},${y + h - 8} ${x + 10},${y + h / 2}`} fill="#FFDF00" />
         <circle cx={x + w / 2} cy={y + h / 2} r={h * 0.22} fill="#002776" />
+      </g>
+    );
+  }
+  if (code === 'gb') {
+    return (
+      <g>
+        <rect x={x} y={y} width={w} height={h} fill="#012169" />
+        <line x1={x} y1={y} x2={x + w} y2={y + h} stroke="#fff" strokeWidth={h * 0.18} />
+        <line x1={x + w} y1={y} x2={x} y2={y + h} stroke="#fff" strokeWidth={h * 0.18} />
+        <rect x={x} y={y + h * 0.38} width={w} height={h * 0.24} fill="#C8102E" />
+        <rect x={x + w * 0.42} y={y} width={w * 0.16} height={h} fill="#C8102E" />
+        <rect x={x} y={y} width={w} height={h} fill="none" stroke={INK} strokeWidth={5} />
       </g>
     );
   }

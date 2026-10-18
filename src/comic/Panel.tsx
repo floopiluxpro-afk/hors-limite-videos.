@@ -2,7 +2,7 @@
 import React from 'react';
 import {Easing, interpolate, random} from 'remotion';
 import {Lettering as ComicLettering} from './Lettering';
-import {FlatDefs, FlatLettering} from './FlatLettering';
+import {FlatDefs, FlatLettering, NeonDefs} from './FlatLettering';
 import {useComicTheme} from './theme';
 import {PROPS} from './Props';
 import {Puppet} from './Puppet';
@@ -37,7 +37,7 @@ export const PALETTE: Record<string, [string, string]> = {
 
 /** Lettrage selon le thème (BD ou flat). */
 const Lettering: React.FC<{el: ComicElement; t: number; dur: number}> = (props) =>
-  useComicTheme().name === 'flat' ? <FlatLettering {...props} /> : <ComicLettering {...props} />;
+  ['flat', 'neon'].includes(useComicTheme().name) ? <FlatLettering {...props} /> : <ComicLettering {...props} />;
 
 export const FLAT_PALETTE: Record<string, [string, string]> = {
   blue: ['#4A7BF7', '#3159C4'],
@@ -74,6 +74,59 @@ const MangaBackground: React.FC<{id: string; color: string; rays?: boolean; t: n
     </g>
   );
 };
+
+export const NEON_PALETTE: Record<string, [string, string]> = new Proxy(
+  {
+    blue: ['#0D0B33', '#07051A'],
+    purple: ['#1B0B3A', '#07051A'],
+    pink: ['#2A0830', '#07051A'],
+    cyan: ['#05263A', '#03101A'],
+    red: ['#2E0718', '#07051A'],
+    black: ['#05040F', '#05040F'],
+  } as Record<string, [string, string]>,
+  {get: (o, k: string) => o[k] ?? ['#120A33', '#07051A']},
+);
+
+/** Fond néon : nuit en dégradé, étoiles, rayons lumineux fins vers le point de mire. */
+const NeonBackground: React.FC<{id: string; color: string; rays?: boolean; t: number; focus: [number, number]}> = ({id, color, rays, t, focus}) => (
+  <g>
+    <defs>
+      <radialGradient id={`ng-${id}`} cx={focus[0] / W} cy={focus[1] / H} r={0.8}>
+        <stop offset="0" stopColor={color} stopOpacity={1} />
+        <stop offset="0.5" stopColor={color} />
+        <stop offset="1" stopColor="#030208" />
+      </radialGradient>
+    </defs>
+    <rect x={-200} y={-200} width={W + 400} height={H + 400} fill={`url(#ng-${id})`} />
+    {Array.from({length: 40}, (_, i) => (
+      <circle key={i} cx={random(`sx${i}`) * W} cy={random(`sy${i}`) * 1100} r={1.5 + random(`sr${i}`) * 2.5} fill="#fff" opacity={0.3 + 0.5 * Math.abs(Math.sin(t * 2 + i))} />
+    ))}
+    {rays ? (
+      <g filter="url(#neon-glow)" opacity={0.55}>
+        {Array.from({length: 24}, (_, i) => {
+          const a = (i / 24) * Math.PI * 2 + t * 0.15;
+          const [fx, fy] = focus;
+          return <line key={i} x1={fx + Math.cos(a) * 420} y1={fy + Math.sin(a) * 420} x2={fx + Math.cos(a) * 2200} y2={fy + Math.sin(a) * 2200} stroke={i % 2 ? '#21E6FF' : '#FF2E9A'} strokeWidth={3} />;
+        })}
+      </g>
+    ) : null}
+  </g>
+);
+
+/** Sol néon : grille en perspective qui défile doucement. */
+const NeonFloor: React.FC<{t: number}> = ({t}) => (
+  <g filter="url(#neon-glow)" stroke="#FF2E9A" strokeWidth={3} opacity={0.75}>
+    {Array.from({length: 10}, (_, i) => {
+      const k = (i + ((t * 0.8) % 1)) / 10;
+      const y = FLOOR_Y + Math.pow(k, 1.8) * 900;
+      return <line key={`h${i}`} x1={-600} x2={W + 600} y1={y} y2={y} />;
+    })}
+    {Array.from({length: 17}, (_, i) => (
+      <line key={`v${i}`} x1={540 + (i - 8) * 40} y1={FLOOR_Y} x2={540 + (i - 8) * 420} y2={FLOOR_Y + 900} />
+    ))}
+    <line x1={-600} x2={W + 600} y1={FLOOR_Y} y2={FLOOR_Y} stroke="#21E6FF" strokeWidth={5} />
+  </g>
+);
 
 /** Fond flat : aplat + grandes formes douces qui dérivent lentement. */
 const FlatBackground: React.FC<{id: string; color: string; t: number; focus: [number, number]}> = ({id, color, t, focus}) => (
@@ -151,6 +204,7 @@ function puppetPose(el: ComicElement, t: number) {
 export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; floor: number; idp: string}> = ({el, t, dur, floor, idp}) => {
   const th = useComicTheme();
   const flat = th.name === 'flat';
+  const neon = th.name === 'neon';
   let x = el.x ?? W / 2;
   let y = el.y ?? floor;
   if (el.move) {
@@ -164,7 +218,7 @@ export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; f
       return (
         <g transform={`translate(${x} ${y}) scale(${s * (el.facing ?? 1)} ${s})`}>
           {flat && Math.abs(y - floor) < 4 ? <ellipse cx={0} cy={0} rx={48} ry={7} fill="rgba(0,0,0,0.18)" /> : null}
-          <Puppet filter={flat ? 'url(#fl-shadow)' : undefined} pose={puppetPose(el, t)} build={el.build} style={el.style} glove={el.glove} gloves={el.gloves} headband={el.headband} tint={el.tint} sepia={el.sepia} />
+          <Puppet filter={flat ? 'url(#fl-shadow)' : neon ? 'url(#neon-glow)' : undefined} pose={puppetPose(el, t)} build={el.build} style={el.style} glove={el.glove} gloves={el.gloves} headband={el.headband} tint={el.tint} sepia={el.sepia} />
         </g>
       );
     case 'prop': {
@@ -178,16 +232,17 @@ export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; f
     case 'inset': {
       const w = el.w ?? 500;
       const h = el.h ?? 500;
-      const pal = flat ? FLAT_PALETTE : PALETTE;
+      const pal = flat ? FLAT_PALETTE : neon ? NEON_PALETTE : PALETTE;
       const [bg, fl] = pal[el.bg ?? 'sepia'] ?? pal.sepia;
       const id = `${idp}-inset`;
       const appear = interpolate(t, [0, 0.15], [0.6, 1], {...clamp, easing: Easing.out(Easing.back(1.8))});
       return (
         <g transform={`translate(${x + w / 2} ${y + h / 2}) rotate(${el.rot ?? 0}) scale(${appear}) translate(${-w / 2} ${-h / 2})`}>
-          {flat ? null : <rect x={12} y={12} width={w} height={h} fill={INK} />}
+          {flat || neon ? null : <rect x={12} y={12} width={w} height={h} fill={INK} />}
           {flat ? <rect width={w} height={h} rx={36} fill="#fff" filter="url(#fl-shadow)" /> : null}
+          {neon ? <rect width={w} height={h} rx={36} fill="none" stroke="#21E6FF" strokeWidth={8} filter="url(#neon-glow)" /> : null}
           <clipPath id={`clip-${id}`}>
-            <rect width={w} height={h} rx={flat ? 36 : 0} />
+            <rect width={w} height={h} rx={flat || neon ? 36 : 0} />
           </clipPath>
           <g clipPath={`url(#clip-${id})`}>
             <rect width={w} height={h} fill={bg} />
@@ -200,7 +255,7 @@ export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; f
               ),
             )}
           </g>
-          {flat ? null : <rect width={w} height={h} fill="none" stroke={INK} strokeWidth={10} />}
+          {flat || neon ? null : <rect width={w} height={h} fill="none" stroke={INK} strokeWidth={10} />}
         </g>
       );
     }
@@ -228,10 +283,11 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
   const th = useComicTheme();
   const flat = th.name === 'flat';
   const manga = th.name === 'manga';
+  const neon = th.name === 'neon';
   const dur = panel.end - panel.start;
-  const pal = flat ? FLAT_PALETTE : manga ? MANGA_PALETTE : PALETTE;
+  const pal = flat ? FLAT_PALETTE : manga ? MANGA_PALETTE : neon ? NEON_PALETTE : PALETTE;
   const [bg, floorColor] = pal[panel.bg] ?? pal.blue;
-  const gutter = flat ? 0 : GUTTER;
+  const gutter = flat || neon ? 0 : GUTTER;
   const cam = panel.camera ?? {zoom: [1, 1.06], focus: [540, 760]};
   // le point de mire est donné dans le repère du storyboard : on le projette sur la scène
   const focus: [number, number] = [
@@ -248,6 +304,7 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
   return (
     <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{position: 'absolute', inset: 0}}>
       {flat ? <FlatDefs /> : null}
+      {neon ? <NeonDefs /> : null}
       <rect width={W} height={H} fill="#fff" />
       <clipPath id={`frame-${id}`}>
         <rect x={gutter} y={gutter} width={W - gutter * 2} height={H - gutter * 2} />
@@ -255,7 +312,9 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
       <g clipPath={`url(#frame-${id})`}>
         <g transform={`translate(${sx} ${sy})`}>
           <g transform={`translate(${focus[0]} ${focus[1]}) scale(${zoom}) translate(${-focus[0]} ${-focus[1]})`}>
-            {flat ? (
+            {neon ? (
+              <NeonBackground id={id} color={bg} rays={panel.rays} t={t} focus={focus} />
+            ) : flat ? (
               <FlatBackground id={id} color={bg} t={t} focus={focus} />
             ) : manga ? (
               <MangaBackground id={id} color={bg} rays={panel.rays} t={t} focus={focus} />
@@ -275,10 +334,11 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
                     </defs>
                     <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={`url(#mtone-${id})`} opacity={0.45} />
                   </>
-                ) : flat ? null : (
+                ) : flat || neon ? null : (
                   <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={`url(#dots-${id})`} />
                 )}
-                {flat ? null : <line x1={-600} x2={W + 600} y1={FLOOR_Y} y2={FLOOR_Y} stroke={bg === '#0B0B0B' ? '#fff' : INK} strokeWidth={10} />}
+                {flat || neon ? null : <line x1={-600} x2={W + 600} y1={FLOOR_Y} y2={FLOOR_Y} stroke={bg === '#0B0B0B' ? '#fff' : INK} strokeWidth={10} />}
+                {neon ? <NeonFloor t={t} /> : null}
               </g>
             ) : null}
             {panel.elements.map((el, i) =>
@@ -293,7 +353,7 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
         </g>
         {flash > 0.01 ? <rect width={W} height={H} fill="#fff" opacity={flash} /> : null}
       </g>
-      {flat ? null : <rect x={GUTTER} y={GUTTER} width={W - GUTTER * 2} height={H - GUTTER * 2} fill="none" stroke={INK} strokeWidth={BORDER} />}
+      {flat || neon ? null : <rect x={GUTTER} y={GUTTER} width={W - GUTTER * 2} height={H - GUTTER * 2} fill="none" stroke={INK} strokeWidth={BORDER} />}
     </svg>
   );
 };

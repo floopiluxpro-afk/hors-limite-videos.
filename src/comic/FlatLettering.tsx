@@ -2,13 +2,21 @@
 import React from 'react';
 import {Easing, interpolate} from 'remotion';
 import type {ComicElement} from './types';
+import {useComicTheme} from './theme';
 
 const FONT = 'Montserrat, Arial Black, sans-serif';
-const DARK = '#1D2133';
-const YELLOW = '#FFC93C';
-const RED = '#FF5A5F';
+// Variante néon : cartes sombres bordées de cyan, couleurs fluo, halo lumineux au lieu de l'ombre.
+// (variable de module positionnée par <FlatLettering>, un rendu = un seul thème)
+let NEON = false;
+const DARK_ = '#1D2133';
+const BG = () => (NEON ? '#140B2E' : DARK_); // fonds sombres (chrono)
+const TXT = () => (NEON ? '#FFFFFF' : DARK_); // texte sur les cartes
+const CARD = () => (NEON ? '#140B2E' : '#fff'); // fond des cartes
+const EDGE = () => (NEON ? '#21E6FF' : 'none');
+const Y = () => (NEON ? '#FFE66D' : '#FFC93C');
+const R = () => (NEON ? '#FF2E9A' : '#FF5A5F');
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
-const SHADOW = 'url(#fl-shadow)';
+const F = () => (NEON ? 'url(#neon-glow)' : 'url(#fl-shadow)');
 
 // Montserrat 900 en capitales : ~0,7 em par caractère
 const tw = (text: string, size: number) => text.length * size * 0.76;
@@ -20,6 +28,20 @@ export const FlatDefs: React.FC = () => (
   <defs>
     <filter id="fl-shadow" x="-30%" y="-30%" width="160%" height="170%">
       <feDropShadow dx="0" dy="12" stdDeviation="14" floodColor="#000" floodOpacity="0.22" />
+    </filter>
+  </defs>
+);
+
+/** Halo néon (à placer une fois dans le <svg>). */
+export const NeonDefs: React.FC = () => (
+  <defs>
+    <filter id="neon-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
 );
@@ -45,10 +67,10 @@ const Caption: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const w = Math.min(960, tw(text, size) + 60);
   const a = interpolate(dt, [0, 0.25], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   return (
-    <g transform={`translate(${el.x ?? 60} ${(el.y ?? 175) - (1 - a) * 40})`} opacity={a} filter={SHADOW}>
-      <rect width={w} height={78} rx={20} fill="#fff" />
-      <rect width={14} height={78} rx={7} fill={RED} />
-      <T x={40} y={53} size={size} fill={DARK} anchor="start" weight={800}>
+    <g transform={`translate(${el.x ?? 60} ${(el.y ?? 175) - (1 - a) * 40})`} opacity={a} filter={F()}>
+      <rect width={w} height={78} rx={20} fill={CARD()} stroke={EDGE()} strokeWidth={4} />
+      <rect width={14} height={78} rx={7} fill={R()} />
+      <T x={40} y={53} size={size} fill={TXT()} anchor="start" weight={800}>
         {text}
       </T>
     </g>
@@ -61,10 +83,10 @@ const Sfx: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const size = Math.min(el.size ? el.size * 0.7 : 120, 620 / Math.max(3, text.length * 0.7));
   const w = tw(text, size) + 90;
   const h = size * 1.45;
-  const fill = el.color === 'red' ? RED : el.color === 'white' ? '#fff' : YELLOW;
-  const ink = el.color === 'red' ? '#fff' : DARK;
+  const fill = el.color === 'red' ? R() : el.color === 'white' ? '#fff' : Y();
+  const ink = el.color === 'red' ? '#fff' : DARK_;
   return (
-    <g transform={`translate(${el.x ?? 540} ${el.y ?? 400}) rotate(${(el.rot ?? 0) * 0.6}) scale(${pop(dt, 1.18)})`} filter={SHADOW}>
+    <g transform={`translate(${el.x ?? 540} ${el.y ?? 400}) rotate(${(el.rot ?? 0) * 0.6}) scale(${pop(dt, 1.18)})`} filter={F()}>
       <rect x={-w / 2} y={-h / 2 - size * 0.32} width={w} height={h} rx={h / 2} fill={fill} />
       <T x={0} y={size * 0.02} size={size} fill={ink}>
         {text}
@@ -81,14 +103,14 @@ const Title: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   return (
     <g transform={`translate(540 ${(el.y ?? 260) + (1 - a) * 30})`} opacity={a}>
       {el.subtitle ? (
-        <g filter={SHADOW}>
-          <rect x={-tw(el.subtitle, 34) / 2 - 26} y={-size - 40} width={tw(el.subtitle, 34) + 52} height={56} rx={28} fill={RED} />
+        <g filter={F()}>
+          <rect x={-tw(el.subtitle, 34) / 2 - 26} y={-size - 40} width={tw(el.subtitle, 34) + 52} height={56} rx={28} fill={R()} />
           <T x={0} y={-size - 1} size={34} fill="#fff" weight={800}>
             {el.subtitle}
           </T>
         </g>
       ) : null}
-      <g filter={SHADOW}>
+      <g filter={F()}>
         <T x={0} y={size * 0.35} size={size} fill="#fff">
           {text}
         </T>
@@ -105,6 +127,7 @@ const FlagDot: React.FC<{code: string; cx: number; cy: number; r: number}> = ({c
     fr: ['#0055A4', '#FFFFFF', '#EF4135'],
     ie: ['#169B62', '#FFFFFF', '#FF883E'],
     th: ['#A51931', '#F4F5F8', '#2D2A4A', '#2D2A4A', '#F4F5F8', '#A51931'],
+    ua: ['#0057B7', '#FFD700'],
   };
   return (
     <g>
@@ -112,7 +135,15 @@ const FlagDot: React.FC<{code: string; cx: number; cy: number; r: number}> = ({c
         <circle cx={cx} cy={cy} r={r} />
       </clipPath>
       <g clipPath={`url(#${id})`}>
-        {code === 'br' ? (
+        {code === 'gb' ? (
+          <>
+            <rect x={cx - r} y={cy - r} width={2 * r} height={2 * r} fill="#012169" />
+            <line x1={cx - r} y1={cy - r} x2={cx + r} y2={cy + r} stroke="#fff" strokeWidth={r * 0.35} />
+            <line x1={cx + r} y1={cy - r} x2={cx - r} y2={cy + r} stroke="#fff" strokeWidth={r * 0.35} />
+            <rect x={cx - r} y={cy - r * 0.2} width={2 * r} height={r * 0.4} fill="#C8102E" />
+            <rect x={cx - r * 0.2} y={cy - r} width={r * 0.4} height={2 * r} fill="#C8102E" />
+          </>
+        ) : code === 'br' ? (
           <>
             <rect x={cx - r} y={cy - r} width={2 * r} height={2 * r} fill="#009C3B" />
             <polygon points={`${cx},${cy - r * 0.7} ${cx + r * 0.85},${cy} ${cx},${cy + r * 0.7} ${cx - r * 0.85},${cy}`} fill="#FFDF00" />
@@ -147,16 +178,16 @@ const NameCard: React.FC<{el: ComicElement; dt: number; left: number}> = ({el, d
   const sub = el.subtitle ?? '';
   return (
     <g transform={`translate(${50 - (1 - a) * 80} ${el.y ?? 410})`} opacity={a}>
-      <g filter={SHADOW}>
-        <rect width={w} height={110} rx={26} fill="#fff" />
+      <g filter={F()}>
+        <rect width={w} height={110} rx={26} fill={CARD()} stroke={EDGE()} strokeWidth={4} />
       </g>
       {el.flag ? <FlagDot code={el.flag} cx={62} cy={55} r={32} /> : null}
-      <T x={30 + flagW} y={76} size={size} fill={DARK} anchor="start">
+      <T x={30 + flagW} y={76} size={size} fill={TXT()} anchor="start">
         {text}
       </T>
       {sub ? (
-        <g transform="translate(24 124)" filter={SHADOW}>
-          <rect width={tw(sub, 34) + 40} height={58} rx={29} fill={RED} />
+        <g transform="translate(24 124)" filter={F()}>
+          <rect width={tw(sub, 34) + 40} height={58} rx={29} fill={R()} />
           <T x={22} y={41} size={34} fill="#fff" anchor="start" weight={800}>
             {sub}
           </T>
@@ -169,8 +200,8 @@ const NameCard: React.FC<{el: ComicElement; dt: number; left: number}> = ({el, d
 const Timer: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   if (dt < 0) return null;
   return (
-    <g transform={`translate(${el.x ?? 800} ${el.y ?? 560}) scale(${pop(dt)})`} filter={SHADOW}>
-      <rect x={-175} y={-80} width={350} height={140} rx={70} fill={DARK} />
+    <g transform={`translate(${el.x ?? 800} ${el.y ?? 560}) scale(${pop(dt)})`} filter={F()}>
+      <rect x={-175} y={-80} width={350} height={140} rx={70} fill={BG()} stroke={EDGE()} strokeWidth={4} />
       <circle cx={-105} cy={-10} r={32} fill="none" stroke="#fff" strokeWidth={8} />
       <line x1={-105} y1={-10} x2={-105} y2={-30} stroke="#fff" strokeWidth={7} strokeLinecap="round" />
       <line x1={-105} y1={-10} x2={-90} y2={-2} stroke="#fff" strokeWidth={7} strokeLinecap="round" />
@@ -186,7 +217,7 @@ const Counter: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const p = interpolate(dt, [0, 0.8], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   const v = Math.round((el.from ?? 0) + ((el.to ?? 0) - (el.from ?? 0)) * p);
   return (
-    <g transform={`translate(540 ${el.y ?? 260}) scale(${pop(dt, 1.08)})`} filter={SHADOW}>
+    <g transform={`translate(540 ${el.y ?? 260}) scale(${pop(dt, 1.08)})`} filter={F()}>
       <T x={0} y={60} size={Math.min(170, 960 / (0.76 * Math.max(3, `${el.prefix ?? ''}${el.to ?? ''}${el.suffix ?? ''}`.length)))} fill="#fff">
         {`${el.prefix ?? ''}${v}${el.suffix ?? ''}`}
       </T>
@@ -201,17 +232,17 @@ const Logo: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const pulse = dt > 0.6 ? 1 + Math.max(0, Math.sin((dt - 0.6) * 7)) * 0.05 : 1;
   return (
     <g>
-      <g transform={`translate(540 300) scale(${pop(dt)})`} filter={SHADOW}>
+      <g transform={`translate(540 300) scale(${pop(dt)})`} filter={F()}>
         <T x={0} y={0} size={150} fill="#fff">
           {a}
         </T>
-        <T x={0} y={150} size={150} fill={YELLOW}>
+        <T x={0} y={150} size={150} fill={Y()}>
           {rest.join(' ')}
         </T>
       </g>
       {el.subtitle && btn > 0 ? (
-        <g transform={`translate(540 560) scale(${btn * pulse})`} filter={SHADOW}>
-          <rect x={-250} y={-62} width={500} height={124} rx={62} fill={RED} />
+        <g transform={`translate(540 560) scale(${btn * pulse})`} filter={F()}>
+          <rect x={-250} y={-62} width={500} height={124} rx={62} fill={R()} />
           <T x={0} y={22} size={62} fill="#fff">
             {el.subtitle}
           </T>
@@ -230,10 +261,10 @@ const Bubble: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const h = size * 1.9;
   const [tx, ty] = (el as {tail?: [number, number]}).tail ?? [-w * 0.25, h * 0.95];
   return (
-    <g transform={`translate(${el.x ?? 540} ${el.y ?? 400}) rotate(${(el.rot ?? 0) * 0.5}) scale(${pop(dt, 1.12)})`} filter={SHADOW}>
-      <path d={`M ${-w * 0.15} ${h * 0.2} L ${tx} ${ty} L ${w * 0.08} ${h * 0.2} Z`} fill="#fff" />
-      <rect x={-w / 2} y={-h / 2} width={w} height={h} rx={h / 2} fill="#fff" />
-      <T x={0} y={size * 0.36} size={size} fill={DARK}>
+    <g transform={`translate(${el.x ?? 540} ${el.y ?? 400}) rotate(${(el.rot ?? 0) * 0.5}) scale(${pop(dt, 1.12)})`} filter={F()}>
+      <path d={`M ${-w * 0.15} ${h * 0.2} L ${tx} ${ty} L ${w * 0.08} ${h * 0.2} Z`} fill={CARD()} stroke={EDGE()} strokeWidth={4} />
+      <rect x={-w / 2} y={-h / 2} width={w} height={h} rx={h / 2} fill={CARD()} stroke={EDGE()} strokeWidth={4} />
+      <T x={0} y={size * 0.36} size={size} fill={TXT()}>
         {text}
       </T>
     </g>
@@ -241,6 +272,7 @@ const Bubble: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
 };
 
 export const FlatLettering: React.FC<{el: ComicElement; t: number; dur: number}> = ({el, t, dur}) => {
+  NEON = useComicTheme().name === 'neon';
   const dt = t - (el.at ?? 0);
   switch (el.type) {
     case 'caption':

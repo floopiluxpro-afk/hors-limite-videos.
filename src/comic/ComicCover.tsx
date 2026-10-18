@@ -51,7 +51,7 @@ export const ComicCover: React.FC<ComicCoverProps> = ({comic, panel: id, t = 0.5
                   fontFamily={font}
                   fontWeight={weight}
                   fontSize={size}
-                  fill={hl ? '#FFC93C' : '#fff'}
+                  fill={hl ? (theme.name === 'manga' ? '#E3001B' : '#FFC93C') : '#fff'}
                   stroke={flat ? 'none' : '#000'}
                   strokeWidth={flat ? 0 : size * 0.11}
                   paintOrder="stroke"
@@ -64,7 +64,7 @@ export const ComicCover: React.FC<ComicCoverProps> = ({comic, panel: id, t = 0.5
           </g>
           {badge ? (
             <g transform="translate(540 1600)" filter={flat ? 'url(#fl-shadow)' : undefined}>
-              <rect x={-190} y={-58} width={380} height={104} rx={52} fill="#FF5A5F" stroke={flat ? 'none' : '#000'} strokeWidth={6} />
+              <rect x={-190} y={-58} width={380} height={104} rx={52} fill={theme.name === 'manga' ? '#E3001B' : '#FF5A5F'} stroke={flat ? 'none' : '#000'} strokeWidth={6} />
               <text x={0} y={18} textAnchor="middle" fontFamily={font} fontWeight={weight} fontSize={56} fill="#fff">
                 {badge}
               </text>

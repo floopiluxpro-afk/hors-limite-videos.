@@ -40,7 +40,7 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
   const b = BUILDS[build] ?? BUILDS.normal;
   const hero = style === 'hero';
   const th = useComicTheme();
-  const flat = th.name === 'flat';
+  const flat = th.name === 'flat' || th.name === 'neon';
   const ow = flat ? 0 : 5;
   const line = flat ? 'none' : '#000';
   const front = hero ? th.hero : sepia ? '#3b2a1a' : tint ?? th.shadow;
