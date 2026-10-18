@@ -3,6 +3,7 @@ import {CalculateMetadataFunction, Composition, staticFile} from 'remotion';
 import {HorsLimiteVideo} from './Video';
 import {Cover, CoverProps} from './Cover';
 import {PoseSheet} from './comic/PoseSheet';
+import {StyleSample} from './comic/StyleSamples';
 import {ComicVideo} from './comic/ComicVideo';
 import {ComicCover, ComicCoverProps} from './comic/ComicCover';
 import type {Comic, ComicProps} from './comic/types';
@@ -75,6 +76,7 @@ export const RemotionRoot: React.FC = () => (
         return {props: {...props, comic: (await res.json()) as Comic}};
       }}
     />
+    <Composition id="StyleSample" component={StyleSample} width={1080} height={1920} fps={30} durationInFrames={1} defaultProps={{style: 'grec' as const}} />
     <Composition id="PoseSheet" component={PoseSheet} width={1080} height={1920} fps={30} durationInFrames={1} />
   </>
 );
