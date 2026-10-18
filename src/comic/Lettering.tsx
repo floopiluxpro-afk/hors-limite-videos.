@@ -71,7 +71,7 @@ const burst = (cx: number, cy: number, r: number, spikes = 14, seed = 1) => {
 };
 
 const SfxWord: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
-  if (dt < 0) return null;
+  if (dt < 0 || (el.dur !== undefined && dt > el.dur)) return null; // "dur" : disparaît après n secondes
   const text = el.text ?? '';
   const size = el.size ?? Math.min(170, 640 / Math.max(3, text.length * 0.5));
   const s = pop(dt, 1.3);
@@ -115,6 +115,7 @@ const FLAGS: Record<string, string[]> = {
   jp: ['#FFFFFF'],
   fr: ['#0055A4', '#FFFFFF', '#EF4135'],
   ie: ['#169B62', '#FFFFFF', '#FF883E'],
+  th: ['#A51931', '#F4F5F8', '#2D2A4A', '#2D2A4A', '#F4F5F8', '#A51931'],
 };
 
 const Flag: React.FC<{code: string; x: number; y: number; h: number}> = ({code, x, y, h}) => {

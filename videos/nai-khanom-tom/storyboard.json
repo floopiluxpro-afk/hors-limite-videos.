@@ -1,0 +1,1488 @@
+{
+  "slug": "nai-khanom-tom",
+  "format": "comic",
+  "theme": "manga",
+  "title": "Nai Khanom Tom, le prisonnier qui a gagné sa liberté (muay-thaï)",
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "speed": 1.1,
+    "stability": 0.4,
+    "similarity_boost": 0.8,
+    "style": 0.45
+  },
+  "music": {
+    "style": "beat",
+    "bpm": 100
+  },
+  "lines": [
+    {
+      "text": "Un prisonnier a gagné sa liberté… en battant les meilleurs combattants d'un royaume, les uns après les autres.",
+      "pauseAfter": 0.25,
+      "panels": [
+        {
+          "id": "00a",
+          "bg": "black",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.5,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "armsUp",
+                  "liberté+0.05"
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "chains",
+              "x": 540,
+              "y": 620,
+              "s": 1.0,
+              "breakAt": "liberté"
+            },
+            {
+              "type": "sfx",
+              "text": "KLANG !",
+              "at": "liberté",
+              "x": 740,
+              "y": 330,
+              "rot": 8,
+              "color": "red",
+              "sound": "crack",
+              "size": 130
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "liberté"
+            },
+            {
+              "type": "shake",
+              "at": "liberté"
+            }
+          ]
+        },
+        {
+          "id": "00b",
+          "cue": "battant",
+          "bg": "white",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": 200,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  "meilleurs+0.1"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 880,
+              "s": 3.0,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  "royaume+0.1"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "elbow",
+                  "meilleurs"
+                ],
+                [
+                  "guard",
+                  "meilleurs+0.3"
+                ],
+                [
+                  "kick",
+                  "royaume-0.1"
+                ],
+                [
+                  "ramMuay",
+                  "uns"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "meilleurs+0.1",
+              "x": 310,
+              "y": 420,
+              "rot": -8,
+              "color": "red",
+              "sound": "hit"
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "royaume+0.1",
+              "x": 770,
+              "y": 380,
+              "rot": 8,
+              "color": "red",
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "meilleurs+0.1"
+            },
+            {
+              "type": "shake",
+              "at": "royaume+0.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "{1767|Mille sept cent soixante-sept}. L'armée birmane détruit Ayutthaya, la capitale du royaume de Siam.",
+      "panels": [
+        {
+          "id": "01a",
+          "bg": "white",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.1,
+              1.0
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "temple",
+              "x": 540,
+              "y": 1060,
+              "s": 1.0
+            },
+            {
+              "type": "caption",
+              "text": "ROYAUME DE SIAM, 1767",
+              "at": 0.05
+            }
+          ]
+        },
+        {
+          "id": "01b",
+          "cue": "détruit",
+          "bg": "black",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.12
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "temple",
+              "x": 540,
+              "y": 1060,
+              "s": 1.0
+            },
+            {
+              "type": "prop",
+              "name": "flames",
+              "x": 540,
+              "y": 1060,
+              "s": 1.0
+            },
+            {
+              "type": "sfx",
+              "text": "BOUM !",
+              "at": "détruit",
+              "x": 540,
+              "y": 250,
+              "rot": -6,
+              "color": "red",
+              "sound": "boom"
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "détruit"
+            },
+            {
+              "type": "punch",
+              "at": "détruit"
+            }
+          ]
+        },
+        {
+          "id": "01c",
+          "cue": "capitale",
+          "bg": "gray",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "flames",
+              "x": 540,
+              "y": 1060,
+              "s": 0.8
+            },
+            {
+              "type": "name",
+              "text": "AYUTTHAYA",
+              "subtitle": "CAPITALE DU SIAM",
+              "flag": "th",
+              "at": "capitale",
+              "y": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Des milliers de Siamois sont faits prisonniers. Parmi eux, un boxeur : Nai Khanom Tom.",
+      "panels": [
+        {
+          "id": "02a",
+          "bg": "gray",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "x": -60,
+              "s": 2.1,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.35
+              },
+              "move": {
+                "to": [
+                  1180,
+                  1060
+                ],
+                "at": 0,
+                "dur": 4.0
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "x": -250,
+              "s": 2.1,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.35
+              },
+              "move": {
+                "to": [
+                  990,
+                  1060
+                ],
+                "at": 0,
+                "dur": 4.0
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "x": -440,
+              "s": 2.1,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.35
+              },
+              "move": {
+                "to": [
+                  800,
+                  1060
+                ],
+                "at": 0,
+                "dur": 4.0
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "x": -630,
+              "s": 2.1,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.35
+              },
+              "move": {
+                "to": [
+                  610,
+                  1060
+                ],
+                "at": 0,
+                "dur": 4.0
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "x": -820,
+              "s": 2.1,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.35
+              },
+              "move": {
+                "to": [
+                  420,
+                  1060
+                ],
+                "at": 0,
+                "dur": 4.0
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "x": -1010,
+              "s": 2.1,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.35
+              },
+              "move": {
+                "to": [
+                  230,
+                  1060
+                ],
+                "at": 0,
+                "dur": 4.0
+              }
+            },
+            {
+              "type": "title",
+              "text": "DES MILLIERS DE PRISONNIERS",
+              "at": "prisonniers",
+              "y": 260
+            }
+          ]
+        },
+        {
+          "id": "02b",
+          "cue": "boxeur",
+          "bg": "white",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.6,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  0.3
+                ]
+              ]
+            },
+            {
+              "type": "name",
+              "text": "NAI KHANOM TOM",
+              "subtitle": "BOXEUR SIAMOIS",
+              "flag": "th",
+              "at": "Nai",
+              "y": 200
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "Nai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Quelques années plus tard, le roi de Birmanie organise une grande fête.",
+      "panels": [
+        {
+          "id": "03a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "throne",
+              "x": 540,
+              "y": 1060,
+              "s": 1.0
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 520,
+              "y": 920,
+              "s": 2.8,
+              "facing": 1,
+              "poses": [
+                [
+                  "sit",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "crown",
+              "x": 540,
+              "y": 440,
+              "s": 0.7,
+              "at": 0.1
+            },
+            {
+              "type": "caption",
+              "text": "QUELQUES ANNÉES PLUS TARD…",
+              "at": 0.05
+            }
+          ]
+        },
+        {
+          "id": "03b",
+          "cue": "fête",
+          "bg": "gray",
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "lanterns",
+              "x": 540,
+              "y": 330,
+              "s": 1.0
+            },
+            {
+              "type": "prop",
+              "name": "crowd",
+              "x": 540,
+              "y": 1060,
+              "s": 1.25
+            },
+            {
+              "type": "title",
+              "text": "GRANDE FÊTE",
+              "at": "fête",
+              "y": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Il veut savoir si la boxe siamoise vaut la boxe birmane.",
+      "panels": [
+        {
+          "id": "04a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 300,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": 780,
+              "s": 3.3,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  "birmane"
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "SIAM CONTRE BIRMANIE",
+              "at": "siamoise",
+              "y": 260
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "birmane"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Avant de combattre, Nai Khanom Tom exécute une danse rituelle.",
+      "panels": [
+        {
+          "id": "05a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "waiKhru",
+                  0
+                ],
+                [
+                  "stand",
+                  "exécute"
+                ],
+                [
+                  "ramMuay",
+                  "danse"
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "LA DANSE RITUELLE",
+              "at": "danse",
+              "y": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Les Birmans sont intrigués. Certains croient même à de la magie.",
+      "panels": [
+        {
+          "id": "06a",
+          "bg": "gray",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "crowd",
+              "x": 540,
+              "y": 1060,
+              "s": 1.25
+            },
+            {
+              "type": "bubble",
+              "text": "?!",
+              "at": 0.1,
+              "x": 280,
+              "y": 520,
+              "tail": [
+                40,
+                150
+              ]
+            },
+            {
+              "type": "bubble",
+              "text": "QU'EST-CE QU'IL FAIT ?",
+              "at": "intrigués",
+              "x": 680,
+              "y": 400,
+              "tail": [
+                -40,
+                160
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06b",
+          "cue": "magie",
+          "bg": "black",
+          "rays": true,
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.05,
+              1.15
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.6,
+              "facing": 1,
+              "poses": [
+                [
+                  "ramMuay",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "DE LA MAGIE ?!",
+              "at": "magie",
+              "x": 540,
+              "y": 150,
+              "rot": -6,
+              "color": "white",
+              "sound": "pop"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "magie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Le combat commence. Poings, coudes, genoux… il gagne.",
+      "panels": [
+        {
+          "id": "07a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 320,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": 760,
+              "s": 3.3,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "caption",
+              "text": "COMBAT N° 1",
+              "at": 0.05
+            }
+          ]
+        },
+        {
+          "id": "07b",
+          "cue": "Poings",
+          "bg": "white",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.1,
+              1.25
+            ],
+            "focus": [
+              560,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": 700,
+              "s": 3.3,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  "gagne+0.1"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 430,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "Poings"
+                ],
+                [
+                  "elbow",
+                  "coudes"
+                ],
+                [
+                  "knee",
+                  "genoux"
+                ],
+                [
+                  "guard",
+                  "genoux+0.35"
+                ],
+                [
+                  "armsUp",
+                  "gagne+0.2"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "POING !",
+              "at": "Poings",
+              "x": 720,
+              "y": 260,
+              "rot": 8,
+              "color": "red",
+              "sound": "hit",
+              "size": 120,
+              "dur": 0.55
+            },
+            {
+              "type": "sfx",
+              "text": "COUDE !",
+              "at": "coudes",
+              "x": 300,
+              "y": 230,
+              "rot": -8,
+              "color": "red",
+              "sound": "hit",
+              "size": 120,
+              "dur": 0.55
+            },
+            {
+              "type": "sfx",
+              "text": "GENOU !",
+              "at": "genoux",
+              "x": 720,
+              "y": 520,
+              "rot": 6,
+              "color": "red",
+              "sound": "boom",
+              "size": 120,
+              "dur": 0.9
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "Poings"
+            },
+            {
+              "type": "shake",
+              "at": "coudes"
+            },
+            {
+              "type": "punch",
+              "at": "genoux"
+            },
+            {
+              "type": "shake",
+              "at": "genoux"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Selon la légende, il enchaîne avec neuf autres champions birmans, sans aucune pause.",
+      "panels": [
+        {
+          "id": "08a",
+          "bg": "gray",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.2,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "kick",
+                  "guard",
+                  "elbow",
+                  "guard",
+                  "knee",
+                  "guard"
+                ],
+                "every": 0.3,
+                "from": "enchaîne"
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": 200,
+              "s": 2.8,
+              "facing": 1,
+              "poses": [
+                [
+                  "fallen",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 880,
+              "s": 2.8,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  "champions"
+                ]
+              ]
+            },
+            {
+              "type": "caption",
+              "text": "SELON LA LÉGENDE…",
+              "at": 0.05
+            },
+            {
+              "type": "counter",
+              "from": 1,
+              "to": 10,
+              "suffix": " COMBATS",
+              "at": "neuf",
+              "y": 300
+            }
+          ]
+        },
+        {
+          "id": "08b",
+          "cue": "sans",
+          "bg": "black",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.05,
+              1.15
+            ],
+            "focus": [
+              540,
+              750
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "kick",
+                  0.2
+                ],
+                [
+                  "guard",
+                  0.5
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "SANS PAUSE !",
+              "at": "pause",
+              "x": 540,
+              "y": 170,
+              "rot": -6,
+              "color": "red",
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Impressionné, le roi lui rend sa liberté.",
+      "panels": [
+        {
+          "id": "09a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "throne",
+              "x": 540,
+              "y": 1060,
+              "s": 1.0
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 540,
+              "s": 2.8,
+              "facing": 1,
+              "poses": [
+                [
+                  "sit",
+                  0
+                ],
+                [
+                  "stand",
+                  0.4
+                ],
+                [
+                  "armsUp",
+                  0.7
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "crown",
+              "x": 555,
+              "y": 445,
+              "s": 0.7,
+              "at": 0.75
+            },
+            {
+              "type": "bubble",
+              "text": "IMPRESSIONNANT !",
+              "at": 0.3,
+              "x": 540,
+              "y": 180,
+              "tail": [
+                0,
+                150
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09b",
+          "cue": "liberté",
+          "bg": "black",
+          "rays": true,
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.12
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.5,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "armsUp",
+                  "liberté+0.05"
+                ]
+              ]
+            },
+            {
+              "type": "prop",
+              "name": "chains",
+              "x": 540,
+              "y": 620,
+              "s": 1.0,
+              "breakAt": "liberté"
+            },
+            {
+              "type": "sfx",
+              "text": "LIBRE !",
+              "at": "liberté",
+              "x": 540,
+              "y": 250,
+              "rot": -6,
+              "color": "red",
+              "sound": "crack",
+              "size": 180
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "liberté"
+            },
+            {
+              "type": "shake",
+              "at": "liberté"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Aujourd'hui, la Thaïlande le célèbre chaque {17|dix-sept} mars : c'est la journée nationale du muay-thaï.",
+      "panels": [
+        {
+          "id": "10a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "lanterns",
+              "x": 540,
+              "y": 330,
+              "s": 1.0
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.3,
+              "facing": 1,
+              "poses": [
+                [
+                  "waiKhru",
+                  0
+                ],
+                [
+                  "ramMuay",
+                  0.8
+                ]
+              ]
+            },
+            {
+              "type": "counter",
+              "from": 1,
+              "to": 17,
+              "suffix": " MARS",
+              "at": "17",
+              "y": 260
+            }
+          ]
+        },
+        {
+          "id": "10b",
+          "cue": "journée",
+          "bg": "gray",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "crowd",
+              "x": 540,
+              "y": 1060,
+              "s": 1.25
+            },
+            {
+              "type": "name",
+              "text": "JOURNÉE DU MUAY-THAÏ",
+              "subtitle": "CHAQUE 17 MARS",
+              "flag": "th",
+              "at": "journée",
+              "y": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Abonne-toi pour plus d'histoires Hors Limite.",
+      "panels": [
+        {
+          "id": "11a",
+          "bg": "white",
+          "rays": true,
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 2.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "ramMuay",
+                  0
+                ],
+                [
+                  "armsUp",
+                  1.5
+                ],
+                [
+                  "guard",
+                  2.8
+                ]
+              ]
+            },
+            {
+              "type": "logo",
+              "text": "HORS LIMITE",
+              "subtitle": "ABONNE-TOI",
+              "at": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

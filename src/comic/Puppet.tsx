@@ -10,6 +10,7 @@ export type PuppetProps = {
   style?: PuppetStyle; // hero = kimono blanc ceinture noire ; shadow = silhouette noire
   glove?: boolean; // un seul gant de boxe (main avant)
   gloves?: string; // gants de MMA sur les deux mains (couleur)
+  headband?: string; // mongkhon du muay-thaï (couleur) + brassards
   tint?: string; // couleur du combattant (style shadow) : ex. vert pour McGregor
   sepia?: boolean;
   filter?: string;
@@ -35,7 +36,7 @@ const Seg: React.FC<{a: P; b: P; w: number; fill: string; line: string; ow: numb
 );
 
 /** Pantin dessiné en SVG, pieds à l'origine, tourné vers la droite. */
-export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = 'shadow', glove, gloves, tint, sepia, filter}) => {
+export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = 'shadow', glove, gloves, headband, tint, sepia, filter}) => {
   const b = BUILDS[build] ?? BUILDS.normal;
   const hero = style === 'hero';
   const th = useComicTheme();
@@ -164,6 +165,23 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
       {drawLeg(lF, front)}
       {/* tête */}
       <circle cx={C.x} cy={C.y} r={b.head} fill={hero ? skin : front} stroke={line} strokeWidth={ow} />
+      {headband
+        ? (() => {
+            const ha = rad(pose.torso + pose.head);
+            const up = {x: Math.sin(ha), y: -Math.cos(ha)};
+            const side = {x: Math.cos(ha), y: Math.sin(ha)};
+            const c0 = add(C, up, b.head * 0.38);
+            const p1 = add(c0, side, -b.head * 1.02);
+            const p2 = add(c0, side, b.head * 1.02);
+            const tail = add(add(p1, up, -b.head * 0.9), side, -b.head * 0.5);
+            return (
+              <g>
+                <line x1={p1.x} y1={p1.y} x2={tail.x} y2={tail.y} stroke={headband} strokeWidth={5} strokeLinecap="round" />
+                <line x1={p1.x} y1={p1.y} x2={p2.x} y2={p2.y} stroke={headband} strokeWidth={b.head * 0.38} strokeLinecap="round" />
+              </g>
+            );
+          })()
+        : null}
       {hero ? (
         <>
           <path
@@ -180,6 +198,17 @@ export const Puppet: React.FC<PuppetProps> = ({pose, build = 'normal', style = '
         </>
       ) : null}
       {drawArm(aF, front, gloves ?? (glove ? '#D7262E' : undefined))}
+      {headband ? (
+        <line
+          x1={add(S, dir(pose.armF.a), b.upper * 0.45).x - Math.cos(rad(pose.armF.a)) * limbW * 0.6}
+          y1={add(S, dir(pose.armF.a), b.upper * 0.45).y + Math.sin(rad(pose.armF.a)) * limbW * 0.6}
+          x2={add(S, dir(pose.armF.a), b.upper * 0.45).x + Math.cos(rad(pose.armF.a)) * limbW * 0.6}
+          y2={add(S, dir(pose.armF.a), b.upper * 0.45).y - Math.sin(rad(pose.armF.a)) * limbW * 0.6}
+          stroke={headband}
+          strokeWidth={limbW * 0.45}
+          strokeLinecap="round"
+        />
+      ) : null}
     </g>
   );
 };

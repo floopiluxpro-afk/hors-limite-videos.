@@ -372,6 +372,86 @@ const Crowd: PropFC = ({t, th}) => (
   </g>
 );
 
+/** Temples siamois (prangs) : tours à étages et flèches (origine = milieu du sol). */
+const Temple: PropFC = ({th}) => {
+  const prang = (x: number, h: number, w: number) => (
+    <g key={x} transform={`translate(${x} 0)`}>
+      <rect x={-w * 0.6} y={-h * 0.25} width={w * 1.2} height={h * 0.25} fill="#BDBDBD" stroke={th.out} strokeWidth={6} />
+      {[0, 1, 2, 3, 4].map((i) => {
+        const ww = w * (1 - i * 0.17);
+        const y = -h * 0.25 - (i + 1) * h * 0.12;
+        return <path key={i} d={`M ${-ww / 2} ${y + h * 0.12} Q ${-ww / 2} ${y} 0 ${y - h * 0.03} Q ${ww / 2} ${y} ${ww / 2} ${y + h * 0.12} Z`} fill={i % 2 ? '#D9D9D9' : '#9E9E9E'} stroke={th.out} strokeWidth={5} />;
+      })}
+      <line x1={0} y1={-h * 0.88} x2={0} y2={-h} stroke={th.out} strokeWidth={8} />
+    </g>
+  );
+  return <g>{[prang(-330, 520, 170), prang(330, 520, 170), prang(0, 760, 240)]}</g>;
+};
+
+/** Flammes animées (origine = bas des flammes, largeur ~1100). */
+const Flames: PropFC = ({t, th}) => (
+  <g>
+    {Array.from({length: 14}, (_, i) => {
+      const x = -560 + i * 82;
+      const h = 220 + random(`fl${i}`) * 260 + Math.sin(t * 9 + i * 1.3) * 50;
+      const w = 90 + random(`fw${i}`) * 50;
+      return (
+        <g key={i}>
+          <path d={`M ${x - w / 2} 0 Q ${x - w / 2} ${-h * 0.5} ${x + Math.sin(t * 7 + i) * 20} ${-h} Q ${x + w / 2} ${-h * 0.5} ${x + w / 2} 0 Z`} fill="#E3001B" stroke={th.out} strokeWidth={5} />
+          <path d={`M ${x - w / 4} 0 Q ${x - w / 4} ${-h * 0.3} ${x} ${-h * 0.55} Q ${x + w / 4} ${-h * 0.3} ${x + w / 4} 0 Z`} fill="#fff" />
+        </g>
+      );
+    })}
+  </g>
+);
+
+/** Guirlande de lanternes de fête qui se balancent (origine = point d'accroche gauche, largeur 1100). */
+const Lanterns: PropFC = ({t, th}) => (
+  <g>
+    <path d="M -560 0 Q 0 160 560 0" fill="none" stroke={th.line} strokeWidth={5} />
+    {Array.from({length: 7}, (_, i) => {
+      const x = -480 + i * 160;
+      const y = 160 * (1 - Math.pow((x / 560), 2)) * 0.95;
+      const sw = Math.sin(t * 2.5 + i) * 8;
+      return (
+        <g key={i} transform={`translate(${x} ${y}) rotate(${sw})`}>
+          <line x1={0} y1={0} x2={0} y2={30} stroke={th.line} strokeWidth={4} />
+          <ellipse cx={0} cy={85} rx={46} ry={58} fill={i % 2 ? '#E3001B' : '#fff'} stroke={th.out} strokeWidth={6} />
+          <rect x={-22} y={22} width={44} height={14} fill="#333" />
+          <rect x={-22} y={136} width={44} height={14} fill="#333" />
+        </g>
+      );
+    })}
+  </g>
+);
+
+/** Chaînes qui se brisent à `breakAt` (origine = centre). */
+const Chains: PropFC = ({el, t, th}) => {
+  const k = el.breakAt ?? 1e9;
+  const p = interpolate(t, [k, k + 0.4], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
+  const link = (x: number, i: number, side: number) => (
+    <ellipse key={`${side}${i}`} cx={x} cy={0} rx={48} ry={26} fill="none" stroke="#7A7A7A" strokeWidth={14} transform={`rotate(${i % 2 ? 0 : 0})`} />
+  );
+  return (
+    <g>
+      <g transform={`translate(${-p * 220} ${p * 160}) rotate(${-p * 35})`}>{[-280, -200, -120, -40].map((x, i) => link(x, i, 0))}</g>
+      <g transform={`translate(${p * 220} ${p * 160}) rotate(${p * 35})`}>{[40, 120, 200, 280].map((x, i) => link(x, i, 1))}</g>
+      {p > 0 && p < 1 ? <polygon points="0,-90 22,-20 90,0 22,20 0,90 -22,20 -90,0 -22,-20" fill="#fff" stroke={th.out} strokeWidth={5} transform={`scale(${1 - p})`} /> : null}
+    </g>
+  );
+};
+
+/** Trône royal (origine = milieu du sol). */
+const Throne: PropFC = ({th}) => (
+  <g>
+    <rect x={-200} y={-140} width={400} height={140} fill="#C9A227" stroke={th.out} strokeWidth={7} />
+    <path d="M -170 -140 L -170 -560 Q 0 -700 170 -560 L 170 -140 Z" fill="#E3001B" stroke={th.out} strokeWidth={7} />
+    <path d="M -120 -180 L -120 -520 Q 0 -620 120 -520 L 120 -180 Z" fill="none" stroke="#C9A227" strokeWidth={10} />
+    <rect x={-240} y={-300} width={70} height={300} fill="#C9A227" stroke={th.out} strokeWidth={7} />
+    <rect x={170} y={-300} width={70} height={300} fill="#C9A227" stroke={th.out} strokeWidth={7} />
+  </g>
+);
+
 export const PROPS: Record<string, PropFC> = {
   city: City,
   cage: Cage,
@@ -388,4 +468,9 @@ export const PROPS: Record<string, PropFC> = {
   budokan: Budokan,
   ring: Ring,
   crowd: Crowd,
+  temple: Temple,
+  flames: Flames,
+  lanterns: Lanterns,
+  chains: Chains,
+  throne: Throne,
 };

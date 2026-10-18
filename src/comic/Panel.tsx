@@ -164,7 +164,7 @@ export const SceneElement: React.FC<{el: ComicElement; t: number; dur: number; f
       return (
         <g transform={`translate(${x} ${y}) scale(${s * (el.facing ?? 1)} ${s})`}>
           {flat && Math.abs(y - floor) < 4 ? <ellipse cx={0} cy={0} rx={48} ry={7} fill="rgba(0,0,0,0.18)" /> : null}
-          <Puppet filter={flat ? 'url(#fl-shadow)' : undefined} pose={puppetPose(el, t)} build={el.build} style={el.style} glove={el.glove} gloves={el.gloves} tint={el.tint} sepia={el.sepia} />
+          <Puppet filter={flat ? 'url(#fl-shadow)' : undefined} pose={puppetPose(el, t)} build={el.build} style={el.style} glove={el.glove} gloves={el.gloves} headband={el.headband} tint={el.tint} sepia={el.sepia} />
         </g>
       );
     case 'prop': {

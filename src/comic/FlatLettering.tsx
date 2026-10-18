@@ -56,7 +56,7 @@ const Caption: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
 };
 
 const Sfx: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
-  if (dt < 0) return null;
+  if (dt < 0 || (el.dur !== undefined && dt > el.dur)) return null; // "dur" : disparaît après n secondes
   const text = el.text ?? '';
   const size = Math.min(el.size ? el.size * 0.7 : 120, 620 / Math.max(3, text.length * 0.7));
   const w = tw(text, size) + 90;
@@ -104,6 +104,7 @@ const FlagDot: React.FC<{code: string; cx: number; cy: number; r: number}> = ({c
     us: ['#B22234', '#FFFFFF', '#B22234', '#FFFFFF', '#3C3B6E'],
     fr: ['#0055A4', '#FFFFFF', '#EF4135'],
     ie: ['#169B62', '#FFFFFF', '#FF883E'],
+    th: ['#A51931', '#F4F5F8', '#2D2A4A', '#2D2A4A', '#F4F5F8', '#A51931'],
   };
   return (
     <g>

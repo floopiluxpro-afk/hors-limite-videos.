@@ -74,6 +74,11 @@ export const POSES: Record<string, Pose> = {
   groundKickB: {torso: 0, head: -20, armF: L(-30, 20), armB: L(-50, 20), legF: L(35, -80), legB: L(85, -5), rot: -90},
   // assis au sol, jambes douloureuses
   hurt: {torso: 20, head: 25, armF: L(70, 40), armB: L(60, 50), legF: L(80, -20), legB: L(70, -40)},
+  // muay-thaï
+  elbow: {torso: 18, head: -8, armF: L(115, 150), armB: L(25, 130), legF: L(24, -12), legB: L(-28, -6)},
+  knee: {torso: -12, head: 4, armF: L(95, 45), armB: L(85, 55), legF: L(112, -150), legB: L(-8, 0)},
+  ramMuay: {torso: 0, head: -10, armF: L(115, -25), armB: L(-110, 25), legF: L(80, -110), legB: L(0, 0)},
+  waiKhru: {torso: 48, head: 12, armF: L(78, 62), armB: L(72, 66), legF: L(8, -95), legB: L(-6, -90)},
   bow: {torso: 50, head: 10, armF: L(10, 0), armB: L(-5, 0), legF: L(4, -4), legB: L(-4, -4)},
 };
 

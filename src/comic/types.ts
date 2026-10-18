@@ -19,6 +19,7 @@ export type ComicElement = {
   glove?: boolean;
   gloves?: string;
   tint?: string;
+  headband?: string;
   sepia?: boolean;
   // décor
   name?: string;
@@ -29,6 +30,7 @@ export type ComicElement = {
   subtitle?: string;
   color?: 'yellow' | 'red' | 'white';
   size?: number;
+  dur?: number; // durée d'affichage d'une onomatopée
   flag?: string;
   from?: number;
   to?: number;
