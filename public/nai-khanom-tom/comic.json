@@ -5,8 +5,8 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "duration": 54.58,
-  "durationInFrames": 1638,
+  "duration": 51.662,
+  "durationInFrames": 1550,
   "voice": null,
   "music": null,
   "musicCuts": [],
@@ -30,808 +30,748 @@
       "end": 1.028
     },
     {
-      "text": "gagné",
+      "text": "battu",
       "line": 0,
       "start": 1.055,
       "end": 1.328
     },
     {
-      "text": "sa",
+      "text": "dix",
       "line": 0,
       "start": 1.355,
-      "end": 1.486
+      "end": 1.534
     },
     {
-      "text": "liberté…",
+      "text": "champions",
       "line": 0,
-      "start": 1.514,
-      "end": 1.928
+      "start": 1.561,
+      "end": 2.023
     },
     {
-      "text": "en",
+      "text": "ennemis…",
       "line": 0,
-      "start": 2.31,
-      "end": 2.441
+      "start": 2.05,
+      "end": 2.465
     },
     {
-      "text": "battant",
+      "text": "d'affilée.",
       "line": 0,
-      "start": 2.468,
-      "end": 2.835
-    },
-    {
-      "text": "les",
-      "line": 0,
-      "start": 2.863,
-      "end": 3.041
-    },
-    {
-      "text": "meilleurs",
-      "line": 0,
-      "start": 3.068,
-      "end": 3.53
-    },
-    {
-      "text": "combattants",
-      "line": 0,
-      "start": 3.557,
-      "end": 4.114
-    },
-    {
-      "text": "d'un",
-      "line": 0,
-      "start": 4.141,
-      "end": 4.366
-    },
-    {
-      "text": "royaume,",
-      "line": 0,
-      "start": 4.394,
-      "end": 4.808
-    },
-    {
-      "text": "les",
-      "line": 0,
-      "start": 4.99,
-      "end": 5.168
-    },
-    {
-      "text": "uns",
-      "line": 0,
-      "start": 5.195,
-      "end": 5.374
-    },
-    {
-      "text": "après",
-      "line": 0,
-      "start": 5.401,
-      "end": 5.674
-    },
-    {
-      "text": "les",
-      "line": 0,
-      "start": 5.701,
-      "end": 5.879
-    },
-    {
-      "text": "autres.",
-      "line": 0,
-      "start": 5.906,
-      "end": 6.274
+      "start": 2.846,
+      "end": 3.355
     },
     {
       "text": "1767.",
       "line": 1,
-      "start": 6.905,
-      "end": 8.36
+      "start": 3.987,
+      "end": 5.442
     },
     {
       "text": "L'armée",
       "line": 1,
-      "start": 8.742,
-      "end": 9.109
+      "start": 5.824,
+      "end": 6.191
     },
     {
       "text": "birmane",
       "line": 1,
-      "start": 9.136,
-      "end": 9.504
+      "start": 6.218,
+      "end": 6.585
     },
     {
       "text": "détruit",
       "line": 1,
-      "start": 9.531,
-      "end": 9.898
+      "start": 6.613,
+      "end": 6.98
     },
     {
       "text": "Ayutthaya,",
       "line": 1,
-      "start": 9.925,
-      "end": 10.435
+      "start": 7.007,
+      "end": 7.516
     },
     {
       "text": "la",
       "line": 1,
-      "start": 10.616,
-      "end": 10.747
+      "start": 7.698,
+      "end": 7.829
     },
     {
       "text": "capitale",
       "line": 1,
-      "start": 10.775,
-      "end": 11.189
+      "start": 7.856,
+      "end": 8.271
     },
     {
       "text": "du",
       "line": 1,
-      "start": 11.216,
-      "end": 11.347
+      "start": 8.298,
+      "end": 8.429
     },
     {
       "text": "royaume",
       "line": 1,
-      "start": 11.375,
-      "end": 11.742
+      "start": 8.456,
+      "end": 8.824
     },
     {
       "text": "de",
       "line": 1,
-      "start": 11.769,
-      "end": 11.9
+      "start": 8.851,
+      "end": 8.982
     },
     {
       "text": "Siam.",
       "line": 1,
-      "start": 11.927,
-      "end": 12.2
+      "start": 9.009,
+      "end": 9.282
     },
     {
       "text": "Des",
       "line": 2,
-      "start": 12.582,
-      "end": 12.76
+      "start": 9.664,
+      "end": 9.842
     },
     {
       "text": "milliers",
       "line": 2,
-      "start": 12.787,
-      "end": 13.202
+      "start": 9.869,
+      "end": 10.284
     },
     {
       "text": "de",
       "line": 2,
-      "start": 13.229,
-      "end": 13.36
+      "start": 10.311,
+      "end": 10.442
     },
     {
       "text": "Siamois",
       "line": 2,
-      "start": 13.387,
-      "end": 13.755
+      "start": 10.469,
+      "end": 10.836
     },
     {
       "text": "sont",
       "line": 2,
-      "start": 13.782,
-      "end": 14.007
+      "start": 10.864,
+      "end": 11.089
     },
     {
       "text": "faits",
       "line": 2,
-      "start": 14.035,
-      "end": 14.307
+      "start": 11.116,
+      "end": 11.389
     },
     {
       "text": "prisonniers.",
       "line": 2,
-      "start": 14.335,
-      "end": 14.938
+      "start": 11.416,
+      "end": 12.02
     },
     {
       "text": "Parmi",
       "line": 2,
-      "start": 15.32,
-      "end": 15.593
+      "start": 12.402,
+      "end": 12.675
     },
     {
       "text": "eux,",
       "line": 2,
-      "start": 15.62,
-      "end": 15.845
+      "start": 12.702,
+      "end": 12.927
     },
     {
       "text": "un",
       "line": 2,
-      "start": 16.027,
-      "end": 16.158
+      "start": 13.109,
+      "end": 13.24
     },
     {
       "text": "boxeur",
       "line": 2,
-      "start": 16.185,
-      "end": 16.505
+      "start": 13.267,
+      "end": 13.587
     },
     {
       "text": ":",
       "line": 2,
-      "start": 16.533,
-      "end": 16.616
+      "start": 13.615,
+      "end": 13.698
     },
     {
       "text": "Nai",
       "line": 2,
-      "start": 16.998,
-      "end": 17.176
+      "start": 14.08,
+      "end": 14.258
     },
     {
       "text": "Khanom",
       "line": 2,
-      "start": 17.204,
-      "end": 17.524
+      "start": 14.285,
+      "end": 14.605
     },
     {
       "text": "Tom.",
       "line": 2,
-      "start": 17.551,
-      "end": 17.776
+      "start": 14.633,
+      "end": 14.858
     },
     {
       "text": "Quelques",
       "line": 3,
-      "start": 18.158,
-      "end": 18.573
+      "start": 15.24,
+      "end": 15.655
     },
     {
       "text": "années",
       "line": 3,
-      "start": 18.6,
-      "end": 18.92
+      "start": 15.682,
+      "end": 16.002
     },
     {
       "text": "plus",
       "line": 3,
-      "start": 18.947,
-      "end": 19.173
+      "start": 16.029,
+      "end": 16.255
     },
     {
       "text": "tard,",
       "line": 3,
-      "start": 19.2,
-      "end": 19.473
+      "start": 16.282,
+      "end": 16.555
     },
     {
       "text": "le",
       "line": 3,
-      "start": 19.655,
-      "end": 19.785
+      "start": 16.736,
+      "end": 16.867
     },
     {
       "text": "roi",
       "line": 3,
-      "start": 19.813,
-      "end": 19.991
+      "start": 16.895,
+      "end": 17.073
     },
     {
       "text": "de",
       "line": 3,
-      "start": 20.018,
-      "end": 20.149
+      "start": 17.1,
+      "end": 17.231
     },
     {
       "text": "Birmanie",
       "line": 3,
-      "start": 20.176,
-      "end": 20.591
+      "start": 17.258,
+      "end": 17.673
     },
     {
       "text": "organise",
       "line": 3,
-      "start": 20.618,
-      "end": 21.033
+      "start": 17.7,
+      "end": 18.115
     },
     {
       "text": "une",
       "line": 3,
-      "start": 21.06,
-      "end": 21.238
+      "start": 18.142,
+      "end": 18.32
     },
     {
       "text": "grande",
       "line": 3,
-      "start": 21.265,
-      "end": 21.585
+      "start": 18.347,
+      "end": 18.667
     },
     {
       "text": "fête.",
       "line": 3,
-      "start": 21.613,
-      "end": 21.885
+      "start": 18.695,
+      "end": 18.967
     },
     {
       "text": "Il",
       "line": 4,
-      "start": 22.267,
-      "end": 22.398
+      "start": 19.349,
+      "end": 19.48
     },
     {
       "text": "veut",
       "line": 4,
-      "start": 22.425,
-      "end": 22.651
+      "start": 19.507,
+      "end": 19.733
     },
     {
       "text": "savoir",
       "line": 4,
-      "start": 22.678,
-      "end": 22.998
+      "start": 19.76,
+      "end": 20.08
     },
     {
       "text": "si",
       "line": 4,
-      "start": 23.025,
-      "end": 23.156
+      "start": 20.107,
+      "end": 20.238
     },
     {
       "text": "la",
       "line": 4,
-      "start": 23.184,
-      "end": 23.315
+      "start": 20.265,
+      "end": 20.396
     },
     {
       "text": "boxe",
       "line": 4,
-      "start": 23.342,
-      "end": 23.567
+      "start": 20.424,
+      "end": 20.649
     },
     {
       "text": "siamoise",
       "line": 4,
-      "start": 23.595,
-      "end": 24.009
+      "start": 20.676,
+      "end": 21.091
     },
     {
       "text": "vaut",
       "line": 4,
-      "start": 24.036,
-      "end": 24.262
+      "start": 21.118,
+      "end": 21.344
     },
     {
       "text": "la",
       "line": 4,
-      "start": 24.289,
-      "end": 24.42
+      "start": 21.371,
+      "end": 21.502
     },
     {
       "text": "boxe",
       "line": 4,
-      "start": 24.447,
-      "end": 24.673
+      "start": 21.529,
+      "end": 21.755
     },
     {
       "text": "birmane.",
       "line": 4,
-      "start": 24.7,
-      "end": 25.115
+      "start": 21.782,
+      "end": 22.196
     },
     {
       "text": "Avant",
       "line": 5,
-      "start": 25.496,
-      "end": 25.769
+      "start": 22.578,
+      "end": 22.851
     },
     {
       "text": "de",
       "line": 5,
-      "start": 25.796,
-      "end": 25.927
+      "start": 22.878,
+      "end": 23.009
     },
     {
       "text": "combattre,",
       "line": 5,
-      "start": 25.955,
-      "end": 26.464
+      "start": 23.036,
+      "end": 23.545
     },
     {
       "text": "Nai",
       "line": 5,
-      "start": 26.645,
-      "end": 26.824
+      "start": 23.727,
+      "end": 23.905
     },
     {
       "text": "Khanom",
       "line": 5,
-      "start": 26.851,
-      "end": 27.171
+      "start": 23.933,
+      "end": 24.253
     },
     {
       "text": "Tom",
       "line": 5,
-      "start": 27.198,
-      "end": 27.376
+      "start": 24.28,
+      "end": 24.458
     },
     {
       "text": "exécute",
       "line": 5,
-      "start": 27.404,
-      "end": 27.771
+      "start": 24.485,
+      "end": 24.853
     },
     {
       "text": "une",
       "line": 5,
-      "start": 27.798,
-      "end": 27.976
+      "start": 24.88,
+      "end": 25.058
     },
     {
       "text": "danse",
       "line": 5,
-      "start": 28.004,
-      "end": 28.276
+      "start": 25.085,
+      "end": 25.358
     },
     {
       "text": "rituelle.",
       "line": 5,
-      "start": 28.304,
-      "end": 28.765
+      "start": 25.385,
+      "end": 25.847
     },
     {
       "text": "Les",
       "line": 6,
-      "start": 29.147,
-      "end": 29.325
+      "start": 26.229,
+      "end": 26.407
     },
     {
       "text": "Birmans",
       "line": 6,
-      "start": 29.353,
-      "end": 29.72
+      "start": 26.435,
+      "end": 26.802
     },
     {
       "text": "sont",
       "line": 6,
-      "start": 29.747,
-      "end": 29.973
+      "start": 26.829,
+      "end": 27.055
     },
     {
       "text": "intrigués.",
       "line": 6,
-      "start": 30,
-      "end": 30.509
+      "start": 27.082,
+      "end": 27.591
     },
     {
       "text": "Certains",
       "line": 6,
-      "start": 30.891,
-      "end": 31.305
+      "start": 27.973,
+      "end": 28.387
     },
     {
       "text": "croient",
       "line": 6,
-      "start": 31.333,
-      "end": 31.7
+      "start": 28.415,
+      "end": 28.782
     },
     {
       "text": "même",
       "line": 6,
-      "start": 31.727,
-      "end": 31.953
+      "start": 28.809,
+      "end": 29.035
     },
     {
       "text": "à",
       "line": 6,
-      "start": 31.98,
-      "end": 32.064
+      "start": 29.062,
+      "end": 29.145
     },
     {
       "text": "de",
       "line": 6,
-      "start": 32.091,
-      "end": 32.222
+      "start": 29.173,
+      "end": 29.304
     },
     {
       "text": "la",
       "line": 6,
-      "start": 32.249,
-      "end": 32.38
+      "start": 29.331,
+      "end": 29.462
     },
     {
       "text": "magie.",
       "line": 6,
-      "start": 32.407,
-      "end": 32.727
+      "start": 29.489,
+      "end": 29.809
     },
     {
       "text": "Le",
       "line": 7,
-      "start": 33.109,
-      "end": 33.24
+      "start": 30.191,
+      "end": 30.322
     },
     {
       "text": "combat",
       "line": 7,
-      "start": 33.267,
-      "end": 33.587
+      "start": 30.349,
+      "end": 30.669
     },
     {
       "text": "commence.",
       "line": 7,
-      "start": 33.615,
-      "end": 34.076
+      "start": 30.696,
+      "end": 31.158
     },
     {
       "text": "Poings,",
       "line": 7,
-      "start": 34.458,
-      "end": 34.825
+      "start": 31.54,
+      "end": 31.907
     },
     {
       "text": "coudes,",
       "line": 7,
-      "start": 35.007,
-      "end": 35.375
+      "start": 32.089,
+      "end": 32.456
     },
     {
       "text": "genoux…",
       "line": 7,
-      "start": 35.556,
-      "end": 35.924
+      "start": 32.638,
+      "end": 33.005
     },
     {
       "text": "il",
       "line": 7,
-      "start": 36.305,
-      "end": 36.436
+      "start": 33.387,
+      "end": 33.518
     },
     {
       "text": "gagne.",
       "line": 7,
-      "start": 36.464,
-      "end": 36.784
+      "start": 33.545,
+      "end": 33.865
     },
     {
       "text": "Selon",
       "line": 8,
-      "start": 37.165,
-      "end": 37.438
+      "start": 34.247,
+      "end": 34.52
     },
     {
       "text": "la",
       "line": 8,
-      "start": 37.465,
-      "end": 37.596
+      "start": 34.547,
+      "end": 34.678
     },
     {
       "text": "légende,",
       "line": 8,
-      "start": 37.624,
-      "end": 38.038
+      "start": 34.705,
+      "end": 35.12
     },
     {
       "text": "il",
       "line": 8,
-      "start": 38.22,
-      "end": 38.351
+      "start": 35.302,
+      "end": 35.433
     },
     {
       "text": "enchaîne",
       "line": 8,
-      "start": 38.378,
-      "end": 38.793
+      "start": 35.46,
+      "end": 35.875
     },
     {
       "text": "avec",
       "line": 8,
-      "start": 38.82,
-      "end": 39.045
+      "start": 35.902,
+      "end": 36.127
     },
     {
       "text": "neuf",
       "line": 8,
-      "start": 39.073,
-      "end": 39.298
+      "start": 36.155,
+      "end": 36.38
     },
     {
       "text": "autres",
       "line": 8,
-      "start": 39.325,
-      "end": 39.645
+      "start": 36.407,
+      "end": 36.727
     },
     {
       "text": "champions",
       "line": 8,
-      "start": 39.673,
-      "end": 40.135
+      "start": 36.755,
+      "end": 37.216
     },
     {
       "text": "birmans,",
       "line": 8,
-      "start": 40.162,
-      "end": 40.576
+      "start": 37.244,
+      "end": 37.658
     },
     {
       "text": "sans",
       "line": 8,
-      "start": 40.758,
-      "end": 40.984
+      "start": 37.84,
+      "end": 38.065
     },
     {
       "text": "aucune",
       "line": 8,
-      "start": 41.011,
-      "end": 41.331
+      "start": 38.093,
+      "end": 38.413
     },
     {
       "text": "pause.",
       "line": 8,
-      "start": 41.358,
-      "end": 41.678
+      "start": 38.44,
+      "end": 38.76
     },
     {
       "text": "Impressionné,",
       "line": 9,
-      "start": 42.06,
-      "end": 42.711
+      "start": 39.142,
+      "end": 39.793
     },
     {
       "text": "le",
       "line": 9,
-      "start": 42.893,
-      "end": 43.024
+      "start": 39.975,
+      "end": 40.105
     },
     {
       "text": "roi",
       "line": 9,
-      "start": 43.051,
-      "end": 43.229
+      "start": 40.133,
+      "end": 40.311
     },
     {
       "text": "lui",
       "line": 9,
-      "start": 43.256,
-      "end": 43.435
+      "start": 40.338,
+      "end": 40.516
     },
     {
       "text": "rend",
       "line": 9,
-      "start": 43.462,
-      "end": 43.687
+      "start": 40.544,
+      "end": 40.769
     },
     {
       "text": "sa",
       "line": 9,
-      "start": 43.715,
-      "end": 43.845
+      "start": 40.796,
+      "end": 40.927
     },
     {
       "text": "liberté.",
       "line": 9,
-      "start": 43.873,
-      "end": 44.287
+      "start": 40.955,
+      "end": 41.369
     },
     {
       "text": "Aujourd'hui,",
       "line": 10,
-      "start": 44.669,
-      "end": 45.273
+      "start": 41.751,
+      "end": 42.355
     },
     {
       "text": "la",
       "line": 10,
-      "start": 45.455,
-      "end": 45.585
+      "start": 42.536,
+      "end": 42.667
     },
     {
       "text": "Thaïlande",
       "line": 10,
-      "start": 45.613,
-      "end": 46.075
+      "start": 42.695,
+      "end": 43.156
     },
     {
       "text": "le",
       "line": 10,
-      "start": 46.102,
-      "end": 46.233
+      "start": 43.184,
+      "end": 43.315
     },
     {
       "text": "célèbre",
       "line": 10,
-      "start": 46.26,
-      "end": 46.627
+      "start": 43.342,
+      "end": 43.709
     },
     {
       "text": "chaque",
       "line": 10,
-      "start": 46.655,
-      "end": 46.975
+      "start": 43.736,
+      "end": 44.056
     },
     {
       "text": "17",
       "line": 10,
-      "start": 47.002,
-      "end": 47.416
+      "start": 44.084,
+      "end": 44.498
     },
     {
       "text": "mars",
       "line": 10,
-      "start": 47.444,
-      "end": 47.669
+      "start": 44.525,
+      "end": 44.751
     },
     {
       "text": ":",
       "line": 10,
-      "start": 47.696,
-      "end": 47.78
+      "start": 44.778,
+      "end": 44.862
     },
     {
       "text": "c'est",
       "line": 10,
-      "start": 48.162,
-      "end": 48.435
+      "start": 45.244,
+      "end": 45.516
     },
     {
       "text": "la",
       "line": 10,
-      "start": 48.462,
-      "end": 48.593
+      "start": 45.544,
+      "end": 45.675
     },
     {
       "text": "journée",
       "line": 10,
-      "start": 48.62,
-      "end": 48.987
+      "start": 45.702,
+      "end": 46.069
     },
     {
       "text": "nationale",
       "line": 10,
-      "start": 49.015,
-      "end": 49.476
+      "start": 46.096,
+      "end": 46.558
     },
     {
       "text": "du",
       "line": 10,
-      "start": 49.504,
-      "end": 49.635
+      "start": 46.585,
+      "end": 46.716
     },
     {
       "text": "muay-thaï.",
       "line": 10,
-      "start": 49.662,
-      "end": 50.171
+      "start": 46.744,
+      "end": 47.253
     },
     {
       "text": "Abonne-toi",
       "line": 11,
-      "start": 50.553,
-      "end": 51.062
+      "start": 47.635,
+      "end": 48.144
     },
     {
       "text": "pour",
       "line": 11,
-      "start": 51.089,
-      "end": 51.315
+      "start": 48.171,
+      "end": 48.396
     },
     {
       "text": "plus",
       "line": 11,
-      "start": 51.342,
-      "end": 51.567
+      "start": 48.424,
+      "end": 48.649
     },
     {
       "text": "d'histoires",
       "line": 11,
-      "start": 51.595,
-      "end": 52.151
+      "start": 48.676,
+      "end": 49.233
     },
     {
       "text": "Hors",
       "line": 11,
-      "start": 52.178,
-      "end": 52.404
+      "start": 49.26,
+      "end": 49.485
     },
     {
       "text": "Limite.",
       "line": 11,
-      "start": 52.431,
-      "end": 52.798
+      "start": 49.513,
+      "end": 49.88
     }
   ],
   "panels": [
@@ -865,8 +805,8 @@
               "t": 0
             },
             {
-              "pose": "armsUp",
-              "t": 1.564
+              "pose": "guard",
+              "t": 1.105
             }
           ]
         },
@@ -876,37 +816,44 @@
           "x": 540,
           "y": 620,
           "s": 1,
-          "breakAt": 1.514
+          "breakAt": 1.055
         },
         {
           "type": "sfx",
           "text": "KLANG !",
-          "at": 1.514,
-          "x": 740,
-          "y": 330,
+          "at": 1.055,
+          "x": 820,
+          "y": 560,
           "rot": 8,
           "color": "red",
           "sound": "crack",
-          "size": 130
+          "size": 120
+        },
+        {
+          "type": "title",
+          "text": "MUAY-THAÏ",
+          "at": 0.05,
+          "y": 250,
+          "size": 200
         }
       ],
       "fx": [
         {
           "type": "punch",
-          "at": 1.514
+          "at": 1.055
         },
         {
           "type": "shake",
-          "at": 1.514
+          "at": 1.055
         }
       ],
       "line": 0,
       "start": 0,
-      "end": 2.408
+      "end": 1.501
     },
     {
       "id": "00b",
-      "cue": "battant",
+      "cue": "champions",
       "bg": "white",
       "rays": true,
       "transition": "slam",
@@ -935,7 +882,7 @@
             },
             {
               "pose": "fallen",
-              "t": 0.76
+              "t": 0.21
             }
           ]
         },
@@ -953,7 +900,7 @@
             },
             {
               "pose": "fallen",
-              "t": 2.086
+              "t": 1.445
             }
           ]
         },
@@ -973,56 +920,66 @@
             },
             {
               "pose": "elbow",
-              "t": 0.66
+              "t": 0.06
             },
             {
               "pose": "guard",
-              "t": 0.96
+              "t": 0.41
             },
             {
               "pose": "kick",
-              "t": 1.886
+              "t": 1.245
             },
             {
               "pose": "ramMuay",
-              "t": 2.787
+              "t": 1.845
             }
           ]
         },
         {
           "type": "sfx",
           "text": "BAM !",
-          "at": 0.76,
-          "x": 310,
-          "y": 420,
+          "at": 0.21,
+          "x": 260,
+          "y": 560,
           "rot": -8,
           "color": "red",
-          "sound": "hit"
+          "sound": "hit",
+          "dur": 0.6
         },
         {
           "type": "sfx",
           "text": "BAM !",
-          "at": 2.086,
-          "x": 770,
-          "y": 380,
+          "at": 1.445,
+          "x": 820,
+          "y": 520,
           "rot": 8,
           "color": "red",
-          "sound": "hit"
+          "sound": "hit",
+          "dur": 0.8
+        },
+        {
+          "type": "counter",
+          "from": 1,
+          "to": 10,
+          "suffix": " CHAMPIONS",
+          "at": -0.146,
+          "y": 250
         }
       ],
       "fx": [
         {
           "type": "shake",
-          "at": 0.76
+          "at": 0.21
         },
         {
           "type": "shake",
-          "at": 2.086
+          "at": 1.445
         }
       ],
       "line": 0,
-      "start": 2.408,
-      "end": 6.845
+      "start": 1.501,
+      "end": 3.927
     },
     {
       "id": "01a",
@@ -1053,8 +1010,8 @@
         }
       ],
       "line": 1,
-      "start": 6.845,
-      "end": 9.471,
+      "start": 3.927,
+      "end": 6.553,
       "fx": []
     },
     {
@@ -1109,8 +1066,8 @@
         }
       ],
       "line": 1,
-      "start": 9.471,
-      "end": 10.715
+      "start": 6.553,
+      "end": 7.796
     },
     {
       "id": "01c",
@@ -1145,8 +1102,8 @@
         }
       ],
       "line": 1,
-      "start": 10.715,
-      "end": 12.522,
+      "start": 7.796,
+      "end": 9.604,
       "fx": []
     },
     {
@@ -1323,13 +1280,13 @@
         {
           "type": "title",
           "text": "DES MILLIERS DE PRISONNIERS",
-          "at": 1.813,
+          "at": 1.812,
           "y": 260
         }
       ],
       "line": 2,
-      "start": 12.522,
-      "end": 16.125,
+      "start": 9.604,
+      "end": 13.207,
       "fx": []
     },
     {
@@ -1385,8 +1342,8 @@
         }
       ],
       "line": 2,
-      "start": 16.125,
-      "end": 18.098
+      "start": 13.207,
+      "end": 15.18
     },
     {
       "id": "03a",
@@ -1441,8 +1398,8 @@
         }
       ],
       "line": 3,
-      "start": 18.098,
-      "end": 21.553,
+      "start": 15.18,
+      "end": 18.635,
       "fx": []
     },
     {
@@ -1483,8 +1440,8 @@
         }
       ],
       "line": 3,
-      "start": 21.553,
-      "end": 22.207,
+      "start": 18.635,
+      "end": 19.289,
       "fx": []
     },
     {
@@ -1540,7 +1497,7 @@
         {
           "type": "title",
           "text": "SIAM CONTRE BIRMANIE",
-          "at": 1.388,
+          "at": 1.387,
           "y": 260
         }
       ],
@@ -1551,8 +1508,8 @@
         }
       ],
       "line": 4,
-      "start": 22.207,
-      "end": 25.436
+      "start": 19.289,
+      "end": 22.518
     },
     {
       "id": "05a",
@@ -1586,24 +1543,24 @@
             },
             {
               "pose": "stand",
-              "t": 1.968
+              "t": 1.967
             },
             {
               "pose": "ramMuay",
-              "t": 2.568
+              "t": 2.567
             }
           ]
         },
         {
           "type": "title",
           "text": "LA DANSE RITUELLE",
-          "at": 2.568,
+          "at": 2.567,
           "y": 260
         }
       ],
       "line": 5,
-      "start": 25.436,
-      "end": 29.087,
+      "start": 22.518,
+      "end": 26.169,
       "fx": []
     },
     {
@@ -1652,8 +1609,8 @@
         }
       ],
       "line": 6,
-      "start": 29.087,
-      "end": 32.347,
+      "start": 26.169,
+      "end": 29.429,
       "fx": []
     },
     {
@@ -1707,8 +1664,8 @@
         }
       ],
       "line": 6,
-      "start": 32.347,
-      "end": 33.049
+      "start": 29.429,
+      "end": 30.131
     },
     {
       "id": "07a",
@@ -1763,8 +1720,8 @@
         }
       ],
       "line": 7,
-      "start": 33.049,
-      "end": 34.398,
+      "start": 30.131,
+      "end": 31.48,
       "fx": []
     },
     {
@@ -1797,7 +1754,7 @@
             },
             {
               "pose": "fallen",
-              "t": 2.166
+              "t": 2.165
             }
           ]
         },
@@ -1833,7 +1790,7 @@
             },
             {
               "pose": "armsUp",
-              "t": 2.266
+              "t": 2.265
             }
           ]
         },
@@ -1893,8 +1850,8 @@
         }
       ],
       "line": 7,
-      "start": 34.398,
-      "end": 37.105
+      "start": 31.48,
+      "end": 34.187
     },
     {
       "id": "08a",
@@ -1982,8 +1939,8 @@
         }
       ],
       "line": 8,
-      "start": 37.105,
-      "end": 40.698,
+      "start": 34.187,
+      "end": 37.78,
       "fx": []
     },
     {
@@ -2045,8 +2002,8 @@
         }
       ],
       "line": 8,
-      "start": 40.698,
-      "end": 42
+      "start": 37.78,
+      "end": 39.082
     },
     {
       "id": "09a",
@@ -2114,8 +2071,8 @@
         }
       ],
       "line": 9,
-      "start": 42,
-      "end": 43.813,
+      "start": 39.082,
+      "end": 40.895,
       "fx": []
     },
     {
@@ -2186,8 +2143,8 @@
         }
       ],
       "line": 9,
-      "start": 43.813,
-      "end": 44.609
+      "start": 40.895,
+      "end": 41.691
     },
     {
       "id": "10a",
@@ -2242,8 +2199,8 @@
         }
       ],
       "line": 10,
-      "start": 44.609,
-      "end": 48.56,
+      "start": 41.691,
+      "end": 45.642,
       "fx": []
     },
     {
@@ -2279,8 +2236,8 @@
         }
       ],
       "line": 10,
-      "start": 48.56,
-      "end": 50.493,
+      "start": 45.642,
+      "end": 47.575,
       "fx": []
     },
     {
@@ -2331,60 +2288,60 @@
         }
       ],
       "line": 11,
-      "start": 50.493,
-      "end": 54.58,
+      "start": 47.575,
+      "end": 51.662,
       "fx": []
     }
   ],
   "sfx": [
     {
       "src": "sfx/crack.wav",
-      "start": 1.514,
+      "start": 1.055,
       "volume": 0.6
     },
     {
       "src": "sfx/hit.wav",
-      "start": 3.168,
+      "start": 1.711,
       "volume": 0.55
     },
     {
       "src": "sfx/hit.wav",
-      "start": 4.494,
+      "start": 2.946,
       "volume": 0.55
     },
     {
       "src": "sfx/impact.wav",
-      "start": 9.531,
+      "start": 6.613,
       "volume": 0.75
     },
     {
       "src": "sfx/pop.wav",
-      "start": 32.407,
+      "start": 29.489,
       "volume": 0.45
     },
     {
       "src": "sfx/hit.wav",
-      "start": 34.458,
+      "start": 31.54,
       "volume": 0.55
     },
     {
       "src": "sfx/hit.wav",
-      "start": 35.007,
+      "start": 32.089,
       "volume": 0.55
     },
     {
       "src": "sfx/impact.wav",
-      "start": 35.556,
+      "start": 32.638,
       "volume": 0.75
     },
     {
       "src": "sfx/hit.wav",
-      "start": 41.358,
+      "start": 38.44,
       "volume": 0.55
     },
     {
       "src": "sfx/crack.wav",
-      "start": 43.873,
+      "start": 40.955,
       "volume": 0.6
     }
   ]

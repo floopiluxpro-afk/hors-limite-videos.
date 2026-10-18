@@ -16,7 +16,7 @@
   },
   "lines": [
     {
-      "text": "Un prisonnier a gagné sa liberté… en battant les meilleurs combattants d'un royaume, les uns après les autres.",
+      "text": "Un prisonnier a battu dix champions ennemis… d'affilée.",
       "pauseAfter": 0.25,
       "panels": [
         {
@@ -49,8 +49,8 @@
                   0
                 ],
                 [
-                  "armsUp",
-                  "liberté+0.05"
+                  "guard",
+                  "battu+0.05"
                 ]
               ]
             },
@@ -60,34 +60,41 @@
               "x": 540,
               "y": 620,
               "s": 1.0,
-              "breakAt": "liberté"
+              "breakAt": "battu"
             },
             {
               "type": "sfx",
               "text": "KLANG !",
-              "at": "liberté",
-              "x": 740,
-              "y": 330,
+              "at": "battu",
+              "x": 820,
+              "y": 560,
               "rot": 8,
               "color": "red",
               "sound": "crack",
-              "size": 130
+              "size": 120
+            },
+            {
+              "type": "title",
+              "text": "MUAY-THAÏ",
+              "at": 0.05,
+              "y": 250,
+              "size": 200
             }
           ],
           "fx": [
             {
               "type": "punch",
-              "at": "liberté"
+              "at": "battu"
             },
             {
               "type": "shake",
-              "at": "liberté"
+              "at": "battu"
             }
           ]
         },
         {
           "id": "00b",
-          "cue": "battant",
+          "cue": "champions",
           "bg": "white",
           "rays": true,
           "transition": "slam",
@@ -116,7 +123,7 @@
                 ],
                 [
                   "fallen",
-                  "meilleurs+0.1"
+                  "champions+0.15"
                 ]
               ]
             },
@@ -134,7 +141,7 @@
                 ],
                 [
                   "fallen",
-                  "royaume+0.1"
+                  "affilée+0.1"
                 ]
               ]
             },
@@ -154,51 +161,61 @@
                 ],
                 [
                   "elbow",
-                  "meilleurs"
+                  "champions"
                 ],
                 [
                   "guard",
-                  "meilleurs+0.3"
+                  "champions+0.35"
                 ],
                 [
                   "kick",
-                  "royaume-0.1"
+                  "affilée-0.1"
                 ],
                 [
                   "ramMuay",
-                  "uns"
+                  "affilée+0.5"
                 ]
               ]
             },
             {
               "type": "sfx",
               "text": "BAM !",
-              "at": "meilleurs+0.1",
-              "x": 310,
-              "y": 420,
+              "at": "champions+0.15",
+              "x": 260,
+              "y": 560,
               "rot": -8,
               "color": "red",
-              "sound": "hit"
+              "sound": "hit",
+              "dur": 0.6
             },
             {
               "type": "sfx",
               "text": "BAM !",
-              "at": "royaume+0.1",
-              "x": 770,
-              "y": 380,
+              "at": "affilée+0.1",
+              "x": 820,
+              "y": 520,
               "rot": 8,
               "color": "red",
-              "sound": "hit"
+              "sound": "hit",
+              "dur": 0.8
+            },
+            {
+              "type": "counter",
+              "from": 1,
+              "to": 10,
+              "suffix": " CHAMPIONS",
+              "at": "dix",
+              "y": 250
             }
           ],
           "fx": [
             {
               "type": "shake",
-              "at": "meilleurs+0.1"
+              "at": "champions+0.15"
             },
             {
               "type": "shake",
-              "at": "royaume+0.1"
+              "at": "affilée+0.1"
             }
           ]
         }
