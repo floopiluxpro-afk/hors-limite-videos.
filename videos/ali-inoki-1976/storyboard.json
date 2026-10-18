@@ -1,0 +1,1224 @@
+{
+  "slug": "ali-inoki-1976",
+  "format": "comic",
+  "theme": "manga",
+  "title": "Ali contre Inoki, le combat le plus bizarre (Tokyo 1976)",
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "speed": 1.1,
+    "stability": 0.4,
+    "similarity_boost": 0.8,
+    "style": 0.45
+  },
+  "music": {
+    "style": "beat",
+    "bpm": 100
+  },
+  "lines": [
+    {
+      "text": "Muhammad Ali a affronté un catcheur japonais… qui a passé presque tout le combat allongé sur le dos.",
+      "pauseAfter": 0.25,
+      "panels": [
+        {
+          "id": "00a",
+          "bg": "white",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.5,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "guard",
+                  0.3
+                ],
+                [
+                  "punch",
+                  1.0
+                ],
+                [
+                  "guard",
+                  1.25
+                ]
+              ]
+            },
+            {
+              "type": "name",
+              "text": "MUHAMMAD ALI",
+              "subtitle": "LE PLUS GRAND",
+              "flag": "us",
+              "at": 0.05,
+              "y": 200
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": 1.0
+            }
+          ]
+        },
+        {
+          "id": "00b",
+          "cue": "catcheur",
+          "bg": "gray",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 540,
+              "s": 3.4,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "flex",
+                  0.25
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "UN CATCHEUR ?!",
+              "at": "catcheur",
+              "y": 250
+            }
+          ]
+        },
+        {
+          "id": "00c",
+          "cue": "allongé",
+          "bg": "white",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.05,
+              1.15
+            ],
+            "focus": [
+              560,
+              820
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 280,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 640,
+              "s": 3.2,
+              "facing": -1,
+              "cycle": {
+                "poses": [
+                  "groundKickA",
+                  "groundKickB"
+                ],
+                "every": 0.22
+              }
+            },
+            {
+              "type": "sfx",
+              "text": "?!",
+              "at": "allongé+0.1",
+              "x": 300,
+              "y": 330,
+              "rot": -6,
+              "color": "red",
+              "sound": "pop",
+              "size": 180
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "allongé+0.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Juin {1976|mille neuf cent soixante-seize}, Tokyo. Le Budokan est plein à craquer.",
+      "panels": [
+        {
+          "id": "01a",
+          "bg": "white",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.1,
+              1.0
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "budokan",
+              "x": 540,
+              "y": 1060,
+              "s": 1.1
+            },
+            {
+              "type": "caption",
+              "text": "TOKYO · 26 JUIN 1976",
+              "at": 0.05
+            }
+          ]
+        },
+        {
+          "id": "01b",
+          "cue": "plein",
+          "bg": "gray",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "crowd",
+              "x": 540,
+              "y": 1060,
+              "s": 1.25
+            },
+            {
+              "type": "title",
+              "text": "PLEIN À CRAQUER",
+              "at": "plein",
+              "y": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Muhammad Ali, champion du monde des poids lourds, contre Antonio Inoki, star du catch japonais.",
+      "panels": [
+        {
+          "id": "02a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 560,
+              "s": 3.5,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  1.2
+                ],
+                [
+                  "guard",
+                  1.45
+                ]
+              ]
+            },
+            {
+              "type": "name",
+              "text": "MUHAMMAD ALI",
+              "subtitle": "CHAMPION DU MONDE POIDS LOURDS",
+              "flag": "us",
+              "at": "Muhammad",
+              "y": 200
+            }
+          ]
+        },
+        {
+          "id": "02b",
+          "cue": "Antonio",
+          "bg": "gray",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 520,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "flex",
+                  0.5
+                ]
+              ]
+            },
+            {
+              "type": "name",
+              "text": "ANTONIO INOKI",
+              "subtitle": "STAR DU CATCH JAPONAIS",
+              "flag": "jp",
+              "at": "Antonio",
+              "y": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "On l'annonce comme le combat du siècle.",
+      "panels": [
+        {
+          "id": "03a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "ring",
+              "x": 540,
+              "y": 1060,
+              "s": 0.95
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 330,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 760,
+              "s": 3.0,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "LE COMBAT DU SIÈCLE",
+              "at": "combat",
+              "y": 260,
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "siècle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Mais juste avant, les règles sont modifiées et limitent fortement les attaques d'Inoki.",
+      "panels": [
+        {
+          "id": "04a",
+          "bg": "white",
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "rulebook",
+              "x": 540,
+              "y": 720,
+              "s": 1.2
+            },
+            {
+              "type": "title",
+              "text": "RÈGLES MODIFIÉES",
+              "at": "règles",
+              "y": 260
+            }
+          ]
+        },
+        {
+          "id": "04b",
+          "cue": "limitent",
+          "bg": "gray",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 540,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "kick",
+                  "attaques-0.2"
+                ],
+                [
+                  "stand",
+                  "attaques+0.3"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "INTERDIT !",
+              "at": "attaques",
+              "x": 540,
+              "y": 330,
+              "rot": -8,
+              "color": "red",
+              "sound": "crack"
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "attaques"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Alors Inoki trouve une parade : il se couche sur le dos.",
+      "panels": [
+        {
+          "id": "05a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              650
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 540,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "crossed",
+                  0
+                ],
+                [
+                  "guard",
+                  "parade"
+                ]
+              ]
+            },
+            {
+              "type": "bubble",
+              "text": "J'AI UNE IDÉE…",
+              "at": "trouve",
+              "x": 540,
+              "y": 220,
+              "tail": [
+                0,
+                150
+              ]
+            }
+          ]
+        },
+        {
+          "id": "05b",
+          "cue": "couche",
+          "bg": "gray",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.0,
+              1.12
+            ],
+            "focus": [
+              560,
+              820
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 280,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 640,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "lying",
+                  "couche"
+                ],
+                [
+                  "groundKickA",
+                  "dos"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "?!",
+              "at": "dos",
+              "x": 280,
+              "y": 330,
+              "rot": -6,
+              "color": "red",
+              "sound": "pop",
+              "size": 170
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Pendant quinze rounds, il reste au sol et frappe les jambes d'Ali à coups de pied.",
+      "panels": [
+        {
+          "id": "06a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 600,
+              "s": 3.0,
+              "facing": -1,
+              "cycle": {
+                "poses": [
+                  "groundKickA",
+                  "groundKickB"
+                ],
+                "every": 0.3
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 200,
+              "s": 3.0,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.3
+              },
+              "move": {
+                "to": [
+                  330,
+                  1060
+                ],
+                "at": 0,
+                "dur": 1.6
+              }
+            },
+            {
+              "type": "counter",
+              "from": 1,
+              "to": 15,
+              "suffix": " ROUNDS",
+              "at": "quinze",
+              "y": 260
+            }
+          ]
+        },
+        {
+          "id": "06b",
+          "cue": "frappe",
+          "bg": "black",
+          "rays": true,
+          "camera": {
+            "zoom": [
+              1.1,
+              1.25
+            ],
+            "focus": [
+              520,
+              880
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 350,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "hurt",
+                  "coups+0.1"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 700,
+              "s": 3.4,
+              "facing": -1,
+              "cycle": {
+                "poses": [
+                  "groundKickA",
+                  "groundKickB"
+                ],
+                "every": 0.18
+              }
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "jambes",
+              "x": 420,
+              "y": 700,
+              "rot": -8,
+              "color": "red",
+              "sound": "hit",
+              "size": 150
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "coups",
+              "x": 700,
+              "y": 420,
+              "rot": 8,
+              "color": "white",
+              "sound": "hit",
+              "size": 150
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "jambes"
+            },
+            {
+              "type": "shake",
+              "at": "coups"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Ali ne touche Inoki qu'avec six coups de poing de tout le combat.",
+      "panels": [
+        {
+          "id": "07a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 650,
+              "s": 3.0,
+              "facing": -1,
+              "cycle": {
+                "poses": [
+                  "groundKickA",
+                  "groundKickB"
+                ],
+                "every": 0.3
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 330,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "six"
+                ],
+                [
+                  "guard",
+                  "six+0.25"
+                ],
+                [
+                  "punch",
+                  "poing"
+                ],
+                [
+                  "guard",
+                  "poing+0.25"
+                ]
+              ]
+            },
+            {
+              "type": "counter",
+              "from": 0,
+              "to": 6,
+              "suffix": " COUPS DE POING",
+              "at": "six",
+              "y": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Le public siffle. Résultat : match nul.",
+      "pauseAfter": 0.25,
+      "panels": [
+        {
+          "id": "08a",
+          "bg": "gray",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "crowd",
+              "x": 540,
+              "y": 1060,
+              "s": 1.25
+            },
+            {
+              "type": "sfx",
+              "text": "BOUUUH !",
+              "at": "siffle",
+              "x": 540,
+              "y": 320,
+              "rot": -5,
+              "color": "white",
+              "sound": "pop"
+            }
+          ]
+        },
+        {
+          "id": "08b",
+          "cue": "Résultat",
+          "bg": "white",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 300,
+              "s": 3.0,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "heavy",
+              "x": 780,
+              "s": 3.0,
+              "facing": -1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "MATCH NUL",
+              "at": "match",
+              "x": 540,
+              "y": 300,
+              "rot": -6,
+              "color": "red",
+              "sound": "crack",
+              "size": 170
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "match"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Après le combat, les jambes d'Ali sont tellement abîmées qu'il est hospitalisé.",
+      "panels": [
+        {
+          "id": "09a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.05,
+              1.15
+            ],
+            "focus": [
+              540,
+              850
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 3.4,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
+                  "hurt",
+                  "jambes"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "AÏE !",
+              "at": "abîmées",
+              "x": 760,
+              "y": 420,
+              "rot": 8,
+              "color": "red",
+              "sound": "pop"
+            }
+          ],
+          "fx": [
+            {
+              "type": "shake",
+              "at": "abîmées"
+            }
+          ]
+        },
+        {
+          "id": "09b",
+          "cue": "hospitalisé",
+          "bg": "gray",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              850
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 560,
+              "s": 3.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "lying",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "HOSPITALISÉ",
+              "at": "hospitalisé",
+              "y": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Ridiculisé à l'époque, ce combat est aujourd'hui vu comme un ancêtre du {MMA|M-M-A}.",
+      "panels": [
+        {
+          "id": "10a",
+          "bg": "white",
+          "rays": true,
+          "transition": "slide",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.08
+            ],
+            "focus": [
+              540,
+              800
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "crowd",
+              "x": 540,
+              "y": 1060,
+              "s": 1.25
+            },
+            {
+              "type": "bubble",
+              "text": "HA HA HA !",
+              "at": 0.1,
+              "x": 300,
+              "y": 500,
+              "tail": [
+                40,
+                160
+              ]
+            },
+            {
+              "type": "bubble",
+              "text": "RIDICULE !",
+              "at": 0.5,
+              "x": 780,
+              "y": 420,
+              "tail": [
+                -40,
+                160
+              ]
+            }
+          ]
+        },
+        {
+          "id": "10b",
+          "cue": "aujourd'hui",
+          "bg": "black",
+          "rays": true,
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.1
+            ],
+            "focus": [
+              540,
+              760
+            ]
+          },
+          "elements": [
+            {
+              "type": "prop",
+              "name": "cage",
+              "x": 540,
+              "y": 760,
+              "s": 1
+            },
+            {
+              "type": "title",
+              "text": "L'ANCÊTRE DU MMA",
+              "at": "ancêtre",
+              "y": 250,
+              "sound": "hit"
+            }
+          ],
+          "fx": [
+            {
+              "type": "punch",
+              "at": "ancêtre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Abonne-toi pour plus d'histoires Hors Limite.",
+      "panels": [
+        {
+          "id": "11a",
+          "bg": "white",
+          "rays": true,
+          "transition": "flash",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.06
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 2.2,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "armsUp",
+                  1.5
+                ],
+                [
+                  "guard",
+                  2.8
+                ]
+              ]
+            },
+            {
+              "type": "logo",
+              "text": "HORS LIMITE",
+              "subtitle": "ABONNE-TOI",
+              "at": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

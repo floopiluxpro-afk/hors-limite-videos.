@@ -322,6 +322,56 @@ const Flashes: PropFC = ({t}) => (
   </g>
 );
 
+/** Le Nippon Budokan : toit octogonal à pans courbes, bulbe doré (origine = milieu du sol). */
+const Budokan: PropFC = ({th}) => (
+  <g>
+    <rect x={-380} y={-260} width={760} height={260} fill="#E8E8E8" stroke={th.out} strokeWidth={8} />
+    {[-300, -150, 0, 150, 300].map((x) => (
+      <rect key={x} x={x - 22} y={-240} width={44} height={240} fill="#C9C9C9" stroke={th.out} strokeWidth={5} />
+    ))}
+    <path d="M -470 -250 Q -260 -300 -200 -420 L 200 -420 Q 260 -300 470 -250 Z" fill="#3A3A3A" stroke={th.out} strokeWidth={8} strokeLinejoin="round" />
+    <path d="M -240 -420 Q -120 -470 -80 -560 L 80 -560 Q 120 -470 240 -420 Z" fill="#555" stroke={th.out} strokeWidth={8} strokeLinejoin="round" />
+    <ellipse cx={0} cy={-600} rx={46} ry={46} fill="#E5B530" stroke={th.out} strokeWidth={7} />
+    <line x1={0} y1={-646} x2={0} y2={-690} stroke={th.out} strokeWidth={7} />
+  </g>
+);
+
+/** Ring de boxe vu de face : poteaux, 3 cordes (origine = milieu du sol). */
+const Ring: PropFC = ({th}) => (
+  <g>
+    <rect x={-560} y={-40} width={1120} height={40} fill="#BBB" stroke={th.out} strokeWidth={6} />
+    {[-520, 520].map((x) => (
+      <rect key={x} x={x - 16} y={-560} width={32} height={520} fill="#E3001B" stroke={th.out} strokeWidth={6} />
+    ))}
+    {[-480, -350, -220].map((y) => (
+      <line key={y} x1={-520} x2={520} y1={y} y2={y + 6} stroke={th.out === 'none' ? '#fff' : '#fff'} strokeWidth={12} />
+    ))}
+    {[-480, -350, -220].map((y) => (
+      <line key={`o${y}`} x1={-520} x2={520} y1={y - 7} y2={y - 1} stroke={th.out} strokeWidth={3} />
+    ))}
+  </g>
+);
+
+/** Foule : rangées de têtes et d'épaules (origine = bas de la foule). */
+const Crowd: PropFC = ({t, th}) => (
+  <g>
+    {[0, 1, 2, 3].map((row) =>
+      Array.from({length: 13}, (_, i) => {
+        const x = -600 + i * 95 + (row % 2) * 47;
+        const y = -row * 85;
+        const bob = Math.sin(t * 6 + i * 1.7 + row) * 6;
+        const shade = ['#2B2B2B', '#444', '#5C5C5C', '#777'][row];
+        return (
+          <g key={`${row}-${i}`} transform={`translate(${x} ${y + bob})`}>
+            <path d="M -40 0 Q -40 -55 0 -55 Q 40 -55 40 0 Z" fill={shade} stroke={th.out} strokeWidth={4} />
+            <circle cx={0} cy={-78} r={24} fill={shade} stroke={th.out} strokeWidth={4} />
+          </g>
+        );
+      }),
+    ).reverse()}
+  </g>
+);
+
 export const PROPS: Record<string, PropFC> = {
   city: City,
   cage: Cage,
@@ -335,4 +385,7 @@ export const PROPS: Record<string, PropFC> = {
   beltGold: BeltGold,
   mic: Mic,
   flashes: Flashes,
+  budokan: Budokan,
+  ring: Ring,
+  crowd: Crowd,
 };

@@ -57,7 +57,7 @@ export type ComicPanel = {
 
 export type Comic = {
   slug: string;
-  theme?: 'comic' | 'flat';
+  theme?: 'comic' | 'flat' | 'manga';
   title: string;
   fps: number;
   width: number;

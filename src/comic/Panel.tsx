@@ -51,6 +51,30 @@ export const FLAT_PALETTE: Record<string, [string, string]> = {
   sepia: ['#F1E3C6', '#D9C39A'],
 };
 
+export const MANGA_PALETTE: Record<string, [string, string]> = new Proxy(
+  {black: ['#0B0B0B', '#0B0B0B'], gray: ['#D6D6D6', '#FFFFFF'], sepia: ['#E9D3A6', '#B89B68']} as Record<string, [string, string]>,
+  {get: (o, k: string) => o[k] ?? ['#FFFFFF', '#FFFFFF']},
+);
+
+/** Fond manga : papier blanc (ou noir), lignes de vitesse noires qui convergent vers le point de mire. */
+const MangaBackground: React.FC<{id: string; color: string; rays?: boolean; t: number; focus: [number, number]}> = ({color, rays, t, focus}) => {
+  const ink = color === '#0B0B0B' ? '#FFFFFF' : '#000000';
+  return (
+    <g>
+      <rect x={-200} y={-200} width={W + 400} height={H + 400} fill={color} />
+      {rays
+        ? Array.from({length: 110}, (_, i) => {
+            const a = (i / 110) * Math.PI * 2 + Math.sin(i * 12.9) * 0.02;
+            const r0 = 380 + random(`mr${i}`) * 260 + Math.sin(t * 9 + i) * 18;
+            const w = 1.5 + random(`mw${i}`) * 5;
+            const [fx, fy] = focus;
+            return <line key={i} x1={fx + Math.cos(a) * r0} y1={fy + Math.sin(a) * r0} x2={fx + Math.cos(a) * 2600} y2={fy + Math.sin(a) * 2600} stroke={ink} strokeWidth={w} />;
+          })
+        : null}
+    </g>
+  );
+};
+
 /** Fond flat : aplat + grandes formes douces qui dérivent lentement. */
 const FlatBackground: React.FC<{id: string; color: string; t: number; focus: [number, number]}> = ({id, color, t, focus}) => (
   <g>
@@ -203,8 +227,9 @@ export function panelFx(panel: ComicPanel, t: number) {
 export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({panel, t, frame}) => {
   const th = useComicTheme();
   const flat = th.name === 'flat';
+  const manga = th.name === 'manga';
   const dur = panel.end - panel.start;
-  const pal = flat ? FLAT_PALETTE : PALETTE;
+  const pal = flat ? FLAT_PALETTE : manga ? MANGA_PALETTE : PALETTE;
   const [bg, floorColor] = pal[panel.bg] ?? pal.blue;
   const gutter = flat ? 0 : GUTTER;
   const cam = panel.camera ?? {zoom: [1, 1.06], focus: [540, 760]};
@@ -232,6 +257,8 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
           <g transform={`translate(${focus[0]} ${focus[1]}) scale(${zoom}) translate(${-focus[0]} ${-focus[1]})`}>
             {flat ? (
               <FlatBackground id={id} color={bg} t={t} focus={focus} />
+            ) : manga ? (
+              <MangaBackground id={id} color={bg} rays={panel.rays} t={t} focus={focus} />
             ) : (
               <Background id={id} color={bg} rays={panel.rays} t={t} focus={focus} />
             )}
@@ -239,8 +266,19 @@ export const Panel: React.FC<{panel: ComicPanel; t: number; frame: number}> = ({
             {hasFloor ? (
               <g>
                 <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={floorColor} />
-                {flat ? null : <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={`url(#dots-${id})`} />}
-                {flat ? null : <line x1={-600} x2={W + 600} y1={FLOOR_Y} y2={FLOOR_Y} stroke={INK} strokeWidth={10} />}
+                {manga ? (
+                  <>
+                    <defs>
+                      <pattern id={`mtone-${id}`} width={16} height={16} patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                        <circle cx={8} cy={8} r={3.4} fill={bg === '#0B0B0B' ? '#555' : '#000'} />
+                      </pattern>
+                    </defs>
+                    <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={`url(#mtone-${id})`} opacity={0.45} />
+                  </>
+                ) : flat ? null : (
+                  <rect x={-600} y={FLOOR_Y} width={W + 1200} height={H} fill={`url(#dots-${id})`} />
+                )}
+                {flat ? null : <line x1={-600} x2={W + 600} y1={FLOOR_Y} y2={FLOOR_Y} stroke={bg === '#0B0B0B' ? '#fff' : INK} strokeWidth={10} />}
               </g>
             ) : null}
             {panel.elements.map((el, i) =>

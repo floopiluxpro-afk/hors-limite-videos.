@@ -69,6 +69,11 @@ export const POSES: Record<string, Pose> = {
   // assis, étranglé : buste en arrière, mains sur le bras
   choked: {torso: -14, head: -16, armF: L(150, 40), armB: L(140, 50), legF: L(84, -4), legB: L(88, 0), dy: 0.5},
   chokedTap: {torso: -14, head: -16, armF: L(150, 40), armB: L(30, 10), legF: L(84, -4), legB: L(88, 0), dy: 0.5},
+  // allongé sur le dos, jambes qui frappent vers l'avant (Inoki contre Ali)
+  groundKickA: {torso: 0, head: -20, armF: L(-30, 20), armB: L(-50, 20), legF: L(80, -10), legB: L(30, -70), rot: -90},
+  groundKickB: {torso: 0, head: -20, armF: L(-30, 20), armB: L(-50, 20), legF: L(35, -80), legB: L(85, -5), rot: -90},
+  // assis au sol, jambes douloureuses
+  hurt: {torso: 20, head: 25, armF: L(70, 40), armB: L(60, 50), legF: L(80, -20), legB: L(70, -40)},
   bow: {torso: 50, head: 10, armF: L(10, 0), armB: L(-5, 0), legF: L(4, -4), legB: L(-4, -4)},
 };
 

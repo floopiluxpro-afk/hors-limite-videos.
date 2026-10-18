@@ -2,12 +2,16 @@
 import React from 'react';
 import {Easing, interpolate} from 'remotion';
 import type {ComicElement} from './types';
+import {useComicTheme} from './theme';
 
 export const COMIC_FONT = 'Bangers, Impact, sans-serif';
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const INK = '#000';
-const YELLOW = '#FFE14D';
-const RED = '#E8202A';
+// Couleurs d'accent : BD = jaune + rouge ; manga = blanc + rouge vif.
+// (variable de module positionnée par <Lettering>, toutes les cases d'un rendu partagent le même thème)
+let MANGA = false;
+const Y = () => (MANGA ? '#FFFFFF' : '#FFE14D');
+const R = () => (MANGA ? '#E3001B' : '#E8202A');
 
 // Bangers est étroite : ~0,5 em par caractère en moyenne.
 export const textWidth = (text: string, size: number) => text.length * size * 0.5;
@@ -47,7 +51,7 @@ const Caption: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   return (
     <g transform={`translate(${el.x ?? 60} ${(el.y ?? 175) + slide}) rotate(-2)`}>
       <rect x={8} y={8} width={w} height={size * 1.45} fill={INK} />
-      <rect x={0} y={0} width={w} height={size * 1.45} fill={YELLOW} stroke={INK} strokeWidth={7} />
+      <rect x={0} y={0} width={w} height={size * 1.45} fill={Y()} stroke={INK} strokeWidth={7} />
       <text x={30} y={size * 1.05} fontFamily={COMIC_FONT} fontSize={size} fill={INK}>
         {text}
       </text>
@@ -72,11 +76,11 @@ const SfxWord: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const size = el.size ?? Math.min(170, 640 / Math.max(3, text.length * 0.5));
   const s = pop(dt, 1.3);
   const wobble = Math.sin(dt * 30) * Math.exp(-dt * 6) * 5;
-  const fill = el.color === 'red' ? RED : el.color === 'white' ? '#fff' : YELLOW;
+  const fill = el.color === 'red' ? R() : el.color === 'white' ? '#fff' : Y();
   const r = textWidth(text, size) / 2 + 50;
   return (
     <g transform={`translate(${el.x ?? 540} ${el.y ?? 400}) rotate(${(el.rot ?? 0) + wobble}) scale(${s})`}>
-      <polygon points={burst(0, -size * 0.32, r, 16, text.length)} fill="#fff" stroke={INK} strokeWidth={8} strokeLinejoin="round" />
+      {MANGA ? null : <polygon points={burst(0, -size * 0.32, r, 16, text.length)} fill="#fff" stroke={INK} strokeWidth={8} strokeLinejoin="round" />}
       <InkText x={0} y={size * 0.02} size={size} fill={fill} stroke={size * 0.13} shadow={size * 0.05}>
         {text}
       </InkText>
@@ -93,7 +97,7 @@ const Title: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   return (
     <g transform={`translate(540 ${y}) rotate(-3) scale(${s})`}>
       {el.subtitle ? (
-        <InkText x={0} y={-size * 0.95} size={size * 0.38} fill={YELLOW} shadow={0}>
+        <InkText x={0} y={-size * 0.95} size={size * 0.38} fill={Y()} shadow={0}>
           {el.subtitle}
         </InkText>
       ) : null}
@@ -167,7 +171,7 @@ const NameCard: React.FC<{el: ComicElement; dt: number; left: number}> = ({el, d
       </text>
       {sub ? (
         <g transform="translate(30 128)">
-          <rect x={0} y={0} width={subW} height={62} fill={RED} stroke={INK} strokeWidth={6} />
+          <rect x={0} y={0} width={subW} height={62} fill={R()} stroke={INK} strokeWidth={6} />
           <text x={25} y={47} fontFamily={COMIC_FONT} fontSize={44} fill="#fff">
             {sub}
           </text>
@@ -187,7 +191,7 @@ const Timer: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
       <circle cx={-118} cy={-28} r={34} fill="none" stroke={INK} strokeWidth={8} />
       <line x1={-118} y1={-28} x2={-118} y2={-50} stroke={INK} strokeWidth={7} strokeLinecap="round" />
       <line x1={-118} y1={-28} x2={-102} y2={-20} stroke={INK} strokeWidth={7} strokeLinecap="round" />
-      <text x={40} y={10} textAnchor="middle" fontFamily={COMIC_FONT} fontSize={120} fill={RED} stroke={INK} strokeWidth={6} paintOrder="stroke">
+      <text x={40} y={10} textAnchor="middle" fontFamily={COMIC_FONT} fontSize={120} fill={R()} stroke={INK} strokeWidth={6} paintOrder="stroke">
         {el.text}
       </text>
     </g>
@@ -201,7 +205,7 @@ const Counter: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   const bump = p >= 1 ? interpolate(dt, [0.8, 0.88, 1], [1, 1.15, 1], clamp) : 1;
   return (
     <g transform={`translate(540 ${el.y ?? 260}) rotate(-4) scale(${pop(dt, 1.15) * bump})`}>
-      <InkText x={0} y={70} size={Math.min(210, 960 / (0.5 * Math.max(3, `${el.prefix ?? ''}${el.to ?? ''}${el.suffix ?? ''}`.length)))} fill={YELLOW}>
+      <InkText x={0} y={70} size={Math.min(210, 960 / (0.5 * Math.max(3, `${el.prefix ?? ''}${el.to ?? ''}${el.suffix ?? ''}`.length)))} fill={Y()}>
         {`${el.prefix ?? ''}${v}${el.suffix ?? ''}`}
       </InkText>
     </g>
@@ -216,18 +220,18 @@ const Logo: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
   return (
     <g>
       <g transform={`translate(540 360) rotate(-5) scale(${pop(dt, 1.2)})`}>
-        <polygon points={burst(0, -60, 430, 18, 3)} fill={YELLOW} stroke={INK} strokeWidth={9} />
+        <polygon points={burst(0, -60, 430, 18, 3)} fill={Y()} stroke={INK} strokeWidth={9} />
         <InkText x={0} y={-60} size={170} fill="#fff">
           {a}
         </InkText>
-        <InkText x={0} y={100} size={170} fill={RED}>
+        <InkText x={0} y={100} size={170} fill={R()}>
           {rest.join(' ')}
         </InkText>
       </g>
       {el.subtitle && btn > 0 ? (
         <g transform={`translate(540 620) scale(${btn * pulse})`}>
           <rect x={-230} y={-62} width={470} height={124} rx={62} fill={INK} />
-          <rect x={-240} y={-72} width={470} height={124} rx={62} fill={RED} stroke={INK} strokeWidth={8} />
+          <rect x={-240} y={-72} width={470} height={124} rx={62} fill={R()} stroke={INK} strokeWidth={8} />
           <text x={-5} y={14} textAnchor="middle" fontFamily={COMIC_FONT} fontSize={86} fill="#fff" stroke={INK} strokeWidth={5} paintOrder="stroke">
             {el.subtitle}
           </text>
@@ -258,6 +262,7 @@ const Bubble: React.FC<{el: ComicElement; dt: number}> = ({el, dt}) => {
 };
 
 export const Lettering: React.FC<{el: ComicElement; t: number; dur: number}> = ({el, t, dur}) => {
+  MANGA = useComicTheme().name === 'manga';
   const dt = t - (el.at ?? 0);
   const left = dur - t;
   switch (el.type) {

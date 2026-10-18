@@ -2,7 +2,7 @@
 import {createContext, useContext} from 'react';
 
 export type ComicTheme = {
-  name: 'comic' | 'flat';
+  name: 'comic' | 'flat' | 'manga';
   out: string; // couleur des contours ('none' en flat)
   line: string; // traits de détail (lignes de texte, fissures…)
   font: string; // police du lettrage
@@ -37,6 +37,9 @@ export const THEMES: Record<string, ComicTheme> = {
     heroBack: '#DCE1EA',
   },
 };
+
+// manga : encre noire sur blanc, contours, lignes de vitesse, trames, accent rouge
+THEMES.manga = {...THEMES.comic, name: 'manga'};
 
 export const ThemeContext = createContext<ComicTheme>(THEMES.comic);
 export const useComicTheme = () => useContext(ThemeContext);
