@@ -250,6 +250,121 @@
               "type": "caption",
               "text": "ROYAUME DE SIAM, 1767",
               "at": 0.05
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": -80,
+              "s": 1.9,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.3
+              },
+              "move": {
+                "to": [
+                  1100,
+                  1060
+                ],
+                "at": 0,
+                "dur": 3.2
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": -250,
+              "s": 1.9,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.3
+              },
+              "move": {
+                "to": [
+                  930,
+                  1060
+                ],
+                "at": 0,
+                "dur": 3.2
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": -420,
+              "s": 1.9,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.3
+              },
+              "move": {
+                "to": [
+                  760,
+                  1060
+                ],
+                "at": 0,
+                "dur": 3.2
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": -590,
+              "s": 1.9,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.3
+              },
+              "move": {
+                "to": [
+                  590,
+                  1060
+                ],
+                "at": 0,
+                "dur": 3.2
+              }
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "x": -760,
+              "s": 1.9,
+              "facing": 1,
+              "cycle": {
+                "poses": [
+                  "walk1",
+                  "walk2"
+                ],
+                "every": 0.3
+              },
+              "move": {
+                "to": [
+                  420,
+                  1060
+                ],
+                "at": 0,
+                "dur": 3.2
+              }
             }
           ]
         },
@@ -544,6 +659,22 @@
                 [
                   "guard",
                   0.3
+                ],
+                [
+                  "punch",
+                  1.4
+                ],
+                [
+                  "guard",
+                  1.65
+                ],
+                [
+                  "knee",
+                  2.1
+                ],
+                [
+                  "guard",
+                  2.45
                 ]
               ]
             },
@@ -603,16 +734,20 @@
                 [
                   "sit",
                   0
+                ],
+                [
+                  "stand",
+                  "organise"
                 ]
               ]
             },
             {
               "type": "prop",
               "name": "crown",
-              "x": 540,
-              "y": 440,
+              "x": 545,
+              "y": 300,
               "s": 0.7,
-              "at": 0.1
+              "at": "organise+0.25"
             },
             {
               "type": "caption",
@@ -693,6 +828,22 @@
                 [
                   "guard",
                   0
+                ],
+                [
+                  "punch",
+                  "siamoise"
+                ],
+                [
+                  "guard",
+                  "siamoise+0.3"
+                ],
+                [
+                  "kick",
+                  "boxe+0.1"
+                ],
+                [
+                  "guard",
+                  "boxe+0.5"
                 ]
               ]
             },
@@ -710,7 +861,15 @@
                 ],
                 [
                   "guard",
+                  0.4
+                ],
+                [
+                  "kick",
                   "birmane"
+                ],
+                [
+                  "guard",
+                  "birmane+0.4"
                 ]
               ]
             },
@@ -768,8 +927,61 @@
                   "exécute"
                 ],
                 [
+                  "waiKhru",
+                  "exécute+0.4"
+                ]
+              ]
+            },
+            {
+              "type": "title",
+              "text": "LE SALUT RITUEL",
+              "at": "exécute",
+              "y": 260
+            }
+          ]
+        },
+        {
+          "id": "05b",
+          "cue": "danse",
+          "bg": "black",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.05,
+              1.18
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "headband": "#E3001B",
+              "x": 540,
+              "s": 3.8,
+              "facing": 1,
+              "poses": [
+                [
+                  "stand",
+                  0
+                ],
+                [
                   "ramMuay",
-                  "danse"
+                  0.2
+                ],
+                [
+                  "guard",
+                  1.4
+                ],
+                [
+                  "ramMuay",
+                  1.8
                 ]
               ]
             },
@@ -777,7 +989,7 @@
               "type": "title",
               "text": "LA DANSE RITUELLE",
               "at": "danse",
-              "y": 260
+              "y": 250
             }
           ]
         }
@@ -1270,7 +1482,7 @@
               "type": "prop",
               "name": "crown",
               "x": 555,
-              "y": 445,
+              "y": 430,
               "s": 0.7,
               "at": 0.75
             },
@@ -1400,6 +1612,18 @@
                 [
                   "ramMuay",
                   0.8
+                ],
+                [
+                  "guard",
+                  2.3
+                ],
+                [
+                  "kick",
+                  2.7
+                ],
+                [
+                  "guard",
+                  3.0
                 ]
               ]
             },

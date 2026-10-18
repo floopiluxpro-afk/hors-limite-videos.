@@ -1,0 +1,767 @@
+{
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "words": [
+    {
+      "text": "Un",
+      "line": 0,
+      "start": 0,
+      "end": 0.139
+    },
+    {
+      "text": "prisonnier",
+      "line": 0,
+      "start": 0.197,
+      "end": 0.662
+    },
+    {
+      "text": "a",
+      "line": 0,
+      "start": 0.731,
+      "end": 0.789
+    },
+    {
+      "text": "battu",
+      "line": 0,
+      "start": 0.848,
+      "end": 1.115
+    },
+    {
+      "text": "dix",
+      "line": 0,
+      "start": 1.173,
+      "end": 1.358
+    },
+    {
+      "text": "champions",
+      "line": 0,
+      "start": 1.382,
+      "end": 1.823
+    },
+    {
+      "text": "ennemis…",
+      "line": 0,
+      "start": 1.869,
+      "end": 2.415
+    },
+    {
+      "text": "d'affilée.",
+      "line": 0,
+      "start": 2.519,
+      "end": 3.193
+    },
+    {
+      "text": "1767.",
+      "line": 1,
+      "start": 3.483,
+      "end": 5.166
+    },
+    {
+      "text": "L'armée",
+      "line": 1,
+      "start": 5.631,
+      "end": 5.979
+    },
+    {
+      "text": "birmane",
+      "line": 1,
+      "start": 6.014,
+      "end": 6.502
+    },
+    {
+      "text": "détruit",
+      "line": 1,
+      "start": 6.583,
+      "end": 6.989
+    },
+    {
+      "text": "Ayutthaya,",
+      "line": 1,
+      "start": 7.047,
+      "end": 7.837
+    },
+    {
+      "text": "la",
+      "line": 1,
+      "start": 7.941,
+      "end": 8.034
+    },
+    {
+      "text": "capitale",
+      "line": 1,
+      "start": 8.092,
+      "end": 8.545
+    },
+    {
+      "text": "du",
+      "line": 1,
+      "start": 8.568,
+      "end": 8.661
+    },
+    {
+      "text": "royaume",
+      "line": 1,
+      "start": 8.719,
+      "end": 9.114
+    },
+    {
+      "text": "de",
+      "line": 1,
+      "start": 9.149,
+      "end": 9.23
+    },
+    {
+      "text": "Siam.",
+      "line": 1,
+      "start": 9.288,
+      "end": 9.81
+    },
+    {
+      "text": "Des",
+      "line": 2,
+      "start": 10.217,
+      "end": 10.368
+    },
+    {
+      "text": "milliers",
+      "line": 2,
+      "start": 10.414,
+      "end": 10.786
+    },
+    {
+      "text": "de",
+      "line": 2,
+      "start": 10.809,
+      "end": 10.902
+    },
+    {
+      "text": "Siamois",
+      "line": 2,
+      "start": 10.96,
+      "end": 11.413
+    },
+    {
+      "text": "sont",
+      "line": 2,
+      "start": 11.436,
+      "end": 11.587
+    },
+    {
+      "text": "faits",
+      "line": 2,
+      "start": 11.633,
+      "end": 11.796
+    },
+    {
+      "text": "prisonniers.",
+      "line": 2,
+      "start": 11.819,
+      "end": 12.516
+    },
+    {
+      "text": "Parmi",
+      "line": 2,
+      "start": 12.98,
+      "end": 13.305
+    },
+    {
+      "text": "eux,",
+      "line": 2,
+      "start": 13.34,
+      "end": 13.584
+    },
+    {
+      "text": "un",
+      "line": 2,
+      "start": 13.688,
+      "end": 13.781
+    },
+    {
+      "text": "boxeur",
+      "line": 2,
+      "start": 13.827,
+      "end": 14.315
+    },
+    {
+      "text": ":",
+      "line": 2,
+      "start": 14.42,
+      "end": 14.536
+    },
+    {
+      "text": "Nai",
+      "line": 2,
+      "start": 14.699,
+      "end": 15.024
+    },
+    {
+      "text": "Khanom",
+      "line": 2,
+      "start": 15.128,
+      "end": 15.453
+    },
+    {
+      "text": "Tom.",
+      "line": 2,
+      "start": 15.569,
+      "end": 16.057
+    },
+    {
+      "text": "Quelques",
+      "line": 3,
+      "start": 16.695,
+      "end": 17.055
+    },
+    {
+      "text": "années",
+      "line": 3,
+      "start": 17.113,
+      "end": 17.288
+    },
+    {
+      "text": "plus",
+      "line": 3,
+      "start": 17.311,
+      "end": 17.462
+    },
+    {
+      "text": "tard,",
+      "line": 3,
+      "start": 17.485,
+      "end": 17.845
+    },
+    {
+      "text": "le",
+      "line": 3,
+      "start": 17.961,
+      "end": 18.065
+    },
+    {
+      "text": "roi",
+      "line": 3,
+      "start": 18.112,
+      "end": 18.251
+    },
+    {
+      "text": "de",
+      "line": 3,
+      "start": 18.298,
+      "end": 18.356
+    },
+    {
+      "text": "Birmanie",
+      "line": 3,
+      "start": 18.402,
+      "end": 18.82
+    },
+    {
+      "text": "organise",
+      "line": 3,
+      "start": 18.878,
+      "end": 19.319
+    },
+    {
+      "text": "une",
+      "line": 3,
+      "start": 19.343,
+      "end": 19.424
+    },
+    {
+      "text": "grande",
+      "line": 3,
+      "start": 19.459,
+      "end": 19.714
+    },
+    {
+      "text": "fête.",
+      "line": 3,
+      "start": 19.749,
+      "end": 20.236
+    },
+    {
+      "text": "Il",
+      "line": 4,
+      "start": 20.875,
+      "end": 21.026
+    },
+    {
+      "text": "veut",
+      "line": 4,
+      "start": 21.084,
+      "end": 21.2
+    },
+    {
+      "text": "savoir",
+      "line": 4,
+      "start": 21.223,
+      "end": 21.583
+    },
+    {
+      "text": "si",
+      "line": 4,
+      "start": 21.63,
+      "end": 21.734
+    },
+    {
+      "text": "la",
+      "line": 4,
+      "start": 21.781,
+      "end": 21.85
+    },
+    {
+      "text": "boxe",
+      "line": 4,
+      "start": 21.908,
+      "end": 22.164
+    },
+    {
+      "text": "siamoise",
+      "line": 4,
+      "start": 22.222,
+      "end": 22.814
+    },
+    {
+      "text": "vaut",
+      "line": 4,
+      "start": 22.918,
+      "end": 23.093
+    },
+    {
+      "text": "la",
+      "line": 4,
+      "start": 23.116,
+      "end": 23.185
+    },
+    {
+      "text": "boxe",
+      "line": 4,
+      "start": 23.243,
+      "end": 23.476
+    },
+    {
+      "text": "birmane.",
+      "line": 4,
+      "start": 23.522,
+      "end": 24.137
+    },
+    {
+      "text": "Avant",
+      "line": 5,
+      "start": 24.88,
+      "end": 25.171
+    },
+    {
+      "text": "de",
+      "line": 5,
+      "start": 25.194,
+      "end": 25.252
+    },
+    {
+      "text": "combattre,",
+      "line": 5,
+      "start": 25.298,
+      "end": 25.879
+    },
+    {
+      "text": "Nai",
+      "line": 5,
+      "start": 26.018,
+      "end": 26.297
+    },
+    {
+      "text": "Khanom",
+      "line": 5,
+      "start": 26.378,
+      "end": 26.668
+    },
+    {
+      "text": "Tom",
+      "line": 5,
+      "start": 26.773,
+      "end": 27.017
+    },
+    {
+      "text": "exécute",
+      "line": 5,
+      "start": 27.098,
+      "end": 27.551
+    },
+    {
+      "text": "une",
+      "line": 5,
+      "start": 27.574,
+      "end": 27.702
+    },
+    {
+      "text": "danse",
+      "line": 5,
+      "start": 27.748,
+      "end": 27.98
+    },
+    {
+      "text": "rituelle.",
+      "line": 5,
+      "start": 28.027,
+      "end": 28.654
+    },
+    {
+      "text": "Les",
+      "line": 6,
+      "start": 29.118,
+      "end": 29.257
+    },
+    {
+      "text": "Birmans",
+      "line": 6,
+      "start": 29.292,
+      "end": 29.664
+    },
+    {
+      "text": "sont",
+      "line": 6,
+      "start": 29.687,
+      "end": 29.861
+    },
+    {
+      "text": "intrigués.",
+      "line": 6,
+      "start": 29.919,
+      "end": 30.523
+    },
+    {
+      "text": "Certains",
+      "line": 6,
+      "start": 30.709,
+      "end": 31.103
+    },
+    {
+      "text": "croient",
+      "line": 6,
+      "start": 31.126,
+      "end": 31.405
+    },
+    {
+      "text": "même",
+      "line": 6,
+      "start": 31.428,
+      "end": 31.591
+    },
+    {
+      "text": "à",
+      "line": 6,
+      "start": 31.614,
+      "end": 31.637
+    },
+    {
+      "text": "de",
+      "line": 6,
+      "start": 31.672,
+      "end": 31.73
+    },
+    {
+      "text": "la",
+      "line": 6,
+      "start": 31.777,
+      "end": 31.823
+    },
+    {
+      "text": "magie.",
+      "line": 6,
+      "start": 31.881,
+      "end": 32.299
+    },
+    {
+      "text": "Le",
+      "line": 7,
+      "start": 32.462,
+      "end": 32.566
+    },
+    {
+      "text": "combat",
+      "line": 7,
+      "start": 32.601,
+      "end": 32.868
+    },
+    {
+      "text": "commence.",
+      "line": 7,
+      "start": 32.891,
+      "end": 33.379
+    },
+    {
+      "text": "Poings,",
+      "line": 7,
+      "start": 33.448,
+      "end": 33.866
+    },
+    {
+      "text": "coudes,",
+      "line": 7,
+      "start": 33.948,
+      "end": 34.319
+    },
+    {
+      "text": "genoux…",
+      "line": 7,
+      "start": 34.424,
+      "end": 34.935
+    },
+    {
+      "text": "il",
+      "line": 7,
+      "start": 35.074,
+      "end": 35.213
+    },
+    {
+      "text": "gagne.",
+      "line": 7,
+      "start": 35.271,
+      "end": 35.77
+    },
+    {
+      "text": "Selon",
+      "line": 8,
+      "start": 36.316,
+      "end": 36.572
+    },
+    {
+      "text": "la",
+      "line": 8,
+      "start": 36.606,
+      "end": 36.664
+    },
+    {
+      "text": "légende,",
+      "line": 8,
+      "start": 36.722,
+      "end": 37.175
+    },
+    {
+      "text": "il",
+      "line": 8,
+      "start": 37.28,
+      "end": 37.396
+    },
+    {
+      "text": "enchaîne",
+      "line": 8,
+      "start": 37.454,
+      "end": 37.744
+    },
+    {
+      "text": "avec",
+      "line": 8,
+      "start": 37.767,
+      "end": 37.953
+    },
+    {
+      "text": "neuf",
+      "line": 8,
+      "start": 38.058,
+      "end": 38.209
+    },
+    {
+      "text": "autres",
+      "line": 8,
+      "start": 38.267,
+      "end": 38.51
+    },
+    {
+      "text": "champions",
+      "line": 8,
+      "start": 38.534,
+      "end": 38.894
+    },
+    {
+      "text": "birmans,",
+      "line": 8,
+      "start": 38.928,
+      "end": 39.451
+    },
+    {
+      "text": "sans",
+      "line": 8,
+      "start": 39.613,
+      "end": 39.822
+    },
+    {
+      "text": "aucune",
+      "line": 8,
+      "start": 39.88,
+      "end": 40.113
+    },
+    {
+      "text": "pause.",
+      "line": 8,
+      "start": 40.147,
+      "end": 40.589
+    },
+    {
+      "text": "Impressionné,",
+      "line": 9,
+      "start": 40.995,
+      "end": 41.726
+    },
+    {
+      "text": "le",
+      "line": 9,
+      "start": 41.831,
+      "end": 41.935
+    },
+    {
+      "text": "roi",
+      "line": 9,
+      "start": 41.982,
+      "end": 42.121
+    },
+    {
+      "text": "lui",
+      "line": 9,
+      "start": 42.156,
+      "end": 42.295
+    },
+    {
+      "text": "rend",
+      "line": 9,
+      "start": 42.342,
+      "end": 42.458
+    },
+    {
+      "text": "sa",
+      "line": 9,
+      "start": 42.504,
+      "end": 42.573
+    },
+    {
+      "text": "liberté.",
+      "line": 9,
+      "start": 42.62,
+      "end": 43.235
+    },
+    {
+      "text": "Aujourd'hui,",
+      "line": 10,
+      "start": 43.7,
+      "end": 44.338
+    },
+    {
+      "text": "la",
+      "line": 10,
+      "start": 44.408,
+      "end": 44.512
+    },
+    {
+      "text": "Thaïlande",
+      "line": 10,
+      "start": 44.57,
+      "end": 44.942
+    },
+    {
+      "text": "le",
+      "line": 10,
+      "start": 44.965,
+      "end": 45.035
+    },
+    {
+      "text": "célèbre",
+      "line": 10,
+      "start": 45.081,
+      "end": 45.476
+    },
+    {
+      "text": "chaque",
+      "line": 10,
+      "start": 45.511,
+      "end": 45.755
+    },
+    {
+      "text": "17",
+      "line": 10,
+      "start": 45.778,
+      "end": 46.126
+    },
+    {
+      "text": "mars",
+      "line": 10,
+      "start": 46.196,
+      "end": 46.44
+    },
+    {
+      "text": ":",
+      "line": 10,
+      "start": 46.602,
+      "end": 46.637
+    },
+    {
+      "text": "c'est",
+      "line": 10,
+      "start": 46.985,
+      "end": 47.148
+    },
+    {
+      "text": "la",
+      "line": 10,
+      "start": 47.171,
+      "end": 47.229
+    },
+    {
+      "text": "journée",
+      "line": 10,
+      "start": 47.287,
+      "end": 47.554
+    },
+    {
+      "text": "nationale",
+      "line": 10,
+      "start": 47.589,
+      "end": 48.065
+    },
+    {
+      "text": "du",
+      "line": 10,
+      "start": 48.1,
+      "end": 48.169
+    },
+    {
+      "text": "muay-thaï.",
+      "line": 10,
+      "start": 48.227,
+      "end": 49.04
+    },
+    {
+      "text": "Abonne-toi",
+      "line": 11,
+      "start": 49.33,
+      "end": 49.841
+    },
+    {
+      "text": "pour",
+      "line": 11,
+      "start": 49.888,
+      "end": 50.027
+    },
+    {
+      "text": "plus",
+      "line": 11,
+      "start": 50.073,
+      "end": 50.271
+    },
+    {
+      "text": "d'histoires",
+      "line": 11,
+      "start": 50.329,
+      "end": 50.956
+    },
+    {
+      "text": "Hors",
+      "line": 11,
+      "start": 51.014,
+      "end": 51.339
+    },
+    {
+      "text": "Limite.",
+      "line": 11,
+      "start": 51.362,
+      "end": 52.059
+    }
+  ]
+}
