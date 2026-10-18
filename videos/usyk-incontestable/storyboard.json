@@ -4,8 +4,8 @@
   "theme": "manga",
   "title": "Usyk, champion incontesté des poids lourds (2024)",
   "cover": {
-    "panel": "00d",
-    "t": 1.2,
+    "panel": "06b",
+    "t": 2.5,
     "title": [
       "*Incontesté*",
       "le premier depuis 1999"
@@ -28,87 +28,11 @@
   },
   "lines": [
     {
-      "text": "Il a réussi ce qu'aucun poids lourd n'avait fait depuis près de vingt-cinq ans… face à un géant de {2,06 mètres|deux mètres six}.",
-      "pauseAfter": 0.25,
+      "text": "On le disait trop petit pour les poids lourds. Il les a tous battus.",
       "panels": [
         {
           "id": "00a",
-          "bg": "white",
-          "rays": true,
-          "camera": {
-            "zoom": [
-              1.0,
-              1.12
-            ],
-            "focus": [
-              540,
-              650
-            ]
-          },
-          "elements": [
-            {
-              "type": "puppet",
-              "style": "shadow",
-              "build": "normal",
-              "tint": "#FFFFFF",
-              "gloves": "#E3001B",
-              "x": 540,
-              "s": 3.6,
-              "facing": 1,
-              "poses": [
-                [
-                  "guard",
-                  0
-                ],
-                [
-                  "punch",
-                  0.25
-                ],
-                [
-                  "guard",
-                  0.45
-                ],
-                [
-                  "punch",
-                  0.65
-                ],
-                [
-                  "guard",
-                  0.85
-                ],
-                [
-                  "punch",
-                  1.05
-                ],
-                [
-                  "guard",
-                  1.25
-                ]
-              ]
-            },
-            {
-              "type": "sfx",
-              "text": "BAM !",
-              "at": 1.05,
-              "x": 780,
-              "y": 300,
-              "rot": 8,
-              "color": "red",
-              "sound": "hit",
-              "size": 130,
-              "dur": 0.6
-            }
-          ],
-          "fx": [
-            {
-              "type": "shake",
-              "at": 1.05
-            }
-          ]
-        },
-        {
-          "id": "00c",
-          "bg": "black",
+          "bg": "gray",
           "rays": true,
           "camera": {
             "zoom": [
@@ -124,112 +48,42 @@
             {
               "type": "puppet",
               "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 230,
+              "s": 3.6,
+              "facing": 1,
+              "poses": [
+                [
+                  "crossed",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "muscle",
+              "gloves": "#FFFFFF",
+              "x": 850,
+              "s": 3.5,
+              "facing": -1,
+              "poses": [
+                [
+                  "flex",
+                  0
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
               "build": "normal",
               "tint": "#FFFFFF",
               "gloves": "#E3001B",
               "x": 540,
-              "s": 3.4,
+              "s": 2.5,
               "facing": 1,
-              "poses": [
-                [
-                  "guard",
-                  0
-                ],
-                [
-                  "armsUp",
-                  0.2
-                ]
-              ]
-            },
-            {
-              "type": "prop",
-              "name": "beltGold",
-              "x": 250,
-              "y": 330,
-              "s": 0.42,
-              "rot": -8,
-              "at": 0
-            },
-            {
-              "type": "prop",
-              "name": "beltGold",
-              "x": 830,
-              "y": 330,
-              "s": 0.42,
-              "rot": 8,
-              "at": 0
-            },
-            {
-              "type": "prop",
-              "name": "beltGold",
-              "x": 250,
-              "y": 560,
-              "s": 0.42,
-              "rot": -4,
-              "at": 0
-            },
-            {
-              "type": "prop",
-              "name": "beltGold",
-              "x": 830,
-              "y": 560,
-              "s": 0.42,
-              "rot": 4,
-              "at": 0
-            },
-            {
-              "type": "counter",
-              "from": 0,
-              "to": 25,
-              "suffix": " ANS",
-              "at": "vingt-cinq",
-              "y": 250
-            }
-          ],
-          "cue": "depuis",
-          "transition": "slam"
-        },
-        {
-          "id": "00d",
-          "cue": "géant",
-          "bg": "white",
-          "rays": true,
-          "transition": "slam",
-          "camera": {
-            "zoom": [
-              1.0,
-              1.05
-            ],
-            "focus": [
-              620,
-              700
-            ]
-          },
-          "elements": [
-            {
-              "type": "puppet",
-              "style": "shadow",
-              "build": "normal",
-              "tint": "#FFFFFF",
-              "gloves": "#E3001B",
-              "x": 280,
-              "s": 2.9,
-              "facing": 1,
-              "poses": [
-                [
-                  "guard",
-                  0
-                ]
-              ]
-            },
-            {
-              "type": "puppet",
-              "style": "shadow",
-              "build": "tall",
-              "gloves": "#FFFFFF",
-              "x": 740,
-              "s": 3.5,
-              "facing": -1,
               "poses": [
                 [
                   "stand",
@@ -237,25 +91,135 @@
                 ],
                 [
                   "guard",
-                  0.4
+                  0.3
                 ]
               ]
             },
             {
               "type": "sfx",
-              "text": "2,06 M",
-              "at": "2,06",
-              "x": 720,
-              "y": 150,
-              "rot": 6,
+              "text": "TROP PETIT ?!",
+              "at": "petit",
+              "x": 540,
+              "y": 250,
+              "rot": -5,
               "color": "red",
-              "sound": "hit"
+              "sound": "pop"
+            }
+          ]
+        },
+        {
+          "id": "00b",
+          "cue": "Il",
+          "bg": "white",
+          "rays": true,
+          "transition": "slam",
+          "camera": {
+            "zoom": [
+              1.0,
+              1.12
+            ],
+            "focus": [
+              540,
+              700
+            ]
+          },
+          "elements": [
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "tall",
+              "gloves": "#FFFFFF",
+              "x": 230,
+              "s": 3.3,
+              "facing": 1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  "tous+0.1"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "muscle",
+              "gloves": "#FFFFFF",
+              "x": 850,
+              "s": 3.2,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "fallen",
+                  "battus+0.1"
+                ]
+              ]
+            },
+            {
+              "type": "puppet",
+              "style": "shadow",
+              "build": "normal",
+              "tint": "#FFFFFF",
+              "gloves": "#E3001B",
+              "x": 540,
+              "s": 2.8,
+              "facing": -1,
+              "poses": [
+                [
+                  "guard",
+                  0
+                ],
+                [
+                  "punch",
+                  "tous"
+                ],
+                [
+                  "guard",
+                  "tous+0.25"
+                ]
+              ]
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "tous+0.1",
+              "x": 320,
+              "y": 420,
+              "rot": -8,
+              "color": "red",
+              "sound": "hit",
+              "dur": 0.6
+            },
+            {
+              "type": "sfx",
+              "text": "BAM !",
+              "at": "battus+0.1",
+              "x": 760,
+              "y": 420,
+              "rot": 8,
+              "color": "red",
+              "sound": "boom"
             }
           ],
           "fx": [
             {
+              "type": "shake",
+              "at": "tous+0.1"
+            },
+            {
               "type": "punch",
-              "at": "2,06"
+              "at": "battus+0.1"
+            },
+            {
+              "type": "shake",
+              "at": "battus+0.1"
             }
           ]
         }
@@ -539,7 +503,7 @@
       ]
     },
     {
-      "text": "Alors il monte chez les poids lourds. Beaucoup le trouvent trop petit.",
+      "text": "Alors il monte chez les poids lourds. Face à des géants.",
       "panels": [
         {
           "id": "03a",
@@ -590,17 +554,17 @@
         },
         {
           "id": "03b",
-          "cue": "Beaucoup",
-          "bg": "gray",
+          "cue": "Face",
+          "bg": "white",
           "rays": true,
           "camera": {
             "zoom": [
-              1.0,
-              1.08
+              1.15,
+              1.0
             ],
             "focus": [
               540,
-              650
+              600
             ]
           },
           "elements": [
@@ -652,8 +616,8 @@
             },
             {
               "type": "sfx",
-              "text": "TROP PETIT ?!",
-              "at": "petit",
+              "text": "DES GÉANTS !",
+              "at": "géants",
               "x": 540,
               "y": 260,
               "rot": -5,

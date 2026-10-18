@@ -2,796 +2,754 @@
   "voiceId": "JBFqnCBsd6RMkjVDRZzb",
   "words": [
     {
-      "text": "Il",
+      "text": "On",
       "line": 0,
       "start": 0,
-      "end": 0.151
+      "end": 0.139
+    },
+    {
+      "text": "le",
+      "line": 0,
+      "start": 0.174,
+      "end": 0.244
+    },
+    {
+      "text": "disait",
+      "line": 0,
+      "start": 0.29,
+      "end": 0.569
+    },
+    {
+      "text": "trop",
+      "line": 0,
+      "start": 0.604,
+      "end": 0.824
+    },
+    {
+      "text": "petit",
+      "line": 0,
+      "start": 0.848,
+      "end": 1.184
+    },
+    {
+      "text": "pour",
+      "line": 0,
+      "start": 1.219,
+      "end": 1.37
+    },
+    {
+      "text": "les",
+      "line": 0,
+      "start": 1.416,
+      "end": 1.509
+    },
+    {
+      "text": "poids",
+      "line": 0,
+      "start": 1.544,
+      "end": 1.765
+    },
+    {
+      "text": "lourds.",
+      "line": 0,
+      "start": 1.788,
+      "end": 2.229
+    },
+    {
+      "text": "Il",
+      "line": 0,
+      "start": 2.577,
+      "end": 2.728
+    },
+    {
+      "text": "les",
+      "line": 0,
+      "start": 2.786,
+      "end": 2.902
     },
     {
       "text": "a",
       "line": 0,
-      "start": 0.209,
-      "end": 0.232
+      "start": 2.972,
+      "end": 2.995
     },
     {
-      "text": "réussi",
-      "line": 0,
-      "start": 0.29,
-      "end": 0.766
-    },
-    {
-      "text": "ce",
-      "line": 0,
-      "start": 0.906,
-      "end": 1.068
-    },
-    {
-      "text": "qu'aucun",
-      "line": 0,
-      "start": 1.126,
-      "end": 1.44
-    },
-    {
-      "text": "poids",
-      "line": 0,
-      "start": 1.498,
-      "end": 1.753
-    },
-    {
-      "text": "lourd",
-      "line": 0,
-      "start": 1.788,
-      "end": 2.055
-    },
-    {
-      "text": "n'avait",
-      "line": 0,
-      "start": 2.101,
-      "end": 2.345
-    },
-    {
-      "text": "fait",
-      "line": 0,
-      "start": 2.38,
-      "end": 2.519
-    },
-    {
-      "text": "depuis",
-      "line": 0,
-      "start": 2.554,
-      "end": 2.821
-    },
-    {
-      "text": "près",
-      "line": 0,
-      "start": 2.844,
-      "end": 3.03
-    },
-    {
-      "text": "de",
+      "text": "tous",
       "line": 0,
       "start": 3.065,
-      "end": 3.146
+      "end": 3.262
     },
     {
-      "text": "vingt-cinq",
+      "text": "battus.",
       "line": 0,
-      "start": 3.204,
-      "end": 3.599
-    },
-    {
-      "text": "ans…",
-      "line": 0,
-      "start": 3.704,
-      "end": 3.959
-    },
-    {
-      "text": "face",
-      "line": 0,
-      "start": 4.249,
-      "end": 4.516
-    },
-    {
-      "text": "à",
-      "line": 0,
-      "start": 4.54,
-      "end": 4.563
-    },
-    {
-      "text": "un",
-      "line": 0,
-      "start": 4.621,
-      "end": 4.69
-    },
-    {
-      "text": "géant",
-      "line": 0,
-      "start": 4.748,
-      "end": 5.016
-    },
-    {
-      "text": "de",
-      "line": 0,
-      "start": 5.05,
-      "end": 5.12
-    },
-    {
-      "text": "2,06 mètres.",
-      "line": 0,
-      "start": 5.178,
-      "end": 6.165
+      "start": 3.332,
+      "end": 3.947
     },
     {
       "text": "Oleksandr",
       "line": 1,
-      "start": 6.711,
-      "end": 7.279
+      "start": 4.354,
+      "end": 4.946
     },
     {
       "text": "Usyk",
       "line": 1,
-      "start": 7.349,
-      "end": 7.697
+      "start": 5.004,
+      "end": 5.422
     },
     {
       "text": "est",
       "line": 1,
-      "start": 7.767,
-      "end": 7.883
+      "start": 5.526,
+      "end": 5.654
     },
     {
       "text": "ukrainien.",
       "line": 1,
-      "start": 7.941,
-      "end": 8.557
+      "start": 5.712,
+      "end": 6.374
     },
     {
       "text": "Champion",
       "line": 1,
-      "start": 8.905,
-      "end": 9.369
+      "start": 6.78,
+      "end": 7.21
     },
     {
       "text": "olympique",
       "line": 1,
-      "start": 9.439,
-      "end": 9.927
+      "start": 7.279,
+      "end": 7.767
     },
     {
       "text": "à",
       "line": 1,
-      "start": 9.973,
-      "end": 10.019
+      "start": 7.79,
+      "end": 7.814
     },
     {
       "text": "Londres,",
       "line": 1,
-      "start": 10.101,
-      "end": 10.646
+      "start": 7.86,
+      "end": 8.348
     },
     {
       "text": "en",
       "line": 1,
-      "start": 10.704,
-      "end": 10.844
+      "start": 8.371,
+      "end": 8.533
     },
     {
       "text": "2012.",
       "line": 1,
-      "start": 10.902,
-      "end": 11.784
+      "start": 8.591,
+      "end": 9.451
     },
     {
       "text": "Chez",
       "line": 2,
-      "start": 12.19,
-      "end": 12.376
+      "start": 9.799,
+      "end": 9.961
     },
     {
       "text": "les",
       "line": 2,
-      "start": 12.411,
-      "end": 12.492
+      "start": 9.996,
+      "end": 10.089
     },
     {
       "text": "professionnels,",
       "line": 2,
-      "start": 12.516,
-      "end": 13.259
+      "start": 10.112,
+      "end": 10.879
     },
     {
       "text": "il",
       "line": 2,
-      "start": 13.34,
-      "end": 13.49
+      "start": 10.983,
+      "end": 11.122
     },
     {
       "text": "devient",
       "line": 2,
-      "start": 13.548,
-      "end": 13.827
+      "start": 11.18,
+      "end": 11.482
     },
     {
       "text": "champion",
       "line": 2,
-      "start": 13.85,
-      "end": 14.233
+      "start": 11.505,
+      "end": 11.889
     },
     {
       "text": "du",
       "line": 2,
-      "start": 14.292,
-      "end": 14.361
+      "start": 11.935,
+      "end": 12.016
     },
     {
       "text": "monde",
       "line": 2,
-      "start": 14.419,
-      "end": 14.756
+      "start": 12.063,
+      "end": 12.341
     },
     {
       "text": "incontesté…",
       "line": 2,
-      "start": 14.779,
-      "end": 15.789
+      "start": 12.365,
+      "end": 13.421
     },
     {
       "text": "des",
       "line": 2,
-      "start": 15.952,
-      "end": 16.091
+      "start": 13.607,
+      "end": 13.734
     },
     {
       "text": "lourds-légers.",
       "line": 2,
-      "start": 16.126,
-      "end": 16.985
+      "start": 13.769,
+      "end": 14.57
     },
     {
       "text": "Alors",
       "line": 3,
-      "start": 17.333,
-      "end": 17.635
+      "start": 15.116,
+      "end": 15.406
     },
     {
       "text": "il",
       "line": 3,
-      "start": 17.682,
-      "end": 17.751
+      "start": 15.441,
+      "end": 15.499
     },
     {
       "text": "monte",
       "line": 3,
-      "start": 17.809,
-      "end": 18.007
+      "start": 15.569,
+      "end": 15.778
     },
     {
       "text": "chez",
       "line": 3,
-      "start": 18.03,
-      "end": 18.134
+      "start": 15.801,
+      "end": 15.917
     },
     {
       "text": "les",
       "line": 3,
-      "start": 18.169,
-      "end": 18.262
+      "start": 15.94,
+      "end": 16.033
     },
     {
       "text": "poids",
       "line": 3,
-      "start": 18.297,
-      "end": 18.494
+      "start": 16.056,
+      "end": 16.242
     },
     {
       "text": "lourds.",
       "line": 3,
-      "start": 18.518,
-      "end": 18.947
+      "start": 16.265,
+      "end": 16.73
     },
     {
-      "text": "Beaucoup",
+      "text": "Face",
       "line": 3,
-      "start": 19.237,
-      "end": 19.562
+      "start": 17.02,
+      "end": 17.275
     },
     {
-      "text": "le",
+      "text": "à",
       "line": 3,
-      "start": 19.597,
-      "end": 19.667
+      "start": 17.31,
+      "end": 17.333
     },
     {
-      "text": "trouvent",
+      "text": "des",
       "line": 3,
-      "start": 19.713,
-      "end": 20.038
+      "start": 17.38,
+      "end": 17.484
     },
     {
-      "text": "trop",
+      "text": "géants.",
       "line": 3,
-      "start": 20.073,
-      "end": 20.271
-    },
-    {
-      "text": "petit.",
-      "line": 3,
-      "start": 20.294,
-      "end": 20.793
+      "start": 17.519,
+      "end": 18.042
     },
     {
       "text": "En",
       "line": 4,
-      "start": 21.049,
-      "end": 21.199
+      "start": 18.506,
+      "end": 18.669
     },
     {
       "text": "2021,",
       "line": 4,
-      "start": 21.258,
-      "end": 22.244
+      "start": 18.727,
+      "end": 19.655
     },
     {
       "text": "il",
       "line": 4,
-      "start": 22.384,
-      "end": 22.535
+      "start": 19.771,
+      "end": 19.922
     },
     {
       "text": "bat",
       "line": 4,
-      "start": 22.593,
-      "end": 22.732
+      "start": 19.98,
+      "end": 20.108
     },
     {
       "text": "Anthony",
       "line": 4,
-      "start": 22.778,
-      "end": 23.162
+      "start": 20.155,
+      "end": 20.514
     },
     {
       "text": "Joshua",
       "line": 4,
-      "start": 23.22,
-      "end": 23.684
+      "start": 20.561,
+      "end": 21.002
     },
     {
       "text": "et",
       "line": 4,
-      "start": 23.788,
-      "end": 23.905
+      "start": 21.06,
+      "end": 21.153
     },
     {
       "text": "lui",
       "line": 4,
-      "start": 23.939,
-      "end": 24.079
+      "start": 21.188,
+      "end": 21.292
     },
     {
       "text": "prend",
       "line": 4,
-      "start": 24.125,
-      "end": 24.299
+      "start": 21.339,
+      "end": 21.501
     },
     {
       "text": "trois",
       "line": 4,
-      "start": 24.334,
-      "end": 24.566
+      "start": 21.536,
+      "end": 21.757
     },
     {
       "text": "ceintures.",
       "line": 4,
-      "start": 24.59,
-      "end": 25.205
+      "start": 21.78,
+      "end": 22.43
     },
     {
       "text": "Il",
       "line": 5,
-      "start": 25.495,
-      "end": 25.623
+      "start": 22.836,
+      "end": 22.953
     },
     {
       "text": "n'en",
       "line": 5,
-      "start": 25.669,
-      "end": 25.774
+      "start": 23.011,
+      "end": 23.104
     },
     {
       "text": "manque",
       "line": 5,
-      "start": 25.82,
-      "end": 26.041
+      "start": 23.138,
+      "end": 23.347
     },
     {
       "text": "plus",
       "line": 5,
-      "start": 26.064,
-      "end": 26.25
+      "start": 23.371,
+      "end": 23.545
     },
     {
       "text": "qu'une",
       "line": 5,
-      "start": 26.285,
-      "end": 26.68
+      "start": 23.58,
+      "end": 23.939
     },
     {
       "text": ":",
       "line": 5,
-      "start": 26.726,
-      "end": 26.889
+      "start": 23.986,
+      "end": 24.125
     },
     {
       "text": "celle",
       "line": 5,
-      "start": 27.051,
-      "end": 27.284
+      "start": 24.473,
+      "end": 24.706
     },
     {
       "text": "de",
       "line": 5,
-      "start": 27.318,
-      "end": 27.388
+      "start": 24.741,
+      "end": 24.81
     },
     {
       "text": "Tyson",
       "line": 5,
-      "start": 27.446,
-      "end": 27.806
+      "start": 24.868,
+      "end": 25.182
     },
     {
       "text": "Fury.",
       "line": 5,
-      "start": 27.864,
-      "end": 28.398
+      "start": 25.251,
+      "end": 25.809
     },
     {
       "text": "Mai",
       "line": 6,
-      "start": 28.862,
-      "end": 29.06
+      "start": 26.552,
+      "end": 26.703
     },
     {
       "text": "2024,",
       "line": 6,
-      "start": 29.118,
-      "end": 30.082
+      "start": 26.761,
+      "end": 27.643
     },
     {
       "text": "Riyad.",
       "line": 6,
-      "start": 30.186,
-      "end": 30.801
+      "start": 27.759,
+      "end": 28.375
     },
     {
       "text": "Fury",
       "line": 6,
-      "start": 31.022,
-      "end": 31.335
+      "start": 29.013,
+      "end": 29.315
     },
     {
       "text": "mesure",
       "line": 6,
-      "start": 31.382,
-      "end": 31.66
+      "start": 29.373,
+      "end": 29.687
     },
     {
       "text": "2,06 mètres.",
       "line": 6,
-      "start": 31.695,
-      "end": 32.624
+      "start": 29.722,
+      "end": 30.662
     },
     {
       "text": "Usyk,",
       "line": 6,
-      "start": 32.705,
-      "end": 33.216
+      "start": 31.126,
+      "end": 31.626
     },
     {
       "text": "1,91 mètre.",
       "line": 6,
-      "start": 33.263,
-      "end": 34.656
+      "start": 31.695,
+      "end": 33.065
     },
     {
       "text": "Neuvième",
       "line": 7,
-      "start": 34.842,
-      "end": 35.213
+      "start": 33.53,
+      "end": 33.901
     },
     {
       "text": "round.",
       "line": 7,
-      "start": 35.248,
-      "end": 35.701
+      "start": 33.936,
+      "end": 34.424
     },
     {
       "text": "Usyk",
       "line": 7,
-      "start": 35.921,
-      "end": 36.328
+      "start": 34.969,
+      "end": 35.352
     },
     {
       "text": "touche",
       "line": 7,
-      "start": 36.386,
-      "end": 36.63
+      "start": 35.41,
+      "end": 35.666
     },
     {
       "text": "Fury,",
       "line": 7,
-      "start": 36.664,
-      "end": 37.082
+      "start": 35.689,
+      "end": 36.119
     },
     {
       "text": "qui",
       "line": 7,
-      "start": 37.164,
-      "end": 37.291
+      "start": 36.223,
+      "end": 36.339
     },
     {
       "text": "titube",
       "line": 7,
-      "start": 37.349,
-      "end": 37.709
+      "start": 36.397,
+      "end": 36.722
     },
     {
       "text": "dans",
       "line": 7,
-      "start": 37.732,
-      "end": 37.86
+      "start": 36.746,
+      "end": 36.85
     },
     {
       "text": "les",
       "line": 7,
-      "start": 37.883,
-      "end": 37.976
+      "start": 36.873,
+      "end": 36.966
     },
     {
       "text": "cordes…",
       "line": 7,
-      "start": 38.011,
-      "end": 38.499
+      "start": 37.001,
+      "end": 37.512
     },
     {
       "text": "sauvé",
       "line": 7,
-      "start": 38.638,
-      "end": 38.94
+      "start": 37.616,
+      "end": 37.895
     },
     {
       "text": "par",
       "line": 7,
-      "start": 38.986,
-      "end": 39.102
+      "start": 37.941,
+      "end": 38.057
     },
     {
       "text": "la",
       "line": 7,
-      "start": 39.137,
-      "end": 39.207
+      "start": 38.081,
+      "end": 38.15
     },
     {
       "text": "cloche.",
       "line": 7,
-      "start": 39.253,
-      "end": 39.695
+      "start": 38.208,
+      "end": 38.719
     },
     {
       "text": "Après",
       "line": 8,
-      "start": 39.985,
-      "end": 40.298
+      "start": 39.126,
+      "end": 39.427
     },
     {
       "text": "douze",
       "line": 8,
-      "start": 40.321,
-      "end": 40.531
+      "start": 39.451,
+      "end": 39.671
     },
     {
       "text": "rounds,",
       "line": 8,
-      "start": 40.577,
-      "end": 40.995
+      "start": 39.706,
+      "end": 40.124
     },
     {
       "text": "les",
       "line": 8,
-      "start": 41.076,
-      "end": 41.216
+      "start": 40.205,
+      "end": 40.345
     },
     {
       "text": "juges",
       "line": 8,
-      "start": 41.262,
-      "end": 41.506
+      "start": 40.391,
+      "end": 40.635
     },
     {
       "text": "rendent",
       "line": 8,
-      "start": 41.529,
-      "end": 41.785
+      "start": 40.658,
+      "end": 40.914
     },
     {
       "text": "leur",
       "line": 8,
-      "start": 41.843,
-      "end": 41.947
+      "start": 40.937,
+      "end": 41.053
     },
     {
       "text": "verdict",
       "line": 8,
-      "start": 41.994,
-      "end": 42.4
+      "start": 41.099,
+      "end": 41.517
     },
     {
       "text": ":",
       "line": 8,
-      "start": 42.504,
-      "end": 42.528
+      "start": 41.657,
+      "end": 41.761
     },
     {
       "text": "Usyk.",
       "line": 8,
-      "start": 42.644,
-      "end": 43.236
+      "start": 42.051,
+      "end": 42.644
     },
     {
       "text": "Il",
       "line": 9,
-      "start": 43.526,
-      "end": 43.654
+      "start": 42.899,
+      "end": 43.027
     },
     {
       "text": "devient",
       "line": 9,
-      "start": 43.712,
-      "end": 43.99
+      "start": 43.085,
+      "end": 43.317
     },
     {
       "text": "le",
       "line": 9,
-      "start": 44.014,
-      "end": 44.072
+      "start": 43.34,
+      "end": 43.398
     },
     {
       "text": "premier",
       "line": 9,
-      "start": 44.13,
-      "end": 44.432
+      "start": 43.445,
+      "end": 43.747
     },
     {
       "text": "champion",
       "line": 9,
-      "start": 44.455,
-      "end": 44.803
+      "start": 43.77,
+      "end": 44.141
     },
     {
       "text": "incontesté",
       "line": 9,
-      "start": 44.85,
-      "end": 45.407
+      "start": 44.188,
+      "end": 44.757
     },
     {
       "text": "des",
       "line": 9,
-      "start": 45.465,
-      "end": 45.569
+      "start": 44.815,
+      "end": 44.919
     },
     {
       "text": "poids",
       "line": 9,
-      "start": 45.604,
-      "end": 45.778
+      "start": 44.954,
+      "end": 45.163
     },
     {
       "text": "lourds",
       "line": 9,
-      "start": 45.802,
-      "end": 46.092
+      "start": 45.186,
+      "end": 45.535
     },
     {
       "text": "depuis",
       "line": 9,
-      "start": 46.231,
-      "end": 46.521
+      "start": 45.639,
+      "end": 45.941
     },
     {
       "text": "Lennox",
       "line": 9,
-      "start": 46.568,
-      "end": 46.905
+      "start": 45.976,
+      "end": 46.301
     },
     {
       "text": "Lewis,",
       "line": 9,
-      "start": 46.963,
-      "end": 47.566
+      "start": 46.359,
+      "end": 46.963
     },
     {
       "text": "en",
       "line": 9,
-      "start": 47.752,
-      "end": 47.88
+      "start": 47.253,
+      "end": 47.357
     },
     {
       "text": "1999.",
       "line": 9,
-      "start": 47.926,
-      "end": 49.494
+      "start": 47.404,
+      "end": 49.018
     },
     {
       "text": "Quatre",
       "line": 10,
-      "start": 49.958,
-      "end": 50.295
+      "start": 49.424,
+      "end": 49.749
     },
     {
       "text": "ceintures…",
       "line": 10,
-      "start": 50.329,
-      "end": 50.968
+      "start": 49.784,
+      "end": 50.48
     },
     {
       "text": "et",
       "line": 10,
-      "start": 51.073,
-      "end": 51.189
+      "start": 50.771,
+      "end": 50.875
     },
     {
       "text": "toujours",
       "line": 10,
-      "start": 51.235,
-      "end": 51.583
+      "start": 50.922,
+      "end": 51.258
     },
     {
       "text": "aucune",
       "line": 10,
-      "start": 51.607,
-      "end": 51.827
+      "start": 51.282,
+      "end": 51.572
     },
     {
       "text": "défaite.",
       "line": 10,
-      "start": 51.85,
-      "end": 52.396
+      "start": 51.595,
+      "end": 52.164
     },
     {
       "text": "Abonne-toi",
       "line": 11,
-      "start": 52.802,
-      "end": 53.395
+      "start": 52.628,
+      "end": 53.139
     },
     {
       "text": "pour",
       "line": 11,
-      "start": 53.453,
-      "end": 53.615
+      "start": 53.186,
+      "end": 53.313
     },
     {
       "text": "plus",
       "line": 11,
-      "start": 53.662,
-      "end": 53.871
+      "start": 53.36,
+      "end": 53.557
     },
     {
       "text": "d'histoires",
       "line": 11,
-      "start": 53.905,
-      "end": 54.474
+      "start": 53.615,
+      "end": 54.254
     },
     {
       "text": "Hors",
       "line": 11,
-      "start": 54.532,
-      "end": 54.799
+      "start": 54.358,
+      "end": 54.579
     },
     {
       "text": "Limite.",
       "line": 11,
-      "start": 54.823,
-      "end": 55.542
+      "start": 54.602,
+      "end": 55.31
     }
   ]
 }
