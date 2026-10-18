@@ -15,11 +15,13 @@ export type ComicCoverProps = {
   title: string[]; // *ligne* = en jaune et plus grosse
   badge?: string;
   keep?: string[]; // types de lettrage de la case à garder (ex. ["sfx"])
+  titleY?: number; // position verticale du titre (défaut 330 ; ~1420 = sur la bande de sol)
+  badgeY?: number; // position de la pastille (défaut 1600)
   comic?: Comic;
 };
 
 // Zone sûre : la grille du profil recadre en 3:4 au centre (y ≈ 240 à 1680).
-export const ComicCover: React.FC<ComicCoverProps> = ({comic, panel: id, t = 0.5, title, badge, keep = ['sfx']}) => {
+export const ComicCover: React.FC<ComicCoverProps> = ({comic, panel: id, t = 0.5, title, badge, keep = ['sfx'], titleY = 330, badgeY = 1600}) => {
   useFonts();
   if (!comic) return null;
   const theme = THEMES[comic.theme ?? 'comic'] ?? THEMES.comic;
@@ -29,7 +31,7 @@ export const ComicCover: React.FC<ComicCoverProps> = ({comic, panel: id, t = 0.5
   const panel = {...src, fx: [], elements: src.elements.filter((e) => !lettering.has(e.type) || keep.includes(e.type))};
   const font = flat ? 'Montserrat, Arial Black, sans-serif' : COMIC_FONT;
   const weight = flat ? 900 : 400;
-  let y = 330;
+  let y = titleY;
   return (
     <ThemeContext.Provider value={theme}>
       <AbsoluteFill style={{backgroundColor: '#fff'}}>
@@ -63,7 +65,7 @@ export const ComicCover: React.FC<ComicCoverProps> = ({comic, panel: id, t = 0.5
             })}
           </g>
           {badge ? (
-            <g transform="translate(540 1600)" filter={flat ? 'url(#fl-shadow)' : undefined}>
+            <g transform={`translate(540 ${badgeY})`} filter={flat ? 'url(#fl-shadow)' : undefined}>
               <rect x={-190} y={-58} width={380} height={104} rx={52} fill={theme.name === 'manga' ? '#E3001B' : '#FF5A5F'} stroke={flat ? 'none' : '#000'} strokeWidth={6} />
               <text x={0} y={18} textAnchor="middle" fontFamily={font} fontWeight={weight} fontSize={56} fill="#fff">
                 {badge}

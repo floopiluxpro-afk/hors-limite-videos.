@@ -15,7 +15,7 @@ const comic = sb.format === 'comic';
 let inputProps;
 if (comic) {
   // Vidéo en cases : "cover": {"panel": "00b", "t": 0.3, "title": [...], "badge": "UFC 194", "keep": ["sfx"]}
-  inputProps = {slug, panel: c.panel ?? sb.lines[0].panels[0].id, t: c.t ?? 0.5, title: c.title || [sb.title], badge: c.badge, keep: c.keep};
+  inputProps = {slug, panel: c.panel ?? sb.lines[0].panels[0].id, t: c.t ?? 0.5, title: c.title || [sb.title], badge: c.badge, keep: c.keep, titleY: c.titleY, badgeY: c.badgeY};
 } else {
   const imageId = c.image || sb.lines[0].shots[0].id;
   const image = findImage(slug, imageId);
